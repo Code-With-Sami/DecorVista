@@ -1,0 +1,745 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Decor_Vista.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Decor_Vista.bdqmrx5iqy.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\css\\font.css",
+      "PackagePath": "staticwebassets\\UserLayout\\css\\font.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\css\\style.css",
+      "PackagePath": "staticwebassets\\UserLayout\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-300.eot",
+      "PackagePath": "staticwebassets\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-300.eot"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-300.svg",
+      "PackagePath": "staticwebassets\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-300.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-300.ttf",
+      "PackagePath": "staticwebassets\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-300.ttf"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-300.woff",
+      "PackagePath": "staticwebassets\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-300.woff"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-300.woff2",
+      "PackagePath": "staticwebassets\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-300.woff2"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-300d41d.eot",
+      "PackagePath": "staticwebassets\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-300d41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-300italic.eot",
+      "PackagePath": "staticwebassets\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-300italic.eot"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-300italic.svg",
+      "PackagePath": "staticwebassets\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-300italic.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-300italic.ttf",
+      "PackagePath": "staticwebassets\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-300italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-300italic.woff",
+      "PackagePath": "staticwebassets\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-300italic.woff"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-300italic.woff2",
+      "PackagePath": "staticwebassets\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-300italic.woff2"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-300italicd41d.eot",
+      "PackagePath": "staticwebassets\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-300italicd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-italic.eot",
+      "PackagePath": "staticwebassets\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-italic.eot"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-italic.html",
+      "PackagePath": "staticwebassets\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-italic.html"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-italic.woff2",
+      "PackagePath": "staticwebassets\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-italic.woff2"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-italicd41d.eot",
+      "PackagePath": "staticwebassets\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-italicd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-regular.eot",
+      "PackagePath": "staticwebassets\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-regular.svg",
+      "PackagePath": "staticwebassets\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-regular.ttf",
+      "PackagePath": "staticwebassets\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-regular.woff",
+      "PackagePath": "staticwebassets\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-regular.woff2",
+      "PackagePath": "staticwebassets\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-regulard41d.eot",
+      "PackagePath": "staticwebassets\\UserLayout\\font\\OpenSan\\open-sans-v15-latin-regulard41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\font\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\UserLayout\\font\\font-awesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\font\\font-awesome\\fonts\\fontawesome-webfont3e6e.eot",
+      "PackagePath": "staticwebassets\\UserLayout\\font\\font-awesome\\fonts\\fontawesome-webfont3e6e.eot"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\font\\font-awesome\\fonts\\fontawesome-webfont3e6e.svg",
+      "PackagePath": "staticwebassets\\UserLayout\\font\\font-awesome\\fonts\\fontawesome-webfont3e6e.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\font\\font-awesome\\fonts\\fontawesome-webfont3e6e.ttf",
+      "PackagePath": "staticwebassets\\UserLayout\\font\\font-awesome\\fonts\\fontawesome-webfont3e6e.ttf"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\font\\font-awesome\\fonts\\fontawesome-webfont3e6e.woff",
+      "PackagePath": "staticwebassets\\UserLayout\\font\\font-awesome\\fonts\\fontawesome-webfont3e6e.woff"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\font\\font-awesome\\fonts\\fontawesome-webfont3e6e.woff2",
+      "PackagePath": "staticwebassets\\UserLayout\\font\\font-awesome\\fonts\\fontawesome-webfont3e6e.woff2"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\font\\font-awesome\\fonts\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\UserLayout\\font\\font-awesome\\fonts\\fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\font\\mdi-font\\css\\material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets\\UserLayout\\font\\mdi-font\\css\\material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\font\\mdi-font\\fonts\\Material-Design-Iconic-Fontd1f1.ttf",
+      "PackagePath": "staticwebassets\\UserLayout\\font\\mdi-font\\fonts\\Material-Design-Iconic-Fontd1f1.ttf"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\font\\mdi-font\\fonts\\Material-Design-Iconic-Fontd1f1.woff",
+      "PackagePath": "staticwebassets\\UserLayout\\font\\mdi-font\\fonts\\Material-Design-Iconic-Fontd1f1.woff"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\font\\mdi-font\\fonts\\Material-Design-Iconic-Fontd1f1.woff2",
+      "PackagePath": "staticwebassets\\UserLayout\\font\\mdi-font\\fonts\\Material-Design-Iconic-Fontd1f1.woff2"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\img\\blog-01.jpg",
+      "PackagePath": "staticwebassets\\UserLayout\\img\\blog-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\img\\blog-02.jpg",
+      "PackagePath": "staticwebassets\\UserLayout\\img\\blog-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\img\\blog-03.jpg",
+      "PackagePath": "staticwebassets\\UserLayout\\img\\blog-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\img\\blog-single-01.jpg",
+      "PackagePath": "staticwebassets\\UserLayout\\img\\blog-single-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\img\\cart-item-01.jpg",
+      "PackagePath": "staticwebassets\\UserLayout\\img\\cart-item-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\img\\cart-item-02.jpg",
+      "PackagePath": "staticwebassets\\UserLayout\\img\\cart-item-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\img\\client-01.jpg",
+      "PackagePath": "staticwebassets\\UserLayout\\img\\client-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\img\\client-02.jpg",
+      "PackagePath": "staticwebassets\\UserLayout\\img\\client-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\img\\client-03.jpg",
+      "PackagePath": "staticwebassets\\UserLayout\\img\\client-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\img\\client-15.jpg",
+      "PackagePath": "staticwebassets\\UserLayout\\img\\client-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\img\\client-16.jpg",
+      "PackagePath": "staticwebassets\\UserLayout\\img\\client-16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\img\\client-17.jpg",
+      "PackagePath": "staticwebassets\\UserLayout\\img\\client-17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\img\\icon\\icon-service-01.png",
+      "PackagePath": "staticwebassets\\UserLayout\\img\\icon\\icon-service-01.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\img\\icon\\icon-service-02.png",
+      "PackagePath": "staticwebassets\\UserLayout\\img\\icon\\icon-service-02.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\img\\icon\\icon-service-03.png",
+      "PackagePath": "staticwebassets\\UserLayout\\img\\icon\\icon-service-03.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\img\\item-menu-canvas-01.jpg",
+      "PackagePath": "staticwebassets\\UserLayout\\img\\item-menu-canvas-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\img\\item-menu-canvas-02.jpg",
+      "PackagePath": "staticwebassets\\UserLayout\\img\\item-menu-canvas-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\img\\latest-project-01.jpg",
+      "PackagePath": "staticwebassets\\UserLayout\\img\\latest-project-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\img\\latest-project-02.jpg",
+      "PackagePath": "staticwebassets\\UserLayout\\img\\latest-project-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\img\\latest-project-03.jpg",
+      "PackagePath": "staticwebassets\\UserLayout\\img\\latest-project-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\img\\latest-project-04.jpg",
+      "PackagePath": "staticwebassets\\UserLayout\\img\\latest-project-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\img\\latest-project-05.jpg",
+      "PackagePath": "staticwebassets\\UserLayout\\img\\latest-project-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\img\\latest-project-06.jpg",
+      "PackagePath": "staticwebassets\\UserLayout\\img\\latest-project-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\img\\latest-project-07.jpg",
+      "PackagePath": "staticwebassets\\UserLayout\\img\\latest-project-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\img\\logo-black.png",
+      "PackagePath": "staticwebassets\\UserLayout\\img\\logo-black.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\img\\logo-white.png",
+      "PackagePath": "staticwebassets\\UserLayout\\img\\logo-white.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\img\\partner-01.png",
+      "PackagePath": "staticwebassets\\UserLayout\\img\\partner-01.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\img\\partner-02.png",
+      "PackagePath": "staticwebassets\\UserLayout\\img\\partner-02.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\img\\partner-03.png",
+      "PackagePath": "staticwebassets\\UserLayout\\img\\partner-03.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\img\\partner-04.png",
+      "PackagePath": "staticwebassets\\UserLayout\\img\\partner-04.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\img\\service-01.jpg",
+      "PackagePath": "staticwebassets\\UserLayout\\img\\service-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\img\\service-02.jpg",
+      "PackagePath": "staticwebassets\\UserLayout\\img\\service-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\img\\service-03.jpg",
+      "PackagePath": "staticwebassets\\UserLayout\\img\\service-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\img\\slide-01.jpg",
+      "PackagePath": "staticwebassets\\UserLayout\\img\\slide-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\img\\slide-02.jpg",
+      "PackagePath": "staticwebassets\\UserLayout\\img\\slide-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\img\\slide-03.jpg",
+      "PackagePath": "staticwebassets\\UserLayout\\img\\slide-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\js\\main.js",
+      "PackagePath": "staticwebassets\\UserLayout\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\js\\revo-custom.js",
+      "PackagePath": "staticwebassets\\UserLayout\\js\\revo-custom.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\js\\wow-custom.js",
+      "PackagePath": "staticwebassets\\UserLayout\\js\\wow-custom.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\assets\\coloredbg.html",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\assets\\coloredbg.html"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\assets\\gridtile.html",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\assets\\gridtile.html"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\assets\\gridtile_3x3.html",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\assets\\gridtile_3x3.html"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\assets\\gridtile_3x3_white.html",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\assets\\gridtile_3x3_white.html"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\assets\\gridtile_white.html",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\assets\\gridtile_white.html"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\assets\\loader.gif",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\assets\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\bootstrap4\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\bootstrap4\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\bootstrap4\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\bootstrap4\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\bootstrap4\\popper.min.js",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\bootstrap4\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\fonts\\revicons\\revicons90c6.eot",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\fonts\\revicons\\revicons90c6.eot"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\fonts\\revicons\\revicons90c6.svg",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\fonts\\revicons\\revicons90c6.svg"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\fonts\\revicons\\revicons90c6.ttf",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\fonts\\revicons\\revicons90c6.ttf"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\fonts\\revicons\\revicons90c6.woff",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\fonts\\revicons\\revicons90c6.woff"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\lightbox2\\src\\css\\lightbox.css",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\lightbox2\\src\\css\\lightbox.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\lightbox2\\src\\images\\close.png",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\lightbox2\\src\\images\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\lightbox2\\src\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\lightbox2\\src\\images\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\lightbox2\\src\\images\\next.png",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\lightbox2\\src\\images\\next.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\lightbox2\\src\\images\\prev.png",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\lightbox2\\src\\images\\prev.png"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\lightbox2\\src\\js\\lightbox.js",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\lightbox2\\src\\js\\lightbox.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\owl-carousel\\animate.css",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\owl-carousel\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\owl-carousel\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\owl-carousel\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\owl-carousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\owl-carousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\owl-carousel\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\owl-carousel\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\owl-carousel\\owl.video.play.html",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\owl-carousel\\owl.video.play.html"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\revolution\\closedhand.html",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\revolution\\closedhand.html"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\revolution\\jquery.themepunch.revolution.min.js",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\revolution\\jquery.themepunch.revolution.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\revolution\\jquery.themepunch.tools.min.js",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\revolution\\jquery.themepunch.tools.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\revolution\\layers.css",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\revolution\\layers.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\revolution\\local\\revolution.extension.actions.min.js",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\revolution\\local\\revolution.extension.actions.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\revolution\\local\\revolution.extension.carousel.min.js",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\revolution\\local\\revolution.extension.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\revolution\\local\\revolution.extension.kenburn.min.js",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\revolution\\local\\revolution.extension.kenburn.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\revolution\\local\\revolution.extension.layeranimation.min.js",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\revolution\\local\\revolution.extension.layeranimation.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\revolution\\local\\revolution.extension.migration.min.js",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\revolution\\local\\revolution.extension.migration.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\revolution\\local\\revolution.extension.navigation.min.js",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\revolution\\local\\revolution.extension.navigation.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\revolution\\local\\revolution.extension.parallax.min.js",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\revolution\\local\\revolution.extension.parallax.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\revolution\\local\\revolution.extension.slideanims.min.js",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\revolution\\local\\revolution.extension.slideanims.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\revolution\\local\\revolution.extension.video.min.js",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\revolution\\local\\revolution.extension.video.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\revolution\\navigation.css",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\revolution\\navigation.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\revolution\\openhand.html",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\revolution\\openhand.html"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\revolution\\settings.css",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\revolution\\settings.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\UserLayout\\vendor\\wow\\wow.min.js",
+      "PackagePath": "staticwebassets\\UserLayout\\vendor\\wow\\wow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\std2\\DecorVista\\Decor_Vista\\Decor_Vista\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Decor_Vista.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Decor_Vista.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.Decor_Vista.props",
+      "PackagePath": "build\\Decor_Vista.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.Decor_Vista.props",
+      "PackagePath": "buildMultiTargeting\\Decor_Vista.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.Decor_Vista.props",
+      "PackagePath": "buildTransitive\\Decor_Vista.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
