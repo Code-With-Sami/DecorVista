@@ -1,0 +1,114 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\KNA\\source\\repos\\DecorVista\\Decor_Vista\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|c:\\users\\kna\\source\\repos\\decorvista\\decor_vista\\decor_vista\\views\\home\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|solutionrelative:decor_vista\\views\\home\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|c:\\users\\kna\\source\\repos\\decorvista\\decor_vista\\decor_vista\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|solutionrelative:decor_vista\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|c:\\users\\kna\\source\\repos\\decorvista\\decor_vista\\decor_vista\\views\\home\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|solutionrelative:decor_vista\\views\\home\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|c:\\users\\kna\\source\\repos\\decorvista\\decor_vista\\decor_vista\\views\\home\\servicev2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|solutionrelative:decor_vista\\views\\home\\servicev2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|c:\\users\\kna\\source\\repos\\decorvista\\decor_vista\\decor_vista\\views\\home\\servicev1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|solutionrelative:decor_vista\\views\\home\\servicev1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\KNA\\source\\repos\\DecorVista\\Decor_Vista\\Decor_Vista\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Decor_Vista\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\KNA\\source\\repos\\DecorVista\\Decor_Vista\\Decor_Vista\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Decor_Vista\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwCUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T12:47:15.747Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "C:\\Users\\KNA\\source\\repos\\DecorVista\\Decor_Vista\\Decor_Vista\\Views\\Home\\Cart.cshtml",
+              "RelativeDocumentMoniker": "Decor_Vista\\Views\\Home\\Cart.cshtml",
+              "ToolTip": "C:\\Users\\KNA\\source\\repos\\DecorVista\\Decor_Vista\\Decor_Vista\\Views\\Home\\Cart.cshtml",
+              "RelativeToolTip": "Decor_Vista\\Views\\Home\\Cart.cshtml",
+              "ViewState": "AgIAAC0EAAAAAAAAAAAIwDsEAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T13:15:58.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cshtml",
+              "DocumentMoniker": "C:\\Users\\KNA\\source\\repos\\DecorVista\\Decor_Vista\\Decor_Vista\\Views\\Home\\Product.cshtml",
+              "RelativeDocumentMoniker": "Decor_Vista\\Views\\Home\\Product.cshtml",
+              "ToolTip": "C:\\Users\\KNA\\source\\repos\\DecorVista\\Decor_Vista\\Decor_Vista\\Views\\Home\\Product.cshtml",
+              "RelativeToolTip": "Decor_Vista\\Views\\Home\\Product.cshtml",
+              "ViewState": "AgIAAPUFAAAAAAAAAAAIwAMGAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T13:13:57.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServiceV2.cshtml",
+              "DocumentMoniker": "C:\\Users\\KNA\\source\\repos\\DecorVista\\Decor_Vista\\Decor_Vista\\Views\\Home\\ServiceV2.cshtml",
+              "RelativeDocumentMoniker": "Decor_Vista\\Views\\Home\\ServiceV2.cshtml",
+              "ToolTip": "C:\\Users\\KNA\\source\\repos\\DecorVista\\Decor_Vista\\Decor_Vista\\Views\\Home\\ServiceV2.cshtml",
+              "RelativeToolTip": "Decor_Vista\\Views\\Home\\ServiceV2.cshtml",
+              "ViewState": "AgIAAAMEAAAAAAAAAAAmwA4EAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T13:11:37.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ServiceV1.cshtml",
+              "DocumentMoniker": "C:\\Users\\KNA\\source\\repos\\DecorVista\\Decor_Vista\\Decor_Vista\\Views\\Home\\ServiceV1.cshtml",
+              "RelativeDocumentMoniker": "Decor_Vista\\Views\\Home\\ServiceV1.cshtml",
+              "ToolTip": "C:\\Users\\KNA\\source\\repos\\DecorVista\\Decor_Vista\\Decor_Vista\\Views\\Home\\ServiceV1.cshtml",
+              "RelativeToolTip": "Decor_Vista\\Views\\Home\\ServiceV1.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T13:02:42.083Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
