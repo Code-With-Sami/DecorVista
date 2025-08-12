@@ -59,6 +59,29 @@ Currently, the repository serves as a documentation hub. No live application or 
 4. Plan the architecture and UI/UX based on documented guidelines.
 
 ---
+## 🚀 Getting Started
+
+Currently, the repository serves as a documentation hub. No live application or frontend/backend code is included at this stage. However, this groundwork is essential for anyone looking to take this project forward.
+
+### 🔧 Prerequisites
+
+- Software to open `.docx` files (Microsoft Word, LibreOffice, Google Docs, etc.)
+- A code editor and development environment if you plan to build upon this.
+- Basic understanding of web technologies (HTML, CSS, JavaScript) for future development.
+
+---
+
+## 💻 Installation & Setup (For Future Development)
+
+If you plan to develop and run the DecorVista web application locally, here’s a general guide based on the suggested technology stack:
+
+### Step 1: Clone the repository
+
+```bash
+git clone https://github.com/Code-With-Sami/DecorVista.git
+cd DecorVista
+
+---
 
 ## 🛠️ Technology Stack (Suggested)
 
