@@ -17,29 +17,50 @@ namespace Decor_Vista.Controllers
         {
             return View();
         }
-
+        public IActionResult PortfolioDetail()
+        {
+            return View();
+        }
+        public IActionResult PortfolioGrid()
+        {
+            return View();
+        }
         public IActionResult ServiceList()
         {
             return View();
         }
-
-        public IActionResult ServiceV1()
+        public IActionResult ServiceDetail()
         {
             return View();
         }
-        public IActionResult ServiceV2()
+        public IActionResult About()
         {
             return View();
         }
-        public IActionResult Product()
+        public IActionResult Contact()
         {
             return View();
         }
-        public IActionResult Cart()
+        public IActionResult ShopCatalog()
         {
             return View();
         }
-
+        public IActionResult ShopCart()
+        {
+            return View();
+        }
+        public IActionResult ShopSingle()
+        {
+            return View();
+        }
+        public IActionResult Commingsoon()
+        {
+            return View();
+        }
+        public IActionResult Error()
+        {
+            return View();
+        }
 
         public IActionResult Privacy()
         {
