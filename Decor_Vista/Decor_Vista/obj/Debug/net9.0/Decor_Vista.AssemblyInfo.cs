@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Decor_Vista")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+467fddbb157a7304b596fec3f791885abe01be3e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63edeac19a92a0be8ed7931ac0895fbab79a475d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Decor_Vista")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Decor_Vista")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
