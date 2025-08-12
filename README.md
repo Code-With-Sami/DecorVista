@@ -79,7 +79,8 @@ If you plan to develop and run the DecorVista web application locally, here’s 
 
 ```bash
 git clone https://github.com/Code-With-Sami/DecorVista.git
-cd DecorVista1```
+cd DecorVista
+```
 
 ---
 
