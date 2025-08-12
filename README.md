@@ -1,158 +1,206 @@
-# 🎨 DecorVista
+# 🏡 DecorVista – Home Interior Design Web Application
 
-Welcome to **DecorVista** — a home decor web application concept developed by **Team-804** as part of the prestigious **Contest Azam Project**! 🏆 This project aims to create a beautiful, user-friendly platform that inspires and assists users in exploring home decoration ideas, styles, and products — helping to turn every house into a cozy, stylish home. 🏡✨
-
----
-
-## 📖 Project Overview
-
-DecorVista is envisioned as an all-in-one platform where users can browse through a variety of thoughtfully curated home decor themes, get inspiration for redesigning their spaces, and organize ideas all in one place. The project is focused on both aesthetics and usability, providing a seamless experience to discover interior design concepts ranging from minimalist to luxurious styles. 
-
-This repository contains detailed documentation and design resources outlining the system requirements, project scope, and conceptual workflow to lay the foundation for building this platform.
+DecorVista is a **full-featured ASP.NET MVC** web application designed for the home interior design industry.  
+It connects **homeowners**, **professional interior designers**, and **admins** through a single platform for inspiration galleries, product catalogs, consultations, reviews, and more.
 
 ---
 
-## 🎯 Project Goals
+## 📋 Features
 
-- **Inspire Users:** Showcase diverse home decor styles with visual and textual content.
-- **Simplify Exploration:** Offer an intuitive interface to browse themes, color palettes, furniture styles, and accessories.
-- **Organize Ideas:** Enable users to save and categorize favorite decor concepts.
-- **Scalable Architecture:** Lay down a system design that supports future expansion such as e-commerce integration, user accounts, and social sharing.
-- **Accessibility:** Design with inclusivity in mind, making the platform usable for everyone.
+### **Public/Guest**
+- Browse inspiration gallery
+- View blog posts
+- About Us & Contact Us pages
+- Register & Login
 
----
+### **User Dashboard**
+- View & save designs
+- Browse & search products
+- Book consultations with designers
+- Manage saved items
+- Write reviews for products/designers
+- View notifications & order history
 
-## ✨ Key Features
+### **Designer Dashboard**
+- Manage portfolio
+- Accept/decline consultations
+- Respond to reviews
+- View upcoming bookings
 
-- 🏠 **Home Decor Themes & Styles:** Display curated themes like modern, rustic, vintage, and Scandinavian.
-- 🎨 **Visual Mockups & Mood Boards:** (Planned) Present conceptual designs and palettes for easy inspiration.
-- 📚 **Documentation:** Includes a comprehensive System Requirements Specification (SRS) and project reports to guide development.
-- ⚙️ **Resource Organization:** Manage images, color codes, and textual descriptions efficiently.
-- 🧩 **Modular Design:** Structured planning to allow easy addition of new features like user profiles or product catalogs.
-
----
-
-## 📂 Repository Structure
-
-- `SRS.docx` — Contains detailed System Requirements Specification describing both functional and non-functional needs.
-- `DecorVista.docx` — Project documentation including objectives, methodology, and design rationale.
-- `/home-decor/` — Theme-related resources, images, or UI assets (if any).
-- Other supporting documents related to project planning and design.
-
----
-
-## 🚀 Getting Started
-
-Currently, the repository serves as a documentation hub. No live application or frontend/backend code is included at this stage. However, this groundwork is essential for anyone looking to take this project forward.
-
-### 🔧 Prerequisites
-
-- Software to open `.docx` files (Microsoft Word, LibreOffice, Google Docs, etc.)
-- A code editor and development environment if you plan to build upon this.
-- Basic understanding of web technologies (HTML, CSS, JavaScript) for future development.
-
-### 📥 How to Use This Repository
-
-1. Review the **System Requirements Specification (SRS)** to understand the functional scope.
-2. Study the **project documentation** for design insights and implementation ideas.
-3. Use the materials as a reference or blueprint to develop the actual application.
-4. Plan the architecture and UI/UX based on documented guidelines.
-
----
-## 🚀 Getting Started
-
-Currently, the repository serves as a documentation hub. No live application or frontend/backend code is included at this stage. However, this groundwork is essential for anyone looking to take this project forward.
-
-### 🔧 Prerequisites
-
-- Software to open `.docx` files (Microsoft Word, LibreOffice, Google Docs, etc.)
-- A code editor and development environment if you plan to build upon this.
-- Basic understanding of web technologies (HTML, CSS, JavaScript) for future development.
+### **Admin Dashboard**
+- Manage users, products, and categories
+- Manage inspiration gallery
+- Create/edit blog posts
+- Generate and download reports
 
 ---
 
-## 💻 Installation & Setup (For Future Development)
+## 🗂 Technology Stack
 
-If you plan to develop and run the DecorVista web application locally, here’s a general guide based on the suggested technology stack:
+**Frontend**
+- HTML5, CSS3, Bootstrap
+- JavaScript, jQuery
+- Razor Views (.cshtml)
 
-### Step 1: Clone the repository
+**Backend**
+- C# ASP.NET MVC 5 / ASP.NET Core MVC (optional upgrade)
+- Entity Framework (Code First or Database First)
 
-```bash
-git clone https://github.com/Code-With-Sami/DecorVista.git
-cd DecorVista
+**Database**
+- Microsoft SQL Server 2019 or higher
+
+**IDE**
+- Visual Studio 2019 or higher
+
+---
+
+## 📊 Database Structure
+
+### **Main Tables**
+1. `Users`
+2. `UserDetails`
+3. `InteriorDesigner`
+4. `Products`
+5. `Categories`
+6. `ProductCategories`
+7. `Consultations`
+8. `Reviews`
+9. `InspirationImages`
+10. `BlogPosts`
+11. `Notifications`
+12. `OrderHistory`
+13. `Reports`
+
+**Relationships:**
+- One-to-One: `Users` ↔ `UserDetails`
+- One-to-Many: `Users` → `Consultations`
+- One-to-Many: `InteriorDesigner` → `Consultations`
+- Many-to-Many: `Products` ↔ `Categories` (via `ProductCategories`)
+
+---
+
+## 📁 Project Structure (ASP.NET MVC)
+
+```
+DecorVista/
+│
+├── Controllers/
+│   ├── HomeController.cs
+│   ├── AccountController.cs
+│   ├── UserDashboardController.cs
+│   ├── InspirationGalleryController.cs
+│   ├── ProductController.cs
+│   ├── ConsultationController.cs
+│   ├── ReviewController.cs
+│   ├── OrderHistoryController.cs
+│   ├── DesignerDashboardController.cs
+│   ├── PortfolioController.cs
+│   ├── DesignerConsultationController.cs
+│   ├── DesignerReviewController.cs
+│   ├── AdminDashboardController.cs
+│   ├── AdminUserController.cs
+│   ├── AdminProductController.cs
+│   ├── AdminGalleryController.cs
+│   ├── AdminBlogController.cs
+│   ├── AdminReportController.cs
+│
+├── Models/
+│   ├── User.cs
+│   ├── UserDetail.cs
+│   ├── InteriorDesigner.cs
+│   ├── Product.cs
+│   ├── Category.cs
+│   ├── ProductCategory.cs
+│   ├── Consultation.cs
+│   ├── Review.cs
+│   ├── InspirationImage.cs
+│   ├── BlogPost.cs
+│   ├── Notification.cs
+│   ├── OrderHistory.cs
+│   ├── Report.cs
+│
+├── Views/
+│   ├── Shared/ (_Layout.cshtml, _Navbar.cshtml, _Footer.cshtml)
+│   ├── Home/
+│   ├── Account/
+│   ├── UserDashboard/
+│   ├── DesignerDashboard/
+│   ├── AdminDashboard/
+│   ├── Product/
+│   ├── Consultation/
+│   ├── Review/
+│   ├── Blog/
+│
+├── wwwroot/ (CSS, JS, Images)
+│
+├── appsettings.json (for DB connection in ASP.NET Core)
+│
+└── README.md
 ```
 
 ---
 
-## 🛠️ Technology Stack (Suggested)
+## ⚙️ Installation & Setup
 
-While the current repo is documentation-only, the following technologies are recommended for future development:
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/DecorVista.git
+```
 
-- **Frontend:** HTML, SCSS, CSS, JavaScript, BootStrap, Ajax, for dynamic user interfaces.
-- **Backend:** ASP.NET MVC for server-side logic.
-- **Database:** MySQL for data storage.
-- **Hosting:** Netlify, Vercel, or Heroku for deployment.
-- **Version Control:** Git & GitHub for collaboration.
+### 2️⃣ Open in Visual Studio
+- Open the `.sln` file in **Visual Studio 2019 or higher**.
 
----
+### 3️⃣ Configure Database
+- Update your **SQL Server connection string** in:
+  - `Web.config` (ASP.NET MVC 5) OR
+  - `appsettings.json` (ASP.NET Core MVC)
 
-## 🌟 Roadmap & Future Work
+Example:
+```json
+"ConnectionStrings": {
+  "DefaultConnection": "Server=YOUR_SERVER;Database=DecorVistaDB;Trusted_Connection=True;MultipleActiveResultSets=true"
+}
+```
 
-The vision for DecorVista extends beyond the documentation phase. Planned developments include:
+### 4️⃣ Run Database Migrations
+If using **Entity Framework Code First**:
+```powershell
+Update-Database
+```
+If using **Database First**:
+- Import `DecorVistaDB.sql` into SQL Server.
 
-- ✅ Designing interactive UI prototypes and wireframes.
-- ✅ Setting up a scalable backend architecture.
-- 🔄 Adding user authentication and personalized profiles.
-- 🔍 Implementing search and filtering for decor items.
-- 🛒 Introducing e-commerce functionality to buy decor products.
-- 🌐 Building community features for sharing decor ideas and tips.
-- ♿ Improving accessibility for users with disabilities.
-- 📱 Making the app fully responsive for mobile devices.
-
----
-
-## 🤝 How to Contribute
-
-We welcome contributions to help transform this concept into a real, functional platform! Here’s how you can get involved:
-
-- **Report Issues:** Found a bug or have a suggestion? Open an issue.
-- **Submit Pull Requests:** Add features, improve docs, or fix bugs.
-- **Design:** Help create UI/UX prototypes or graphics.
-- **Documentation:** Enhance or translate project documentation.
-- **Testing:** Assist in manual or automated testing efforts.
-
-Please ensure contributions adhere to the project’s goals and coding standards.
+### 5️⃣ Run the Application
+Press **F5** in Visual Studio.
 
 ---
 
-## 📝 License & Contact
-
-This project is developed as part of the Contest Azam Project and currently does not have a public license. For reuse, redistribution, or commercial use, please reach out to the repository owner:
-
-**Code-With-Sami**  
-[GitHub Profile](https://github.com/Code-With-Sami)  
-**H-M-Abdullah-Khan**  
-[GitHub Profile](https://github.com/H-M-Abdullah-Khan)  
-**Kashaf Jamil**  
-[GitHub Profile](https://github.com/)  
-**Mahnoor**  
-[GitHub Profile](https://github.com/)  
-
+## 🔑 Default User Roles for Testing
+| Role | Email | Password |
+|------|-------|----------|
+| Admin | admin@decorvista.com | Admin123 |
+| Designer | designer@decorvista.com | Designer123 |
+| User | user@decorvista.com | User123 |
 
 ---
 
-## 🙏 Acknowledgments
-
-- Thanks to the Contest Azam Project organizers for the opportunity.  
-- Inspired by various interior design communities and platforms.  
-- Open-source contributors whose tools and libraries make projects like this possible.
+## 📹 Project Demonstration
+- A video demonstration of all functionalities is **mandatory**.
+- Include the hosted URL if deploying online.
 
 ---
 
-## ❤️ Thank You for Exploring DecorVista!
-
-Whether you are a developer, designer, or home decor enthusiast, we hope this project inspires you to create beautiful, functional spaces. Stay tuned for updates and feel free to reach out with ideas or feedback!
+## 📌 Future Enhancements
+- Online payment integration
+- AI-based interior design suggestions
+- Augmented Reality (AR) product previews
+- Mobile app version
 
 ---
 
-*Let's bring elegance and comfort to every home — one decor idea at a time!* 🏡✨🌿
+## 📜 License
+This project is for **academic and learning purposes** only.  
+You may modify and enhance it for your own use.
+
+---
+
