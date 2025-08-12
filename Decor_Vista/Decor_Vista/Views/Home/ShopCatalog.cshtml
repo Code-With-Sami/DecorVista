@@ -139,37 +139,16 @@
 				<ul>
 					<li>
 						<a href="@Url.Action("Index", "Home")"><i class="icon-home"></i> Home</a>
-						<ul>
-							<li><a href="@Url.Action("Index", "Home")">Home Verison 1</a></li>
-							<li><a href="home_2.html">Home Verison 2</a></li>
-							<li><a href="home_3.html">Home Verison 3</a></li>
-							<li><a href="home_4-2.html">Home Verison 4</a></li>
-							<li><a href="home_5.html">Home Verison 5</a></li>
-							<li><a href="home_6.html">Home Verison 6</a></li>
-						</ul>
 					</li>
-
 					<li>
 						<a href="@Url.Action("PortfolioGrid", "Home")"><span>Projects</span></a>
-						<ul>
-							<li><a href="@Url.Action("PortfolioGrid", "Home")">Grid 2 Columns V1</a></li>
-							<li><a href="portfolioGrid_2.html">Grid 3 Columns V1</a></li>
-							<li><a href="portfolioGrid_4.html">Grid 4 Columns V1</a></li>
-							<li><a href="portfolioGrid_2_col_V2.html">Grid 2 Columns V2</a></li>
-							<li><a href="portfolioGrid_3_col_V2.html">Grid 3 Columns V2</a></li>
-							<li><a href="portfolioGrid_4_col_V2.html">Grid 4 Columns V2</a></li>
-							<li><a href="portfolioDetail_1.html">Portfolio Details 1</a></li>
-							<li><a href="@Url.Action("PortfolioDetail", "Home")">Portfolio Details 2</a></li>
-							<li><a href="portfolioDetail_3.html">Portfolio Details 3</a></li>
-						</ul>
 					</li>
 
 					<li>
 						<a href="@Url.Action("ServiceList", "Home")"><span>Services</span></a>
 						<ul>
 							<li><a href="@Url.Action("ServiceList", "Home")">Services List</a></li>
-							<li><a href="@Url.Action("ServiceDetail", "Home")">Services Details V1</a></li>
-							<li><a href="services_detail_2.html">Services Details V2</a></li>
+							<li><a href="@Url.Action("ServiceDetail", "Home")">Services Details</a></li>
 						</ul>
 					</li>
 					<li><a href="@Url.Action("About", "Home")"><span>About </span></a></li>
@@ -177,38 +156,29 @@
 					<li>
 						<a href="blogList.html"><span>Blog</span></a>
 						<ul>
-							<li><a href="blogGrid_2_col.html">Grid 2 Columns</a></li>
-							<li><a href="blogGrid_3_col.html">Grid 3 Columns</a></li>
-							<li><a href="blogGrid_4_col.html">Grid 4 Columns</a></li>
 							<li><a href="blogList.html">Blog List</a></li>
 							<li><a href="blogDetail.html">Blog Detail</a></li>
 						</ul>
 					</li>
-					<li>
-						<a href="#"><span>Pages</span></a>
-						<ul>
-							<li><a href="elements.html">Element</a></li>
-							<li><a href="typography.html">Typography</a></li>
-							<li><a href="404.html">404 Page</a></li>
-							<li><a href="@Url.Action("Commingsoon", "Home")">Comming Soon</a></li>
-						</ul>
-					</li>
+					@* <li> *@
+					@* 	<a href="#"><span>Pages</span></a> *@
+					@* 	<ul> *@
+					@* 		<li><a href="elements.html">Element</a></li> *@
+					@* 		<li><a href="typography.html">Typography</a></li> *@
+					@* 		<li><a href="404.html">404 Page</a></li> *@
+					@* 		<li><a href="@Url.Action("Commingsoon", "Home")">Comming Soon</a></li> *@
+					@* 	</ul> *@
+					@* </li> *@
 					<li>
 						<a href="@Url.Action("ShopCatalog", "Home")"><span>Shop</span></a>
 						<ul>
 							<li><a href="@Url.Action("ShopCatalog", "Home")">Store Catalog</a></li>
 							<li><a href="@Url.Action("ShopCart", "Home")">Shopping Cart</a></li>
-
 							<li><a href="@Url.Action("ShopSingle", "Home")">Single Product</a></li>
 						</ul>
 					</li>
 					<li>
 						<a href="@Url.Action("Contact", "Home")"><span>Contact Us</span></a>
-						<ul>
-							<li><a href="@Url.Action("Contact", "Home")">Contact Style 1</a></li>
-							<li><a href="contact_2.html">Contact Style 2</a></li>
-							<li><a href="contact_3.html">Contact Style 3</a></li>
-						</ul>
 					</li>
 				</ul>
 				<div class="footer-mobile-menu">
@@ -374,42 +344,46 @@
 							<ul class="navi-level-1 hover-style-2 main-navi">
 								<li class="has-sub">
 									<a href="@Url.Action("Index", "Home")"><span>Home</span></a>
-									<ul class="navi-level-2 ">
-										<li><a href="@Url.Action("Index", "Home")">HomePage  v1</a></li>
-										<li><a href="home_2.html">HomePage  v2</a></li>
-										<li><a href="home_3.html">HomePage  v3</a></li>
-										<li><a href="home_4-2.html">HomePage  v4</a></li>
-										<li><a href="home_5.html">HomePage  v5</a></li>
-										<li><a href="home_6.html">HomePage  v6</a></li>
+								</li>
+								<li class="has-sub">
+									<a href="@Url.Action("PortfolioGrid", "Home")"><span>Projects</span></a>
+								</li>
+								<li class="has-sub">
+									<a href="@Url.Action("ServiceList", "Home")"><span>Services</span></a>
+									<ul class="navi-level-2">
+										<li><a href="@Url.Action("ServiceList", "Home")">Services List</a></li>
+										<li><a href="@Url.Action("ServiceDetail", "Home")">Services Details V1</a></li>
 									</ul>
 								</li>
-								<li>
-									<a href="@Url.Action("ShopCatalog", "Home")"><span>Funiture</span></a>
-								</li>
-								<li>
-									<a href="@Url.Action("ShopCatalog", "Home")"><span>Lighting</span></a>
-								</li>
-								<li>
-									<a href="@Url.Action("ShopCatalog", "Home")"><span>Accessorie </span></a>
-								</li>
+								<li><a href="@Url.Action("About", "Home")"><span>About </span></a></li>
+
 
 								<li class="has-sub">
 									<a href="blogList.html"><span>Blog</span></a>
 									<ul class="navi-level-2">
-										<li><a href="blogGrid_2_col.html">Grid 2 Columns</a></li>
-										<li><a href="blogGrid_3_col.html">Grid 3 Columns</a></li>
-										<li><a href="blogGrid_4_col.html">Grid 4 Columns</a></li>
 										<li><a href="blogList.html">Blog List</a></li>
 										<li><a href="blogDetail.html">Blog Detail</a></li>
 									</ul>
 								</li>
+								@* <li class="has-sub"> *@
+								@* 	<a href="#"><span>Pages</span></a> *@
+								@* 	<ul class="navi-level-2"> *@
+								@* 		<li><a href="elements.html">Element</a></li> *@
+								@* 		<li><a href="typography.html">Typography</a></li> *@
+								@* 		<li><a href="404.html">404 Page</a></li> *@
+								@* 		<li><a href="@Url.Action("Commingsoon", "Home")">Comming Soon</a></li> *@
+								@* 	</ul> *@
+								@* </li> *@
+								<li class="has-sub">
+									<a href="@Url.Action("ShopCatalog", "Home")"><span>Shop</span></a>
+									<ul class="navi-level-2">
+										<li><a href="@Url.Action("ShopCatalog", "Home")">Store Catalog</a></li>
+										<li><a href="@Url.Action("ShopCart", "Home")">Shopping Cart</a></li>
+										<li><a href="@Url.Action("ShopSingle", "Home")">Single Product</a></li>
+									</ul>
+								</li>
 								<li class="has-sub">
 									<a href="@Url.Action("Contact", "Home")"><span>Contact Us</span></a>
-									<ul class="navi-level-2">
-										<li><a href="@Url.Action("Contact", "Home")">Contact Style 1</a></li>
-										<li><a href="contact_2.html">Contact Style 2</a></li>
-										<li><a href="contact_3.html">Contact Style 3</a></li>
-									</ul>
 								</li>
 
 							</ul>
