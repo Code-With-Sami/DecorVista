@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\GitHub\\DecorVista\\Decor_Vista\\",
   "Documents": [
     {
@@ -64,6 +65,17 @@
     {
       "AbsoluteMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|c:\\users\\admin\\documents\\github\\decorvista\\decor_vista\\decor_vista\\migrations\\20250812083245_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|solutionrelative:decor_vista\\migrations\\20250812083245_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+  "WorkspaceRootPath": "C:\\Users\\std2\\Documents\\GitHub\\DecorVista\\Decor_Vista\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|c:\\users\\std2\\documents\\github\\decorvista\\decor_vista\\decor_vista\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|solutionrelative:decor_vista\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|c:\\users\\std2\\documents\\github\\decorvista\\decor_vista\\decor_vista\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|solutionrelative:decor_vista\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+>>>>>>> origin/Abdullah
     }
   ],
   "DocumentGroupContainers": [
@@ -78,6 +90,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+<<<<<<< HEAD
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\DecorVista\\Decor_Vista\\Decor_Vista\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Decor_Vista\\Controllers\\UserController.cs",
@@ -99,10 +112,21 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-12T14:51:09.843Z",
+=======
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\std2\\Documents\\GitHub\\DecorVista\\Decor_Vista\\Decor_Vista\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Decor_Vista\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\std2\\Documents\\GitHub\\DecorVista\\Decor_Vista\\Decor_Vista\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Decor_Vista\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAADEBAAAAAAAAAAAAAEABAAD5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T08:22:48.621Z",
+>>>>>>> origin/Abdullah
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 2,
               "Title": "_UserDasboard.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\DecorVista\\Decor_Vista\\Decor_Vista\\Views\\Shared\\_UserDasboard.cshtml",
@@ -269,6 +293,18 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-08-11T08:24:15.866Z"
+=======
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\std2\\Documents\\GitHub\\DecorVista\\Decor_Vista\\Decor_Vista\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Decor_Vista\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\std2\\Documents\\GitHub\\DecorVista\\Decor_Vista\\Decor_Vista\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Decor_Vista\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAAANgAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T07:18:46.611Z",
+              "EditorCaption": ""
+>>>>>>> origin/Abdullah
             }
           ]
         }

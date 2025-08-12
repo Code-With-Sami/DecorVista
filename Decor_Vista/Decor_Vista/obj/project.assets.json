@@ -4016,19 +4016,37 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\Admin\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\std2\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+>>>>>>> origin/Abdullah
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\DecorVista\\Decor_Vista\\Decor_Vista\\Decor_Vista.csproj",
       "projectName": "Decor_Vista",
       "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\DecorVista\\Decor_Vista\\Decor_Vista\\Decor_Vista.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\DecorVista\\Decor_Vista\\Decor_Vista\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\std2\\Documents\\GitHub\\DecorVista\\Decor_Vista\\Decor_Vista\\Decor_Vista.csproj",
+      "projectName": "Decor_Vista",
+      "projectPath": "C:\\Users\\std2\\Documents\\GitHub\\DecorVista\\Decor_Vista\\Decor_Vista\\Decor_Vista.csproj",
+      "packagesPath": "C:\\Users\\std2\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\std2\\Documents\\GitHub\\DecorVista\\Decor_Vista\\Decor_Vista\\obj\\",
+>>>>>>> origin/Abdullah
       "projectStyle": "PackageReference",
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\std2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> origin/Abdullah
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4094,7 +4112,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+>>>>>>> origin/Abdullah
       }
     }
   }
