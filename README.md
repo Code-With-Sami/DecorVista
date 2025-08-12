@@ -107,8 +107,11 @@ This project is developed as part of the Contest Azam Project and currently does
 
 **Code-With-Sami**  
 [GitHub Profile](https://github.com/Code-With-Sami)  
+**H-M-Abdullah-Khan**  
 [GitHub Profile](https://github.com/H-M-Abdullah-Khan)  
+**Kashaf Jamil**  
 [GitHub Profile](https://github.com/)  
+**Mahnoor**  
 [GitHub Profile](https://github.com/)  
 
 
