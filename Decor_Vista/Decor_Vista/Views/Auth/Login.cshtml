@@ -1,5 +1,50 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title>Login</title>
+    <link rel="stylesheet" href="~/Auth/Css/style.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="shortcut icon" href="~/UserLayout/favicon.png">
+</head>
+<body>
+    <div class="form_wrapper">
+        <div class="form_container">
+            <div class="title_container">
+                <h2>User Login</h2>
+                @if (ViewBag.Error != null)
+                {
+                    <div style="color:red">@ViewBag.Error</div>
+                }
+            </div>
+            <div class="row clearfix">
+                <div>
+                    <!-- Correct Action & Method -->
+                    <form asp-action="Login" asp-controller="Auth" method="post">
+                        <!-- Email -->
+                        <div class="input_field">
+                            <span><i aria-hidden="true" class="fa fa-user"></i></span>
+                            <input type="email" name="Email" placeholder="Email" required>
+                        </div>
+
+                        <!-- Password -->
+                        <div class="input_field">
+                            <span><i aria-hidden="true" class="fa fa-lock"></i></span>
+                            <input type="password" name="Password" placeholder="Password" required>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button type="submit" class="btn btn-info" style="background-color: #ebcd1e">Login</button>
+
+                        <!-- Register link -->
+                        <p style="margin-top:10px;">
+                            Don't have an account? <a href="/Auth/Register">Register here</a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

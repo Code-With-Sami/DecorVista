@@ -6,68 +6,100 @@
     <title>Register</title>
     <link rel="stylesheet" href="~/Auth/Css/style.css" asp-append-version="true" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="shortcut icon" href="~/UserLayout/favicon.png">
 </head>
 <body>
     <div class="form_wrapper">
-  <div class="form_container">
-    <div class="title_container">
-      <h2>Responsive Registration Form</h2>
-    </div>
-    <div class="row clearfix">
-      <div class="">
-        <form>
-          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-envelope"></i></span>
-            <input type="email" name="email" placeholder="Email" required />
-          </div>
-          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-lock"></i></span>
-            <input type="password" name="password" placeholder="Password" required />
-          </div>
-          <div class="input_field"> <span><i aria-hidden="true" class="fa fa-lock"></i></span>
-            <input type="password" name="password" placeholder="Re-type Password" required />
-          </div>
-          <div class="row clearfix">
-            <div class="col_half">
-              <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
-                <input type="text" name="name" placeholder="First Name" />
-              </div>
+        <div class="form_container">
+            <div class="title_container">
+                <h2>User Registration</h2>
             </div>
-            <div class="col_half">
-              <div class="input_field"> <span><i aria-hidden="true" class="fa fa-user"></i></span>
-                <input type="text" name="name" placeholder="Last Name" required />
-              </div>
-            </div>
-          </div>
-              <div class="input_field radio_option">
-              <input type="radio" name="radiogroup1" id="rd1">
-              <label for="rd1">Male</label>
-              <input type="radio" name="radiogroup1" id="rd2">
-              <label for="rd2">Female</label>
-              </div>
-              <div class="input_field select_option">
-                <select>
-                  <option>Select a country</option>
-                  <option>Option 1</option>
-                  <option>Option 2</option>
-                </select>
-                <div class="select_arrow"></div>
-              </div>
-            <div class="input_field checkbox_option">
-              <input type="checkbox" id="cb1">
-          <label for="cb1">I agree with terms and conditions</label>
-            </div>
-            <div class="input_field checkbox_option">
-              <input type="checkbox" id="cb2">
-          <label for="cb2">I want to receive the newsletter</label>
-            </div>
-          <input class="button" type="submit" value="Register" />
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
-<p class="credit">Developed by <a href="http://www.designtheway.com" target="_blank">Design the way</a></p>
+            <div class="row clearfix">
+                <div class="">
+<form asp-action="Register" asp-controller="Auth" method="post" id="registerForm">
+                        <!-- Full Name -->
+                        <div class="input_field">
+                            <span><i aria-hidden="true" class="fa fa-user"></i></span>
+<input type="text" name="FullName" placeholder="Full Name" required>                        </div>
 
+                        <!-- Email -->
+                        <div class="input_field">
+                            <span><i aria-hidden="true" class="fa fa-envelope"></i></span>
+<input type="email" name="Email" placeholder="Email" required>
+                        </div>
+
+
+
+                        <!-- Contact Number -->
+
+                          <div class="input_field">
+                            <span><i aria-hidden="true" class="fa fa-phone"></i></span>
+<input type="tel" name="ContactNumber" placeholder="Number" pattern="[0-9]{11}" title="Enter 11 digit number" required>
+                        </div>
+
+                       
+
+                        <!-- Username -->
+                        <div class="input_field">
+                            <span><i aria-hidden="true" class="fa fa-user-circle"></i></span>
+<input type="text" name="Username" placeholder="Username" required>
+                        </div>
+
+                        <!-- Password -->
+                        <div class="input_field">
+                            <span><i aria-hidden="true" class="fa fa-lock"></i></span>
+<input type="password" name="PasswordHash" placeholder="Password" minlength="6" required>
+                        </div>
+
+                        <!-- Confirm Password -->
+                        <div class="input_field">
+                            <span><i aria-hidden="true" class="fa fa-lock"></i></span>
+<input type="password" name="ConfirmPassword" placeholder="Confirm Password" minlength="6" required>
+                        </div>
+
+                      
+
+                        <!-- Country -->
+                        <div class="input_field select_option">
+                            <select required>
+                                <option value="">Select a country</option>
+                                <option value="Pakistan">Pakistan</option>
+                                <option value="India">India</option>
+                                <option value="USA">USA</option>
+                            </select>
+                            <div class="select_arrow"></div>
+                        </div>
+
+                        <!-- Terms & Newsletter -->
+                        <div class="input_field checkbox_option">
+                            <input type="checkbox" id="cb1" required>
+                            <label for="cb1">I agree with terms and conditions</label>
+                        </div>
+                        <div class="input_field checkbox_option">
+                            <input type="checkbox" id="cb2">
+                            <label for="cb2">I want to receive the newsletter</label>
+                        </div>
+
+                        <input class="button" type="submit" value="Register">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+
+    <!-- Client-side Validation -->
+    <script>
+document.getElementById('registerForm').addEventListener('submit', function (e) {
+    const pass = document.querySelector('input[name="PasswordHash"]').value;
+    const confirmPass = document.querySelector('input[name="ConfirmPassword"]').value;
+
+    if (pass !== confirmPass) {
+        alert("Passwords do not match!");
+        e.preventDefault();
+    }
+});
+
+    </script>
 </body>
 </html>

@@ -57,10 +57,7 @@ namespace Decor_Vista.Controllers
         {
             return View();
         }
-        public IActionResult Error()
-        {
-            return View();
-        }
+       
 
         public IActionResult Privacy()
         {

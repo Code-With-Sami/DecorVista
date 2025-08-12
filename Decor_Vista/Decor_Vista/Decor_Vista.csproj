@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
@@ -14,14 +14,89 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Remove="Views\Shared\_UserDasboard.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Shared\_UserDasboard.cshtml" />
+    <None Include="wwwroot\UserDashboard\fonts\boxicons.woff2" />
+    <None Include="wwwroot\UserDashboard\fonts\boxiconsd41d.svg" />
+    <None Include="wwwroot\UserDashboard\fonts\tabler-icons3026.woff2" />
+    <None Include="wwwroot\UserDashboard\images\card\mastercard.svg" />
+    <None Include="wwwroot\UserDashboard\images\card\paypal.svg" />
+    <None Include="wwwroot\UserDashboard\images\card\stripe.svg" />
+    <None Include="wwwroot\UserDashboard\images\card\visa.svg" />
+    <None Include="wwwroot\UserDashboard\images\seller\dyson.svg" />
+    <None Include="wwwroot\UserDashboard\images\seller\gopro.svg" />
+    <None Include="wwwroot\UserDashboard\images\seller\h&amp;m.svg" />
+    <None Include="wwwroot\UserDashboard\images\seller\huawei.svg" />
+    <None Include="wwwroot\UserDashboard\images\seller\nike.svg" />
+    <None Include="wwwroot\UserDashboard\images\seller\rolex.svg" />
+    <None Include="wwwroot\UserDashboard\images\seller\thenorthface.svg" />
+    <None Include="wwwroot\UserDashboard\images\seller\zara.svg" />
+    <None Include="wwwroot\UserDashboard\js\app.js" />
+    <None Include="wwwroot\UserDashboard\js\components\apexchart-area.js" />
+    <None Include="wwwroot\UserDashboard\js\components\apexchart-bar.js" />
+    <None Include="wwwroot\UserDashboard\js\components\apexchart-boxplot.js" />
+    <None Include="wwwroot\UserDashboard\js\components\apexchart-bubble.js" />
+    <None Include="wwwroot\UserDashboard\js\components\apexchart-candlestick.js" />
+    <None Include="wwwroot\UserDashboard\js\components\apexchart-column.js" />
+    <None Include="wwwroot\UserDashboard\js\components\apexchart-heatmap.js" />
+    <None Include="wwwroot\UserDashboard\js\components\apexchart-line.js" />
+    <None Include="wwwroot\UserDashboard\js\components\apexchart-mixed.js" />
+    <None Include="wwwroot\UserDashboard\js\components\apexchart-pie.js" />
+    <None Include="wwwroot\UserDashboard\js\components\apexchart-polar-area.js" />
+    <None Include="wwwroot\UserDashboard\js\components\apexchart-radar.js" />
+    <None Include="wwwroot\UserDashboard\js\components\apexchart-radialbar.js" />
+    <None Include="wwwroot\UserDashboard\js\components\apexchart-scatter.js" />
+    <None Include="wwwroot\UserDashboard\js\components\apexchart-timeline.js" />
+    <None Include="wwwroot\UserDashboard\js\components\apexchart-treemap.js" />
+    <None Include="wwwroot\UserDashboard\js\components\extended-rating.js" />
+    <None Include="wwwroot\UserDashboard\js\components\extended-sweetalert.js" />
+    <None Include="wwwroot\UserDashboard\js\components\form-clipboard.js" />
+    <None Include="wwwroot\UserDashboard\js\components\form-flatepicker.js" />
+    <None Include="wwwroot\UserDashboard\js\components\form-quilljs.js" />
+    <None Include="wwwroot\UserDashboard\js\components\form-slider.js" />
+    <None Include="wwwroot\UserDashboard\js\components\maps-canada.js" />
+    <None Include="wwwroot\UserDashboard\js\components\maps-google.js" />
+    <None Include="wwwroot\UserDashboard\js\components\maps-iraq.js" />
+    <None Include="wwwroot\UserDashboard\js\components\maps-russia.js" />
+    <None Include="wwwroot\UserDashboard\js\components\maps-spain.js" />
+    <None Include="wwwroot\UserDashboard\js\components\maps-us-aea-en.js" />
+    <None Include="wwwroot\UserDashboard\js\components\maps-us-lcc-en.js" />
+    <None Include="wwwroot\UserDashboard\js\components\maps-us-mill-en.js" />
+    <None Include="wwwroot\UserDashboard\js\components\maps-vector.js" />
+    <None Include="wwwroot\UserDashboard\js\components\table-gridjs.js" />
+    <None Include="wwwroot\UserDashboard\js\config.js" />
+    <None Include="wwwroot\UserDashboard\js\pages\app-calendar.js" />
+    <None Include="wwwroot\UserDashboard\js\pages\app-chat.js" />
+    <None Include="wwwroot\UserDashboard\js\pages\app-email.js" />
+    <None Include="wwwroot\UserDashboard\js\pages\coming-soon.js" />
+    <None Include="wwwroot\UserDashboard\js\pages\coupons-add.js" />
+    <None Include="wwwroot\UserDashboard\js\pages\customer-details.js" />
+    <None Include="wwwroot\UserDashboard\js\pages\dashboard.js" />
+    <None Include="wwwroot\UserDashboard\js\pages\invoice-add.js" />
+    <None Include="wwwroot\UserDashboard\js\pages\order-cart.js" />
+    <None Include="wwwroot\UserDashboard\js\pages\product-details.js" />
+    <None Include="wwwroot\UserDashboard\js\pages\product-grid.js" />
+    <None Include="wwwroot\UserDashboard\js\pages\seller-add.js" />
+    <None Include="wwwroot\UserDashboard\js\pages\seller-detail.js" />
+    <None Include="wwwroot\UserDashboard\js\pages\widgets.js" />
+    <None Include="wwwroot\UserDashboard\js\vendor.js" />
+    <None Include="wwwroot\UserDashboard\vendor\fullcalendar\main.min.js" />
+    <None Include="wwwroot\UserDashboard\vendor\gmaps\gmaps.min.js" />
+    <None Include="wwwroot\UserDashboard\vendor\gridjs\gridjs.umd.js" />
+    <None Include="wwwroot\UserDashboard\vendor\jsvectormap\js\jsvectormap.min.js" />
+    <None Include="wwwroot\UserDashboard\vendor\jsvectormap\maps\world-merc.js" />
+    <None Include="wwwroot\UserDashboard\vendor\jsvectormap\maps\world.js" />
     <None Include="wwwroot\UserLayout\css\style.css" />
     <None Include="wwwroot\UserLayout\favicon.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.8" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.8" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.8">
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>

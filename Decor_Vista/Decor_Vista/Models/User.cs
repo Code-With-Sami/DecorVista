@@ -1,13 +1,8 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace Decor_Vista.Models
 {
-    public enum RoleEnum
-    {
-        Admin = 0,
-        EndUser = 1,
-        Interiordesigner = 2
-    }
     public class User
     {
         [Key]
@@ -26,11 +21,13 @@ namespace Decor_Vista.Models
         public string? Email { get; set; }
 
         [Required]
-        public string? PasswordHash { get; set; }
+        [Phone]
+        [StringLength(15)]
+        public string? ContactNumber { get; set; }
 
         [Required]
-        public RoleEnum Role { get; set; }
+        public string? PasswordHash { get; set; }
+
         public DateTime DateCreated { get; set; } = DateTime.Now;
     }
-
 }
