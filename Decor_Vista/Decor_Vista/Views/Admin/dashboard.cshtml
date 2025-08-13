@@ -1,0 +1,147 @@
+﻿@{
+    ViewData["Title"] = "Admin Dashboard - Decor Vista";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@section Styles {
+    <style>
+        .dashboard-card {
+            transition: transform 0.2s ease-in-out;
+        }
+        .dashboard-card:hover {
+            transform: translateY(-5px);
+        }
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        .stat-card.success {
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+        }
+        .stat-card.warning {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+        .stat-card.info {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+        }
+    </style>
+}
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+    <script>
+        $(document).ready(function() {
+            // SweetAlert2 for success messages
+            var successMessage = "@TempData["success"]";
+            if (successMessage && successMessage !== "") {
+                const Toast = Swal.mixin({
+                    toast: true,
+                    position: "top-end",
+                    showConfirmButton: false,
+                    timer: 3000,
+                    timerProgressBar: true,
+                    didOpen: (toast) => {
+                        toast.onmouseenter = Swal.stopTimer;
+                        toast.onmouseleave = Swal.resumeTimer;
+                    }
+                });
+
+                Toast.fire({
+                    icon: "success",
+                    title: successMessage
+                });
+            }
+        });
+    </script>
+}
+
+<div class="page-content">
+    <div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
+        <div class="breadcrumb-title pe-3">Dashboard</div>
+        <div class="ps-3">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0 p-0">
+                    <li class="breadcrumb-item"><a href="javascript:;"><i class="bx bx-home-alt"></i></a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Admin Dashboard</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-12 col-lg-8 col-xl-9">
+            <div class="card dashboard-card shadow-sm border-0">
+                <div class="card-body">
+                    <div class="d-flex align-items-center">
+                        <div class="">
+                            <h6 class="mb-1 text-primary">Welcome to Decor Vista Admin Panel</h6>
+                            <h4 class="mb-1">Hello, @Context.Session.GetString("AdminName")!</h4>
+                            <p class="mb-0">Let’s make the best interior design experience for our users today!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 col-xl-3">
+            <div class="card dashboard-card shadow-sm border-0">
+                <div class="card-body">
+                    <div class="d-flex align-items-center">
+                        <div class="flex-grow-1">
+                            <h4 class="mb-1">Quick Actions</h4>
+                            <p class="mb-0">Access frequently used features</p>
+                        </div>
+                    </div>
+                    <div class="mt-3">
+                        <a href="@Url.Action("Create", "Admin")" class="btn btn-primary w-100 mb-2">
+                            <i class="material-icons-outlined me-2">person_add</i>Add New Admin
+                        </a>
+                        <a href="@Url.Action("Index", "Admin")" class="btn btn-outline-primary w-100">
+                            <i class="material-icons-outlined me-2">people</i>View All Admins
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-12 col-md-6 col-lg-3">
+            <div class="card dashboard-card stat-card shadow-sm border-0">
+                <div class="card-body text-center">
+                    <i class="material-icons-outlined fs-1 mb-3">admin_panel_settings</i>
+                    <h3 class="mb-1">@ViewBag.AdminCount</h3>
+                    <p class="mb-0">Total Admins</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+            <div class="card dashboard-card stat-card success shadow-sm border-0">
+                <div class="card-body text-center">
+                    <i class="material-icons-outlined fs-1 mb-3">business</i>
+                    <h3 class="mb-1">0</h3>
+                    <p class="mb-0">Designers</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+            <div class="card dashboard-card stat-card warning shadow-sm border-0">
+                <div class="card-body text-center">
+                    <i class="material-icons-outlined fs-1 mb-3">people</i>
+                    <h3 class="mb-1">0</h3>
+                    <p class="mb-0">Users</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+            <div class="card dashboard-card stat-card info shadow-sm border-0">
+                <div class="card-body text-center">
+                    <i class="material-icons-outlined fs-1 mb-3"></i>
+                    <h3 class="mb-1">0</h3>
+                    <p class="mb-0"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
