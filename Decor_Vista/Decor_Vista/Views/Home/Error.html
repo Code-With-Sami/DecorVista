@@ -168,13 +168,13 @@
 	                        </li>
 	                       	<li><a href="@Url.Action("About", "Home")"><span>About </span></a></li>
 	                        
-	                        <li><a href="blogList.html"><span>Blog</span></a>
+	                        <li><a href="@Url.Action("Blog", "Home")"><span>Blog</span></a>
 	                             <ul>
 	                             	<li><a href="blogGrid_2_col.html">Grid 2 Columns</a></li>
 	                             	<li><a href="blogGrid_3_col.html">Grid 3 Columns</a></li>
 	                             	<li><a href="blogGrid_4_col.html">Grid 4 Columns</a></li>
-	                                <li><a href="blogList.html">Blog List</a></li>
-	                                <li><a href="blogDetail.html">Blog Detail</a></li>
+	                                <li><a href="@Url.Action("Blog", "Home")">Blog List</a></li>
+	                                <li><a href="@Url.Action("BlogDetail", "Home")">Blog Detail</a></li>
 	                            </ul>
 	                        </li>
 	                     	<li><a href="#"><span>Pages</span></a>
@@ -292,13 +292,13 @@
 	                       	<li><a href="@Url.Action("About", "Home")"><span>About </span></a></li>
 
 	                        
-	                        <li class="has-sub"><a href="blogList.html"><span>Blog</span></a>
+	                        <li class="has-sub"><a href="@Url.Action("Blog", "Home")"><span>Blog</span></a>
 	                             <ul class="navi-level-2">
 	                             	<li><a href="blogGrid_2_col.html">Grid 2 Columns</a></li>
 	                             	<li><a href="blogGrid_3_col.html">Grid 3 Columns</a></li>
 	                             	<li><a href="blogGrid_4_col.html">Grid 4 Columns</a></li>
-	                                <li><a href="blogList.html">Blog List</a></li>
-	                                <li><a href="blogDetail.html">Blog Detail</a></li>
+	                                <li><a href="@Url.Action("Blog", "Home")">Blog List</a></li>
+	                                <li><a href="@Url.Action("BlogDetail", "Home")">Blog Detail</a></li>
 	                            </ul>
 	                        </li>
 	                     	<li class="has-sub"><a href="#"><span>Pages</span></a>
@@ -329,7 +329,7 @@
 					</nav><!-- End Nav -->
 					<div class="right-header">
 						<ul class="navi-level-1 sub-navi seperator-horizonal-line hover-style-4">	
-							<li class="header-tel"><a class="tel-header" href="#">TOLL FREE: 800 345 6889</a></li>
+							<li class="has-sub hover-style-2"><a href=""><span>Sign In</span></a><ul class="navi-level-2" style="text-align:start;"><li><a href="@Url.Action("Viewname", "Auth")">Sign In As User</a></li><li><a href="@Url.Action("viewname", "Auth")">Sign In As A Designer</a></li></ul></li>
 							
 
 		                    <!-- Testing Search Box -->

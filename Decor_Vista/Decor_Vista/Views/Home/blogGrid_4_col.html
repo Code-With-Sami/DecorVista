@@ -167,13 +167,13 @@
 	                        </li>
 	                       	 <li><a href="@Url.Action("About", "Home")"><span>About </span></a></li>
 	                        
-	                        <li><a href="blogList.html"><span>Blog</span></a>
+	                        <li><a href="@Url.Action("Blog", "Home")"><span>Blog</span></a>
 	                             <ul>
 	                             	<li><a href="blogGrid_2_col.html">Grid 2 Columns</a></li>
 	                             	<li><a href="blogGrid_3_col.html">Grid 3 Columns</a></li>
 	                             	<li><a href="blogGrid_4_col.html">Grid 4 Columns</a></li>
-	                                <li><a href="blogList.html">Blog List</a></li>
-	                                <li><a href="blogDetail.html">Blog Detail</a></li>
+	                                <li><a href="@Url.Action("Blog", "Home")">Blog List</a></li>
+	                                <li><a href="@Url.Action("BlogDetail", "Home")">Blog Detail</a></li>
 	                            </ul>
 	                        </li>
 	                     	<li><a href="#"><span>Pages</span></a>
@@ -291,13 +291,13 @@
 	                       	 <li><a href="@Url.Action("About", "Home")"><span>About </span></a></li>
 
 	                        
-	                        <li class="has-sub"><a href="blogList.html"><span>Blog</span></a>
+	                        <li class="has-sub"><a href="@Url.Action("Blog", "Home")"><span>Blog</span></a>
 	                             <ul class="navi-level-2">
 	                             	<li><a href="blogGrid_2_col.html">Grid 2 Columns</a></li>
 	                             	<li><a href="blogGrid_3_col.html">Grid 3 Columns</a></li>
 	                             	<li><a href="blogGrid_4_col.html">Grid 4 Columns</a></li>
-	                                <li><a href="blogList.html">Blog List</a></li>
-	                                <li><a href="blogDetail.html">Blog Detail</a></li>
+	                                <li><a href="@Url.Action("Blog", "Home")">Blog List</a></li>
+	                                <li><a href="@Url.Action("BlogDetail", "Home")">Blog Detail</a></li>
 	                            </ul>
 	                        </li>
 	                     	<li class="has-sub"><a href="#"><span>Pages</span></a>
@@ -328,7 +328,7 @@
 					</nav><!-- End Nav -->
 					<div class="right-header">
 						<ul class="navi-level-1 sub-navi seperator-horizonal-line hover-style-4">	
-							<li class="header-tel"><a class="tel-header" href="#">TOLL FREE: 800 345 6889</a></li>
+							<li class="has-sub hover-style-2"><a href=""><span>Sign In</span></a><ul class="navi-level-2" style="text-align:start;"><li><a href="@Url.Action("Viewname", "Auth")">Sign In As User</a></li><li><a href="@Url.Action("viewname", "Auth")">Sign In As A Designer</a></li></ul></li>
 							
 
 		                    <!-- Testing Search Box -->
@@ -379,13 +379,13 @@
 		                                
 		                                 <article>
 											<figure class="latest-blog-post-img">
-												<a href="blogDetail.html">
+												<a href="@Url.Action("BlogDetail", "Home")">
 													<img src="~/UserLayout/images/Blog/1.jpg" class="img-responsive" alt="Image">
 												</a>
 												
 					                        </figure>
 					                        <div class="latest-blog-post-description">
-					                            <a href="blogDetail.html"><h3>2016 Interior Design Trends</h3></a>
+					                            <a href="@Url.Action("BlogDetail", "Home")"><h3>2016 Interior Design Trends</h3></a>
 					                            <div class="latest-blog-post-data">
 					                                <p class="tags text-cap">
 						                                <a href="#">Interior Design </a>,
@@ -406,13 +406,13 @@
 	                              <div class="element-item interior ">
 		                                  <article>
 											<figure class="latest-blog-post-img">
-												<a href="blogDetail.html">
+												<a href="@Url.Action("BlogDetail", "Home")">
 													<img src="~/UserLayout/images/Blog/2.jpg" class="img-responsive" alt="Image">
 												</a>
 												
 					                        </figure>
 					                        <div class="latest-blog-post-description">
-					                            <a href="blogDetail.html"><h3>5 Small Apartments Showcase The Flexibility Of Compact Design</h3></a>
+					                            <a href="@Url.Action("BlogDetail", "Home")"><h3>5 Small Apartments Showcase The Flexibility Of Compact Design</h3></a>
 					                            <div class="latest-blog-post-data">
 					                                <p class="tags text-cap">
 						                                <a href="#">Living Room </a>,
@@ -433,13 +433,13 @@
 	                              <div class="element-item Furniture">
 		                                <article>
 											<figure class="latest-blog-post-img">
-												<a href="blogDetail.html">
+												<a href="@Url.Action("BlogDetail", "Home")">
 													<img src="~/UserLayout/images/Blog/3.jpg" class="img-responsive" alt="Image">
 												</a>
 												
 					                        </figure>
 					                        <div class="latest-blog-post-description">
-					                            <a href="blogDetail.html"><h3>5 Small Apartments Showcase The Flexibility Of Compact Design</h3></a>
+					                            <a href="@Url.Action("BlogDetail", "Home")"><h3>5 Small Apartments Showcase The Flexibility Of Compact Design</h3></a>
 					                            <div class="latest-blog-post-data">
 					                                <p class="tags text-cap">
 						                                <a href="#">Ecommerce </a>,
@@ -460,13 +460,13 @@
 	                              <div class="element-item Furniture ">
 		                                  <article>
 											<figure class="latest-blog-post-img">
-												<a href="blogDetail.html">
+												<a href="@Url.Action("BlogDetail", "Home")">
 													<img src="~/UserLayout/images/Blog/4.jpg" class="img-responsive" alt="Image">
 												</a>
 												
 					                        </figure>
 					                        <div class="latest-blog-post-description">
-					                            <a href="blogDetail.html"><h3>Small Home Designs Under 50 Square Meters</h3></a>
+					                            <a href="@Url.Action("BlogDetail", "Home")"><h3>Small Home Designs Under 50 Square Meters</h3></a>
 					                            <div class="latest-blog-post-data">
 					                                <p class="tags text-cap">
 						                                <a href="#">Furniture + Accessories </a>,
@@ -487,13 +487,13 @@
 	                              <div class="element-item Ecommercial">
 		                               <article>
 											<figure class="latest-blog-post-img">
-												<a href="blogDetail.html">
+												<a href="@Url.Action("BlogDetail", "Home")">
 													<img src="~/UserLayout/images/Blog/5.jpg" class="img-responsive" alt="Image">
 												</a>
 												
 					                        </figure>
 					                        <div class="latest-blog-post-description">
-					                            <a href="blogDetail.html"><h3>10 Of The Best Housewarming Gifts</h3></a>
+					                            <a href="@Url.Action("BlogDetail", "Home")"><h3>10 Of The Best Housewarming Gifts</h3></a>
 					                            <div class="latest-blog-post-data">
 					                                <p class="tags text-cap">
 						                                <a href="#">Kitchen Room </a>,
@@ -514,13 +514,13 @@
 	                              <div class="element-item Ecommercial">
 		                               <article>
 											<figure class="latest-blog-post-img">
-												<a href="blogDetail.html">
+												<a href="@Url.Action("BlogDetail", "Home")">
 													<img src="~/UserLayout/images/Blog/6.jpg" class="img-responsive" alt="Image">
 												</a>
 												
 					                        </figure>
 					                        <div class="latest-blog-post-description">
-					                            <a href="blogDetail.html"><h3>10 Of The Best Housewarming Gifts</h3></a>
+					                            <a href="@Url.Action("BlogDetail", "Home")"><h3>10 Of The Best Housewarming Gifts</h3></a>
 					                            <div class="latest-blog-post-data">
 					                                <p class="tags text-cap">
 						                                <a href="#">Interior Design </a>,
@@ -541,13 +541,13 @@
 	                              <div class="element-item Art ">
 		                               <article>
 											<figure class="latest-blog-post-img">
-												<a href="blogDetail.html">
+												<a href="@Url.Action("BlogDetail", "Home")">
 													<img src="~/UserLayout/images/Blog/7.jpg" class="img-responsive" alt="Image">
 												</a>
 												
 					                        </figure>
 					                        <div class="latest-blog-post-description">
-					                            <a href="blogDetail.html"><h3>4 Luxury Bathroom With Unique WallDetails Awwards</h3></a>
+					                            <a href="@Url.Action("BlogDetail", "Home")"><h3>4 Luxury Bathroom With Unique WallDetails Awwards</h3></a>
 					                            <div class="latest-blog-post-data">
 					                                <p class="tags text-cap">
 						                                <a href="#">Interior Design </a>,
@@ -568,13 +568,13 @@
 	                              <div class="element-item Art">
 		                                <article>
 											<figure class="latest-blog-post-img">
-												<a href="blogDetail.html">
+												<a href="@Url.Action("BlogDetail", "Home")">
 													<img src="~/UserLayout/images/Blog/8.jpg" class="img-responsive" alt="Image">
 												</a>
 												
 					                        </figure>
 					                        <div class="latest-blog-post-description">
-					                            <a href="blogDetail.html"><h3>Shopping Mall Interior Design</h3></a>
+					                            <a href="@Url.Action("BlogDetail", "Home")"><h3>Shopping Mall Interior Design</h3></a>
 					                            <div class="latest-blog-post-data">
 					                                <p class="tags text-cap">
 						                                <a href="#">Interior Design </a>,
@@ -595,13 +595,13 @@
 	                              <div class="element-item  Furniture">
 		                                <article>
 											<figure class="latest-blog-post-img">
-												<a href="blogDetail.html">
+												<a href="@Url.Action("BlogDetail", "Home")">
 													<img src="~/UserLayout/images/Blog/9.jpg" class="img-responsive" alt="Image">
 												</a>
 												
 					                        </figure>
 					                        <div class="latest-blog-post-description">
-					                            <a href="blogDetail.html"><h3>Fashion Shop Interior Design</h3></a>
+					                            <a href="@Url.Action("BlogDetail", "Home")"><h3>Fashion Shop Interior Design</h3></a>
 					                            <div class="latest-blog-post-data">
 					                                <p class="tags text-cap">
 						                                <a href="#">Interior Design, </a>,
@@ -622,13 +622,13 @@
 	                              <div class="element-item Furniture ">
 		                                <article>
 											<figure class="latest-blog-post-img">
-												<a href="blogDetail.html">
+												<a href="@Url.Action("BlogDetail", "Home")">
 													<img src="~/UserLayout/images/Blog/10.jpg" class="img-responsive" alt="Image">
 												</a>
 												
 					                        </figure>
 					                        <div class="latest-blog-post-description">
-					                            <a href="blogDetail.html"><h3>40 Unique Modern Flatware Sets That You Can Buy Right Now</h3></a>
+					                            <a href="@Url.Action("BlogDetail", "Home")"><h3>40 Unique Modern Flatware Sets That You Can Buy Right Now</h3></a>
 					                            <div class="latest-blog-post-data">
 					                                <p class="tags text-cap">
 						                                <a href="#">Ecommerce, </a>,
@@ -649,13 +649,13 @@
 	                              <div class="element-item Ecommercial">
 		                                <article>
 											<figure class="latest-blog-post-img">
-												<a href="blogDetail.html">
+												<a href="@Url.Action("BlogDetail", "Home")">
 													<img src="~/UserLayout/images/Blog/11.jpg" class="img-responsive" alt="Image">
 												</a>
 												
 					                        </figure>
 					                        <div class="latest-blog-post-description">
-					                            <a href="blogDetail.html"><h3>20 Beautiful Examples Of Bathroom With Attached Wardrobes</h3></a>
+					                            <a href="@Url.Action("BlogDetail", "Home")"><h3>20 Beautiful Examples Of Bathroom With Attached Wardrobes</h3></a>
 					                            <div class="latest-blog-post-data">
 					                                <p class="tags text-cap">
 						                                <a href="#">Living room, </a>,
@@ -676,13 +676,13 @@
 	                              <div class="element-item Ecommercial ">
 		                                <article>
 											<figure class="latest-blog-post-img">
-												<a href="blogDetail.html">
+												<a href="@Url.Action("BlogDetail", "Home")">
 													<img src="~/UserLayout/images/Blog/12.jpg" class="img-responsive" alt="Image">
 												</a>
 												
 					                        </figure>
 					                        <div class="latest-blog-post-description">
-					                            <a href="blogDetail.html"><h3>50 Unique Decorative Vases To Beautify Your Home</h3></a>
+					                            <a href="@Url.Action("BlogDetail", "Home")"><h3>50 Unique Decorative Vases To Beautify Your Home</h3></a>
 					                            <div class="latest-blog-post-data">
 					                                <p class="tags text-cap">
 						                                <a href="#">Bathroom,</a>,
