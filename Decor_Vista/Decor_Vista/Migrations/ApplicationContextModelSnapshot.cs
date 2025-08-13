@@ -22,33 +22,16 @@ namespace Decor_Vista.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-<<<<<<< HEAD
-            modelBuilder.Entity("Decor_Vista.Models.Admin", b =>
-=======
             modelBuilder.Entity("DecorVista.Models.Designer", b =>
->>>>>>> origin/Sami
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-<<<<<<< HEAD
                     b.Property<string>("Email")
                         .IsRequired()
-                        .HasMaxLength(150)
-                        .HasColumnType("nvarchar(150)");
-
-                    b.Property<string>("Img")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Name")
-=======
-                    b.Property<string>("Address")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
+                        .HasMaxLength(150);
                     b.Property<string>("Availability")
                         .HasColumnType("nvarchar(max)");
 
@@ -102,111 +85,9 @@ namespace Decor_Vista.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Password")
->>>>>>> origin/Sami
                         .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
-
-<<<<<<< HEAD
-                    b.Property<string>("Password")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Tbl_Admin");
-                });
-
-            modelBuilder.Entity("Decor_Vista.Models.Gallery", b =>
-                {
-                    b.Property<int>("GalleryId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("GalleryId"));
-
-                    b.Property<string>("Category")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Description")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ImagePath")
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
-
-                    b.Property<string>("SubCategory")
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.Property<string>("Title")
-                        .IsRequired()
-                        .HasMaxLength(150)
-                        .HasColumnType("nvarchar(150)");
-
-                    b.Property<DateTime?>("UpdatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("GalleryId");
-
-                    b.ToTable("Gallery");
-                });
-
-            modelBuilder.Entity("Decor_Vista.Models.GalleryCategory", b =>
-                {
-                    b.Property<int>("CategoryId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CategoryId"));
-
-                    b.Property<string>("CategoryName")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.HasKey("CategoryId");
-
-                    b.ToTable("GalleryCategories");
-
-                    b.HasData(
-                        new
-                        {
-                            CategoryId = 1,
-                            CategoryName = "Living Room"
-                        },
-                        new
-                        {
-                            CategoryId = 2,
-                            CategoryName = "Bedroom"
-                        },
-                        new
-                        {
-                            CategoryId = 3,
-                            CategoryName = "Kitchen"
-                        },
-                        new
-                        {
-                            CategoryId = 4,
-                            CategoryName = "Bathroom"
-                        },
-                        new
-                        {
-                            CategoryId = 5,
-                            CategoryName = "Office"
-                        },
-                        new
-                        {
-                            CategoryId = 6,
-                            CategoryName = "Outdoor Space"
-                        });
-=======
                     b.Property<string>("PhoneNumber")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -245,49 +126,10 @@ namespace Decor_Vista.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Designers");
->>>>>>> origin/Sami
                 });
 
             modelBuilder.Entity("Decor_Vista.Models.User", b =>
                 {
-<<<<<<< HEAD
-                    b.Property<int>("user_id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("user_id"));
-
-                    b.Property<string>("Img")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("address")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("contactnumber")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("email")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("firstname")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("lastname")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("password")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("username")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("user_id");
-=======
                     b.Property<int>("UserId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
@@ -319,7 +161,6 @@ namespace Decor_Vista.Migrations
                         .HasColumnType("nvarchar(50)");
 
                     b.HasKey("UserId");
->>>>>>> origin/Sami
 
                     b.ToTable("Users");
                 });

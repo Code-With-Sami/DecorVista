@@ -57,10 +57,14 @@ namespace Decor_Vista.Controllers
         {
             return View();
         }
-        //public IActionResult Error()
-        //{
-        //    return View();
-        //}
+        public IActionResult Blog()
+        {
+            return View();
+        }
+        public IActionResult BlogDetail()
+        {
+            return View();
+        }
 
         public IActionResult Privacy()
         {

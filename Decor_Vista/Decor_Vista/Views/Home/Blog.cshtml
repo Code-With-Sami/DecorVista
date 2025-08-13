@@ -1,0 +1,777 @@
+﻿<!DOCTYPE html>
+<html lang="">
+
+<!-- Mirrored from templates.thememodern.com/architect/blogGrid_2_col.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Aug 2025 13:58:41 GMT -->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Arc Portfolio Grid 2 Col</title>
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="~/UserLayout/css/bootstrap.min.css">
+	<!-- Font -->
+	<link rel="stylesheet" href="~/UserLayout/css/font-awesome.min.css">
+	<link rel="stylesheet" href="~/UserLayout/css/elegant-font.css">
+	<!-- SCROLL BAR MOBILE MENU
+	================================================== -->
+	<link rel="stylesheet" href="~/UserLayout/css/jquery.mCustomScrollbar.css" />
+	<!-- Main Style -->
+	<link rel="stylesheet" href="~/UserLayout/css/style.css">
+	<!-- color scheme -->
+	<link rel="stylesheet" href="~/UserLayout/switcher/demo.css" type="text/css">
+	<link rel="stylesheet" href="~/UserLayout/switcher/colors/yellow.css" type="text/css" id="colors">
+	<!-- Favicons
+	  ================================================== -->
+	<link rel="shortcut icon" href="~/UserLayout/favicon.png">
+</head>
+<body>
+	<div id="switcher">
+		<span class="custom-close"></span>
+		<span class="custom-show"></span>
+		<div class="mCustomScrollbar" data-mcs-theme="minimal-dark">
+			<a href="#" class="ot-btn btn-main-color block-btn">Buy Now</a>
+
+			<div class="clearfix"></div>
+
+			<span class="sw-title">Main Colors:</span>
+			<ul id="tm-color">
+				<li class="color1"></li>
+				<li class="color2"></li>
+				<li class="color3"></li>
+				<li class="color4"></li>
+				<li class="color5"></li>
+				<li class="color6"></li>
+				<li class="color7"></li>
+			</ul>
+			<div class="clearfix"></div>
+
+			<span class="sw-title">Header Layout</span>
+			<select name="switcher" id="de-header-layout">
+				<option value="opt-1" selected>Hide Top Bar</option>
+				<option value="opt-2">Show Top Bar</option>
+			</select>
+			<div class="clearfix"></div>
+
+
+			<span class="sw-title">Menu Seperator Style</span>
+			<select name="switcher" id="de-menu">
+				<option value="opt-1" selected>Line Throu Separator</option>
+				<option value="opt-2">Line Separator</option>
+				<option value="opt-3">Circle Separator</option>
+				<option value="opt-4">Square Separator</option>
+				<option value="opt-5">Plus Separator</option>
+				<option value="opt-6">Strip Separator</option>
+				<option value="opt-0">No Separator</option>
+			</select>
+
+			<div class="clearfix"></div>
+
+			<span class="sw-title">Hover Header Link Effect</span>
+			<select name="switcher" id="de-menu-eff">
+				<option value="opt-1" selected>Line Through Effect</option>
+				<option value="opt-2">Background Effect</option>
+				<option value="opt-3">Text Color</option>
+				<option value="opt-4">Line Expand</option>
+			</select>
+
+			<div class="clearfix"></div>
+
+
+			<span class="sw-title">HomePage Layout</span>
+			<ul class="demo-homepage">
+				<li>
+					<a href="@Url.Action("Index", "Home")">
+						<img src="~/UserLayout/switcher/images/home_1.jpg" alt="">
+					</a>
+					<img src="~/UserLayout/switcher/images/home_1.jpg" class="popup-demo-homepage" alt="Image">
+				</li>
+				<li>
+					<a href="home_2.html">
+						<img src="~/UserLayout/switcher/images/home_2.jpg" alt="">
+					</a>
+					<img src="~/UserLayout/switcher/images/home_2.jpg" class="popup-demo-homepage" alt="Image">
+				</li>
+				<li>
+					<a href="home_3.html">
+						<img src="~/UserLayout/switcher/images/home_3.jpg" alt="">
+					</a>
+					<img src="~/UserLayout/switcher/images/home_3.jpg" class="popup-demo-homepage" alt="Image">
+				</li>
+				<li>
+					<a href="home_4.html">
+						<img src="~/UserLayout/switcher/images/home_4.jpg" alt="">
+					</a>
+					<img src="~/UserLayout/switcher/images/home_4.jpg" class="popup-demo-homepage" alt="Image">
+				</li>
+				<li>
+					<a href="home_5.html">
+						<img src="~/UserLayout/switcher/images/home_5.jpg" alt="">
+					</a>
+					<img src="~/UserLayout/switcher/images/home_5.jpg" class="popup-demo-homepage" alt="Image">
+				</li>
+				<li>
+					<a href="home_6.html">
+						<img src="~/UserLayout/switcher/images/home_6.jpg" alt="">
+					</a>
+					<img src="~/UserLayout/switcher/images/home_6.jpg" class="popup-demo-homepage" alt="Image">
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- End Switcher Color -->
+	<div class="mobile-menu-first">
+		<div id="mobile-menu" class="mobile-menu">
+			<div class="header-mobile-menu">
+				<a href="#">TOLL FREE: 800 345 6889</a>
+				<div class="mm-toggle">
+					<span aria-hidden="true" class="icon_close"></span>
+				</div>
+			</div> <!-- Mobile Menu -->
+			<div class="mCustomScrollbar light" data-mcs-theme="minimal-dark">
+
+				<ul>
+					<li>
+						<a href="@Url.Action("Index", "Home")"><i class="icon-home"></i> Home</a>
+					</li>
+					<li>
+						<a href="@Url.Action("PortfolioGrid", "Home")"><span>Projects</span></a>
+					</li>
+
+					<li>
+						<a href="@Url.Action("ServiceList", "Home")"><span>Services</span></a>
+						<ul>
+							<li><a href="@Url.Action("ServiceList", "Home")">Services List</a></li>
+							<li><a href="@Url.Action("ServiceDetail", "Home")">Services Details</a></li>
+						</ul>
+					</li>
+					<li><a href="@Url.Action("About", "Home")"><span>About </span></a></li>
+
+					<li>
+						<a href="@Url.Action("Blog", "Home")"><span>Blog</span></a>
+						<ul>
+							<li><a href="@Url.Action("Blog", "Home")">Blog List</a></li>
+							<li><a href="@Url.Action("BlogDetail", "Home")">Blog Detail</a></li>
+						</ul>
+					</li>
+					@* <li> *@
+					@* 	<a href="#"><span>Pages</span></a> *@
+					@* 	<ul> *@
+					@* 		<li><a href="elements.html">Element</a></li> *@
+					@* 		<li><a href="typography.html">Typography</a></li> *@
+					@* 		<li><a href="404.html">404 Page</a></li> *@
+					@* 		<li><a href="@Url.Action("Commingsoon", "Home")">Comming Soon</a></li> *@
+					@* 	</ul> *@
+					@* </li> *@
+					<li>
+						<a href="@Url.Action("ShopCatalog", "Home")"><span>Shop</span></a>
+						<ul>
+							<li><a href="@Url.Action("ShopCatalog", "Home")">Store Catalog</a></li>
+							<li><a href="@Url.Action("ShopCart", "Home")">Shopping Cart</a></li>
+							<li><a href="@Url.Action("ShopSingle", "Home")">Single Product</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="@Url.Action("Contact", "Home")"><span>Contact Us</span></a>
+					</li>
+				</ul>
+				<div class="footer-mobile-menu">
+					<ul class="social">
+						<li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+						<li class="youtube"><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+						<li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+					</ul>
+
+					<ul class="address-footer-mobile">
+						<li><p> 8th floor, 379 Hudson St, New York, NY 10018</p></li>
+						<li><p>1-800-123-6879 </p></li>
+						<li><p> contact@arc.com</p></li>
+
+					</ul>
+				</div>
+			</div> <!-- /#rmm   -->
+		</div>
+	</div><!-- End Mobile Menu -->
+
+	<div class="modal fade modal-search" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+		<button type="button" class="close" data-dismiss="modal">×</button>
+		<div class="modal-dialog myModal-search">
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-body">
+					<form role="search" method="get" class="search-form">
+						<input class="search-field" placeholder="Search here..." value="" title="" type="search">
+						<button type="submit" class="search-submit"><i class="fa fa-search"></i></button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Modal Search-->
+	<div id="page">
+		<div id="skrollr-body">
+			<header id="mainmenu" class="header-v1 header-border header-fix header-bg-white" data-0="padding:10px;padding-left:40px;padding-right:40px;" data-251="padding:10px; padding-left:40px;padding-right:40px;top:0;">
+				<div id="info" class="topbar topbar-position topbar-dark hide-topbar" data-0="height:30px" data-251="height:0;">
+
+					<div class="col-md-12">
+						<p class="text-cap hidden-xs">TOLL FREE: 800 345 6889</p>
+						<p class="text-cap">E-mail: contact@arc.com</p>
+						<div class="language">
+							<a href="#" class="active">EN</a>
+							<a href="#">FR</a>
+							<a href="#">PT</a>
+						</div>
+					</div>
+
+				</div>
+				<div class="left-header">
+					<ul class="navi-level-1">
+						<li><a href="@Url.Action("Index", "Home")" class="logo"><img src="~/UserLayout/images/Header/logo.png" class="img-responsive" alt="Image"></a></li>
+					</ul>
+				</div><!-- End Left Header -->
+				<nav>
+					<ul class="navi-level-1 hover-style-2 main-navi">
+						<li class="has-sub">
+							<a href="@Url.Action("Index", "Home")"><span>Home</span></a>
+						</li>
+						<li class="has-sub">
+							<a href="@Url.Action("PortfolioGrid", "Home")"><span>Projects</span></a>
+						</li>
+						<li class="has-sub">
+							<a href="@Url.Action("ServiceList", "Home")"><span>Services</span></a>
+							<ul class="navi-level-2">
+								<li><a href="@Url.Action("ServiceList", "Home")">Services List</a></li>
+								<li><a href="@Url.Action("ServiceDetail", "Home")">Services Details V1</a></li>
+							</ul>
+						</li>
+						<li><a href="@Url.Action("About", "Home")"><span>About </span></a></li>
+
+
+						<li class="has-sub">
+							<a href="@Url.Action("Blog", "Home")"><span>Blog</span></a>
+							<ul class="navi-level-2">
+								<li><a href="@Url.Action("Blog", "Home")">Blog List</a></li>
+								<li><a href="@Url.Action("BlogDetail", "Home")">Blog Detail</a></li>
+							</ul>
+						</li>
+						@* <li class="has-sub"> *@
+						@* 	<a href="#"><span>Pages</span></a> *@
+						@* 	<ul class="navi-level-2"> *@
+						@* 		<li><a href="elements.html">Element</a></li> *@
+						@* 		<li><a href="typography.html">Typography</a></li> *@
+						@* 		<li><a href="404.html">404 Page</a></li> *@
+						@* 		<li><a href="@Url.Action("Commingsoon", "Home")">Comming Soon</a></li> *@
+						@* 	</ul> *@
+						@* </li> *@
+						<li class="has-sub">
+							<a href="@Url.Action("ShopCatalog", "Home")"><span>Shop</span></a>
+							<ul class="navi-level-2">
+								<li><a href="@Url.Action("ShopCatalog", "Home")">Store Catalog</a></li>
+								<li><a href="@Url.Action("ShopCart", "Home")">Shopping Cart</a></li>
+								<li><a href="@Url.Action("ShopSingle", "Home")">Single Product</a></li>
+							</ul>
+						</li>
+						<li class="has-sub">
+							<a href="@Url.Action("Contact", "Home")"><span>Contact Us</span></a>
+						</li>
+
+					</ul>
+				</nav>
+				<!-- End Nav -->
+				<div class="right-header">
+					<ul class="navi-level-1 sub-navi seperator-horizonal-line">
+						<li class="has-sub hover-style-2">
+							<a href=""><span>Sign In</span></a>
+							<ul class="navi-level-2" style="text-align:start;">
+								<li><a href="@Url.Action("Viewname", "Auth")">Sign In As User</a></li>
+								<li><a href="@Url.Action("viewname", "Auth")">Sign In As A Designer</a></li>
+							</ul>
+						</li>
+						<!-- Testing Search Box -->
+						<li>
+							<a href="#">
+								<span aria-hidden="true" class="icon_bag_alt"></span>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-toggle="modal" data-target="#myModal" id="btn-search" class="reset-btn btn-in-navi"><span aria-hidden="true" class="icon_search"></span></a>
+						</li>
+						<li>
+							<a href="#/" class="mm-toggle">
+								<span aria-hidden="true" class="icon_menu"></span>
+							</a>
+						</li>
+					</ul>
+
+				</div><!-- End Right Header -->
+			</header>
+			<!-- End  Header -->
+			<!-- End  Header -->
+
+			<section>
+				<div class="sub-header sub-header-1 sub-header-blog-grid fake-position">
+					<div class="sub-header-content">
+						<h2 class="text-cap white-text">Blog</h2>
+						<ol class="breadcrumb breadcrumb-arc text-cap">
+							<li>
+								<a href="#">Home</a>
+							</li>
+							<li class="active">Blog</li>
+						</ol>
+					</div>
+				</div>
+			</section>
+			<!-- End Section Sub Header -->
+			<section class="padding">
+				<div class="container">
+					<div class="row">
+						<div class="blog-warp blog-grid-2-col clearfix">
+							<div class="blogFilter blog-terms line-effect-2">
+								<a href="#" data-filter="*" class="current text-cap"><h4>All categories</h4></a>
+								<a href="#" data-filter=".interior" class="text-cap"><h4>interior design</h4></a>
+								<a href="#" data-filter=".Furniture" class="text-cap"><h4>Furniture + accessories</h4></a>
+								<a href="#" data-filter=".Ecommercial" class="text-cap"><h4>Ecommercial</h4></a>
+								<a href="#" data-filter=".Art" class="text-cap"><h4>Art Decor</h4></a>
+							</div> <!-- End Project Fillter -->
+							<div class="clearfix blogContainer blog-grid-2-col-container">
+
+								<div class="element-item  interior">
+
+									<article>
+										<figure class="latest-blog-post-img">
+											<a href="@Url.Action("BlogDetail", "Home")">
+												<img src="~/UserLayout/images/Blog/1.jpg" class="img-responsive" alt="Image">
+											</a>
+
+										</figure>
+										<div class="latest-blog-post-description">
+											<a href="@Url.Action("BlogDetail", "Home")"><h3>2016 Interior Design Trends</h3></a>
+											<div class="latest-blog-post-data">
+												<p class="tags text-cap">
+													<a href="#">Interior Design </a>,
+													<a href="#">Art Decor </a>
+												</p>
+											</div>
+											<div class="latest-blog-post-date-2  text-cap">
+												<span class="month">May</span>
+												<span class="day">21,</span>
+												<span class="year">2016</span>
+											</div>
+											<p>Ut condimentum, mi id pulvinar eleifend, dolor massa scelerisque justo,  quis rhoncus velit tellus vitae lectus.</p>
+
+										</div>
+									</article>
+								</div>
+
+								<div class="element-item interior ">
+									<article>
+										<figure class="latest-blog-post-img">
+											<a href="@Url.Action("BlogDetail", "Home")">
+												<img src="~/UserLayout/images/Blog/2.jpg" class="img-responsive" alt="Image">
+											</a>
+
+										</figure>
+										<div class="latest-blog-post-description">
+											<a href="@Url.Action("BlogDetail", "Home")"><h3>5 Small Apartments Showcase The Flexibility Of Compact Design</h3></a>
+											<div class="latest-blog-post-data">
+												<p class="tags text-cap">
+													<a href="#">Living Room </a>,
+													<a href="#">Art Decor </a>
+												</p>
+											</div>
+											<div class="latest-blog-post-date-2  text-cap">
+												<span class="month">May</span>
+												<span class="day">21,</span>
+												<span class="year">2016</span>
+											</div>
+
+											<p>Morbi vehicula a nibh in commodo. Aliquam quis dolor eget lectus pulvinar eu rhoncus ligula. Ut leo mauris, molestie.</p>
+
+										</div>
+									</article>
+								</div>
+
+								<div class="element-item Furniture">
+									<article>
+										<figure class="latest-blog-post-img">
+											<a href="@Url.Action("BlogDetail", "Home")">
+												<img src="~/UserLayout/images/Blog/3.jpg" class="img-responsive" alt="Image">
+											</a>
+
+										</figure>
+										<div class="latest-blog-post-description">
+											<a href="@Url.Action("BlogDetail", "Home")"><h3>5 Small Apartments Showcase The Flexibility Of Compact Design</h3></a>
+											<div class="latest-blog-post-data">
+												<p class="tags text-cap">
+													<a href="#">Ecommerce </a>,
+													<a href="#">Art Decor </a>
+												</p>
+											</div>
+											<div class="latest-blog-post-date-2  text-cap">
+												<span class="month">May</span>
+												<span class="day">02,</span>
+												<span class="year">2016</span>
+											</div>
+
+											<p>Morbi vehicula a nibh in commodo. Aliquam quis dolor eget lectus pulvinar eu rhoncus ligula. Ut leo mauris, molestie.</p>
+
+										</div>
+									</article>
+								</div>
+
+								<div class="element-item Furniture ">
+									<article>
+										<figure class="latest-blog-post-img">
+											<a href="@Url.Action("BlogDetail", "Home")">
+												<img src="~/UserLayout/images/Blog/4.jpg" class="img-responsive" alt="Image">
+											</a>
+
+										</figure>
+										<div class="latest-blog-post-description">
+											<a href="@Url.Action("BlogDetail", "Home")"><h3>Small Home Designs Under 50 Square Meters</h3></a>
+											<div class="latest-blog-post-data">
+												<p class="tags text-cap">
+													<a href="#">Furniture + Accessories </a>,
+													<a href="#">Art Decor </a>
+												</p>
+											</div>
+											<div class="latest-blog-post-date-2  text-cap">
+												<span class="month">May</span>
+												<span class="day">15,</span>
+												<span class="year">2016</span>
+											</div>
+											<p>Etiam ac elementum purus, et aliquet velit. Morbi finibus tellus sit amet nisl pharetra,</p>
+
+
+										</div>
+									</article>
+								</div>
+
+								<div class="element-item Ecommercial">
+									<article>
+										<figure class="latest-blog-post-img">
+											<a href="@Url.Action("BlogDetail", "Home")">
+												<img src="~/UserLayout/images/Blog/5.jpg" class="img-responsive" alt="Image">
+											</a>
+
+										</figure>
+										<div class="latest-blog-post-description">
+											<a href="@Url.Action("BlogDetail", "Home")"><h3>10 Of The Best Housewarming Gifts</h3></a>
+											<div class="latest-blog-post-data">
+												<p class="tags text-cap">
+													<a href="#">Kitchen Room </a>,
+													<a href="#">Art Decor </a>
+												</p>
+											</div>
+											<div class="latest-blog-post-date-2  text-cap">
+												<span class="month">May</span>
+												<span class="day">11,</span>
+												<span class="year">2016</span>
+											</div>
+											<p>Morbi vehicula a nibh in commodo. Aliquam quis dolor eget lectus pulvinar eu rhoncus ligula. Ut leo mauris, molestie.</p>
+
+
+										</div>
+									</article>
+								</div>
+
+								<div class="element-item Ecommercial">
+									<article>
+										<figure class="latest-blog-post-img">
+											<a href="@Url.Action("BlogDetail", "Home")">
+												<img src="~/UserLayout/images/Blog/6.jpg" class="img-responsive" alt="Image">
+											</a>
+
+										</figure>
+										<div class="latest-blog-post-description">
+											<a href="@Url.Action("BlogDetail", "Home")"><h3>10 Of The Best Housewarming Gifts</h3></a>
+											<div class="latest-blog-post-data">
+												<p class="tags text-cap">
+													<a href="#">Interior Design </a>,
+													<a href="#">Art Decor </a>
+												</p>
+											</div>
+											<div class="latest-blog-post-date-2  text-cap">
+												<span class="month">May</span>
+												<span class="day">21,</span>
+												<span class="year">2016</span>
+											</div>
+											<p>Etiam ac elementum purus, et aliquet velit. Morbi finibus tellus sit amet nisl pharetra,</p>
+
+
+										</div>
+									</article>
+								</div>
+
+								<div class="element-item Art ">
+									<article>
+										<figure class="latest-blog-post-img">
+											<a href="@Url.Action("BlogDetail", "Home")">
+												<img src="~/UserLayout/images/Blog/7.jpg" class="img-responsive" alt="Image">
+											</a>
+
+										</figure>
+										<div class="latest-blog-post-description">
+											<a href="@Url.Action("BlogDetail", "Home")"><h3>4 Luxury Bathroom With Unique WallDetails Awwards</h3></a>
+											<div class="latest-blog-post-data">
+												<p class="tags text-cap">
+													<a href="#">Interior Design </a>,
+													<a href="#">Art Decor </a>
+												</p>
+											</div>
+											<div class="latest-blog-post-date-2  text-cap">
+												<span class="month">May</span>
+												<span class="day">21,</span>
+												<span class="year">2016</span>
+											</div>
+											<p>Cras egestas elit risus, sit amet porttitor urna viverra ut. Nunc sagittis finibus pretium.</p>
+
+
+										</div>
+									</article>
+								</div>
+
+								<div class="element-item Art">
+									<article>
+										<figure class="latest-blog-post-img">
+											<a href="@Url.Action("BlogDetail", "Home")">
+												<img src="~/UserLayout/images/Blog/8.jpg" class="img-responsive" alt="Image">
+											</a>
+
+										</figure>
+										<div class="latest-blog-post-description">
+											<a href="@Url.Action("BlogDetail", "Home")"><h3>Shopping Mall Interior Design</h3></a>
+											<div class="latest-blog-post-data">
+												<p class="tags text-cap">
+													<a href="#">Interior Design </a>,
+													<a href="#">Art Decor </a>
+												</p>
+											</div>
+											<div class="latest-blog-post-date-2  text-cap">
+												<span class="month">May</span>
+												<span class="day">21,</span>
+												<span class="year">2016</span>
+											</div>
+											<p>Morbi vehicula a nibh in commodo. Aliquam quis dolor eget lectus pulvinar eu rhoncus ligula. Ut leo mauris, molestie.</p>
+
+
+										</div>
+									</article>
+								</div>
+
+								<div class="element-item  Furniture">
+									<article>
+										<figure class="latest-blog-post-img">
+											<a href="@Url.Action("BlogDetail", "Home")">
+												<img src="~/UserLayout/images/Blog/9.jpg" class="img-responsive" alt="Image">
+											</a>
+
+										</figure>
+										<div class="latest-blog-post-description">
+											<a href="@Url.Action("BlogDetail", "Home")"><h3>Fashion Shop Interior Design</h3></a>
+											<div class="latest-blog-post-data">
+												<p class="tags text-cap">
+													<a href="#">Interior Design, </a>,
+													<a href="#">Art Decor </a>
+												</p>
+											</div>
+											<div class="latest-blog-post-date-2  text-cap">
+												<span class="month">May</span>
+												<span class="day">21,</span>
+												<span class="year">2016</span>
+											</div>
+											<p>Cras egestas elit risus, sit amet porttitor urna viverra ut. Nunc sagittis finibus pretium.</p>
+
+
+										</div>
+									</article>
+								</div>
+
+								<div class="element-item Furniture ">
+									<article>
+										<figure class="latest-blog-post-img">
+											<a href="@Url.Action("BlogDetail", "Home")">
+												<img src="~/UserLayout/images/Blog/10.jpg" class="img-responsive" alt="Image">
+											</a>
+
+										</figure>
+										<div class="latest-blog-post-description">
+											<a href="@Url.Action("BlogDetail", "Home")"><h3>40 Unique Modern Flatware Sets That You Can Buy Right Now</h3></a>
+											<div class="latest-blog-post-data">
+												<p class="tags text-cap">
+													<a href="#">Ecommerce, </a>,
+													<a href="#">Art Decor </a>
+												</p>
+											</div>
+											<div class="latest-blog-post-date-2  text-cap">
+												<span class="month">May</span>
+												<span class="day">21,</span>
+												<span class="year">2016</span>
+											</div>
+											<p>Donec maximus, erat vitae hendrerit consectetur, ex ante lacinia massa, quis rhoncus velit tellus vitae lectus.</p>
+
+
+										</div>
+									</article>
+								</div>
+
+								<div class="element-item Ecommercial">
+									<article>
+										<figure class="latest-blog-post-img">
+											<a href="@Url.Action("BlogDetail", "Home")">
+												<img src="~/UserLayout/images/Blog/11.jpg" class="img-responsive" alt="Image">
+											</a>
+
+										</figure>
+										<div class="latest-blog-post-description">
+											<a href="@Url.Action("BlogDetail", "Home")"><h3>20 Beautiful Examples Of Bathroom With Attached Wardrobes</h3></a>
+											<div class="latest-blog-post-data">
+												<p class="tags text-cap">
+													<a href="#">Living room, </a>,
+													<a href="#">Art Decor </a>
+												</p>
+											</div>
+											<div class="latest-blog-post-date-2  text-cap">
+												<span class="month">May</span>
+												<span class="day">21,</span>
+												<span class="year">2016</span>
+											</div>
+											<p>Morbi vehicula a nibh in commodo. Aliquam quis dolor eget lectus pulvinar eu rhoncus ligula. Ut leo mauris, molestie.</p>
+
+
+										</div>
+									</article>
+								</div>
+
+								<div class="element-item Ecommercial ">
+									<article>
+										<figure class="latest-blog-post-img">
+											<a href="@Url.Action("BlogDetail", "Home")">
+												<img src="~/UserLayout/images/Blog/12.jpg" class="img-responsive" alt="Image">
+											</a>
+
+										</figure>
+										<div class="latest-blog-post-description">
+											<a href="@Url.Action("BlogDetail", "Home")"><h3>50 Unique Decorative Vases To Beautify Your Home</h3></a>
+											<div class="latest-blog-post-data">
+												<p class="tags text-cap">
+													<a href="#">Bathroom,</a>,
+													<a href="#">Art Decor </a>
+												</p>
+											</div>
+											<div class="latest-blog-post-date-2  text-cap">
+												<span class="month">May</span>
+												<span class="day">21,</span>
+												<span class="year">2016</span>
+											</div>
+											<p>Donec maximus, erat vitae hendrerit consectetur, ex ante lacinia massa, quis rhoncus velit tellus vitae lectus.</p>
+
+
+										</div>
+									</article>
+								</div>
+							</div>  <!-- End project Container -->
+						</div> <!-- End  -->
+					</div>
+				</div>
+			</section>
+			<!-- End Section Isotop Lastest Project -->
+
+
+
+			<footer class="footer-v1">
+				<div class="footer-left">
+					<a href="@Url.Action("Index", "Home")">
+						<img src="~/UserLayout/images/Header/logo-invest.png" class="img-responsive" alt="Image">
+					</a>
+				</div>
+				<!-- End Left Footer -->
+				<nav>
+					<ul>
+						<li>
+							<a class="text-cap" href="#">Gallery</a>
+						</li>
+						<li>
+							<a class="text-cap" href="#">Products</a>
+						</li>
+						<li>
+							<a class="text-cap" href="#">News</a>
+						</li>
+						<li>
+							<a class="text-cap" href="#">About</a>
+						</li>
+						<li>
+							<a class="text-cap" href="#">Privacy Policy</a>
+						</li>
+					</ul>
+				</nav>
+				<!-- End Nav Footer -->
+				<div class="footer-right">
+					<ul class="social social-footer">
+						<li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+						<li class="youtube"><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+						<li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+					</ul>
+				</div>
+				<!-- End Right Footer -->
+			</footer>
+			<!-- End Footer -->
+
+			<section class="copyright">
+				<p>Copyright © 2016 Designed by <a href="#">AuThemes</a>. All rights reserved.</p>
+			</section>
+		</div>
+	</div>
+	<!-- End page -->
+
+	<a id="to-the-top"><i class="fa fa-angle-up"></i></a>
+	<!-- Back To Top -->
+	<!-- SCRIPT -->
+	<script src="~/UserLayout/js/vendor/jquery.min.js"></script>
+	<script src="~/UserLayout/js/vendor/bootstrap.min.js"></script>
+	<script src="~/UserLayout/js/plugins/wow.min.js"></script>
+	<script type="text/javascript" src="~/UserLayout/js/plugins/skrollr.min.js"></script>
+	<script src="~/UserLayout/js/plugins/jquery.mCustomScrollbar.concat.min.js"></script>
+
+
+	<!-- Switcher
+	================================================== -->
+	<script src="~/UserLayout/switcher/demo.js"></script>
+
+	<!-- Mobile Menu
+	================================================== -->
+	<script src="~/UserLayout/js/plugins/jquery.mobile-menu.js"></script>
+
+	<!-- Initializing the isotope
+	================================================== -->
+	<script src="~/UserLayout/js/plugins/isotope.pkgd.min.js"></script>
+	<script src="~/UserLayout/js/plugins/custom-isotope.js"></script>
+
+	<!-- PreLoad
+	================================================== -->
+	<script type="text/javascript" src="~/UserLayout/js/plugins/royal_preloader.min.js"></script>
+	<script type="text/javascript">
+		(function($) { "use strict";
+					Royal_Preloader.config({
+						mode:           'logo', // 'number', "text" or "logo"
+						logo:           'images/Header/logo.png',
+						timeout:       1,
+						showInfo:       false,
+						opacity:        1,
+						background:     ['#FFFFFF']
+					});
+		})(jQuery);
+	</script>
+
+	<!-- Global Js
+	================================================== -->
+	<script src="~/UserLayout/js/plugins/custom.js"></script>
+</body>
+
+<!-- Mirrored from templates.thememodern.com/architect/blogGrid_2_col.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Aug 2025 13:58:43 GMT -->
+</html>
