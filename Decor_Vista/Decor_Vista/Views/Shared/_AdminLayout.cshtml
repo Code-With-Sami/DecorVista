@@ -1,0 +1,615 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+
+@{
+
+    var adminName = HttpContextAccessor.HttpContext.Session.GetString("AdminName") ?? "Admin";
+    var adminImg = HttpContextAccessor.HttpContext.Session.GetString("AdminImg") ?? "/Admin/Images/default.png";
+}
+<!DOCTYPE html>
+<html data-bs-theme="semi-dark">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewData["Title"] - Decor Vista</title>
+    <!--favicon-->
+    <link rel="icon" href="~/Admin/assets/images/favicon-32x32.png" type="image/png">
+
+
+
+    <!--plugins-->
+    <link href="~/Admin/assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="~/Admin/assets/plugins/metismenu/metisMenu.min.css">
+    <link rel="stylesheet" type="text/css" href="~/Admin/assets/plugins/metismenu/mm-vertical.css">
+    <link rel="stylesheet" type="text/css" href="~/Admin/assets/plugins/simplebar/css/simplebar.css">
+    <!--bootstrap css-->
+    <link href="~/Admin/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!--main css-->
+    <link href="~/Admin/assets/css/bootstrap-extended.css" rel="stylesheet">
+    <link href="~/Admin/sass/main.css" rel="stylesheet">
+    <link href="~/Admin/sass/dark-theme.css" rel="stylesheet">
+    <link href="~/Admin/sass/blue-theme.css" rel="stylesheet">
+    <link href="~/Admin/sass/semi-dark.css" rel="stylesheet">
+    <link href="~/Admin/sass/bordered-theme.css" rel="stylesheet">
+    <link href="~/Admin/sass/responsive.css" rel="stylesheet">
+    
+    @RenderSection("Styles", required: false)
+
+    <style>
+
+        .btn-customize {
+            background-color: #ebcd1e;
+            color: #333;
+            border: none;
+        }
+
+            .btn-customize:hover {
+                background-color: #d4b81a; /* hover shade */
+                color: #000;
+            }
+    </style>
+
+</head>
+<body class="d-flex flex-column min-vh-100 ">
+    <!--start header-->
+    <header class="top-header">
+        <nav class="navbar navbar-expand align-items-center gap-4">
+            <div class="btn-toggle">
+                <a href="javascript:;"><i class="material-icons-outlined">menu</i></a>
+            </div>
+    
+            <div class="search-bar flex-grow-1">
+                <div class="position-relative">
+
+                    <div class="search-popup p-3">
+                        <div class="card rounded-4 overflow-hidden">
+                            <div class="card-header d-lg-none">
+                                <div class="position-relative">
+                                </div>
+                            </div>
+                            <div class="card-body search-content">
+                                <p class="search-title">Recent Searches</p>
+                                <div class="d-flex align-items-start flex-wrap gap-2 kewords-wrapper">
+                                    <a href="javascript:;" class="kewords">
+                                        <span>Angular Template</span><i class="material-icons-outlined fs-6">search</i>
+                                    </a>
+                                    <a href="javascript:;" class="kewords">
+                                        <span>Dashboard</span><i class="material-icons-outlined fs-6">search</i>
+                                    </a>
+                                    <a href="javascript:;" class="kewords">
+                                        <span>Admin Template</span><i class="material-icons-outlined fs-6">search</i>
+                                    </a>
+                                    <a href="javascript:;" class="kewords">
+                                        <span>Bootstrap 5 Admin</span><i class="material-icons-outlined fs-6">search</i>
+                                    </a>
+                                    <a href="javascript:;" class="kewords">
+                                        <span>Html eCommerce</span><i class="material-icons-outlined fs-6">search</i>
+                                    </a>
+                                    <a href="javascript:;" class="kewords">
+                                        <span>Sass</span><i class="material-icons-outlined fs-6">search</i>
+                                    </a>
+                                    <a href="javascript:;" class="kewords">
+                                        <span>laravel 10</span><i class="material-icons-outlined fs-6">search</i>
+                                    </a>
+                                </div>
+                                <hr>
+                                <p class="search-title">Tutorials</p>
+                                <div class="search-list d-flex flex-column gap-2">
+                                    <div class="search-list-item d-flex align-items-center gap-3">
+                                        <div class="list-icon">
+                                            <i class="material-icons-outlined fs-5">play_circle</i>
+                                        </div>
+                                        <div class="">
+                                            <h5 class="mb-0 search-list-title ">Wordpress Tutorials</h5>
+                                        </div>
+                                    </div>
+                                    <div class="search-list-item d-flex align-items-center gap-3">
+                                        <div class="list-icon">
+                                            <i class="material-icons-outlined fs-5">shopping_basket</i>
+                                        </div>
+                                        <div class="">
+                                            <h5 class="mb-0 search-list-title">eCommerce Website Tutorials</h5>
+                                        </div>
+                                    </div>
+
+                                    <div class="search-list-item d-flex align-items-center gap-3">
+                                        <div class="list-icon">
+                                            <i class="material-icons-outlined fs-5">laptop</i>
+                                        </div>
+                                        <div class="">
+                                            <h5 class="mb-0 search-list-title">Responsive Design</h5>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <hr>
+                                <p class="search-title">Members</p>
+
+                                <div class="search-list d-flex flex-column gap-2">
+                                    <div class="search-list-item d-flex align-items-center gap-3">
+                                        <div class="memmber-img">
+                                            <img src="~/admin/assets/images/avatars/01.png" width="32" height="32" class="rounded-circle" alt="">
+                                        </div>
+                                        <div class="">
+                                            <h5 class="mb-0 search-list-title ">Andrew Stark</h5>
+                                        </div>
+                                    </div>
+
+                                    <div class="search-list-item d-flex align-items-center gap-3">
+                                        <div class="memmber-img">
+                                            <img src="~/admin/assets/images/avatars/02.png" width="32" height="32" class="rounded-circle" alt="">
+                                        </div>
+                                        <div class="">
+                                            <h5 class="mb-0 search-list-title ">Snetro Jhonia</h5>
+                                        </div>
+                                    </div>
+
+                                    <div class="search-list-item d-flex align-items-center gap-3">
+                                        <div class="memmber-img">
+                                            <img src="~/admin/assets/images/avatars/03.png" width="32" height="32" class="rounded-circle" alt="">
+                                        </div>
+                                        <div class="">
+                                            <h5 class="mb-0 search-list-title">Michle Clark</h5>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="card-footer text-center bg-transparent">
+                                <a href="javascript:;" class="btn w-100">See All Search Results</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="navbar-nav gap-1 nav-right-links align-items-center ms-auto">
+                <li class="nav-item dropdown  d-none">
+                    <a class="nav-link dropdown-toggle dropdown-toggle-nocaret position-relative" data-bs-auto-close="outside"
+                       data-bs-toggle="dropdown" href="javascript:;">
+                        <i class="material-icons-outlined">notifications</i>
+                        <span class="badge-notify">0</span>
+                    </a>
+                    <div class="notify-list  d-none">
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a href="javascrpt:;" class="dropdown-toggle dropdown-toggle-nocaret" data-bs-toggle="dropdown">
+                        <img src="@adminImg" class="rounded-circle p-1 border" width="50" height="50" alt="admin" style="object-fit: cover;">
+                    </a>
+                    <div class="dropdown-menu dropdown-user dropdown-menu-end shadow">
+                        <a class="dropdown-item  gap-2 py-2" href="javascript:;">
+                            <div class="text-center">
+                                <img src="@adminImg" class="rounded-circle p-1 shadow mb-3" width="90" height="90" alt="admin" style="object-fit: cover;">
+                                <h5 class="user-name mb-0 fw-bold">Hello,@ViewBag.name</h5>
+                            </div>
+                        </a>
+                        <hr class="dropdown-divider">
+                        <a class="dropdown-item d-flex align-items-center gap-2 py-2" href="@Url.Action("Profile", "Admin")">
+                            <i class="material-icons-outlined">person_outline</i>Profile
+                        </a>
+
+                        <a class="dropdown-item d-flex align-items-center gap-2 py-2" href="@Url.Action("Dashboard", "Admin")">
+                            <i class="material-icons-outlined">dashboard</i>Dashboard
+                        </a>
+
+                        <a class="dropdown-item d-flex align-items-center gap-2 py-2" href="@Url.Action("adminwallet", "Admin")">
+                            <i class="material-icons-outlined">account_balance_wallet</i>Admin Wallet
+                        </a>
+
+                        <hr class="dropdown-divider">
+
+                        <a class="dropdown-item d-flex align-items-center gap-2 py-2" href="@Url.Action("Logout", "Admin")">
+                            <i class="material-icons-outlined">logout</i>Logout
+                        </a>
+                    </div>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+    <!--end top header-->
+    <!--start sidebar-->
+    <aside class="sidebar-wrapper" data-simplebar="true">
+        <div class="sidebar-header">
+            <div class="logo-icon">
+                @* <img src="~/admin/assets/images/logo-icon.png" class="logo-img" alt=""> *@
+            </div>
+            <div class="logo-name flex-grow-1">
+                <h5 class="mb-0">Decor Vista</h5>
+            </div>
+            <div class="sidebar-close">
+                <span class="material-icons-outlined">close</span>
+            </div>
+        </div>
+        <div class="sidebar-nav">
+            <!--navigation-->
+            <ul class="metismenu" id="sidenav">
+                <li>
+                    <a href="@Url.Action("Dashboard", "Admin")">
+                        <div class="">
+                            <i class="material-icons-outlined">dashboard</i>
+                        </div>
+                        <div class="menu-title">Dashboard</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="has-arrow">
+                        <div class="parent-icon">
+                            <i class="material-icons-outlined">admin_panel_settings</i>
+                        </div>
+                        <div class="menu-title">Admin Management</div>
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="@Url.Action("Create", "Admin")">
+                                <i class="material-icons-outlined">arrow_right</i>Add New Admin
+                            </a>
+                        </li>
+                        <li>
+                            <a href="@Url.Action("Index", "Admin")">
+                                <i class="material-icons-outlined">arrow_right</i>View All Admins
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="javascript:;" class="has-arrow">
+                        <div class="parent-icon">
+                            <i class="material-icons-outlined">person_add</i>
+                        </div>
+                        <div class="menu-title">User Management</div>
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="@Url.Action("Create", "AdminUsers")">
+                                <i class="material-icons-outlined">arrow_right</i>Add User
+                            </a>
+                        </li>
+                        <li>
+                            <a href="@Url.Action("Index", "AdminUsers")">
+                                <i class="material-icons-outlined">arrow_right</i>View Users
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="has-arrow">
+                        <div class="parent-icon">
+                            <i class="material-icons-outlined">business_center</i>
+                        </div>
+                        <div class="menu-title">All Designers</div>
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="@Url.Action("Index", "AdminDesigner")"><i class="material-icons-outlined">arrow_right</i>All Designers</a>
+                        </li>
+                        <li>
+                            <a href="@Url.Action("PendingDesigner", "AdminDesigner")"><i class="material-icons-outlined">arrow_right</i>Pending Designers</a>
+                        </li>
+                        <li>
+                            <a href="@Url.Action("ApprovedDesigner", "AdminDesigner")"><i class="material-icons-outlined">arrow_right</i>Approved Designers</a>
+                        </li>
+                        <li>
+                            <a href="@Url.Action("RejectedDesigner", "AdminDesigner")"><i class="material-icons-outlined">arrow_right</i>Rejected Designers</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="has-arrow">
+                        <div class="parent-icon">
+                            <i class="material-icons-outlined">photo_library</i>
+                        </div>
+                        <div class="menu-title">Inspiration Gallery</div>
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="@Url.Action("Create", "Gallery")">
+                                <i class="material-icons-outlined">arrow_right</i>Add Gallery Item
+                            </a>
+                        </li>
+                        <li>
+                            <a href="@Url.Action("Index", "Gallery")">
+                                <i class="material-icons-outlined">arrow_right</i>View Gallery Items
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="javascript:;" class="has-arrow">
+                        <div class="parent-icon">
+                            <i class="material-icons-outlined">settings</i>
+                        </div>
+                        <div class="menu-title">Site Settings</div>
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="@Url.Action("Index", "FAQ")">
+                                <i class="material-icons-outlined">arrow_right</i>Manage FAQs
+                            </a>
+                        </li>
+                        <li>
+                            <a href="@Url.Action("Index", "Contact")">
+                                <i class="material-icons-outlined">arrow_right</i>Contact Form
+                            </a>
+                        </li>
+                        <li>
+                            <a href="@Url.Action("Index", "Blog")">
+                                <i class="material-icons-outlined">arrow_right</i>Blogs
+                            </a>
+                        </li>
+                        <li>
+                            <a href="@Url.Action("Index", "AdminTestimonials")">
+                                <i class="material-icons-outlined">arrow_right</i>Testimonials
+                            </a>
+                        </li>
+                        <li>
+                            <a href="@Url.Action("Index", "PrivacyPolicy")">
+                                <i class="material-icons-outlined">arrow_right</i>Privacy Policy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="@Url.Action("Index", "TermsCondition")">
+                                <i class="material-icons-outlined">arrow_right</i>Terms & Conditions
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                @* <li>
+                    <a href="javascrpt:;">
+                        <div class="parent-icon">
+                            <i class="material-icons-outlined">description</i>
+                        </div>
+                        <div class="menu-title">Documentation</div>
+                    </a>
+                </li> *@
+                <li class="mt-auto">
+                    <a href="@Url.Action("Logout", "Admin")" class="text-danger">
+                        <div class="">
+                            <i class="material-icons-outlined">logout</i>
+                        </div>
+                        <div class="menu-title">Logout</div>
+                    </a>
+                </li>
+            </ul>
+            <!--end navigation-->
+        </div>
+    </aside>
+    <main class="main-wrapper">
+        <div class="main-content">
+    <!--end sidebar-->
+    <div class="container-fluid">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <!--start overlay-->  
+    <div class="overlay btn-toggle"></div>
+    <!--end overlay-->
+    <!--start footer-->
+    <footer class="page-footer">
+        <p class="mb-0">Copyright © 2025. All right reserved.</p>
+    </footer>
+        </div>
+    </main>
+    <!--end footer-->
+    <!--start cart-->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasCart">
+        <div class="offcanvas-header border-bottom h-70">
+            <h5 class="mb-0" id="offcanvasRightLabel">8 New Orders</h5>
+            <a href="javascript:;" class="primaery-menu-close" data-bs-dismiss="offcanvas">
+                <i class="material-icons-outlined">close</i>
+            </a>
+        </div>
+        <div class="offcanvas-body p-0">
+            <div class="order-list">
+                <div class="order-item d-flex align-items-center gap-3 p-3 border-bottom">
+                    <div class="order-img">
+                        <img src="~/admin/assets/images/orders/01.png" class="img-fluid rounded-3" width="75" alt="">
+                    </div>
+                    <div class="order-info flex-grow-1">
+                        <h5 class="mb-1 order-title">White Men Shoes</h5>
+                        <p class="mb-0 order-price">$289</p>
+                    </div>
+                    <div class="d-flex">
+                        <a class="order-delete"><span class="material-icons-outlined">delete</span></a>
+                        <a class="order-delete"><span class="material-icons-outlined">visibility</span></a>
+                    </div>
+                </div>
+
+                <div class="order-item d-flex align-items-center gap-3 p-3 border-bottom">
+                    <div class="order-img">
+                        <img src="~/admin/assets/images/orders/02.png" class="img-fluid rounded-3" width="75" alt="">
+                    </div>
+                    <div class="order-info flex-grow-1">
+                        <h5 class="mb-1 order-title">Red Airpods</h5>
+                        <p class="mb-0 order-price">$149</p>
+                    </div>
+                    <div class="d-flex">
+                        <a class="order-delete"><span class="material-icons-outlined">delete</span></a>
+                        <a class="order-delete"><span class="material-icons-outlined">visibility</span></a>
+                    </div>
+                </div>
+
+                <div class="order-item d-flex align-items-center gap-3 p-3 border-bottom">
+                    <div class="order-img">
+                        <img src="~/admin/assets/images/orders/03.png" class="img-fluid rounded-3" width="75" alt="">
+                    </div>
+                    <div class="order-info flex-grow-1">
+                        <h5 class="mb-1 order-title">Men Polo Tshirt</h5>
+                        <p class="mb-0 order-price">$139</p>
+                    </div>
+                    <div class="d-flex">
+                        <a class="order-delete"><span class="material-icons-outlined">delete</span></a>
+                        <a class="order-delete"><span class="material-icons-outlined">visibility</span></a>
+                    </div>
+                </div>
+
+                <div class="order-item d-flex align-items-center gap-3 p-3 border-bottom">
+                    <div class="order-img">
+                        <img src="~/admin/assets/images/orders/04.png" class="img-fluid rounded-3" width="75" alt="">
+                    </div>
+                    <div class="order-info flex-grow-1">
+                        <h5 class="mb-1 order-title">Blue Jeans Casual</h5>
+                        <p class="mb-0 order-price">$485</p>
+                    </div>
+                    <div class="d-flex">
+                        <a class="order-delete"><span class="material-icons-outlined">delete</span></a>
+                        <a class="order-delete"><span class="material-icons-outlined">visibility</span></a>
+                    </div>
+                </div>
+
+                <div class="order-item d-flex align-items-center gap-3 p-3 border-bottom">
+                    <div class="order-img">
+                        <img src="~/admin/assets/images/orders/05.png" class="img-fluid rounded-3" width="75" alt="">
+                    </div>
+                    <div class="order-info flex-grow-1">
+                        <h5 class="mb-1 order-title">Fancy Shirts</h5>
+                        <p class="mb-0 order-price">$758</p>
+                    </div>
+                    <div class="d-flex">
+                        <a class="order-delete"><span class="material-icons-outlined">delete</span></a>
+                        <a class="order-delete"><span class="material-icons-outlined">visibility</span></a>
+                    </div>
+                </div>
+
+                <div class="order-item d-flex align-items-center gap-3 p-3 border-bottom">
+                    <div class="order-img">
+                        <img src="~/admin/assets/images/orders/06.png" class="img-fluid rounded-3" width="75" alt="">
+                    </div>
+                    <div class="order-info flex-grow-1">
+                        <h5 class="mb-1 order-title">Home Sofa Set </h5>
+                        <p class="mb-0 order-price">$546</p>
+                    </div>
+                    <div class="d-flex">
+                        <a class="order-delete"><span class="material-icons-outlined">delete</span></a>
+                        <a class="order-delete"><span class="material-icons-outlined">visibility</span></a>
+                    </div>
+                </div>
+
+                <div class="order-item d-flex align-items-center gap-3 p-3 border-bottom">
+                    <div class="order-img">
+                        <img src="~/admin/assets/images/orders/07.png" class="img-fluid rounded-3" width="75" alt="">
+                    </div>
+                    <div class="order-info flex-grow-1">
+                        <h5 class="mb-1 order-title">Black iPhone</h5>
+                        <p class="mb-0 order-price">$1049</p>
+                    </div>
+                    <div class="d-flex">
+                        <a class="order-delete"><span class="material-icons-outlined">delete</span></a>
+                        <a class="order-delete"><span class="material-icons-outlined">visibility</span></a>
+                    </div>
+                </div>
+
+                <div class="order-item d-flex align-items-center gap-3 p-3 border-bottom">
+                    <div class="order-img">
+                        <img src="~/admin/assets/images/orders/08.png" class="img-fluid rounded-3" width="75" alt="">
+                    </div>
+                    <div class="order-info flex-grow-1">
+                        <h5 class="mb-1 order-title">Goldan Watch</h5>
+                        <p class="mb-0 order-price">$689</p>
+                    </div>
+                    <div class="d-flex">
+                        <a class="order-delete"><span class="material-icons-outlined">delete</span></a>
+                        <a class="order-delete"><span class="material-icons-outlined">visibility</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas-footer h-70 p-3 border-top">
+            <div class="d-grid">
+                <button type="button" class="btn btn-grd btn-grd-primary" data-bs-dismiss="offcanvas">View Products</button>
+            </div>
+        </div>
+    </div>
+    <!--end cart-->
+    <!--start switcher-->
+    <button class="btn  position-fixed bottom-0 end-0 m-3 d-flex align-items-center gap-2 btn-customize" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop">
+        <i class="material-icons-outlined">tune</i>Customize
+    </button>
+
+    <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="staticBackdrop">
+        <div class="offcanvas-header border-bottom h-70">
+            <div class="">
+                <h5 class="mb-0">Theme Customizer</h5>
+                <p class="mb-0">Customize your theme</p>
+            </div>
+            <a href="javascript:;" class="primaery-menu-close" data-bs-dismiss="offcanvas">
+                <i class="material-icons-outlined">close</i>
+            </a>
+        </div>
+        <div class="offcanvas-body">
+            <div>
+                <p>Theme variation</p>
+
+                <div class="row g-3">
+                    <div class="col-12 col-xl-6">
+                        <input type="radio" class="btn-check" name="theme-options" id="BlueTheme">
+                        <label class="btn btn-outline-secondary d-flex flex-column gap-1 align-items-center justify-content-center p-4" for="BlueTheme">
+                            <span class="material-icons-outlined">contactless</span>
+                            <span>Blue</span>
+                        </label>
+                    </div>
+                    <div class="col-12 col-xl-6">
+                        <input type="radio" class="btn-check" name="theme-options" id="LightTheme">
+                        <label class="btn btn-outline-secondary d-flex flex-column gap-1 align-items-center justify-content-center p-4" for="LightTheme">
+                            <span class="material-icons-outlined">light_mode</span>
+                            <span>Light</span>
+                        </label>
+                    </div>
+                    <div class="col-12 col-xl-6">
+                        <input type="radio" class="btn-check" name="theme-options" id="DarkTheme">
+                        <label class="btn btn-outline-secondary d-flex flex-column gap-1 align-items-center justify-content-center p-4" for="DarkTheme">
+                            <span class="material-icons-outlined">dark_mode</span>
+                            <span>Dark</span>
+                        </label>
+                    </div>
+                    <div class="col-12 col-xl-6">
+                        <input type="radio" class="btn-check" name="theme-options" id="SemiDarkTheme" checked>
+                        <label class="btn btn-outline-secondary d-flex flex-column gap-1 align-items-center justify-content-center p-4" for="SemiDarkTheme">
+                            <span class="material-icons-outlined">contrast</span>
+                            <span>Semi Dark</span>
+                        </label>
+                    </div>
+                    <div class="col-12 col-xl-6">
+                        <input type="radio" class="btn-check" name="theme-options" id="BoderedTheme">
+                        <label class="btn btn-outline-secondary d-flex flex-column gap-1 align-items-center justify-content-center p-4" for="BoderedTheme">
+                            <span class="material-icons-outlined">border_style</span>
+                            <span>Bordered</span>
+                        </label>
+                    </div>
+                </div><!--end row-->
+
+            </div>
+        </div>
+    </div>
+
+    <!--start switcher-->
+    <!--bootstrap js-->
+    <script src="~/Admin/assets/js/bootstrap.bundle.min.js"></script>
+
+    <!--plugins-->
+    <script src="~/Admin/assets/js/jquery.min.js"></script>
+    <!--plugins-->
+    <script src="~/Admin/assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+    <script src="~/Admin/assets/plugins/metismenu/metisMenu.min.js"></script>
+    <script src="~/Admin/assets/plugins/apexchart/apexcharts.min.js"></script>
+    <script src="~/Admin/assets/plugins/simplebar/js/simplebar.min.js"></script>
+    <script src="~/Admin/assets/plugins/peity/jquery.peity.min.js"></script>
+    <script>
+        $(".data-attributes span").peity("donut")
+    </script>
+    <script src="~/Admin/assets/js/main.js"></script>
+    <script src="~/Admin/assets/js/dashboard1.js"></script>
+    <script>
+        new PerfectScrollbar(".user-list")
+    </script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+
+</html>

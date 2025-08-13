@@ -1,0 +1,48 @@
+﻿@model Decor_Vista.Models.Gallery
+@{
+    ViewData["Title"] = "Add Gallery Item"; Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<style>
+    :root {
+        --brand-yellow: #ebcd1e;
+        --brand-black: #333;
+    }
+
+    .card-header-custom {
+        background-color: var(--brand-black);
+        color: var(--brand-yellow);
+    }
+
+    .btn-custom-create {
+        background-color: var(--brand-yellow);
+        color: var(--brand-black);
+        font-weight: bold;
+    }
+</style>
+<div class="page-content">
+    <div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
+        <div class="breadcrumb-title pe-3">Inspiration Gallery</div>
+        <div class="ps-3"><nav aria-label="breadcrumb"><ol class="breadcrumb mb-0 p-0"><li class="breadcrumb-item"><a asp-action="Index">View Gallery</a></li><li class="breadcrumb-item active">Add Item</li></ol></nav></div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="card">
+                <div class="card-header card-header-custom"><h5 class="text-white">Add New Gallery Item</h5></div>
+                <div class="card-body">
+                    <form asp-action="Create" method="post" enctype="multipart/form-data">
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+                        <div class="row">
+                            <div class="col-md-12 mb-3"><label asp-for="Title" class="form-label"></label><input asp-for="Title" class="form-control" /><span asp-validation-for="Title" class="text-danger"></span></div>
+                            <div class="col-md-6 mb-3"><label asp-for="Category" class="form-label"></label><select asp-for="Category" class="form-select" asp-items="ViewBag.Categories"><option value="">-- Select Category --</option></select><span asp-validation-for="Category" class="text-danger"></span></div>
+                            <div class="col-md-6 mb-3"><label asp-for="SubCategory" class="form-label"></label><input asp-for="SubCategory" class="form-control" /><span asp-validation-for="SubCategory" class="text-danger"></span></div>
+                            <div class="col-md-12 mb-3"><label asp-for="Description" class="form-label"></label><textarea asp-for="Description" class="form-control" rows="3"></textarea><span asp-validation-for="Description" class="text-danger"></span></div>
+                            <div class="col-md-12 mb-3"><label class="form-label">Image</label><input type="file" name="imgFile" class="form-control" accept="image/jpeg, image/png" /><span asp-validation-for="ImagePath" class="text-danger"></span></div>
+                        </div>
+                        <button type="submit" class="btn btn-custom-create">Create Item</button>
+                        <a asp-action="Index" class="btn btn-outline-secondary">Back to List</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

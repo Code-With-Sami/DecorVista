@@ -1,0 +1,148 @@
+@model Decor_Vista.Models.Admin
+@{
+    ViewData["Title"] = "Create Admin - Decor Vista";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<style>
+    /* Custom Color Theme Variables */
+    :root {
+        --brand-yellow: #ebcd1e;
+        --brand-black: #333;
+    }
+
+    /* Card Header */
+    .card-header.bg-custom-create {
+        background-color: var(--brand-black);
+        color: var(--brand-yellow);
+        border-bottom: 1px solid #444;
+    }
+
+    /* Form Inputs */
+    .form-control:focus {
+        border-color: var(--brand-yellow);
+        box-shadow: 0 0 0 0.2rem rgba(235, 205, 30, 0.25);
+    }
+
+    /* Password field's "eye" icon button */
+    #show_hide_password .btn {
+        border-color: #ced4da;
+    }
+
+    #show_hide_password input:focus + .btn {
+        border-color: var(--brand-yellow);
+        box-shadow: 0 0 0 0.2rem rgba(235, 205, 30, 0.25);
+    }
+
+    /* Primary "Create" Button */
+    .btn-custom-create {
+        background-color: var(--brand-yellow);
+        color: var(--brand-black);
+        font-weight: bold;
+        border: 1px solid var(--brand-yellow);
+    }
+
+        .btn-custom-create:hover {
+            background-color: #d4b91a; /* A slightly darker yellow for hover */
+            color: var(--brand-black);
+            border-color: #d4b91a;
+        }
+
+    /* Secondary "Back" Button */
+    .btn-outline-secondary {
+        color: #555;
+        border-color: #ccc;
+    }
+
+        .btn-outline-secondary:hover {
+            background-color: #f0f0f0;
+            color: #333;
+        }
+</style>
+
+<div class="page-content">
+    <div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
+        <div class="breadcrumb-title pe-3">Admin Management</div>
+        <div class="ps-3">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0 p-0">
+                    <li class="breadcrumb-item"><a href="@Url.Action("Index", "Admin")">All Admins</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Create New Admin</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-12 col-lg-8 col-xl-7">
+            <div class="card shadow-sm border-0">
+                <div class="card-header bg-custom-create">
+                    <h5 class="mb-0 text-white">Create New Admin</h5>
+                </div>
+                <div class="card-body p-4">
+                    <form asp-action="Create" method="post" enctype="multipart/form-data">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        <div class="mb-3">
+                            <label asp-for="Name" class="form-label">Full Name</label>
+                            <input asp-for="Name" class="form-control" placeholder="Enter full name" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Email" class="form-label">Email Address</label>
+                            <input asp-for="Email" class="form-control" type="email" placeholder="jhon@example.com" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Password" class="form-label">Password</label>
+                            <div class="input-group" id="show_hide_password">
+                                <input asp-for="Password" class="form-control border-end-0" type="password" placeholder="Enter password" />
+                                <a href="javascript:;" class="btn btn-outline-secondary" type="button">
+                                    <i class="bi bi-eye-slash-fill"></i>
+                                </a>
+                            </div>
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="imgFile" class="form-label">Profile Image (Optional)</label>
+                            <input type="file" class="form-control" id="imgFile" name="imgFile" accept="image/*" />
+                        </div>
+
+                        <div class="d-flex gap-2 mt-4">
+                            <button type="submit" class="btn btn-custom-create">
+                                <i class="material-icons-outlined" style="vertical-align: bottom;">save</i> Create Admin
+                            </button>
+                            <a href="@Url.Action("Index", "Admin")" class="btn btn-outline-secondary">
+                                <i class="material-icons-outlined" style="vertical-align: bottom;">arrow_back</i> Back to List
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        $(document).ready(function () {
+            $("#show_hide_password a").on('click', function (event) {
+                event.preventDefault();
+                if ($('#show_hide_password input').attr("type") == "text") {
+                    $('#show_hide_password input').attr('type', 'password');
+                    $('#show_hide_password i').addClass("bi-eye-slash-fill").removeClass("bi-eye-fill");
+                } else if ($('#show_hide_password input').attr("type") == "password") {
+                    $('#show_hide_password input').attr('type', 'text');
+                    $('#show_hide_password i').removeClass("bi-eye-slash-fill").addClass("bi-eye-fill");
+                }
+            });
+        });
+    </script>
+}

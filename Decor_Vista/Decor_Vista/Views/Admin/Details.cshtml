@@ -1,0 +1,136 @@
+@model Decor_Vista.Models.Admin
+@{
+    ViewData["Title"] = "Admin Details - Decor Vista";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<style>
+    /* Custom Color Theme Variables */
+    :root {
+        --brand-yellow: #ebcd1e;
+        --brand-black: #333;
+    }
+
+    /* Profile Card on the Left */
+    .details-profile-card {
+        background: linear-gradient(135deg, #434343 0%, #000000 100%);
+        color: white;
+        border: none;
+        text-align: center;
+        padding: 2rem;
+    }
+
+        .details-profile-card img {
+            width: 130px;
+            height: 130px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid var(--brand-yellow);
+        }
+
+        .details-profile-card .admin-name {
+            color: var(--brand-yellow);
+            font-weight: 600;
+            margin-top: 1rem;
+        }
+
+        .details-profile-card .admin-email {
+            font-size: 0.9rem;
+            color: #ddd;
+        }
+
+    /* Details Card on the Right */
+    .details-info-card .card-header {
+        background-color: var(--brand-black);
+        color: var(--brand-yellow);
+    }
+
+    .details-info-card dt {
+        font-weight: 600;
+        color: var(--brand-black);
+    }
+
+    .details-info-card dd {
+        color: #555;
+    }
+
+    /* Action Buttons */
+    .btn-custom-edit {
+        background-color: var(--brand-yellow);
+        color: var(--brand-black);
+        font-weight: bold;
+        border: none;
+    }
+
+        .btn-custom-edit:hover {
+            background-color: #d4b91a;
+            color: var(--brand-black);
+        }
+</style>
+
+<div class="page-content">
+    <div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
+        <div class="breadcrumb-title pe-3">Admin Management</div>
+        <div class="ps-3">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0 p-0">
+                    <li class="breadcrumb-item"><a href="@Url.Action("Index", "Admin")">All Admins</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Admin Details</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Left Column: Profile Image Card -->
+        <div class="col-lg-4">
+            <div class="card details-profile-card shadow-sm">
+                <img src="@Model.Img" alt="Admin Image" class="mx-auto">
+                <h4 class="admin-name mt-3">@Model.Name</h4>
+                <p class="admin-email">@Model.Email</p>
+            </div>
+        </div>
+
+        <!-- Right Column: Details and Actions -->
+        <div class="col-lg-8">
+            <div class="card details-info-card shadow-sm">
+                <div class="card-header">
+                    <h5 class="mb-0 text-white">Administrator Information</h5>
+                </div>
+                <div class="card-body p-4">
+                    <dl class="row gy-3">
+                        <dt class="col-sm-3">Admin ID</dt>
+                        <dd class="col-sm-9">#@Model.Id</dd>
+
+                        <dt class="col-sm-3">Full Name</dt>
+                        <dd class="col-sm-9">@Model.Name</dd>
+
+                        <dt class="col-sm-3">Email Address</dt>
+                        <dd class="col-sm-9">@Model.Email</dd>
+
+                        <dt class="col-sm-3">Profile Status</dt>
+                        <dd class="col-sm-9">
+                            @if (Model.Img != null && Model.Img.Contains("default.png"))
+                            {
+                                <span class="badge bg-secondary">Default Image</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-success">Custom Image Uploaded</span>
+                            }
+                        </dd>
+                    </dl>
+
+                    <hr class="my-4">
+
+                    <div class="d-flex gap-2">
+                       
+                        <a href="@Url.Action("Index", "Admin")" class="btn btn-outline-secondary">
+                            <i class="material-icons-outlined" style="vertical-align: bottom;">arrow_back</i> Back to List
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
