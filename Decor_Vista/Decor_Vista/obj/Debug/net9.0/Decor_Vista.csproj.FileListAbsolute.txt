@@ -217,33 +217,6 @@ D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\e8
 D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\imgx6zy7eu-2z0ns9nrw6.gz
 D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\q7ua5lbxjk-muycvpuwrr.gz
 =======
-D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\12xeqw5er6-c2jlpeoesf.gz
-D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\yk4g9vatk1-aexeepp0ev.gz
-D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\9ebbm90hqr-ausgxo2sd3.gz
-D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\nj86bm5fj5-cosvhxvwiu.gz
-D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\go1mbqgs6m-fvhpjtyr6v.gz
-D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\2ei8vurhf7-fsbi9cje9m.gz
-D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\hwbi8mx0xl-ee0r1s7dh0.gz
-D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\qxy2tz3dbc-jd9uben2k1.gz
-D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\rc5eamttwx-r4e9w2rdcm.gz
-D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\oen00vu8hy-c2oey78nd0.gz
-D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\vtgkhjtegn-j5mq2jizvt.gz
-D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\3yqeci7gpi-nvvlpmu67g.gz
-D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\61fk4tqzkt-pj5nd1wqec.gz
-D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\45n3sh2b1p-v0zj4ognzu.gz
-D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\k87lqao9ju-hrwsygsryq.gz
-D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\lc5l3ffyxd-ft3s53vfgj.gz
-D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\vr9i54gxdb-6pdc2jztkx.gz
-D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\w39wch5dcz-iovd86k7lj.gz
-D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\n4yni6atym-kbrnm935zg.gz
-D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\7j7dbw6d8m-y7v9cxd14o.gz
-D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\o40f60mb6p-h1s4sie4z3.gz
-D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\efc7qkpvcq-0j3bgjxly4.gz
-D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\9ouq39jjoy-356vix0kms.gz
-D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\3pwwqlwxgh-83jwlth58m.gz
-D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\yvrpv3ym29-mrlpezrjn3.gz
-D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\5pkxa8uhpt-x0q3zqp4vz.gz
-D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\e8jpnyew5k-ttgo8qnofa.gz
 >>>>>>> origin/Sami
 D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\e4b9gfnpic-87fc7y1x7t.gz
 D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\j698uyhf9k-mlv21k5csn.gz
@@ -539,7 +512,6 @@ C:\Users\std2\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\refint\Decor_V
 C:\Users\std2\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\Decor_Vista.pdb
 C:\Users\std2\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\Decor_Vista.genruntimeconfig.cache
 C:\Users\std2\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\ref\Decor_Vista.dll
-<<<<<<< HEAD
 F:\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\Decor_Vista.csproj.AssemblyReference.cache
 F:\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\rpswa.dswa.cache.json
 F:\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\Decor_Vista.GeneratedMSBuildEditorConfig.editorconfig
@@ -3125,7 +3097,6 @@ D:\GITHUB\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\refint\Decor_Vista
 D:\GITHUB\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\Decor_Vista.pdb
 D:\GITHUB\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\Decor_Vista.genruntimeconfig.cache
 D:\GITHUB\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\ref\Decor_Vista.dll
-=======
 C:\Users\KNA\source\repos\DecorVista\Decor_Vista\Decor_Vista\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\KNA\source\repos\DecorVista\Decor_Vista\Decor_Vista\bin\Debug\net9.0\appsettings.json
 C:\Users\KNA\source\repos\DecorVista\Decor_Vista\Decor_Vista\bin\Debug\net9.0\Decor_Vista.staticwebassets.runtime.json
@@ -3713,7 +3684,6 @@ C:\Users\Admin\Downloads\DecorVista\DecorVista\Decor_Vista\Decor_Vista\obj\Debug
 C:\Users\Admin\Downloads\DecorVista\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\Decor_Vista.genruntimeconfig.cache
 C:\Users\Admin\Downloads\DecorVista\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\ref\Decor_Vista.dll
 C:\Users\Admin\Downloads\DecorVista\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\89cl3rbo4p-tazdglzbb5.gz
-<<<<<<< HEAD
 C:\Users\std2\Documents\GitHub\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\Decor_Vista.csproj.AssemblyReference.cache
 C:\Users\std2\Documents\GitHub\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\Decor_Vista.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\std2\Documents\GitHub\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\Decor_Vista.AssemblyInfoInputs.cache
@@ -4008,7 +3978,6 @@ C:\Users\std2\Documents\GitHub\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9
 C:\Users\std2\Documents\GitHub\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\Decor_Vi.817AC809.Up2Date
 C:\Users\std2\Documents\GitHub\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\Decor_Vista.genruntimeconfig.cache
 C:\Users\std2\Documents\GitHub\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\ref\Decor_Vista.dll
-=======
 D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\89cl3rbo4p-tazdglzbb5.gz
 D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\xapxdnc42n-t1cqhe9u97.gz
 D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\2p6m4h2vt6-sejl45xvog.gz
@@ -4683,5 +4652,15 @@ D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\z7
 D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\n7dxmsuo7d-kaf6jw6r99.gz
 D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\cj53uh47qr-enhheo25mf.gz
 D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\fr0tolu5nw-qf80v00r3i.gz
->>>>>>> origin/Sami
->>>>>>> origin/Sami
+C:\Users\Admin\Documents\GitHub\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\Decor_Vista.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\Decor_Vista.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\GitHub\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\Decor_Vista.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\Decor_Vista.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\Decor_Vista.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\Decor_Vista.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\Documents\GitHub\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\Decor_Vista.RazorAssemblyInfo.cache
+C:\Users\Admin\Documents\GitHub\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\Decor_Vista.RazorAssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\Decor_Vista.sourcelink.json
+C:\Users\Admin\Documents\GitHub\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\Decor_Vista.dll
+C:\Users\Admin\Documents\GitHub\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\refint\Decor_Vista.dll
+C:\Users\Admin\Documents\GitHub\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\Decor_Vista.pdb
