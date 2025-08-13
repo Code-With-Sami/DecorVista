@@ -57,14 +57,6 @@ namespace Decor_Vista.Controllers
         {
             return View();
         }
-<<<<<<< HEAD
-       
-=======
-        //public IActionResult Error()
-        //{
-        //    return View();
-        //}
->>>>>>> origin/Abdullah
 
         public IActionResult Privacy()
         {
