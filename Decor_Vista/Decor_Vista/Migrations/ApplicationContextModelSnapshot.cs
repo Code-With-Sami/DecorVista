@@ -22,11 +22,8 @@ namespace Decor_Vista.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-<<<<<<< HEAD
-            modelBuilder.Entity("Decor_Vista.Models.Admin", b =>
-=======
+            //modelBuilder.Entity("Decor_Vista.Models.Admin", b =>
             modelBuilder.Entity("DecorVista.Models.Designer", b =>
->>>>>>> origin/Sami
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -34,7 +31,6 @@ namespace Decor_Vista.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-<<<<<<< HEAD
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasMaxLength(150)
@@ -43,8 +39,7 @@ namespace Decor_Vista.Migrations
                     b.Property<string>("Img")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Name")
-=======
+                    b.Property<string>("Name");
                     b.Property<string>("Address")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -102,12 +97,10 @@ namespace Decor_Vista.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Password")
->>>>>>> origin/Sami
                         .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-<<<<<<< HEAD
                     b.Property<string>("Password")
                         .IsRequired()
                         .HasMaxLength(255)
@@ -206,7 +199,6 @@ namespace Decor_Vista.Migrations
                             CategoryId = 6,
                             CategoryName = "Outdoor Space"
                         });
-=======
                     b.Property<string>("PhoneNumber")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -245,12 +237,10 @@ namespace Decor_Vista.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Designers");
->>>>>>> origin/Sami
                 });
 
             modelBuilder.Entity("Decor_Vista.Models.User", b =>
                 {
-<<<<<<< HEAD
                     b.Property<int>("user_id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
@@ -287,7 +277,6 @@ namespace Decor_Vista.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("user_id");
-=======
                     b.Property<int>("UserId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
@@ -319,7 +308,6 @@ namespace Decor_Vista.Migrations
                         .HasColumnType("nvarchar(50)");
 
                     b.HasKey("UserId");
->>>>>>> origin/Sami
 
                     b.ToTable("Users");
                 });
