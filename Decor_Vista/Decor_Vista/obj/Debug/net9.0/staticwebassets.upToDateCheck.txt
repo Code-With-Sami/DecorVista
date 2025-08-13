@@ -873,6 +873,7 @@ C:\Users\std2\Documents\GitHub\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Design
 C:\Users\std2\Documents\GitHub\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Admin\assets\flags\1x1\mx.html
 C:\Users\std2\Documents\GitHub\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\js\vendor\bootstrap.min.js
 C:\Users\std2\Documents\GitHub\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Admin\assets\flags\1x1\py.html
+C:\Users\std2\Documents\GitHub\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\images\Svg\Decor Vista.svg
 C:\Users\std2\Documents\GitHub\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\gr.html
 C:\Users\std2\Documents\GitHub\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\mu.html
 C:\Users\std2\Documents\GitHub\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\mk.html
@@ -2974,6 +2975,7 @@ wwwroot\UserLayout\images\Slider\h5-1.jpg
 wwwroot\UserLayout\images\Slider\h6-1.jpg
 wwwroot\UserLayout\images\Slider\h6-2.jpg
 wwwroot\UserLayout\images\Slider\h6-3.jpg
+wwwroot\UserLayout\images\Svg\Decor Vista.svg
 wwwroot\UserLayout\images\Svg\tri2.svg
 wwwroot\UserLayout\images\Svg\triangle.svg
 wwwroot\UserLayout\images\Testimonials\1.jpg

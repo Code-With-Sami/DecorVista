@@ -1458,3 +1458,4 @@ C:\Users\std2\Documents\GitHub\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9
 C:\Users\std2\Documents\GitHub\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\Decor_Vista.pdb
 C:\Users\std2\Documents\GitHub\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\Decor_Vista.genruntimeconfig.cache
 C:\Users\std2\Documents\GitHub\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\ref\Decor_Vista.dll
+C:\Users\std2\Documents\GitHub\DecorVista\Decor_Vista\Decor_Vista\obj\Debug\net9.0\compressed\os3xi27hkz-d4aupyp71y.gz
