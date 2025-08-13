@@ -6,12 +6,19 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddDbContext<ApplicationContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("mycon")));
 builder.Services.AddControllersWithViews();
+<<<<<<< HEAD
 builder.Services.AddHttpContextAccessor();
 // Add session services
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromMinutes(30);
+=======
+
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30); // Session timeout
+>>>>>>> origin/Sami
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
 });
@@ -29,8 +36,15 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseRouting();
 
+<<<<<<< HEAD
 app.UseAuthorization();
 app.UseSession();
+=======
+app.UseSession();
+
+app.UseAuthorization();
+
+>>>>>>> origin/Sami
 app.MapStaticAssets();
 
 app.MapControllerRoute(

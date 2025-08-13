@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\GITHUB\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Admin\assets\flags\4x3\la.html
 D:\GITHUB\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Admin\assets\flags\1x1\sm.html
 D:\GITHUB\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\vendor\revolution\jquery.themepunch.revolution.min.js
@@ -1429,6 +1430,12 @@ wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+=======
+wwwroot\Auth\Css\style.css
+wwwroot\css\site.css
+wwwroot\favicon.ico
+wwwroot\js\site.js
+>>>>>>> origin/Sami
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -1453,6 +1460,17 @@ wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+<<<<<<< HEAD
+=======
+wwwroot\lib\bootstrap\dist\css\bootstrap.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+>>>>>>> origin/Sami
 wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
 wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
 wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
@@ -1466,6 +1484,17 @@ wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
 wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
 wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
 wwwroot\lib\bootstrap\LICENSE
+<<<<<<< HEAD
+=======
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\lib\jquery-validation\dist\additional-methods.js
+wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+wwwroot\lib\jquery-validation\LICENSE.md
+>>>>>>> origin/Sami
 wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
@@ -1473,6 +1502,7 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
+<<<<<<< HEAD
 wwwroot\lib\jquery-validation\dist\additional-methods.js
 wwwroot\lib\jquery-validation\dist\additional-methods.min.js
 wwwroot\lib\jquery-validation\dist\jquery.validate.js
@@ -1597,3 +1627,1698 @@ wwwroot\UserLayout\vendor\revolution\navigation.css
 wwwroot\UserLayout\vendor\revolution\openhand.html
 wwwroot\UserLayout\vendor\revolution\settings.css
 wwwroot\UserLayout\vendor\wow\wow.min.js
+=======
+wwwroot\UserLayout\css\animate.html
+wwwroot\UserLayout\css\bootstrap.min.css
+wwwroot\UserLayout\css\elegant-font.css
+wwwroot\UserLayout\css\fancySelect.css
+wwwroot\UserLayout\css\font-awesome.min.css
+wwwroot\UserLayout\css\grabbing.png
+wwwroot\UserLayout\css\jquery.mCustomScrollbar.css
+wwwroot\UserLayout\css\linearicons.css
+wwwroot\UserLayout\css\mCSB_buttons.html
+wwwroot\UserLayout\css\owl.carousel.css
+wwwroot\UserLayout\css\style.css
+wwwroot\UserLayout\favicon.png
+wwwroot\UserLayout\fonts\ElegantIcons.eot
+wwwroot\UserLayout\fonts\ElegantIcons.svg
+wwwroot\UserLayout\fonts\ElegantIcons.ttf
+wwwroot\UserLayout\fonts\ElegantIcons.woff
+wwwroot\UserLayout\fonts\ElegantIconsd41d.eot
+wwwroot\UserLayout\fonts\fontawesome-webfont3295.eot
+wwwroot\UserLayout\fonts\fontawesome-webfont3295.svg
+wwwroot\UserLayout\fonts\fontawesome-webfont3295.ttf
+wwwroot\UserLayout\fonts\fontawesome-webfont3295.woff
+wwwroot\UserLayout\fonts\fontawesome-webfont3295.woff2
+wwwroot\UserLayout\fonts\fontawesome-webfontd41d.eot
+wwwroot\UserLayout\fonts\glyphicons-halflings-regular.eot
+wwwroot\UserLayout\fonts\glyphicons-halflings-regular.svg
+wwwroot\UserLayout\fonts\glyphicons-halflings-regular.ttf
+wwwroot\UserLayout\fonts\glyphicons-halflings-regular.woff
+wwwroot\UserLayout\fonts\glyphicons-halflings-regular.woff2
+wwwroot\UserLayout\fonts\glyphicons-halflings-regulard41d.eot
+wwwroot\UserLayout\fonts\Linearicons-Free54e9.eot
+wwwroot\UserLayout\fonts\Linearicons-Free54e9.svg
+wwwroot\UserLayout\fonts\Linearicons-Free54e9.ttf
+wwwroot\UserLayout\fonts\Linearicons-Free54e9.woff
+wwwroot\UserLayout\fonts\Linearicons-Free54e9.woff2
+wwwroot\UserLayout\fonts\Linearicons-Freed41d.eot
+wwwroot\UserLayout\images\404\404.jpg
+wwwroot\UserLayout\images\About\1.jpg
+wwwroot\UserLayout\images\Blog\1.jpg
+wwwroot\UserLayout\images\Blog\10.jpg
+wwwroot\UserLayout\images\Blog\11.jpg
+wwwroot\UserLayout\images\Blog\12.jpg
+wwwroot\UserLayout\images\Blog\2.jpg
+wwwroot\UserLayout\images\Blog\3.jpg
+wwwroot\UserLayout\images\Blog\4.jpg
+wwwroot\UserLayout\images\Blog\5.jpg
+wwwroot\UserLayout\images\Blog\6.jpg
+wwwroot\UserLayout\images\Blog\7.jpg
+wwwroot\UserLayout\images\Blog\8.jpg
+wwwroot\UserLayout\images\Blog\9.jpg
+wwwroot\UserLayout\images\Blog\bs-1.jpg
+wwwroot\UserLayout\images\Blog\bs-2.jpg
+wwwroot\UserLayout\images\Blog\bs-3.jpg
+wwwroot\UserLayout\images\Blog\promotion.jpg
+wwwroot\UserLayout\images\ComingSoon\1.jpg
+wwwroot\UserLayout\images\Gallery\1.jpg
+wwwroot\UserLayout\images\Gallery\2.jpg
+wwwroot\UserLayout\images\Gallery\3.jpg
+wwwroot\UserLayout\images\Gallery\4.jpg
+wwwroot\UserLayout\images\Gallery\5.jpg
+wwwroot\UserLayout\images\Gallery\6.jpg
+wwwroot\UserLayout\images\Header\logo-invest.png
+wwwroot\UserLayout\images\Header\logo.png
+wwwroot\UserLayout\images\Icon\left.png
+wwwroot\UserLayout\images\Icon\right.png
+wwwroot\UserLayout\images\Ourstatis\1.jpg
+wwwroot\UserLayout\images\Ourstatis\2.jpg
+wwwroot\UserLayout\images\Ourstatis\3.jpg
+wwwroot\UserLayout\images\Ourstatis\4.jpg
+wwwroot\UserLayout\images\Ourteam\1.jpg
+wwwroot\UserLayout\images\Ourteam\2.jpg
+wwwroot\UserLayout\images\Ourteam\3.jpg
+wwwroot\UserLayout\images\Ourteam\4.jpg
+wwwroot\UserLayout\images\Ourteam\5.jpg
+wwwroot\UserLayout\images\Ourteam\6.jpg
+wwwroot\UserLayout\images\Ourteam\7.jpg
+wwwroot\UserLayout\images\Overlay\1.jpg
+wwwroot\UserLayout\images\Overlay\10.jpg
+wwwroot\UserLayout\images\Overlay\11.jpg
+wwwroot\UserLayout\images\Overlay\12.jpg
+wwwroot\UserLayout\images\Overlay\13.jpg
+wwwroot\UserLayout\images\Overlay\2.jpg
+wwwroot\UserLayout\images\Overlay\3.jpg
+wwwroot\UserLayout\images\Overlay\4.jpg
+wwwroot\UserLayout\images\Overlay\5.jpg
+wwwroot\UserLayout\images\Overlay\6.jpg
+wwwroot\UserLayout\images\Overlay\7.jpg
+wwwroot\UserLayout\images\Overlay\8.jpg
+wwwroot\UserLayout\images\Overlay\9.jpg
+wwwroot\UserLayout\images\Partner\1.png
+wwwroot\UserLayout\images\Partner\2.png
+wwwroot\UserLayout\images\Partner\3.png
+wwwroot\UserLayout\images\Partner\4.png
+wwwroot\UserLayout\images\Partner\5.png
+wwwroot\UserLayout\images\Project\1.jpg
+wwwroot\UserLayout\images\Project\10.jpg
+wwwroot\UserLayout\images\Project\11.jpg
+wwwroot\UserLayout\images\Project\12.jpg
+wwwroot\UserLayout\images\Project\2.jpg
+wwwroot\UserLayout\images\Project\3.jpg
+wwwroot\UserLayout\images\Project\4.jpg
+wwwroot\UserLayout\images\Project\5.jpg
+wwwroot\UserLayout\images\Project\6.jpg
+wwwroot\UserLayout\images\Project\7.jpg
+wwwroot\UserLayout\images\Project\8.jpg
+wwwroot\UserLayout\images\Project\9.jpg
+wwwroot\UserLayout\images\Project\pj-detail-1.jpg
+wwwroot\UserLayout\images\Project\pj-detail-2.jpg
+wwwroot\UserLayout\images\Project\pj-detail-3.jpg
+wwwroot\UserLayout\images\Project\pj-detail-4.jpg
+wwwroot\UserLayout\images\Project\pj-detail-5.jpg
+wwwroot\UserLayout\images\Project\pj-detail-6.jpg
+wwwroot\UserLayout\images\Project\pj-detail-7.jpg
+wwwroot\UserLayout\images\Promotion\1.jpg
+wwwroot\UserLayout\images\Promotion\2.jpg
+wwwroot\UserLayout\images\Promotion\3.jpg
+wwwroot\UserLayout\images\Promotion\4.jpg
+wwwroot\UserLayout\images\Promotion\5.jpg
+wwwroot\UserLayout\images\Services\1.jpg
+wwwroot\UserLayout\images\Services\2.jpg
+wwwroot\UserLayout\images\Services\3.jpg
+wwwroot\UserLayout\images\Services\4.jpg
+wwwroot\UserLayout\images\Services\detail-1.jpg
+wwwroot\UserLayout\images\Services\detail-2-1.jpg
+wwwroot\UserLayout\images\Services\detail-2-2.jpg
+wwwroot\UserLayout\images\Services\detail-2-3.jpg
+wwwroot\UserLayout\images\Services\detail-2-4.jpg
+wwwroot\UserLayout\images\Services\detail-2-5.jpg
+wwwroot\UserLayout\images\Services\detail-2.jpg
+wwwroot\UserLayout\images\Services\detail-3.jpg
+wwwroot\UserLayout\images\Services\detail-4.jpg
+wwwroot\UserLayout\images\Services\detail-5.jpg
+wwwroot\UserLayout\images\Services\detail-6.jpg
+wwwroot\UserLayout\images\Services\detail-7.jpg
+wwwroot\UserLayout\images\Services\detail-8.jpg
+wwwroot\UserLayout\images\Shop\1.jpg
+wwwroot\UserLayout\images\Shop\10.jpg
+wwwroot\UserLayout\images\Shop\11.jpg
+wwwroot\UserLayout\images\Shop\12.jpg
+wwwroot\UserLayout\images\Shop\2.jpg
+wwwroot\UserLayout\images\Shop\3.jpg
+wwwroot\UserLayout\images\Shop\4.jpg
+wwwroot\UserLayout\images\Shop\5.jpg
+wwwroot\UserLayout\images\Shop\6.jpg
+wwwroot\UserLayout\images\Shop\7.jpg
+wwwroot\UserLayout\images\Shop\8.jpg
+wwwroot\UserLayout\images\Shop\9.jpg
+wwwroot\UserLayout\images\Shop\demo-color-1.jpg
+wwwroot\UserLayout\images\Shop\demo-color-2.jpg
+wwwroot\UserLayout\images\Shop\demo-color-3.jpg
+wwwroot\UserLayout\images\Shop\shop-thumb-1.jpg
+wwwroot\UserLayout\images\Shop\shopping-cart-1.jpg
+wwwroot\UserLayout\images\Shop\shopping-cart-2.jpg
+wwwroot\UserLayout\images\Shop\shopping-cart-3.jpg
+wwwroot\UserLayout\images\Slider\1.jpg
+wwwroot\UserLayout\images\Slider\2.jpg
+wwwroot\UserLayout\images\Slider\3.jpg
+wwwroot\UserLayout\images\Slider\h2-1.jpg
+wwwroot\UserLayout\images\Slider\h3-1.jpg
+wwwroot\UserLayout\images\Slider\h4-1.jpg
+wwwroot\UserLayout\images\Slider\h4-2.jpg
+wwwroot\UserLayout\images\Slider\h5-1.jpg
+wwwroot\UserLayout\images\Slider\h6-1.jpg
+wwwroot\UserLayout\images\Slider\h6-2.jpg
+wwwroot\UserLayout\images\Slider\h6-3.jpg
+wwwroot\UserLayout\images\Svg\tri2.svg
+wwwroot\UserLayout\images\Svg\triangle.svg
+wwwroot\UserLayout\images\Testimonials\1.jpg
+wwwroot\UserLayout\images\Testimonials\11.jpg
+wwwroot\UserLayout\images\Testimonials\12.jpg
+wwwroot\UserLayout\images\Testimonials\2.jpg
+wwwroot\UserLayout\images\Testimonials\3.jpg
+wwwroot\UserLayout\images\Testimonials\4.jpg
+wwwroot\UserLayout\images\Testimonials\5.jpg
+wwwroot\UserLayout\images\Testimonials\6.jpg
+wwwroot\UserLayout\images\Whychooseus\1.jpg
+wwwroot\UserLayout\images\Whychooseus\2.jpg
+wwwroot\UserLayout\images\Whychooseus\3.jpg
+wwwroot\UserLayout\images\Whychooseus\4.jpg
+wwwroot\UserLayout\js\plugins\contact.js
+wwwroot\UserLayout\js\plugins\countdown-custom.js
+wwwroot\UserLayout\js\plugins\custom-h4.js
+wwwroot\UserLayout\js\plugins\custom-h6.js
+wwwroot\UserLayout\js\plugins\custom-isotope.js
+wwwroot\UserLayout\js\plugins\custom-owl.js
+wwwroot\UserLayout\js\plugins\custom.js
+wwwroot\UserLayout\js\plugins\fancySelect.js
+wwwroot\UserLayout\js\plugins\isotope.pkgd.min.js
+wwwroot\UserLayout\js\plugins\jpreLoader.html
+wwwroot\UserLayout\js\plugins\jquery.counterup.min.js
+wwwroot\UserLayout\js\plugins\jquery.mCustomScrollbar.concat.min.js
+wwwroot\UserLayout\js\plugins\jquery.mobile-menu.js
+wwwroot\UserLayout\js\plugins\jquery.waypoints.min.js
+wwwroot\UserLayout\js\plugins\maplace.js
+wwwroot\UserLayout\js\plugins\owl.carousel.js
+wwwroot\UserLayout\js\plugins\royal_preloader.min.js
+wwwroot\UserLayout\js\plugins\skrollr.min.js
+wwwroot\UserLayout\js\plugins\slider.js
+wwwroot\UserLayout\js\plugins\wow.min.js
+wwwroot\UserLayout\js\vendor\bootstrap.min.js
+wwwroot\UserLayout\js\vendor\jquery.min.js
+wwwroot\UserLayout\revolution\assets\coloredbg.png
+wwwroot\UserLayout\revolution\assets\gridtile.png
+wwwroot\UserLayout\revolution\assets\gridtile_3x3.png
+wwwroot\UserLayout\revolution\assets\gridtile_3x3_white.png
+wwwroot\UserLayout\revolution\assets\gridtile_white.png
+wwwroot\UserLayout\revolution\assets\Left.png
+wwwroot\UserLayout\revolution\assets\loader.gif
+wwwroot\UserLayout\revolution\assets\Right.png
+wwwroot\UserLayout\revolution\css\closedhand.html
+wwwroot\UserLayout\revolution\css\layers.css
+wwwroot\UserLayout\revolution\css\navigation.css
+wwwroot\UserLayout\revolution\css\openhand.html
+wwwroot\UserLayout\revolution\css\settings.css
+wwwroot\UserLayout\revolution\fonts\revicons\revicons90c6.eot
+wwwroot\UserLayout\revolution\fonts\revicons\revicons90c6.svg
+wwwroot\UserLayout\revolution\fonts\revicons\revicons90c6.ttf
+wwwroot\UserLayout\revolution\fonts\revicons\revicons90c6.woff
+wwwroot\UserLayout\revolution\js\extensions\revolution.extension.actions.min.js
+wwwroot\UserLayout\revolution\js\extensions\revolution.extension.carousel.min.js
+wwwroot\UserLayout\revolution\js\extensions\revolution.extension.kenburn.min.js
+wwwroot\UserLayout\revolution\js\extensions\revolution.extension.layeranimation.min.js
+wwwroot\UserLayout\revolution\js\extensions\revolution.extension.migration.min.js
+wwwroot\UserLayout\revolution\js\extensions\revolution.extension.navigation.min.js
+wwwroot\UserLayout\revolution\js\extensions\revolution.extension.parallax.min.js
+wwwroot\UserLayout\revolution\js\extensions\revolution.extension.slideanims.min.js
+wwwroot\UserLayout\revolution\js\extensions\revolution.extension.video.min.js
+wwwroot\UserLayout\revolution\js\jquery.themepunch.revolution.min.js
+wwwroot\UserLayout\revolution\js\jquery.themepunch.tools.min.js
+wwwroot\UserLayout\switcher\arrow-down.png
+wwwroot\UserLayout\switcher\colors\index.html
+wwwroot\UserLayout\switcher\colors\yellow.css
+wwwroot\UserLayout\switcher\demo.css
+wwwroot\UserLayout\switcher\demo.js
+wwwroot\UserLayout\switcher\images\home_1.jpg
+wwwroot\UserLayout\switcher\images\home_2.jpg
+wwwroot\UserLayout\switcher\images\home_3.jpg
+wwwroot\UserLayout\switcher\images\home_4.jpg
+wwwroot\UserLayout\switcher\images\home_5.jpg
+wwwroot\UserLayout\switcher\images\home_6.jpg
+wwwroot\UserLayout\switcher\images\patern01.png
+wwwroot\UserLayout\switcher\images\patern02.png
+wwwroot\UserLayout\switcher\images\patern03.png
+wwwroot\UserLayout\switcher\images\patern04.png
+wwwroot\UserLayout\switcher\images\patern05.png
+wwwroot\UserLayout\switcher\images\patern06.png
+wwwroot\UserLayout\switcher\images\patern07.png
+wwwroot\UserLayout\switcher\images\patern08.png
+wwwroot\UserLayout\switcher\images\patern09.png
+wwwroot\UserLayout\switcher\images\patern10.png
+wwwroot\UserLayout\switcher\images\patern11.png
+wwwroot\UserLayout\switcher\images\patern12.png
+wwwroot\UserLayout\switcher\images\patern13.png
+wwwroot\UserLayout\switcher\images\patern14.png
+wwwroot\UserLayout\switcher\images\patern15.png
+wwwroot\UserLayout\switcher\images\patern16.png
+wwwroot\UserLayout\switcher\images\patern17.png
+wwwroot\UserLayout\switcher\images\patern18.html
+wwwroot\Designer\assets\css\bootstrap-extended.css
+wwwroot\Designer\assets\css\bootstrap.min.css
+wwwroot\Designer\assets\css\extra-icons.css
+wwwroot\Designer\assets\css\pace.min.css
+wwwroot\Designer\assets\flags\1x1\ad.html
+wwwroot\Designer\assets\flags\1x1\ae.html
+wwwroot\Designer\assets\flags\1x1\af.html
+wwwroot\Designer\assets\flags\1x1\ag.html
+wwwroot\Designer\assets\flags\1x1\ai.html
+wwwroot\Designer\assets\flags\1x1\al.html
+wwwroot\Designer\assets\flags\1x1\am.html
+wwwroot\Designer\assets\flags\1x1\ao.html
+wwwroot\Designer\assets\flags\1x1\aq.html
+wwwroot\Designer\assets\flags\1x1\ar.html
+wwwroot\Designer\assets\flags\1x1\as.html
+wwwroot\Designer\assets\flags\1x1\at.html
+wwwroot\Designer\assets\flags\1x1\au.html
+wwwroot\Designer\assets\flags\1x1\aw.html
+wwwroot\Designer\assets\flags\1x1\ax.html
+wwwroot\Designer\assets\flags\1x1\az.html
+wwwroot\Designer\assets\flags\1x1\ba.html
+wwwroot\Designer\assets\flags\1x1\bb.html
+wwwroot\Designer\assets\flags\1x1\bd.html
+wwwroot\Designer\assets\flags\1x1\be.html
+wwwroot\Designer\assets\flags\1x1\bf.html
+wwwroot\Designer\assets\flags\1x1\bg.html
+wwwroot\Designer\assets\flags\1x1\bh.html
+wwwroot\Designer\assets\flags\1x1\bi.html
+wwwroot\Designer\assets\flags\1x1\bj.html
+wwwroot\Designer\assets\flags\1x1\bl.html
+wwwroot\Designer\assets\flags\1x1\bm.html
+wwwroot\Designer\assets\flags\1x1\bn.html
+wwwroot\Designer\assets\flags\1x1\bo.html
+wwwroot\Designer\assets\flags\1x1\bq.html
+wwwroot\Designer\assets\flags\1x1\br.html
+wwwroot\Designer\assets\flags\1x1\bs.html
+wwwroot\Designer\assets\flags\1x1\bt.html
+wwwroot\Designer\assets\flags\1x1\bv.html
+wwwroot\Designer\assets\flags\1x1\bw.html
+wwwroot\Designer\assets\flags\1x1\by.html
+wwwroot\Designer\assets\flags\1x1\bz.html
+wwwroot\Designer\assets\flags\1x1\ca.html
+wwwroot\Designer\assets\flags\1x1\cc.html
+wwwroot\Designer\assets\flags\1x1\cd.html
+wwwroot\Designer\assets\flags\1x1\cf.html
+wwwroot\Designer\assets\flags\1x1\cg.html
+wwwroot\Designer\assets\flags\1x1\ch.html
+wwwroot\Designer\assets\flags\1x1\ci.html
+wwwroot\Designer\assets\flags\1x1\ck.html
+wwwroot\Designer\assets\flags\1x1\cl.html
+wwwroot\Designer\assets\flags\1x1\cm.html
+wwwroot\Designer\assets\flags\1x1\cn.html
+wwwroot\Designer\assets\flags\1x1\co.html
+wwwroot\Designer\assets\flags\1x1\cr.html
+wwwroot\Designer\assets\flags\1x1\cu.html
+wwwroot\Designer\assets\flags\1x1\cv.html
+wwwroot\Designer\assets\flags\1x1\cw.html
+wwwroot\Designer\assets\flags\1x1\cx.html
+wwwroot\Designer\assets\flags\1x1\cy.html
+wwwroot\Designer\assets\flags\1x1\cz.html
+wwwroot\Designer\assets\flags\1x1\de.html
+wwwroot\Designer\assets\flags\1x1\dj.html
+wwwroot\Designer\assets\flags\1x1\dk.html
+wwwroot\Designer\assets\flags\1x1\dm.html
+wwwroot\Designer\assets\flags\1x1\do.html
+wwwroot\Designer\assets\flags\1x1\dz.html
+wwwroot\Designer\assets\flags\1x1\ec.html
+wwwroot\Designer\assets\flags\1x1\ee.html
+wwwroot\Designer\assets\flags\1x1\eg.html
+wwwroot\Designer\assets\flags\1x1\eh.html
+wwwroot\Designer\assets\flags\1x1\er.html
+wwwroot\Designer\assets\flags\1x1\es-ct.html
+wwwroot\Designer\assets\flags\1x1\es.html
+wwwroot\Designer\assets\flags\1x1\et.html
+wwwroot\Designer\assets\flags\1x1\eu.html
+wwwroot\Designer\assets\flags\1x1\fi.html
+wwwroot\Designer\assets\flags\1x1\fj.html
+wwwroot\Designer\assets\flags\1x1\fk.html
+wwwroot\Designer\assets\flags\1x1\fm.html
+wwwroot\Designer\assets\flags\1x1\fo.html
+wwwroot\Designer\assets\flags\1x1\fr.html
+wwwroot\Designer\assets\flags\1x1\ga.html
+wwwroot\Designer\assets\flags\1x1\gb-eng.html
+wwwroot\Designer\assets\flags\1x1\gb-nir.html
+wwwroot\Designer\assets\flags\1x1\gb-sct.html
+wwwroot\Designer\assets\flags\1x1\gb-wls.html
+wwwroot\Designer\assets\flags\1x1\gb.html
+wwwroot\Designer\assets\flags\1x1\gd.html
+wwwroot\Designer\assets\flags\1x1\ge.html
+wwwroot\Designer\assets\flags\1x1\gf.html
+wwwroot\Designer\assets\flags\1x1\gg.html
+wwwroot\Designer\assets\flags\1x1\gh.html
+wwwroot\Designer\assets\flags\1x1\gi.html
+wwwroot\Designer\assets\flags\1x1\gl.html
+wwwroot\Designer\assets\flags\1x1\gm.html
+wwwroot\Designer\assets\flags\1x1\gn.html
+wwwroot\Designer\assets\flags\1x1\gp.html
+wwwroot\Designer\assets\flags\1x1\gq.html
+wwwroot\Designer\assets\flags\1x1\gr.html
+wwwroot\Designer\assets\flags\1x1\gs.html
+wwwroot\Designer\assets\flags\1x1\gt.html
+wwwroot\Designer\assets\flags\1x1\gu.html
+wwwroot\Designer\assets\flags\1x1\gw.html
+wwwroot\Designer\assets\flags\1x1\gy.html
+wwwroot\Designer\assets\flags\1x1\hk.html
+wwwroot\Designer\assets\flags\1x1\hm.html
+wwwroot\Designer\assets\flags\1x1\hn.html
+wwwroot\Designer\assets\flags\1x1\hr.html
+wwwroot\Designer\assets\flags\1x1\ht.html
+wwwroot\Designer\assets\flags\1x1\hu.html
+wwwroot\Designer\assets\flags\1x1\id.html
+wwwroot\Designer\assets\flags\1x1\ie.html
+wwwroot\Designer\assets\flags\1x1\il.html
+wwwroot\Designer\assets\flags\1x1\im.html
+wwwroot\Designer\assets\flags\1x1\in.html
+wwwroot\Designer\assets\flags\1x1\io.html
+wwwroot\Designer\assets\flags\1x1\iq.html
+wwwroot\Designer\assets\flags\1x1\ir.html
+wwwroot\Designer\assets\flags\1x1\is.html
+wwwroot\Designer\assets\flags\1x1\it.html
+wwwroot\Designer\assets\flags\1x1\je.html
+wwwroot\Designer\assets\flags\1x1\jm.html
+wwwroot\Designer\assets\flags\1x1\jo.html
+wwwroot\Designer\assets\flags\1x1\jp.html
+wwwroot\Designer\assets\flags\1x1\ke.html
+wwwroot\Designer\assets\flags\1x1\kg.html
+wwwroot\Designer\assets\flags\1x1\kh.html
+wwwroot\Designer\assets\flags\1x1\ki.html
+wwwroot\Designer\assets\flags\1x1\km.html
+wwwroot\Designer\assets\flags\1x1\kn.html
+wwwroot\Designer\assets\flags\1x1\kp.html
+wwwroot\Designer\assets\flags\1x1\kr.html
+wwwroot\Designer\assets\flags\1x1\kw.html
+wwwroot\Designer\assets\flags\1x1\ky.html
+wwwroot\Designer\assets\flags\1x1\kz.html
+wwwroot\Designer\assets\flags\1x1\la.html
+wwwroot\Designer\assets\flags\1x1\lb.html
+wwwroot\Designer\assets\flags\1x1\lc.html
+wwwroot\Designer\assets\flags\1x1\li.html
+wwwroot\Designer\assets\flags\1x1\lk.html
+wwwroot\Designer\assets\flags\1x1\lr.html
+wwwroot\Designer\assets\flags\1x1\ls.html
+wwwroot\Designer\assets\flags\1x1\lt.html
+wwwroot\Designer\assets\flags\1x1\lu.html
+wwwroot\Designer\assets\flags\1x1\lv.html
+wwwroot\Designer\assets\flags\1x1\ly.html
+wwwroot\Designer\assets\flags\1x1\ma.html
+wwwroot\Designer\assets\flags\1x1\mc.html
+wwwroot\Designer\assets\flags\1x1\md.html
+wwwroot\Designer\assets\flags\1x1\me.html
+wwwroot\Designer\assets\flags\1x1\mf.html
+wwwroot\Designer\assets\flags\1x1\mg.html
+wwwroot\Designer\assets\flags\1x1\mh.html
+wwwroot\Designer\assets\flags\1x1\mk.html
+wwwroot\Designer\assets\flags\1x1\ml.html
+wwwroot\Designer\assets\flags\1x1\mm.html
+wwwroot\Designer\assets\flags\1x1\mn.html
+wwwroot\Designer\assets\flags\1x1\mo.html
+wwwroot\Designer\assets\flags\1x1\mp.html
+wwwroot\Designer\assets\flags\1x1\mq.html
+wwwroot\Designer\assets\flags\1x1\mr.html
+wwwroot\Designer\assets\flags\1x1\ms.html
+wwwroot\Designer\assets\flags\1x1\mt.html
+wwwroot\Designer\assets\flags\1x1\mu.html
+wwwroot\Designer\assets\flags\1x1\mv.html
+wwwroot\Designer\assets\flags\1x1\mw.html
+wwwroot\Designer\assets\flags\1x1\mx.html
+wwwroot\Designer\assets\flags\1x1\my.html
+wwwroot\Designer\assets\flags\1x1\mz.html
+wwwroot\Designer\assets\flags\1x1\na.html
+wwwroot\Designer\assets\flags\1x1\nc.html
+wwwroot\Designer\assets\flags\1x1\ne.html
+wwwroot\Designer\assets\flags\1x1\nf.html
+wwwroot\Designer\assets\flags\1x1\ng.html
+wwwroot\Designer\assets\flags\1x1\ni.html
+wwwroot\Designer\assets\flags\1x1\nl.html
+wwwroot\Designer\assets\flags\1x1\no.html
+wwwroot\Designer\assets\flags\1x1\np.html
+wwwroot\Designer\assets\flags\1x1\nr.html
+wwwroot\Designer\assets\flags\1x1\nu.html
+wwwroot\Designer\assets\flags\1x1\nz.html
+wwwroot\Designer\assets\flags\1x1\om.html
+wwwroot\Designer\assets\flags\1x1\pa.html
+wwwroot\Designer\assets\flags\1x1\pe.html
+wwwroot\Designer\assets\flags\1x1\pf.html
+wwwroot\Designer\assets\flags\1x1\pg.html
+wwwroot\Designer\assets\flags\1x1\ph.html
+wwwroot\Designer\assets\flags\1x1\pk.html
+wwwroot\Designer\assets\flags\1x1\pl.html
+wwwroot\Designer\assets\flags\1x1\pm.html
+wwwroot\Designer\assets\flags\1x1\pn.html
+wwwroot\Designer\assets\flags\1x1\pr.html
+wwwroot\Designer\assets\flags\1x1\ps.html
+wwwroot\Designer\assets\flags\1x1\pt.html
+wwwroot\Designer\assets\flags\1x1\pw.html
+wwwroot\Designer\assets\flags\1x1\py.html
+wwwroot\Designer\assets\flags\1x1\qa.html
+wwwroot\Designer\assets\flags\1x1\re.html
+wwwroot\Designer\assets\flags\1x1\ro.html
+wwwroot\Designer\assets\flags\1x1\rs.html
+wwwroot\Designer\assets\flags\1x1\ru.html
+wwwroot\Designer\assets\flags\1x1\rw.html
+wwwroot\Designer\assets\flags\1x1\sa.html
+wwwroot\Designer\assets\flags\1x1\sb.html
+wwwroot\Designer\assets\flags\1x1\sc.html
+wwwroot\Designer\assets\flags\1x1\sd.html
+wwwroot\Designer\assets\flags\1x1\se.html
+wwwroot\Designer\assets\flags\1x1\sg.html
+wwwroot\Designer\assets\flags\1x1\sh.html
+wwwroot\Designer\assets\flags\1x1\si.html
+wwwroot\Designer\assets\flags\1x1\sj.html
+wwwroot\Designer\assets\flags\1x1\sk.html
+wwwroot\Designer\assets\flags\1x1\sl.html
+wwwroot\Designer\assets\flags\1x1\sm.html
+wwwroot\Designer\assets\flags\1x1\sn.html
+wwwroot\Designer\assets\flags\1x1\so.html
+wwwroot\Designer\assets\flags\1x1\sr.html
+wwwroot\Designer\assets\flags\1x1\ss.html
+wwwroot\Designer\assets\flags\1x1\st.html
+wwwroot\Designer\assets\flags\1x1\sv.html
+wwwroot\Designer\assets\flags\1x1\sx.html
+wwwroot\Designer\assets\flags\1x1\sy.html
+wwwroot\Designer\assets\flags\1x1\sz.html
+wwwroot\Designer\assets\flags\1x1\tc.html
+wwwroot\Designer\assets\flags\1x1\td.html
+wwwroot\Designer\assets\flags\1x1\tf.html
+wwwroot\Designer\assets\flags\1x1\tg.html
+wwwroot\Designer\assets\flags\1x1\th.html
+wwwroot\Designer\assets\flags\1x1\tj.html
+wwwroot\Designer\assets\flags\1x1\tk.html
+wwwroot\Designer\assets\flags\1x1\tl.html
+wwwroot\Designer\assets\flags\1x1\tm.html
+wwwroot\Designer\assets\flags\1x1\tn.html
+wwwroot\Designer\assets\flags\1x1\to.html
+wwwroot\Designer\assets\flags\1x1\tr.html
+wwwroot\Designer\assets\flags\1x1\tt.html
+wwwroot\Designer\assets\flags\1x1\tv.html
+wwwroot\Designer\assets\flags\1x1\tw.html
+wwwroot\Designer\assets\flags\1x1\tz.html
+wwwroot\Designer\assets\flags\1x1\ua.html
+wwwroot\Designer\assets\flags\1x1\ug.html
+wwwroot\Designer\assets\flags\1x1\um.html
+wwwroot\Designer\assets\flags\1x1\un.html
+wwwroot\Designer\assets\flags\1x1\us.html
+wwwroot\Designer\assets\flags\1x1\uy.html
+wwwroot\Designer\assets\flags\1x1\uz.html
+wwwroot\Designer\assets\flags\1x1\va.html
+wwwroot\Designer\assets\flags\1x1\vc.html
+wwwroot\Designer\assets\flags\1x1\ve.html
+wwwroot\Designer\assets\flags\1x1\vg.html
+wwwroot\Designer\assets\flags\1x1\vi.html
+wwwroot\Designer\assets\flags\1x1\vn.html
+wwwroot\Designer\assets\flags\1x1\vu.html
+wwwroot\Designer\assets\flags\1x1\wf.html
+wwwroot\Designer\assets\flags\1x1\ws.html
+wwwroot\Designer\assets\flags\1x1\ye.html
+wwwroot\Designer\assets\flags\1x1\yt.html
+wwwroot\Designer\assets\flags\1x1\za.html
+wwwroot\Designer\assets\flags\1x1\zm.html
+wwwroot\Designer\assets\flags\1x1\zw.html
+wwwroot\Designer\assets\flags\4x3\ad.html
+wwwroot\Designer\assets\flags\4x3\ae.html
+wwwroot\Designer\assets\flags\4x3\af.html
+wwwroot\Designer\assets\flags\4x3\ag.html
+wwwroot\Designer\assets\flags\4x3\ai.html
+wwwroot\Designer\assets\flags\4x3\al.html
+wwwroot\Designer\assets\flags\4x3\am.html
+wwwroot\Designer\assets\flags\4x3\ao.html
+wwwroot\Designer\assets\flags\4x3\aq.html
+wwwroot\Designer\assets\flags\4x3\ar.html
+wwwroot\Designer\assets\flags\4x3\as.html
+wwwroot\Designer\assets\flags\4x3\at.html
+wwwroot\Designer\assets\flags\4x3\au.html
+wwwroot\Designer\assets\flags\4x3\aw.html
+wwwroot\Designer\assets\flags\4x3\ax.html
+wwwroot\Designer\assets\flags\4x3\az.html
+wwwroot\Designer\assets\flags\4x3\ba.html
+wwwroot\Designer\assets\flags\4x3\bb.html
+wwwroot\Designer\assets\flags\4x3\bd.html
+wwwroot\Designer\assets\flags\4x3\be.html
+wwwroot\Designer\assets\flags\4x3\bf.html
+wwwroot\Designer\assets\flags\4x3\bg.html
+wwwroot\Designer\assets\flags\4x3\bh.html
+wwwroot\Designer\assets\flags\4x3\bi.html
+wwwroot\Designer\assets\flags\4x3\bj.html
+wwwroot\Designer\assets\flags\4x3\bl.html
+wwwroot\Designer\assets\flags\4x3\bm.html
+wwwroot\Designer\assets\flags\4x3\bn.html
+wwwroot\Designer\assets\flags\4x3\bo.html
+wwwroot\Designer\assets\flags\4x3\bq.html
+wwwroot\Designer\assets\flags\4x3\br.html
+wwwroot\Designer\assets\flags\4x3\bs.html
+wwwroot\Designer\assets\flags\4x3\bt.html
+wwwroot\Designer\assets\flags\4x3\bv.html
+wwwroot\Designer\assets\flags\4x3\bw.html
+wwwroot\Designer\assets\flags\4x3\by.html
+wwwroot\Designer\assets\flags\4x3\bz.html
+wwwroot\Designer\assets\flags\4x3\ca.html
+wwwroot\Designer\assets\flags\4x3\cc.html
+wwwroot\Designer\assets\flags\4x3\cd.html
+wwwroot\Designer\assets\flags\4x3\cf.html
+wwwroot\Designer\assets\flags\4x3\cg.html
+wwwroot\Designer\assets\flags\4x3\ch.html
+wwwroot\Designer\assets\flags\4x3\ci.html
+wwwroot\Designer\assets\flags\4x3\ck.html
+wwwroot\Designer\assets\flags\4x3\cl.html
+wwwroot\Designer\assets\flags\4x3\cm.html
+wwwroot\Designer\assets\flags\4x3\cn.html
+wwwroot\Designer\assets\flags\4x3\co.html
+wwwroot\Designer\assets\flags\4x3\cr.html
+wwwroot\Designer\assets\flags\4x3\cu.html
+wwwroot\Designer\assets\flags\4x3\cv.html
+wwwroot\Designer\assets\flags\4x3\cw.html
+wwwroot\Designer\assets\flags\4x3\cx.html
+wwwroot\Designer\assets\flags\4x3\cy.html
+wwwroot\Designer\assets\flags\4x3\cz.html
+wwwroot\Designer\assets\flags\4x3\de.html
+wwwroot\Designer\assets\flags\4x3\dj.html
+wwwroot\Designer\assets\flags\4x3\dk.html
+wwwroot\Designer\assets\flags\4x3\dm.html
+wwwroot\Designer\assets\flags\4x3\do.html
+wwwroot\Designer\assets\flags\4x3\dz.html
+wwwroot\Designer\assets\flags\4x3\ec.html
+wwwroot\Designer\assets\flags\4x3\ee.html
+wwwroot\Designer\assets\flags\4x3\eg.html
+wwwroot\Designer\assets\flags\4x3\eh.html
+wwwroot\Designer\assets\flags\4x3\er.html
+wwwroot\Designer\assets\flags\4x3\es-ct.html
+wwwroot\Designer\assets\flags\4x3\es.html
+wwwroot\Designer\assets\flags\4x3\et.html
+wwwroot\Designer\assets\flags\4x3\eu.html
+wwwroot\Designer\assets\flags\4x3\fi.html
+wwwroot\Designer\assets\flags\4x3\fj.html
+wwwroot\Designer\assets\flags\4x3\fk.html
+wwwroot\Designer\assets\flags\4x3\fm.html
+wwwroot\Designer\assets\flags\4x3\fo.html
+wwwroot\Designer\assets\flags\4x3\fr.html
+wwwroot\Designer\assets\flags\4x3\ga.html
+wwwroot\Designer\assets\flags\4x3\gb-eng.html
+wwwroot\Designer\assets\flags\4x3\gb-nir.html
+wwwroot\Designer\assets\flags\4x3\gb-sct.html
+wwwroot\Designer\assets\flags\4x3\gb-wls.html
+wwwroot\Designer\assets\flags\4x3\gb.html
+wwwroot\Designer\assets\flags\4x3\gd.html
+wwwroot\Designer\assets\flags\4x3\ge.html
+wwwroot\Designer\assets\flags\4x3\gf.html
+wwwroot\Designer\assets\flags\4x3\gg.html
+wwwroot\Designer\assets\flags\4x3\gh.html
+wwwroot\Designer\assets\flags\4x3\gi.html
+wwwroot\Designer\assets\flags\4x3\gl.html
+wwwroot\Designer\assets\flags\4x3\gm.html
+wwwroot\Designer\assets\flags\4x3\gn.html
+wwwroot\Designer\assets\flags\4x3\gp.html
+wwwroot\Designer\assets\flags\4x3\gq.html
+wwwroot\Designer\assets\flags\4x3\gr.html
+wwwroot\Designer\assets\flags\4x3\gs.html
+wwwroot\Designer\assets\flags\4x3\gt.html
+wwwroot\Designer\assets\flags\4x3\gu.html
+wwwroot\Designer\assets\flags\4x3\gw.html
+wwwroot\Designer\assets\flags\4x3\gy.html
+wwwroot\Designer\assets\flags\4x3\hk.html
+wwwroot\Designer\assets\flags\4x3\hm.html
+wwwroot\Designer\assets\flags\4x3\hn.html
+wwwroot\Designer\assets\flags\4x3\hr.html
+wwwroot\Designer\assets\flags\4x3\ht.html
+wwwroot\Designer\assets\flags\4x3\hu.html
+wwwroot\Designer\assets\flags\4x3\id.html
+wwwroot\Designer\assets\flags\4x3\ie.html
+wwwroot\Designer\assets\flags\4x3\il.html
+wwwroot\Designer\assets\flags\4x3\im.html
+wwwroot\Designer\assets\flags\4x3\in.html
+wwwroot\Designer\assets\flags\4x3\io.html
+wwwroot\Designer\assets\flags\4x3\iq.html
+wwwroot\Designer\assets\flags\4x3\ir.html
+wwwroot\Designer\assets\flags\4x3\is.html
+wwwroot\Designer\assets\flags\4x3\it.html
+wwwroot\Designer\assets\flags\4x3\je.html
+wwwroot\Designer\assets\flags\4x3\jm.html
+wwwroot\Designer\assets\flags\4x3\jo.html
+wwwroot\Designer\assets\flags\4x3\jp.html
+wwwroot\Designer\assets\flags\4x3\ke.html
+wwwroot\Designer\assets\flags\4x3\kg.html
+wwwroot\Designer\assets\flags\4x3\kh.html
+wwwroot\Designer\assets\flags\4x3\ki.html
+wwwroot\Designer\assets\flags\4x3\km.html
+wwwroot\Designer\assets\flags\4x3\kn.html
+wwwroot\Designer\assets\flags\4x3\kp.html
+wwwroot\Designer\assets\flags\4x3\kr.html
+wwwroot\Designer\assets\flags\4x3\kw.html
+wwwroot\Designer\assets\flags\4x3\ky.html
+wwwroot\Designer\assets\flags\4x3\kz.html
+wwwroot\Designer\assets\flags\4x3\la.html
+wwwroot\Designer\assets\flags\4x3\lb.html
+wwwroot\Designer\assets\flags\4x3\lc.html
+wwwroot\Designer\assets\flags\4x3\li.html
+wwwroot\Designer\assets\flags\4x3\lk.html
+wwwroot\Designer\assets\flags\4x3\lr.html
+wwwroot\Designer\assets\flags\4x3\ls.html
+wwwroot\Designer\assets\flags\4x3\lt.html
+wwwroot\Designer\assets\flags\4x3\lu.html
+wwwroot\Designer\assets\flags\4x3\lv.html
+wwwroot\Designer\assets\flags\4x3\ly.html
+wwwroot\Designer\assets\flags\4x3\ma.html
+wwwroot\Designer\assets\flags\4x3\mc.html
+wwwroot\Designer\assets\flags\4x3\md.html
+wwwroot\Designer\assets\flags\4x3\me.html
+wwwroot\Designer\assets\flags\4x3\mf.html
+wwwroot\Designer\assets\flags\4x3\mg.html
+wwwroot\Designer\assets\flags\4x3\mh.html
+wwwroot\Designer\assets\flags\4x3\mk.html
+wwwroot\Designer\assets\flags\4x3\ml.html
+wwwroot\Designer\assets\flags\4x3\mm.html
+wwwroot\Designer\assets\flags\4x3\mn.html
+wwwroot\Designer\assets\flags\4x3\mo.html
+wwwroot\Designer\assets\flags\4x3\mp.html
+wwwroot\Designer\assets\flags\4x3\mq.html
+wwwroot\Designer\assets\flags\4x3\mr.html
+wwwroot\Designer\assets\flags\4x3\ms.html
+wwwroot\Designer\assets\flags\4x3\mt.html
+wwwroot\Designer\assets\flags\4x3\mu.html
+wwwroot\Designer\assets\flags\4x3\mv.html
+wwwroot\Designer\assets\flags\4x3\mw.html
+wwwroot\Designer\assets\flags\4x3\mx.html
+wwwroot\Designer\assets\flags\4x3\my.html
+wwwroot\Designer\assets\flags\4x3\mz.html
+wwwroot\Designer\assets\flags\4x3\na.html
+wwwroot\Designer\assets\flags\4x3\nc.html
+wwwroot\Designer\assets\flags\4x3\ne.html
+wwwroot\Designer\assets\flags\4x3\nf.html
+wwwroot\Designer\assets\flags\4x3\ng.html
+wwwroot\Designer\assets\flags\4x3\ni.html
+wwwroot\Designer\assets\flags\4x3\nl.html
+wwwroot\Designer\assets\flags\4x3\no.html
+wwwroot\Designer\assets\flags\4x3\np.html
+wwwroot\Designer\assets\flags\4x3\nr.html
+wwwroot\Designer\assets\flags\4x3\nu.html
+wwwroot\Designer\assets\flags\4x3\nz.html
+wwwroot\Designer\assets\flags\4x3\om.html
+wwwroot\Designer\assets\flags\4x3\pa.html
+wwwroot\Designer\assets\flags\4x3\pe.html
+wwwroot\Designer\assets\flags\4x3\pf.html
+wwwroot\Designer\assets\flags\4x3\pg.html
+wwwroot\Designer\assets\flags\4x3\ph.html
+wwwroot\Designer\assets\flags\4x3\pk.html
+wwwroot\Designer\assets\flags\4x3\pl.html
+wwwroot\Designer\assets\flags\4x3\pm.html
+wwwroot\Designer\assets\flags\4x3\pn.html
+wwwroot\Designer\assets\flags\4x3\pr.html
+wwwroot\Designer\assets\flags\4x3\ps.html
+wwwroot\Designer\assets\flags\4x3\pt.html
+wwwroot\Designer\assets\flags\4x3\pw.html
+wwwroot\Designer\assets\flags\4x3\py.html
+wwwroot\Designer\assets\flags\4x3\qa.html
+wwwroot\Designer\assets\flags\4x3\re.html
+wwwroot\Designer\assets\flags\4x3\ro.html
+wwwroot\Designer\assets\flags\4x3\rs.html
+wwwroot\Designer\assets\flags\4x3\ru.html
+wwwroot\Designer\assets\flags\4x3\rw.html
+wwwroot\Designer\assets\flags\4x3\sa.html
+wwwroot\Designer\assets\flags\4x3\sb.html
+wwwroot\Designer\assets\flags\4x3\sc.html
+wwwroot\Designer\assets\flags\4x3\sd.html
+wwwroot\Designer\assets\flags\4x3\se.html
+wwwroot\Designer\assets\flags\4x3\sg.html
+wwwroot\Designer\assets\flags\4x3\sh.html
+wwwroot\Designer\assets\flags\4x3\si.html
+wwwroot\Designer\assets\flags\4x3\sj.html
+wwwroot\Designer\assets\flags\4x3\sk.html
+wwwroot\Designer\assets\flags\4x3\sl.html
+wwwroot\Designer\assets\flags\4x3\sm.html
+wwwroot\Designer\assets\flags\4x3\sn.html
+wwwroot\Designer\assets\flags\4x3\so.html
+wwwroot\Designer\assets\flags\4x3\sr.html
+wwwroot\Designer\assets\flags\4x3\ss.html
+wwwroot\Designer\assets\flags\4x3\st.html
+wwwroot\Designer\assets\flags\4x3\sv.html
+wwwroot\Designer\assets\flags\4x3\sx.html
+wwwroot\Designer\assets\flags\4x3\sy.html
+wwwroot\Designer\assets\flags\4x3\sz.html
+wwwroot\Designer\assets\flags\4x3\tc.html
+wwwroot\Designer\assets\flags\4x3\td.html
+wwwroot\Designer\assets\flags\4x3\tf.html
+wwwroot\Designer\assets\flags\4x3\tg.html
+wwwroot\Designer\assets\flags\4x3\th.html
+wwwroot\Designer\assets\flags\4x3\tj.html
+wwwroot\Designer\assets\flags\4x3\tk.html
+wwwroot\Designer\assets\flags\4x3\tl.html
+wwwroot\Designer\assets\flags\4x3\tm.html
+wwwroot\Designer\assets\flags\4x3\tn.html
+wwwroot\Designer\assets\flags\4x3\to.html
+wwwroot\Designer\assets\flags\4x3\tr.html
+wwwroot\Designer\assets\flags\4x3\tt.html
+wwwroot\Designer\assets\flags\4x3\tv.html
+wwwroot\Designer\assets\flags\4x3\tw.html
+wwwroot\Designer\assets\flags\4x3\tz.html
+wwwroot\Designer\assets\flags\4x3\ua.html
+wwwroot\Designer\assets\flags\4x3\ug.html
+wwwroot\Designer\assets\flags\4x3\um.html
+wwwroot\Designer\assets\flags\4x3\un.html
+wwwroot\Designer\assets\flags\4x3\us.html
+wwwroot\Designer\assets\flags\4x3\uy.html
+wwwroot\Designer\assets\flags\4x3\uz.html
+wwwroot\Designer\assets\flags\4x3\va.html
+wwwroot\Designer\assets\flags\4x3\vc.html
+wwwroot\Designer\assets\flags\4x3\ve.html
+wwwroot\Designer\assets\flags\4x3\vg.html
+wwwroot\Designer\assets\flags\4x3\vi.html
+wwwroot\Designer\assets\flags\4x3\vn.html
+wwwroot\Designer\assets\flags\4x3\vu.html
+wwwroot\Designer\assets\flags\4x3\wf.html
+wwwroot\Designer\assets\flags\4x3\ws.html
+wwwroot\Designer\assets\flags\4x3\ye.html
+wwwroot\Designer\assets\flags\4x3\yt.html
+wwwroot\Designer\assets\flags\4x3\za.html
+wwwroot\Designer\assets\flags\4x3\zm.html
+wwwroot\Designer\assets\flags\4x3\zw.html
+wwwroot\Designer\assets\fonts\boxicons.eot
+wwwroot\Designer\assets\fonts\boxicons.ttf
+wwwroot\Designer\assets\fonts\boxicons.woff
+wwwroot\Designer\assets\fonts\boxicons.woff2
+wwwroot\Designer\assets\fonts\boxiconsd41d.svg
+wwwroot\Designer\assets\fonts\LineIcons.eot
+wwwroot\Designer\assets\fonts\LineIcons.svg
+wwwroot\Designer\assets\fonts\LineIcons.ttf
+wwwroot\Designer\assets\fonts\LineIcons.woff
+wwwroot\Designer\assets\fonts\LineIcons.woff2
+wwwroot\Designer\assets\images\apps\01.png
+wwwroot\Designer\assets\images\apps\02.png
+wwwroot\Designer\assets\images\apps\03.png
+wwwroot\Designer\assets\images\apps\04.png
+wwwroot\Designer\assets\images\apps\05.png
+wwwroot\Designer\assets\images\apps\06.png
+wwwroot\Designer\assets\images\apps\07.png
+wwwroot\Designer\assets\images\apps\08.png
+wwwroot\Designer\assets\images\apps\09.png
+wwwroot\Designer\assets\images\apps\10.png
+wwwroot\Designer\assets\images\apps\11.png
+wwwroot\Designer\assets\images\apps\12.png
+wwwroot\Designer\assets\images\apps\13.png
+wwwroot\Designer\assets\images\apps\14.png
+wwwroot\Designer\assets\images\apps\17.png
+wwwroot\Designer\assets\images\apps\18.png
+wwwroot\Designer\assets\images\apps\19.png
+wwwroot\Designer\assets\images\apps\20.png
+wwwroot\Designer\assets\images\apps\apple.png
+wwwroot\Designer\assets\images\apps\behance.png
+wwwroot\Designer\assets\images\apps\gift-box-3.png
+wwwroot\Designer\assets\images\apps\party-popper.png
+wwwroot\Designer\assets\images\apps\paypal.png
+wwwroot\Designer\assets\images\apps\twitter-circle.png
+wwwroot\Designer\assets\images\auth\bg-forgot.html
+wwwroot\Designer\assets\images\auth\bg-login.html
+wwwroot\Designer\assets\images\auth\bg-register.html
+wwwroot\Designer\assets\images\auth\bg-reset-password.html
+wwwroot\Designer\assets\images\auth\error-bg.html
+wwwroot\Designer\assets\images\auth\forgot-password1.png
+wwwroot\Designer\assets\images\auth\login1.png
+wwwroot\Designer\assets\images\auth\register1.png
+wwwroot\Designer\assets\images\auth\reset-password1.png
+wwwroot\Designer\assets\images\avatars\01.png
+wwwroot\Designer\assets\images\avatars\02.png
+wwwroot\Designer\assets\images\avatars\03.png
+wwwroot\Designer\assets\images\avatars\04.png
+wwwroot\Designer\assets\images\avatars\05.png
+wwwroot\Designer\assets\images\avatars\06.png
+wwwroot\Designer\assets\images\avatars\07.png
+wwwroot\Designer\assets\images\avatars\08.png
+wwwroot\Designer\assets\images\avatars\09.png
+wwwroot\Designer\assets\images\avatars\10.png
+wwwroot\Designer\assets\images\avatars\11.png
+wwwroot\Designer\assets\images\avatars\12.png
+wwwroot\Designer\assets\images\bg-themes\body-background-1.webp
+wwwroot\Designer\assets\images\carousels\01.png
+wwwroot\Designer\assets\images\carousels\02.png
+wwwroot\Designer\assets\images\carousels\03.png
+wwwroot\Designer\assets\images\carousels\04.png
+wwwroot\Designer\assets\images\carousels\05.png
+wwwroot\Designer\assets\images\carousels\06.png
+wwwroot\Designer\assets\images\carousels\07.png
+wwwroot\Designer\assets\images\carousels\08.png
+wwwroot\Designer\assets\images\carousels\09.png
+wwwroot\Designer\assets\images\carousels\10.png
+wwwroot\Designer\assets\images\carousels\11.png
+wwwroot\Designer\assets\images\carousels\12.png
+wwwroot\Designer\assets\images\carousels\13.png
+wwwroot\Designer\assets\images\carousels\14.png
+wwwroot\Designer\assets\images\carousels\15.png
+wwwroot\Designer\assets\images\cat\01.png
+wwwroot\Designer\assets\images\cat\02.png
+wwwroot\Designer\assets\images\cat\03.png
+wwwroot\Designer\assets\images\cat\04.png
+wwwroot\Designer\assets\images\cat\05.png
+wwwroot\Designer\assets\images\cat\06.png
+wwwroot\Designer\assets\images\county\01.png
+wwwroot\Designer\assets\images\county\02.png
+wwwroot\Designer\assets\images\county\03.png
+wwwroot\Designer\assets\images\county\04.png
+wwwroot\Designer\assets\images\county\05.png
+wwwroot\Designer\assets\images\county\06.png
+wwwroot\Designer\assets\images\county\07.png
+wwwroot\Designer\assets\images\county\08.png
+wwwroot\Designer\assets\images\favicon-32x32.png
+wwwroot\Designer\assets\images\gallery\01.png
+wwwroot\Designer\assets\images\gallery\02.png
+wwwroot\Designer\assets\images\gallery\03.png
+wwwroot\Designer\assets\images\gallery\04.png
+wwwroot\Designer\assets\images\gallery\05.png
+wwwroot\Designer\assets\images\gallery\06.png
+wwwroot\Designer\assets\images\gallery\08.png
+wwwroot\Designer\assets\images\gallery\09.png
+wwwroot\Designer\assets\images\gallery\10.png
+wwwroot\Designer\assets\images\gallery\11.png
+wwwroot\Designer\assets\images\gallery\12.png
+wwwroot\Designer\assets\images\gallery\14.png
+wwwroot\Designer\assets\images\gallery\15.png
+wwwroot\Designer\assets\images\gallery\16.png
+wwwroot\Designer\assets\images\gallery\17.png
+wwwroot\Designer\assets\images\gallery\18.png
+wwwroot\Designer\assets\images\gallery\19.png
+wwwroot\Designer\assets\images\gallery\20.png
+wwwroot\Designer\assets\images\gallery\21.png
+wwwroot\Designer\assets\images\gallery\22.png
+wwwroot\Designer\assets\images\gallery\23.png
+wwwroot\Designer\assets\images\gallery\24.png
+wwwroot\Designer\assets\images\gallery\25.png
+wwwroot\Designer\assets\images\gallery\26.png
+wwwroot\Designer\assets\images\gallery\profile-cover.html
+wwwroot\Designer\assets\images\gallery\welcome-back-3.png
+wwwroot\Designer\assets\images\logo-icon.png
+wwwroot\Designer\assets\images\logo1.png
+wwwroot\Designer\assets\images\megaIcons\01.png
+wwwroot\Designer\assets\images\megaIcons\02.png
+wwwroot\Designer\assets\images\megaIcons\03.png
+wwwroot\Designer\assets\images\megaIcons\08.png
+wwwroot\Designer\assets\images\megaIcons\09.png
+wwwroot\Designer\assets\images\megaIcons\11.png
+wwwroot\Designer\assets\images\megaIcons\12.png
+wwwroot\Designer\assets\images\megaIcons\13.png
+wwwroot\Designer\assets\images\orders\01.png
+wwwroot\Designer\assets\images\orders\02.png
+wwwroot\Designer\assets\images\orders\03.png
+wwwroot\Designer\assets\images\orders\04.png
+wwwroot\Designer\assets\images\orders\05.png
+wwwroot\Designer\assets\images\orders\06.png
+wwwroot\Designer\assets\images\orders\07.png
+wwwroot\Designer\assets\images\orders\08.png
+wwwroot\Designer\assets\images\orders\09.png
+wwwroot\Designer\assets\images\projects\angular.png
+wwwroot\Designer\assets\images\projects\bootstrap.png
+wwwroot\Designer\assets\images\projects\django.png
+wwwroot\Designer\assets\images\projects\magento.png
+wwwroot\Designer\assets\images\projects\python.png
+wwwroot\Designer\assets\images\projects\react.png
+wwwroot\Designer\assets\images\projects\vue.png
+wwwroot\Designer\assets\images\top-products\01.png
+wwwroot\Designer\assets\images\top-products\02.png
+wwwroot\Designer\assets\images\top-products\03.png
+wwwroot\Designer\assets\images\top-products\04.png
+wwwroot\Designer\assets\images\top-products\05.png
+wwwroot\Designer\assets\images\top-products\06.png
+wwwroot\Designer\assets\images\top-products\07.png
+wwwroot\Designer\assets\js\bootstrap.bundle.min.js
+wwwroot\Designer\assets\js\dashboard1.js
+wwwroot\Designer\assets\js\dashboard2.js
+wwwroot\Designer\assets\js\data-widgets.js
+wwwroot\Designer\assets\js\jquery.min.js
+wwwroot\Designer\assets\js\main.js
+wwwroot\Designer\assets\js\pace.min.js
+wwwroot\Designer\assets\plugins\apexchart\apex-custom-chart.js
+wwwroot\Designer\assets\plugins\apexchart\apexcharts.min.js
+wwwroot\Designer\assets\plugins\bs-stepper\css\bs-stepper.css
+wwwroot\Designer\assets\plugins\bs-stepper\js\bs-stepper.min.js
+wwwroot\Designer\assets\plugins\bs-stepper\js\main.js
+wwwroot\Designer\assets\plugins\chartjs\js\chart.js
+wwwroot\Designer\assets\plugins\chartjs\js\chartjs-custom.js
+wwwroot\Designer\assets\plugins\datatable\css\dataTables.bootstrap5.min.css
+wwwroot\Designer\assets\plugins\datatable\js\dataTables.bootstrap5.min.js
+wwwroot\Designer\assets\plugins\datatable\js\jquery.dataTables.min.js
+wwwroot\Designer\assets\plugins\Drag-And-Drop\dist\imageuploadify.min.css
+wwwroot\Designer\assets\plugins\Drag-And-Drop\dist\imageuploadify.min.js
+wwwroot\Designer\assets\plugins\fancy-file-uploader\fancy_fileupload.css
+wwwroot\Designer\assets\plugins\fancy-file-uploader\fancy_microphone.png
+wwwroot\Designer\assets\plugins\fancy-file-uploader\fancy_okay.png
+wwwroot\Designer\assets\plugins\fancy-file-uploader\fancy_remove.png
+wwwroot\Designer\assets\plugins\fancy-file-uploader\fancy_upload.png
+wwwroot\Designer\assets\plugins\fancy-file-uploader\fancy_webcam.png
+wwwroot\Designer\assets\plugins\fancy-file-uploader\jquery.fancy-fileupload.js
+wwwroot\Designer\assets\plugins\fancy-file-uploader\jquery.fileupload.js
+wwwroot\Designer\assets\plugins\fancy-file-uploader\jquery.iframe-transport.js
+wwwroot\Designer\assets\plugins\fancy-file-uploader\jquery.ui.widget.js
+wwwroot\Designer\assets\plugins\form-repeater\repeater.js
+wwwroot\Designer\assets\plugins\fullcalendar\css\main.min.css
+wwwroot\Designer\assets\plugins\fullcalendar\js\main.min.js
+wwwroot\Designer\assets\plugins\gmaps\map-custom-script.js
+wwwroot\Designer\assets\plugins\input-tags\css\tagsinput.css
+wwwroot\Designer\assets\plugins\input-tags\js\tagsinput.js
+wwwroot\Designer\assets\plugins\metismenu\metisMenu.min.css
+wwwroot\Designer\assets\plugins\metismenu\metisMenu.min.js
+wwwroot\Designer\assets\plugins\metismenu\mm-vertical.css
+wwwroot\Designer\assets\plugins\notifications\css\lobibox.min.css
+wwwroot\Designer\assets\plugins\notifications\js\lobibox.min.js
+wwwroot\Designer\assets\plugins\notifications\js\notification-custom-script.js
+wwwroot\Designer\assets\plugins\notifications\js\notifications.min.js
+wwwroot\Designer\assets\plugins\peity\jquery.peity.min.js
+wwwroot\Designer\assets\plugins\perfect-scrollbar\css\perfect-scrollbar.css
+wwwroot\Designer\assets\plugins\perfect-scrollbar\js\perfect-scrollbar.js
+wwwroot\Designer\assets\plugins\select2\js\select2-custom.js
+wwwroot\Designer\assets\plugins\simplebar\css\simplebar.css
+wwwroot\Designer\assets\plugins\simplebar\js\simplebar.min.js
+wwwroot\Designer\assets\plugins\validation\jquery.validate.min.js
+wwwroot\Designer\assets\plugins\validation\validation-script.js
+wwwroot\Designer\assets\plugins\vectormap\jquery-jvectormap-2.0.2.css
+wwwroot\Designer\assets\plugins\vectormap\jquery-jvectormap-2.0.2.min.js
+wwwroot\Designer\assets\plugins\vectormap\jquery-jvectormap-au-mill.js
+wwwroot\Designer\assets\plugins\vectormap\jquery-jvectormap-in-mill.js
+wwwroot\Designer\assets\plugins\vectormap\jquery-jvectormap-uk-mill-en.js
+wwwroot\Designer\assets\plugins\vectormap\jquery-jvectormap-us-aea-en.js
+wwwroot\Designer\assets\plugins\vectormap\jquery-jvectormap-world-mill-en.js
+wwwroot\Designer\assets\plugins\vectormap\jvectormap.custom.js
+wwwroot\Designer\sass\blue-theme.css
+wwwroot\Designer\sass\bordered-theme.css
+wwwroot\Designer\sass\dark-theme.css
+wwwroot\Designer\sass\main.css
+wwwroot\Designer\sass\responsive.css
+wwwroot\Designer\sass\semi-dark.css
+wwwroot\uploads\designers\9e6bb3a9-086f-4253-9195-744450f6823f.jfif
+wwwroot\uploads\portfolio\65e32139-6a2e-4a37-baee-6d902a09f875.jfif
+wwwroot\uploads\portfolio\6bc35843-8490-41dc-a25c-d353c19d4dbe.jfif
+wwwroot\uploads\portfolio\8e1d6793-3b56-4924-8d48-df00beb67f9d.jfif
+wwwroot\uploads\designers\a07fee1b-2907-4caf-af47-c2faa43d72ee.JPG
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\jquery\dist\jquery.slim.min.map
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\jquery\LICENSE.txt
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\css\animate.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\css\bootstrap.min.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\css\elegant-font.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\css\fancySelect.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\css\font-awesome.min.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\css\jquery.mCustomScrollbar.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\css\linearicons.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\css\mCSB_buttons.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\css\owl.carousel.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\css\style.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\fonts\ElegantIcons.svg
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\fonts\fontawesome-webfont3295.svg
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\fonts\glyphicons-halflings-regular.svg
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\fonts\Linearicons-Free54e9.svg
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\images\Svg\tri2.svg
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\images\Svg\triangle.svg
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\js\plugins\contact.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\js\plugins\countdown-custom.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\js\plugins\custom-h4.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\js\plugins\custom-h6.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\js\plugins\custom-isotope.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\js\plugins\custom-owl.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\js\plugins\custom.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\js\plugins\fancySelect.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\js\plugins\isotope.pkgd.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\js\plugins\jpreLoader.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\js\plugins\jquery.counterup.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\js\plugins\jquery.mCustomScrollbar.concat.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\js\plugins\jquery.mobile-menu.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\js\plugins\jquery.waypoints.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\js\plugins\maplace.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\js\plugins\owl.carousel.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\js\plugins\royal_preloader.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\js\plugins\skrollr.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\js\plugins\slider.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\js\plugins\wow.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\js\vendor\bootstrap.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\js\vendor\jquery.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\revolution\css\closedhand.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\revolution\css\layers.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\revolution\css\navigation.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\revolution\css\openhand.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\revolution\css\settings.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\revolution\fonts\revicons\revicons90c6.svg
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\revolution\js\extensions\revolution.extension.actions.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\revolution\js\extensions\revolution.extension.carousel.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\revolution\js\extensions\revolution.extension.kenburn.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\revolution\js\extensions\revolution.extension.layeranimation.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\revolution\js\extensions\revolution.extension.migration.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\revolution\js\extensions\revolution.extension.navigation.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\revolution\js\extensions\revolution.extension.parallax.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\revolution\js\extensions\revolution.extension.slideanims.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\revolution\js\extensions\revolution.extension.video.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\revolution\js\jquery.themepunch.revolution.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\revolution\js\jquery.themepunch.tools.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\switcher\colors\index.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\switcher\colors\yellow.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\switcher\demo.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\switcher\demo.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\UserLayout\switcher\images\patern18.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\jquery\dist\jquery.slim.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\jquery\dist\jquery.slim.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\jquery\dist\jquery.min.map
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\jquery\dist\jquery.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\jquery\dist\jquery.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\jquery-validation\LICENSE.md
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\jquery-validation\dist\additional-methods.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\js\site.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\css\site.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Auth\Css\style.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\favicon.ico
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\css\bootstrap-extended.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\css\bootstrap.min.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\css\extra-icons.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\css\pace.min.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ad.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ae.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\af.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ag.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ai.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\al.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\am.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ao.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\aq.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ar.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\as.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\at.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\au.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\aw.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ax.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\az.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ba.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\bb.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\bd.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\be.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\bf.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\bg.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\bh.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\bi.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\bj.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\bl.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\bm.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\bn.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\bo.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\bq.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\br.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\bs.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\bt.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\bv.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\bw.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\by.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\bz.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ca.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\cc.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\cd.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\cf.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\cg.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ch.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ci.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ck.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\cl.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\cm.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\cn.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\co.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\cr.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\cu.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\cv.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\cw.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\cx.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\cy.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\cz.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\de.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\dj.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\dk.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\dm.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\do.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\dz.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ec.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ee.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\eg.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\eh.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\er.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\es-ct.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\es.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\et.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\eu.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\fi.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\fj.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\fk.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\fm.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\fo.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\fr.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ga.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\gb-eng.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\gb-nir.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\gb-sct.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\gb-wls.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\gb.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\gd.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ge.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\gf.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\gg.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\gh.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\gi.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\gl.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\gm.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\gn.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\gp.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\gq.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\gr.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\gs.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\gt.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\gu.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\gw.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\gy.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\hk.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\hm.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\hn.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\hr.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ht.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\hu.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\id.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ie.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\il.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\im.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\in.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\io.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\iq.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ir.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\is.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\it.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\je.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\jm.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\jo.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\jp.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ke.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\kg.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\kh.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ki.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\km.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\kn.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\kp.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\kr.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\kw.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ky.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\kz.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\la.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\lb.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\lc.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\li.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\lk.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\lr.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ls.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\lt.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\lu.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\lv.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ly.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ma.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\mc.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\md.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\me.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\mf.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\mg.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\mh.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\mk.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ml.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\mm.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\mn.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\mo.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\mp.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\mq.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\mr.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ms.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\mt.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\mu.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\mv.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\mw.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\mx.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\my.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\mz.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\na.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\nc.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ne.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\nf.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ng.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ni.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\nl.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\no.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\np.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\nr.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\nu.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\nz.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\om.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\pa.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\pe.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\pf.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\pg.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ph.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\pk.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\pl.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\pm.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\pn.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\pr.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ps.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\pt.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\pw.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\py.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\qa.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\re.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ro.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\rs.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ru.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\rw.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\sa.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\sb.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\sc.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\sd.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\se.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\sg.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\sh.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\si.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\sj.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\sk.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\sl.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\sm.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\sn.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\so.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\sr.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ss.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\st.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\sv.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\sx.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\sy.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\sz.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\tc.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\td.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\tf.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\tg.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\th.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\tj.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\tk.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\tl.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\tm.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\tn.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\to.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\tr.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\tt.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\tv.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\tw.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\tz.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ua.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ug.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\um.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\un.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\us.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\uy.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\uz.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\va.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\vc.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ve.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\vg.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\vi.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\vn.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\vu.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\wf.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ws.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\ye.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\yt.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\za.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\zm.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\1x1\zw.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ad.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ae.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\af.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ag.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ai.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\al.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\am.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ao.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\aq.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ar.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\as.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\at.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\au.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\aw.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ax.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\az.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ba.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\bb.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\bd.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\be.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\bf.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\bg.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\bh.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\bi.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\bj.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\bl.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\bm.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\bn.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\bo.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\bq.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\br.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\bs.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\bt.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\bv.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\bw.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\by.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\bz.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ca.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\cc.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\cd.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\cf.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\cg.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ch.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ci.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ck.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\cl.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\cm.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\cn.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\co.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\cr.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\cu.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\cv.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\cw.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\cx.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\cy.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\cz.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\de.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\dj.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\dk.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\dm.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\do.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\dz.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ec.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ee.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\eg.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\eh.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\er.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\es-ct.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\es.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\et.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\eu.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\fi.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\fj.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\fk.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\fm.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\fo.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\fr.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ga.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\gb-eng.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\gb-nir.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\gb-sct.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\gb-wls.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\gb.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\gd.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ge.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\gf.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\gg.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\gh.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\gi.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\gl.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\gm.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\gn.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\gp.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\gq.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\gr.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\gs.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\gt.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\gu.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\gw.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\gy.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\hk.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\hm.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\hn.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\hr.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ht.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\hu.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\id.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ie.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\il.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\im.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\in.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\io.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\iq.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ir.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\is.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\it.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\je.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\jm.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\jo.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\jp.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ke.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\kg.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\kh.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ki.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\km.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\kn.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\kp.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\kr.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\kw.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ky.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\kz.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\la.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\lb.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\lc.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\li.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\lk.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\lr.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ls.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\lt.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\lu.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\lv.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ly.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ma.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\mc.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\md.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\me.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\mf.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\mg.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\mh.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\mk.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ml.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\mm.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\mn.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\mo.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\mp.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\mq.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\mr.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ms.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\mt.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\mu.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\mv.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\mw.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\mx.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\my.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\mz.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\na.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\nc.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ne.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\nf.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ng.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ni.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\nl.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\no.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\np.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\nr.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\nu.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\nz.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\om.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\pa.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\pe.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\pf.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\pg.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ph.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\pk.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\pl.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\pm.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\pn.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\pr.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ps.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\pt.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\pw.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\py.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\qa.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\re.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ro.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\rs.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ru.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\rw.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\sa.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\sb.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\sc.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\sd.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\se.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\sg.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\sh.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\si.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\sj.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\sk.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\sl.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\sm.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\sn.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\so.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\sr.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ss.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\st.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\sv.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\sx.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\sy.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\sz.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\tc.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\td.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\tf.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\tg.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\th.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\tj.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\tk.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\tl.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\tm.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\tn.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\to.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\tr.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\tt.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\tv.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\tw.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\tz.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ua.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ug.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\um.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\un.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\us.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\uy.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\uz.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\va.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\vc.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ve.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\vg.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\vi.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\vn.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\vu.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\wf.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ws.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\ye.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\yt.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\za.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\zm.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\flags\4x3\zw.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\fonts\boxiconsd41d.svg
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\fonts\LineIcons.svg
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\images\auth\bg-forgot.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\images\auth\bg-login.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\images\auth\bg-register.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\images\auth\bg-reset-password.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\images\auth\error-bg.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\images\gallery\profile-cover.html
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\js\bootstrap.bundle.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\js\dashboard1.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\js\dashboard2.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\js\data-widgets.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\js\jquery.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\js\main.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\js\pace.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\apexchart\apex-custom-chart.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\apexchart\apexcharts.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\bs-stepper\css\bs-stepper.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\bs-stepper\js\bs-stepper.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\bs-stepper\js\main.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\chartjs\js\chart.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\chartjs\js\chartjs-custom.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\datatable\css\dataTables.bootstrap5.min.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\datatable\js\dataTables.bootstrap5.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\datatable\js\jquery.dataTables.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\Drag-And-Drop\dist\imageuploadify.min.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\Drag-And-Drop\dist\imageuploadify.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\fancy-file-uploader\fancy_fileupload.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\fancy-file-uploader\jquery.fancy-fileupload.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\fancy-file-uploader\jquery.fileupload.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\fancy-file-uploader\jquery.iframe-transport.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\fancy-file-uploader\jquery.ui.widget.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\form-repeater\repeater.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\fullcalendar\css\main.min.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\fullcalendar\js\main.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\gmaps\map-custom-script.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\input-tags\css\tagsinput.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\input-tags\js\tagsinput.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\metismenu\metisMenu.min.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\metismenu\metisMenu.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\metismenu\mm-vertical.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\notifications\css\lobibox.min.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\notifications\js\lobibox.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\notifications\js\notification-custom-script.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\notifications\js\notifications.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\peity\jquery.peity.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\perfect-scrollbar\css\perfect-scrollbar.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\perfect-scrollbar\js\perfect-scrollbar.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\select2\js\select2-custom.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\simplebar\css\simplebar.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\simplebar\js\simplebar.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\validation\jquery.validate.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\validation\validation-script.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\vectormap\jquery-jvectormap-2.0.2.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\vectormap\jquery-jvectormap-2.0.2.min.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\vectormap\jquery-jvectormap-au-mill.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\vectormap\jquery-jvectormap-in-mill.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\vectormap\jquery-jvectormap-uk-mill-en.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\vectormap\jquery-jvectormap-us-aea-en.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\vectormap\jquery-jvectormap-world-mill-en.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\assets\plugins\vectormap\jvectormap.custom.js
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\sass\blue-theme.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\sass\bordered-theme.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\sass\dark-theme.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\sass\main.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\sass\responsive.css
+D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\wwwroot\Designer\sass\semi-dark.css
+>>>>>>> origin/Sami

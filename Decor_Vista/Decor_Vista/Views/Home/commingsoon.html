@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="">
+	
+<!-- Mirrored from templates.thememodern.com/architect/commingsoon.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Aug 2025 13:58:44 GMT -->
+<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Arc Portfolio Blog List</title>
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="~/UserLayout/css/bootstrap.min.css">
+		<!-- Font -->
+		<link rel="stylesheet" href="~/UserLayout/css/font-awesome.min.css">
+		<link rel="stylesheet" href="~/UserLayout/css/elegant-font.css">
+	  	<!-- SCROLL BAR MOBILE MENU
+  		================================================== --> 
+ 		 <link rel="stylesheet" href="~/UserLayout/css/jquery.mCustomScrollbar.css" />
+		<!-- Main Style -->
+		<link rel="stylesheet" href="~/UserLayout/css/style.css">
+		<!-- color scheme -->
+	  	<link rel="stylesheet" href="~/UserLayout/switcher/demo.css" type="text/css">
+	  	<link rel="stylesheet" href="~/UserLayout/switcher/colors/yellow.css" type="text/css" id="colors">   
+		<!-- Favicons
+		  ================================================== -->
+	  	<link rel="shortcut icon" href="~/UserLayout/favicon.png">
+	</head>
+	<body>
+	 	<div id="switcher" >
+	 		<span class="custom-close"></span>
+	        <span class="custom-show"></span>
+	 		<div class="mCustomScrollbar" data-mcs-theme="minimal-dark">
+			        <a href="#" class="ot-btn btn-main-color block-btn">Buy Now</a>
+
+			        <div class="clearfix"></div>
+
+			        <span class="sw-title">Main Colors:</span>
+			        <ul id="tm-color">
+			            <li class="color1"></li>
+			            <li class="color2"></li>
+			            <li class="color3"></li>
+			            <li class="color4"></li>
+			            <li class="color5"></li>
+			            <li class="color6"></li>
+			            <li class="color7"></li>
+			        </ul>
+			        <div class="clearfix"></div>
+
+			        <span class="sw-title">Header Layout</span>
+			        <select name="switcher" id="de-header-layout">
+			            <option value="opt-1" selected>Hide Top Bar</option>
+			            <option value="opt-2">Show Top Bar</option>
+			        </select>
+			        <div class="clearfix"></div>
+
+
+			        <span class="sw-title">Menu Seperator Style</span>
+			        <select name="switcher" id="de-menu">
+			            <option value="opt-1" selected>Line Throu Separator</option>
+			            <option value="opt-2">Line Separator</option>
+			            <option value="opt-3">Circle Separator</option>
+			            <option value="opt-4">Square Separator</option>
+			            <option value="opt-5">Plus Separator</option>
+			            <option value="opt-6">Strip Separator</option>
+			            <option value="opt-0">No Separator</option>
+			        </select>
+
+			        <div class="clearfix"></div>
+
+			        <span class="sw-title">Hover Header Link Effect</span>
+			        <select name="switcher" id="de-menu-eff">
+			            <option value="opt-1" selected>Line Through Effect</option>
+			            <option value="opt-2">Background Effect</option>
+			            <option value="opt-3">Text Color</option>
+			            <option value="opt-4">Line Expand</option>
+			        </select>
+
+			        <div class="clearfix"></div>
+
+
+			        <span class="sw-title">HomePage Layout</span>
+			        <ul class="demo-homepage">
+			        	<li>	
+			        		<a href="@Url.Action("Index", "Home")">
+			        			<img src="~/UserLayout/switcher/images/home_1.jpg" alt="">
+			        		</a>
+			        		<img src="~/UserLayout/switcher/images/home_1.jpg" class="popup-demo-homepage" alt="Image">
+			        	</li>
+			        	<li>	
+			        		<a href="home_2.html">
+			        			<img src="~/UserLayout/switcher/images/home_2.jpg" alt="">
+			        		</a>
+			        		<img src="~/UserLayout/switcher/images/home_2.jpg" class="popup-demo-homepage" alt="Image">
+			        	</li>
+			        	<li>	
+			        		<a href="home_3.html">
+			        			<img src="~/UserLayout/switcher/images/home_3.jpg" alt="">
+			        		</a>
+			        		<img src="~/UserLayout/switcher/images/home_3.jpg" class="popup-demo-homepage" alt="Image">
+			        	</li>
+			        	<li>	
+			        		<a href="home_4.html">
+			        			<img src="~/UserLayout/switcher/images/home_4.jpg" alt="">
+			        		</a>
+			        		<img src="~/UserLayout/switcher/images/home_4.jpg" class="popup-demo-homepage" alt="Image">
+			        	</li>
+			        	<li>	
+			        		<a href="home_5.html">
+			        			<img src="~/UserLayout/switcher/images/home_5.jpg" alt="">
+			        		</a>
+			        		<img src="~/UserLayout/switcher/images/home_5.jpg" class="popup-demo-homepage" alt="Image">
+			        	</li>
+			        	<li>	
+			        		<a href="home_6.html">
+			        			<img src="~/UserLayout/switcher/images/home_6.jpg" alt="">
+			        		</a>
+			        		<img src="~/UserLayout/switcher/images/home_6.jpg" class="popup-demo-homepage" alt="Image">
+			        	</li>
+			        </ul>
+		   	 	</div>
+	    </div>
+	    <!-- End Switcher Color -->
+
+		<!-- parallax section -->
+		<section id="section-coming-soon" class="coming-soon no-padding">
+        <div class="container">
+            <div class="coming-soon-content text-center">            
+                <div class="intro-text">
+                    <h2>Coming Soon</h2>
+                    <p>Our website is under construction, follow us for update now!</p>
+                </div>
+                <div class="newsletter-comingsoon">
+                    <form action="https://templates.thememodern.com/architect/GET" method="post">                        
+					               <input class="form-control newsletter-email" name="yourEmail" id="yourEmail" placeholder="Your Email Address" type="email">
+					  	
+                        <button class="ot-btn btn-main-color btn-submit" type="submit" ><i class="fa fa-paper-plane"></i> Subscribe</button>
+                    </form>
+                </div>
+
+                          
+                    <ul class="countdown">
+                      <li> 
+                        <span class="days">00</span>
+                        <p class="days_ref">days</p>
+                      </li>
+                      
+                      <li>
+                        <span class="hours">00</span>
+                        <p class="hours_ref">hours</p>
+                      </li>
+                      
+                      <li> 
+                        <span class="minutes">00</span>
+                        <p class="minutes_ref">minutes</p>
+                      </li>
+                      
+                      <li>
+                        <span class="seconds">00</span>
+                        <p class="seconds_ref">seconds</p>
+                      </li>
+                    </ul>
+
+                <ul class="social social-dark">
+	                <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+	                <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+	                <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+	                <li class="youtube"><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+	                <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+	              </ul>
+            </div>    
+            <div class="overley-cs"></div>        
+        </div>
+    	</section>
+    	<!-- parallax section close --> 
+	     
+		<!-- Back To Top -->
+	<!-- SCRIPT -->
+    <script src="~/UserLayout/js/vendor/jquery.min.js"></script>
+    <script src="~/UserLayout/js/vendor/bootstrap.min.js"></script>
+    <script src="~/UserLayout/js/plugins/countdown-custom.js"></script>
+
+    <!-- Switcher
+    ================================================== -->
+    <script src="~/UserLayout/switcher/demo.js"></script>
+
+	<!-- PreLoad
+    ================================================== --> 
+    <script type="text/javascript" src="~/UserLayout/js/plugins/royal_preloader.min.js"></script>
+	<script type="text/javascript">
+	(function($) { "use strict";
+	            Royal_Preloader.config({
+	                mode:           'logo', // 'number', "text" or "logo"
+	                logo:           'images/Header/logo.png',
+	                timeout:       1,
+	                showInfo:       false,
+	                opacity:        1,
+	                background:     ['#FFFFFF']
+	            });
+	})(jQuery);
+	</script>
+	</body>
+
+<!-- Mirrored from templates.thememodern.com/architect/commingsoon.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Aug 2025 13:58:44 GMT -->
+</html>

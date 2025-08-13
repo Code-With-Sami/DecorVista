@@ -1,0 +1,1279 @@
+
+
+<!DOCTYPE html>
+<html lang="">
+   
+<!-- Mirrored from templates.thememodern.com/architect/home_5.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Aug 2025 13:58:20 GMT -->
+<head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Arc Index Verison 5</title>
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="~/UserLayout/css/bootstrap.min.css">
+      <!-- Font -->
+      <link rel="stylesheet" href="~/UserLayout/css/font-awesome.min.css">
+      <link rel="stylesheet" href="~/UserLayout/css/elegant-font.css">
+      <link rel="stylesheet" href="~/UserLayout/css/linearicons.css">
+      <!-- REVOLUTION STYLE SHEETS -->
+      <link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
+      <!-- REVOLUTION LAYERS STYLES -->
+      <link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
+      <!-- REVOLUTION NAVIGATION STYLES -->
+      <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
+      <!-- OWL CAROUSEL
+         ================================================== --> 
+      <link rel="stylesheet" href="~/UserLayout/css/owl.carousel.css">
+      <!-- SCROLL BAR MOBILE MENU
+         ================================================== --> 
+      <link rel="stylesheet" href="~/UserLayout/css/jquery.mCustomScrollbar.css" />
+      
+      <!-- Main Style -->
+      <link rel="stylesheet" href="~/UserLayout/css/style.css">
+      <!-- color scheme -->
+      <link rel="stylesheet" href="~/UserLayout/switcher/demo.css" type="text/css">
+      <link rel="stylesheet" href="~/UserLayout/switcher/colors/yellow.css" type="text/css" id="colors">
+      <!-- Favicons
+         ================================================== -->
+      <link rel="shortcut icon" href="~/UserLayout/favicon.png">
+   </head>
+   <body>
+      <div id="switcher" >
+         <span class="custom-close"></span>
+         <span class="custom-show"></span>
+         <div class="mCustomScrollbar" data-mcs-theme="minimal-dark">
+            <a href="#" class="ot-btn btn-main-color block-btn">Buy Now</a>
+            <div class="clearfix"></div>
+            <span class="sw-title">Main Colors:</span>
+            <ul id="tm-color">
+               <li class="color1"></li>
+               <li class="color2"></li>
+               <li class="color3"></li>
+               <li class="color4"></li>
+               <li class="color5"></li>
+               <li class="color6"></li>
+               <li class="color7"></li>
+            </ul>
+            <div class="clearfix"></div>
+            <span class="sw-title">Header Layout</span>
+            <select name="switcher" id="de-header-layout">
+               <option value="opt-1" selected>Hide Top Bar</option>
+               <option value="opt-2">Show Top Bar</option>
+            </select>
+            <div class="clearfix"></div>
+            <span class="sw-title">Menu Seperator Style</span>
+            <select name="switcher" id="de-menu">
+               <option value="opt-1" selected>Line Throu Separator</option>
+               <option value="opt-2">Line Separator</option>
+               <option value="opt-3">Circle Separator</option>
+               <option value="opt-4">Square Separator</option>
+               <option value="opt-5">Plus Separator</option>
+               <option value="opt-6">Strip Separator</option>
+               <option value="opt-0">No Separator</option>
+            </select>
+            <div class="clearfix"></div>
+            <span class="sw-title">Hover Header Link Effect</span>
+            <select name="switcher" id="de-menu-eff">
+               <option value="opt-1" selected>Line Through Effect</option>
+               <option value="opt-2">Background Effect</option>
+               <option value="opt-3">Text Color</option>
+               <option value="opt-4">Line Expand</option>
+            </select>
+            <div class="clearfix"></div>
+            <span class="sw-title">HomePage Layout</span>
+            <ul class="demo-homepage">
+               <li>	
+                  <a href="@Url.Action("Index", "Home")">
+                  <img src="~/UserLayout/switcher/images/home_1.jpg" alt="">
+                  </a>
+                  <img src="~/UserLayout/switcher/images/home_1.jpg" class="popup-demo-homepage" alt="Image">
+               </li>
+               <li>	
+                  <a href="home_2.html">
+                  <img src="~/UserLayout/switcher/images/home_2.jpg" alt="">
+                  </a>
+                  <img src="~/UserLayout/switcher/images/home_2.jpg" class="popup-demo-homepage" alt="Image">
+               </li>
+               <li>	
+                  <a href="home_3.html">
+                  <img src="~/UserLayout/switcher/images/home_3.jpg" alt="">
+                  </a>
+                  <img src="~/UserLayout/switcher/images/home_3.jpg" class="popup-demo-homepage" alt="Image">
+               </li>
+               <li>	
+                  <a href="home_4.html">
+                  <img src="~/UserLayout/switcher/images/home_4.jpg" alt="">
+                  </a>
+                  <img src="~/UserLayout/switcher/images/home_4.jpg" class="popup-demo-homepage" alt="Image">
+               </li>
+               <li>	
+                  <a href="home_5.html">
+                  <img src="~/UserLayout/switcher/images/home_5.jpg" alt="">
+                  </a>
+                  <img src="~/UserLayout/switcher/images/home_5.jpg" class="popup-demo-homepage" alt="Image">
+               </li>
+               <li>	
+                  <a href="home_6.html">
+                  <img src="~/UserLayout/switcher/images/home_6.jpg" alt="">
+                  </a>
+                  <img src="~/UserLayout/switcher/images/home_6.jpg" class="popup-demo-homepage" alt="Image">
+               </li>
+            </ul>
+         </div>
+      </div>
+      <!-- End Switcher Color -->
+      <div class="mobile-menu-first">
+         <div id="mobile-menu" class="mobile-menu">
+            <div class="header-mobile-menu">
+               <a href="#">TOLL FREE: 800 345 6889</a>
+               <div class="mm-toggle">
+                  <span aria-hidden="true" class="icon_close"></span>
+               </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="mCustomScrollbar light" data-mcs-theme="minimal-dark">
+               <ul>
+                  <li>
+                     <a href="@Url.Action("Index", "Home")"><i class="icon-home"></i> Home</a>
+                     <ul>
+                        <li><a href="@Url.Action("Index", "Home")">Home Verison 1</a></li>
+                        <li><a href="home_2.html">Home Verison 2</a></li>
+                        <li><a href="home_3.html">Home Verison 3</a></li>
+                        <li><a href="home_4-2.html">Home Verison 4</a></li>
+                        <li><a href="home_5.html">Home Verison 5</a></li>
+                        <li><a href="home_6.html">Home Verison 6</a></li>
+                     </ul>
+                  </li>
+                  <li>
+                     <a href="@Url.Action("PortfolioGrid", "Home")"><span>Projects</span></a>
+                     <ul>
+                        <li><a href="@Url.Action("PortfolioGrid", "Home")">Grid 2 Columns V1</a></li>
+                        <li><a href="portfolioGrid_2.html">Grid 3 Columns V1</a></li>
+                        <li><a href="portfolioGrid_4.html">Grid 4 Columns V1</a></li>
+                        <li><a href="portfolioGrid_2_col_V2.html">Grid 2 Columns V2</a></li>
+                        <li><a href="portfolioGrid_3_col_V2.html">Grid 3 Columns V2</a></li>
+                        <li><a href="portfolioGrid_4_col_V2.html">Grid 4 Columns V2</a></li>
+                        <li><a href="portfolioDetail_1.html">Portfolio Details 1</a></li>
+                        <li><a href="@Url.Action("PortfolioDetail", "Home")">Portfolio Details 2</a></li>
+                        <li><a href="portfolioDetail_3.html">Portfolio Details 3</a></li>
+                     </ul>
+                  </li>
+                  <li>
+                     <a href="@Url.Action("ServiceList", "Home")"><span>Services</span></a>
+                     <ul>
+                        <li><a href="@Url.Action("ServiceList", "Home")">Services List</a></li>
+                        <li><a href="@Url.Action("ServiceDetail", "Home")">Services Details V1</a></li>
+                        <li><a href="services_detail_2.html">Services Details V2</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="@Url.Action("About", "Home")"><span>About </span></a></li>
+                  <li>
+                     <a href="blogList.html"><span>Blog</span></a>
+                     <ul>
+                        <li><a href="blogGrid_2_col.html">Grid 2 Columns</a></li>
+                        <li><a href="blogGrid_3_col.html">Grid 3 Columns</a></li>
+                        <li><a href="blogGrid_4_col.html">Grid 4 Columns</a></li>
+                        <li><a href="blogList.html">Blog List</a></li>
+                        <li><a href="blogDetail.html">Blog Detail</a></li>
+                     </ul>
+                  </li>
+                  <li>
+                     <a href="#"><span>Pages</span></a>
+                     <ul>
+                        <li><a href="elements.html">Element</a></li>
+                        <li><a href="typography.html">Typography</a></li>
+                        <li><a href="404.html">404 Page</a></li>
+                        <li><a href="@Url.Action("Commingsoon", "Home")">Comming Soon</a></li>
+                     </ul>
+                  </li>
+                  <li>
+                     <a href="@Url.Action("ShopCatalog", "Home")"><span>Shop</span></a>
+                     <ul>
+                        <li><a href="@Url.Action("ShopCatalog", "Home")">Store Catalog</a></li>
+                        <li><a href="@Url.Action("ShopCart", "Home")">Shopping Cart</a></li>
+                          
+                        <li><a href="@Url.Action("ShopSingle", "Home")">Single Product</a></li>
+                     </ul>
+                  </li>
+                  <li>
+                     <a href="@Url.Action("Contact", "Home")"><span>Contact Us</span></a>
+                     <ul>
+                        <li><a href="@Url.Action("Contact", "Home")">Contact Style 1</a></li>
+                        <li><a href="contact_2.html">Contact Style 2</a></li>
+                        <li><a href="contact_3.html">Contact Style 3</a></li>
+                     </ul>
+                  </li>
+               </ul>
+               <div class="footer-mobile-menu">
+                  <ul class="social">
+                     <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                     <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                     <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                     <li class="youtube"><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+                     <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                  </ul>
+                  <ul class="address-footer-mobile">
+                     <li>
+                        <p> 8th floor, 379 Hudson St, New York, NY 10018</p>
+                     </li>
+                     <li>
+                        <p>1-800-123-6879 </p>
+                     </li>
+                     <li>
+                        <p> contact@arc.com</p>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!-- /#rmm   -->
+         </div>
+      </div>
+      <!-- End Mobile Menu -->
+      <div class="modal fade modal-search" id="myModal" tabindex="-1" role="dialog"   aria-hidden="true">
+         <button type="button" class="close" data-dismiss="modal">×</button>
+         <div class="modal-dialog myModal-search">
+            <!-- Modal content-->
+            <div class="modal-content">
+               <div class="modal-body">
+                  <form role="search" method="get" class="search-form"  >
+                     <input class="search-field" placeholder="Search here..." value="" title="" type="search">
+                     <button type="submit" class="search-submit"><i class="fa fa-search"></i></button>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- End Modal Search-->
+      <div id="page">
+         <div id="skrollr-body">
+            <header id="mainmenu" class="header-v2 header-v4 header-v5 header-fix" data-0="padding:10px;padding-left:40px;padding-right:40px;background:rgba(225,225,225,0);z-index:999" data-451="padding:10px; padding-left:40px;padding-right:40px;top:0;background:rgba(0,0,0,1)">
+               <div id="info" class="topbar topbar-position topbar-dark hide-topbar" data-0="height:30px" data-251="height:0;">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-md-12">
+                           <p class="text-cap hidden-xs">TOLL FREE: 800 345 6889</p>
+                           <p class="text-cap">E-mail: contact@arc.com</p>
+                           <div class="language">
+                              <a href="#" class="active">EN</a>
+                              <a href="#">FR</a>
+                              <a href="#">PT</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="container">
+                  <div class="left-header">
+                     <ul class="navi-level-1">
+                        <li><a href="@Url.Action("Index", "Home")" class="logo"><img src="~/UserLayout/images/Header/logo-invest.png" class="img-responsive" alt="Image"></a></li>
+                     </ul>
+                  </div>
+                  <!-- End Left Header -->
+                  <nav>
+                     <ul id="main-navi" class="navi-level-1 hover-style-2 main-navi">
+                        <li class="has-sub">
+                           <a href="@Url.Action("Index", "Home")"><span>Home</span></a>
+                           <ul class="navi-level-2 ">
+                              <li><a href="@Url.Action("Index", "Home")">HomePage  v1</a></li>
+                              <li><a href="home_2.html">HomePage  v2</a></li>
+                              <li><a href="home_3.html">HomePage  v3</a></li>
+                              <li><a href="home_4-2.html">HomePage  v4</a></li>
+                              <li><a href="home_5.html">HomePage  v5</a></li>
+                              <li><a href="home_6.html">HomePage  v6</a></li>
+                           </ul>
+                        </li>
+                        <li class="has-sub">
+                           <a href="@Url.Action("PortfolioGrid", "Home")"><span>Projects</span></a>
+                           <ul class="navi-level-2">
+                              <li><a href="@Url.Action("PortfolioGrid", "Home")">Grid 2 Columns V1</a></li>
+                              <li><a href="portfolioGrid_2.html">Grid 3 Columns V1</a></li>
+                              <li><a href="portfolioGrid_4.html">Grid 4 Columns V1</a></li>
+                              <li><a href="portfolioGrid_2_col_V2.html">Grid 2 Columns V2</a></li>
+                              <li><a href="portfolioGrid_3_col_V2.html">Grid 3 Columns V2</a></li>
+                              <li><a href="portfolioGrid_4_col_V2.html">Grid 4 Columns V2</a></li>
+                              <li><a href="portfolioDetail_1.html">Portfolio Details 1</a></li>
+                              <li><a href="@Url.Action("PortfolioDetail", "Home")">Portfolio Details 2</a></li>
+                              <li><a href="portfolioDetail_3.html">Portfolio Details 3</a></li>
+                           </ul>
+                        </li>
+                        <li class="has-sub">
+                           <a href="@Url.Action("ServiceList", "Home")"><span>Services</span></a>
+                           <ul class="navi-level-2">
+                              <li><a href="@Url.Action("ServiceList", "Home")">Services List</a></li>
+                              <li><a href="@Url.Action("ServiceDetail", "Home")">Services Details V1</a></li>
+                              <li><a href="services_detail_2.html">Services Details V2</a></li>
+                           </ul>
+                        </li>
+                        <li class="has-sub">
+                           <a href="@Url.Action("About", "Home")"><span>About </span></a>
+                           <ul class="navi-level-2">
+                              <li><a href="@Url.Action("About", "Home")">About Layout 1</a></li>
+                              <li><a href="about_2.html">About Layout 2</a></li>
+                              <li><a href="about_3.html">About Layout 3</a></li>
+                           </ul>
+                        </li>
+                        <li class="has-sub">
+                           <a href="blogList.html"><span>Blog</span></a>
+                           <ul class="navi-level-2">
+                              <li><a href="blogGrid_2_col.html">Grid 2 Columns</a></li>
+                              <li><a href="blogGrid_3_col.html">Grid 3 Columns</a></li>
+                              <li><a href="blogGrid_4_col.html">Grid 4 Columns</a></li>
+                              <li><a href="blogList.html">Blog List</a></li>
+                              <li><a href="blogDetail.html">Blog Detail</a></li>
+                           </ul>
+                        </li>
+                        <li class="has-sub">
+                           <a href="#"><span>Pages</span></a>
+                           <ul class="navi-level-2">
+                              <li><a href="elements.html">Element</a></li>
+                              <li><a href="typography.html">Typography</a></li>
+                              <li><a href="404.html">404 Page</a></li>
+                              <li><a href="@Url.Action("Commingsoon", "Home")">Comming Soon</a></li>
+                           </ul>
+                        </li>
+                        <li class="has-sub">
+                           <a href="@Url.Action("ShopCatalog", "Home")"><span>Shop</span></a>
+                           <ul class="navi-level-2">
+                              <li><a href="@Url.Action("ShopCatalog", "Home")">Store Catalog</a></li>
+                              <li><a href="@Url.Action("ShopCart", "Home")">Shopping Cart</a></li>
+                                
+                              <li><a href="@Url.Action("ShopSingle", "Home")">Single Product</a></li>
+                           </ul>
+                        </li>
+                        <li class="has-sub">
+                           <a href="@Url.Action("Contact", "Home")"><span>Contact Us</span></a>
+                           <ul class="navi-level-2">
+                              <li><a href="@Url.Action("Contact", "Home")">Contact Style 1</a></li>
+                              <li><a href="contact_2.html">Contact Style 2</a></li>
+                              <li><a href="contact_3.html">Contact Style 3</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </nav>
+                  <!-- End Nav -->
+                  <div class="right-header">
+                     <ul class="navi-level-1 sub-navi seperator-horizonal-line">
+                        <li><a href="#"><span aria-hidden="true" class="icon_bag_alt"></span>
+                           </a>
+                        </li>
+                        <li >
+                           <a  href="#" data-toggle="modal" data-target="#myModal" id="btn-search" class="reset-btn btn-in-navi"><span aria-hidden="true" class="icon_search"></span></a>
+                        </li>
+                        <li>
+                           <a href="#/"  class="mm-toggle">
+                           <span aria-hidden="true" class="icon_menu"></span>
+                           </a> 
+                        </li>
+                     </ul>
+                  </div>
+                  <!-- End Right Header -->
+               </div>
+            </header>
+            <!-- End  Header -->
+            <section>
+               <div class="rev_slider_wrapper">
+                  <!-- START REVOLUTION SLIDER 5.0 auto mode -->
+                  <div id="slider-h5" class="rev_slider slider-home-5" data-version="5.0">
+                     <ul>
+                        <!-- SLIDE  -->
+                        <li data-transition="fade"  >
+                           <!-- MAIN IMAGE -->
+                           <img src="~/UserLayout/images/Slider/h5-1.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10">							
+                           <!-- LAYER NR. 1 -->
+                           <div class="tp-caption heading-1 white-text text-cap " 						
+                              data-x="center" 
+                              data-y="center" data-voffset="-90" 						
+                              data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:600;e:Power1.easeInOut;" 
+                             
+                              data-start="800" 
+                              >organize
+                           </div>
+                           <!-- LAYER NR. 2 -->
+                           <div class="tp-caption heading-2 thin-text white-text text-cap" 							
+                              data-x="center" 
+                              data-y="center" 							 
+                              data-transform_in="y:[150%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:600;e:Power1.easeInOut;" 
+                              data-start="1200" 							 							
+                              >plan you interior today!
+                           </div>
+                           <!-- LAYER NR. 3 -->
+                           <div class="tp-caption" 							
+                              data-x="center" 
+                              data-y="center"  data-voffset="100" 
+                              data-transform_in="y:[200%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:600;e:Power1.easeInOut;" 				
+                              data-start="1400" 	
+                              >	
+                              <a href="@Url.Action("Contact", "Home")" class="ot-btn btn-sub-color text-cap  ">Get a Quote</a>
+                           </div>
+                        </li>
+                        <!-- SLIDE  -->
+                        <li data-transition="fade"  >
+                           <!-- MAIN IMAGE -->
+                           <img src="~/UserLayout/images/Slider/2.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10">							
+                           <!-- LAYER NR. 1 -->
+                           <div class="tp-caption heading-1 white-text text-cap " 						
+                              data-x="center" 
+                              data-y="center" data-voffset="-90" 						
+                              data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:600;e:Power1.easeInOut;" 
+                              data-start="800" 
+                              >organize
+                           </div>
+                           <!-- LAYER NR. 2 -->
+                           <div class="tp-caption heading-2 thin-text white-text text-cap" 							
+                              data-x="center" 
+                              data-y="center" 							 
+                              data-transform_in="y:[150%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:600;e:Power1.easeInOut;" 
+                              data-start="1200" 							 							
+                              >plan you interior today!
+                           </div>
+                           <!-- LAYER NR. 3 -->
+                           <div class="tp-caption btn-2" 							
+                              data-x="center" 
+                              data-y="center"  data-voffset="100" 
+                              data-transform_in="y:[200%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:600;e:Power1.easeInOut;" 				
+                              data-start="1400" 	
+                              >	
+                              <a href="@Url.Action("Contact", "Home")" class="ot-btn btn-sub-color text-cap  ">Get a Quote</a>
+                           </div>
+                        </li>
+                        <!-- SLIDE  -->
+                        <li data-transition="fade"  >
+                           <!-- MAIN IMAGE -->
+                           <img src="~/UserLayout/images/Slider/3.jpg"  alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10">							
+                           <!-- LAYER NR. 1 -->
+                           <div class="tp-caption heading-1 white-text text-cap " 						
+                              data-x="center" 
+                              data-y="center" data-voffset="-90" 						
+                               data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:600;e:Power1.easeInOut;"  
+                              data-start="800" 
+                              >organize
+                           </div>
+                           <!-- LAYER NR. 2 -->
+                           <div class="tp-caption heading-2 thin-text white-text text-cap" 							
+                              data-x="center" 
+                              data-y="center" 							 
+                              data-transform_in="y:[150%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:600;e:Power1.easeInOut;" 
+                              data-start="1200" 							 							
+                              >plan you interior today!
+                           </div>
+                           <!-- LAYER NR. 3 -->
+                           <div class="tp-caption btn-2" 							
+                              data-x="center" 
+                              data-y="center"  data-voffset="100" 
+                              data-transform_in="y:[200%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:600;e:Power1.easeInOut;" 				
+                              data-start="1400" 	
+                              >	
+                              <a href="@Url.Action("Contact", "Home")" class="ot-btn btn-sub-color text-cap  ">Get a Quote</a>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+                  <!-- END REVOLUTION SLIDER -->
+               </div>
+               <!-- END REVOLUTION SLIDER WRAPPER -->	
+            </section>
+            <!-- End Section Slider -->
+            <section>
+               <div class="container relative">
+                  <div class="row">
+                     <div class="pormotion-h5 prmotion-fix">
+                        <div class="item-promotion-h5">
+                           <div class="img-promotion-h5">
+                              <img src="~/UserLayout/images/Promotion/4.jpg" class="img-responsive" alt="Image">
+                           </div>
+                           <div class="promotion-h5-text-box">
+                              <h3 class="text-cap">Best kitchen interior</h3>
+                              <a class="text-cap" href="@Url.Action("ServiceDetail", "Home")">
+                              View Service
+                              </a>
+                           </div>
+                        </div>
+                        <div class="item-promotion-h5">
+                           <div class="img-promotion-h5">
+                              <img src="~/UserLayout/images/Promotion/5.jpg" class="img-responsive" alt="Image">
+                           </div>
+                           <div class="promotion-h5-text-box">
+                              <h3 class="text-cap">Bathroom Design Award</h3>
+                              <a class="text-cap" href="@Url.Action("ServiceDetail", "Home")">
+                              View Service
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!-- End Section Promotion Fix -->
+            <section class="padding">
+               <div class="container">
+                  <div class="row">
+                     <div class="welcome-section">
+                        <div class="col-md-5">
+                           <h4 class="text-cap">Welcome to arc studio</h4>
+                           <h1 class="text-cap">Interior design & Build</h1>
+                        </div>
+                        <div class="col-md-7">
+                           <p>ARC are Interior Design Studio, Residential, Office, Education, Hospital and Commercial interior  pulvinar mi odio, ac congue ipsum dignissim at. Vestibulum sit amet dapibus erat. Sed consequat, nunc in pretium rutrum, massa mi elementum est</p>
+                           <p>Our friendly and approachable team have decades of experience delivering successful fit out and refurbishment projects for companies and educational establishments in the United States and beyond.</p>
+                           <p>Our aim is 100% client satisfaction, always putting the customer first and ensuring that clients return to us time and time again</p>
+                           <a href="@Url.Action("ServiceList", "Home")" class="ot-btn btn-main-color text-cap mgb0">
+                           our projects <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!-- End Section Welcome Text -->
+            <section class="padding bg-parallax ourProcess-bg-dark">
+               <div class="container">
+                  <div class="row">
+                     <div class="title-block">
+                        <h2 class="title text-cap white-text">Our Process</h2>
+                        <div class="divider divider-2">
+                           <svg class="svg-triangle-icon-container">
+                              <polygon class="svg-triangle-icon" points="6 11,12 0,0 0"></polygon>
+                           </svg>
+                        </div>
+                     </div>
+                     <!-- End Title -->
+                     <div class="process-container">
+                        <div id="sync5" class="owl-carousel owl-process clearfix">
+                           <div class="item ">
+                              <p>
+                                 Maecenas pulvinar mauris at magna sollicitudin pellentesque. Praesent molestie commodo odio, ut tempor libero sollicitudin eget. Etiam laoreet magna non elit convallis, nec hendrerit enim dictum. Nullam tincidunt leo enim, in aliquam lacus consectetur eget.
+                              </p>
+                           </div>
+                           <!-- end item -->
+                           <div class="item ">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                              </p>
+                           </div>
+                           <!-- end item -->
+                           <div class="item ">
+                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                           </div>
+                           <!-- end item -->
+                           <div class="item ">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                 cillum dolore eu fugiat nulla pariatur.
+                              </p>
+                           </div>
+                           <!-- end item -->
+                        </div>
+                        <!-- End Main Sync owl -->
+                        <div id="sync6" class="owl-carousel thumb-process-slide ">
+                           <div class="item">
+                              <div class="process-item mgb0">
+                                 <span>01</span>
+                                 <p class="text-cap">Meet</p>
+                              </div>
+                           </div>
+                           <div class="item">
+                              <div class="process-item mgb0">
+                                 <span>02</span>
+                                 <p class="text-cap">concept</p>
+                              </div>
+                           </div>
+                           <div class="item">
+                              <div class="process-item mgb0" >
+                                 <span>03</span>
+                                 <p class="text-cap">design</p>
+                              </div>
+                           </div>
+                           <div class="item">
+                              <div class="process-item mgb0">
+                                 <span>04</span>
+                                 <p class="text-cap">build</p>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- End Navithumbnail Owl Sync -->	
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!-- End Section Our Process -->
+            <section class="padding">
+               <div class="container">
+                  <div class="row">
+                     <div class="title-block">
+                        <h2 class="title text-cap">How This Would Help You</h2>
+                        <div class="divider divider-1">
+                           <svg class="svg-triangle-icon-container">
+                              <polygon class="svg-triangle-icon" points="6 11,12 0,0 0"></polygon>
+                           </svg>
+                        </div>
+                     </div>
+                     <!-- End Title -->
+                     <div class="left-icon-container">
+                        <div class="col-md-6">
+                           <article class="media-style left-icon-item">
+                              <div class="media">
+                                 <div class="media-left">
+                                    <i class="fa fa-diamond" aria-hidden="true"></i>
+                                 </div>
+                                 <div class="media-body">
+                                    <h4 class="">Modern Plans</h4>
+                                    <p>
+                                       Nulla et ligula dictum, commodo felis eu, euismod dui. Ut mollis lorem ante, eu tincidunt elit sagittis ut. 
+                                    </p>
+                                 </div>
+                              </div>
+                           </article>
+                        </div>
+                        <div class="col-md-6">
+                           <article class="media-style left-icon-item">
+                              <div class="media">
+                                 <div class="media-left">
+                                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                 </div>
+                                 <div class="media-body">
+                                    <h4 class="">Save Time</h4>
+                                    <p>
+                                       Nulla et ligula dictum, commodo felis eu, euismod dui. Ut mollis lorem ante, eu tincidunt elit sagittis ut. 
+                                    </p>
+                                 </div>
+                              </div>
+                           </article>
+                        </div>
+                        <div class="col-md-6">
+                           <article class="media-style left-icon-item">
+                              <div class="media">
+                                 <div class="media-left">
+                                    <i class="fa fa-usd" aria-hidden="true"></i>
+                                 </div>
+                                 <div class="media-body">
+                                    <h4 class="">Save Money</h4>
+                                    <p>
+                                       Ut mollis lorem ante, eu tincidunt elit sagittis ut. Nunc pulvinar mi at hendrerit aliquam
+                                    </p>
+                                 </div>
+                              </div>
+                           </article>
+                        </div>
+                        <div class="col-md-6">
+                           <article class="media-style left-icon-item">
+                              <div class="media">
+                                 <div class="media-left">
+                                    <i class="fa fa-coffee" aria-hidden="true"></i>
+                                 </div>
+                                 <div class="media-body">
+                                    <h4 class="">Great Starting</h4>
+                                    <p>
+                                       Ut mollis lorem ante, eu tincidunt elit sagittis ut. Nunc pulvinar mi at hendrerit aliquam
+                                    </p>
+                                 </div>
+                              </div>
+                           </article>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!-- End Sectin Icon Box How This Would Help You -->
+            <section class="padding bg-dark padding-bottom-0">
+               <div class="title-block">
+                  <h2 class="title text-cap white-text">Lastest Projects</h2>
+                  <div class="divider divider-2">
+                     <svg class="svg-triangle-icon-container">
+                        <polygon class="svg-triangle-icon" points="6 11,12 0,0 0"></polygon>
+                     </svg>
+                  </div>
+               </div>
+               <!-- End Title -->
+               <div class="lastest-project-warp clearfix">
+                  <div class="projectFilter project-terms project-terms-2  line-effect-2">
+                     <a href="#" data-filter="*" class="current text-cap">
+                        <h4>All Projects</h4>
+                     </a>
+                     <a href="#" data-filter=".Residential" class="text-cap">
+                        <h4>Residential</h4>
+                     </a>
+                     <a href="#" data-filter=".Ecommercial" class="text-cap">
+                        <h4>Ecommercial</h4>
+                     </a>
+                     <a href="#" data-filter=".Office" class="text-cap">
+                        <h4>Office</h4>
+                     </a>
+                     <a href="#" data-filter=".Hospital" class="text-cap">
+                        <h4>Hospital</h4>
+                     </a>
+                  </div>
+                  <!-- End Project Fillter -->
+                  <div class="clearfix projectContainer">
+                     <div class="element-item  Residential">
+                        <img src="~/UserLayout/images/Project/1.jpg" class="img-responsive" alt="Image">
+                        <div class="project-info">
+                           <a href="portfolioDetail.html">
+                              <h4 class="title-project text-cap text-cap">Dream House</h4>
+                           </a>
+                           <a href="portfolioDetail.html" class="cateProject">Residential</a>
+                        </div>
+                     </div>
+                     <div class="element-item Residential ">
+                        <img src="~/UserLayout/images/Project/2.jpg" class="img-responsive" alt="Image">
+                        <div class="project-info">
+                           <a href="portfolioDetail.html">
+                              <h4 class="title-project text-cap">Wood Wall City</h4>
+                           </a>
+                           <a href="portfolioDetail.html" class="cateProject">Ecommercial</a>
+                        </div>
+                     </div>
+                     <div class="element-item Ecommercial">
+                        <a class="img-contain-isotope" href="portfolioDetail.html">
+                        <img src="~/UserLayout/images/Project/3.jpg" class="img-responsive" alt="Image">
+                        </a>
+                        <div class="project-info">
+                           <a href="portfolioDetail.html">
+                              <h4 class="title-project text-cap">Bathroom furniture</h4>
+                           </a>
+                           <a href="portfolioDetail.html" class="cateProject">Residential</a>
+                        </div>
+                     </div>
+                     <div class="element-item Ecommercial ">
+                        <a class="img-contain-isotope" href="portfolioDetail.html">
+                        <img src="~/UserLayout/images/Project/4.jpg" class="img-responsive" alt="Image">
+                        </a>
+                        <div class="project-info">
+                           <a href="portfolioDetail.html">
+                              <h4 class="title-project text-cap">Living room decor</h4>
+                           </a>
+                           <a href="portfolioDetail.html" class="cateProject">Residential</a>
+                        </div>
+                     </div>
+                     <div class="element-item Office">
+                        <a class="img-contain-isotope" href="portfolioDetail.html">
+                        <img src="~/UserLayout/images/Project/5.jpg" class="img-responsive" alt="Image">
+                        </a>
+                        <div class="project-info">
+                           <a href="portfolioDetail.html">
+                              <h4 class="title-project text-cap">open Space House</h4>
+                           </a>
+                           <a href="portfolioDetail.html" class="cateProject">Residential</a>
+                        </div>
+                     </div>
+                     <div class="element-item Office">
+                        <a class="img-contain-isotope" href="portfolioDetail.html">
+                        <img src="~/UserLayout/images/Project/6.jpg" class="img-responsive" alt="Image">
+                        </a>
+                        <div class="project-info">
+                           <a href="portfolioDetail.html">
+                              <h4 class="title-project text-cap">Sky Hotel</h4>
+                           </a>
+                           <a href="portfolioDetail.html" class="cateProject">Ecommercial</a>
+                        </div>
+                     </div>
+                     <div class="element-item Hospital ">
+                        <a class="img-contain-isotope" href="portfolioDetail.html">
+                        <img src="~/UserLayout/images/Project/7.jpg" class="img-responsive" alt="Image">
+                        </a>
+                        <div class="project-info">
+                           <a href="portfolioDetail.html">
+                              <h4 class="title-project text-cap">Ogrange Corporate</h4>
+                           </a>
+                           <a href="portfolioDetail.html" class="cateProject">Office</a>
+                        </div>
+                     </div>
+                     <div class="element-item Hospital">
+                        <img src="~/UserLayout/images/Project/8.jpg" class="img-responsive" alt="Image">
+                        <div class="project-info">
+                           <a href="portfolioDetail.html">
+                              <h4 class="title-project text-cap">Ocean view Building</h4>
+                           </a>
+                           <a href="portfolioDetail.html" class="cateProject">Residential</a>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- End project Container -->
+               </div>
+               <!-- End  -->
+               <div class="overlay-arc">
+                  <div class="layer-1">
+                     <a href="#" class="ot-btn btn-dark-color text-cap">View all project</a>
+                  </div>
+               </div>
+            </section>
+            <!-- End Section Isotop Lastest Project -->
+            <section class="padding">
+               <div class="container">
+                  <div class="row">
+                     <div class="title-block">
+                        <h2 class="title text-cap">What Our Client Says</h2>
+                        <div class="divider divider-1">
+                           <svg class="svg-triangle-icon-container">
+                              <polygon class="svg-triangle-icon" points="6 11,12 0,0 0"></polygon>
+                           </svg>
+                        </div>
+                     </div>
+                     <!-- End Title -->
+                     <div class="testimonial-sync-container">
+                        <div class="customNavigation">
+                           <a class="btn prev-testimonial-sync"><img src="~/UserLayout/images/Icon/left.png" class="img-responsive" alt="Image"></a>
+                           <a class="btn next-testimonial-sync"><img alt="Image" src="~/UserLayout/images/Icon/right.png"></a>
+                        </div>
+                        <div id="sync7" class="owl-carousel owl-testimonial-sync clearfix">
+                           <div class="item ">
+                              <div class="item-testimonials large-avatar text-center">
+                                 <div class="avatar-testimonials">
+                                    <img src="~/UserLayout/images/Testimonials/1.jpg" class="img-responsive" alt="Image">
+                                 </div>
+                                 <h4 class="name-testimonials text-cap">Linda Campbell</h4>
+                                 <span class="job-testimonials">CEO ARC Theme Group</span>
+                                 <p class="content-testimonials">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua.Morbi auctor vel mauris facilisis lacinia. Aenean suscipit lorem leo, et hendrerit odio fermentum et. Donec ac dolor eros.Mauris arcu nunc, iaculis sit amet lacus iaculis, faucibus faucibus nunc. Vestibulum sit amet lacinia massa
+                                 </p>
+                              </div>
+                           </div>
+                           <!-- end item -->
+                           <div class="item ">
+                              <div class="item-testimonials large-avatar text-center">
+                                 <div class="avatar-testimonials">
+                                    <img src="~/UserLayout/images/Testimonials/2.jpg" class="img-responsive" alt="Image">
+                                 </div>
+                                 <h4 class="name-testimonials text-cap">melanie martinez</h4>
+                                 <span class="job-testimonials">AU Group</span>
+                                 <p class="content-testimonials">Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                 </p>
+                              </div>
+                           </div>
+                           <!-- end item -->
+                           <div class="item ">
+                              <div class="item-testimonials large-avatar text-center">
+                                 <div class="avatar-testimonials">
+                                    <img src="~/UserLayout/images/Testimonials/3.jpg" class="img-responsive" alt="Image">
+                                 </div>
+                                 <h4 class="name-testimonials text-cap">Tim Wood</h4>
+                                 <span class="job-testimonials">Designer</span>
+                                 <p class="content-testimonials">  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur.quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                 </p>
+                              </div>
+                           </div>
+                           <!-- end item -->
+                           <div class="item ">
+                              <div class="item-testimonials large-avatar text-center">
+                                 <div class="avatar-testimonials">
+                                    <img src="~/UserLayout/images/Testimonials/4.jpg" class="img-responsive" alt="Image">
+                                 </div>
+                                 <h4 class="name-testimonials text-cap">Rino Foster</h4>
+                                 <span class="job-testimonials">Photograper</span>
+                                 <p class="content-testimonials">Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                    cillum dolore eu fugiat nulla pariatur.quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                 </p>
+                              </div>
+                           </div>
+                           <!-- end item -->
+                           <div class="item ">
+                              <div class="item-testimonials large-avatar text-center">
+                                 <div class="avatar-testimonials">
+                                    <img src="~/UserLayout/images/Testimonials/11.jpg" class="img-responsive" alt="Image">
+                                 </div>
+                                 <h4 class="name-testimonials text-cap">Zaha Hadid</h4>
+                                 <span class="job-testimonials">Architect</span>
+                                 <p class="content-testimonials"> Mauris arcu nunc, iaculis sit amet lacus iaculis, faucibus faucibus nunc. Vestibulum sit amet lacinia massa Morbi auctor vel mauris facilisis lacinia. Aenean suscipit lorem leo, et hendrerit odio fermentum et. Donec ac dolor eros.Mauris arcu nunc, iaculis sit amet lacus iaculis, faucibus faucibus nunc. Vestibulum sit amet lacinia massa</p>
+                              </div>
+                           </div>
+                           <!-- end item -->
+                           <div class="item ">
+                              <div class="item-testimonials large-avatar text-center">
+                                 <div class="avatar-testimonials">
+                                    <img src="~/UserLayout/images/Testimonials/12.jpg" class="img-responsive" alt="Image">
+                                 </div>
+                                 <h4 class="name-testimonials text-cap">Zaha Hadid</h4>
+                                 <span class="job-testimonials">Architect</span>
+                                 <p class="content-testimonials">Morbi auctor vel mauris facilisis lacinia. Aenean suscipit lorem leo, et hendrerit odio fermentum et. Donec ac dolor eros.Mauris arcu nunc, iaculis sit amet lacus iaculis, faucibus faucibus nunc. Vestibulum sit amet lacinia massa</p>
+                              </div>
+                           </div>
+                           <!-- end item -->
+                        </div>
+                        <!-- End Main Sync owl -->
+                        <div id="sync8" class="owl-carousel thumb-testimonial-sync-slide">
+                           <div class="item">
+                              <img src="~/UserLayout/images/Partner/1.png" class="img-responsive" alt="Image">
+                           </div>
+                           <div class="item">
+                              <img src="~/UserLayout/images/Partner/2.png" class="img-responsive" alt="Image">
+                           </div>
+                           <div class="item">
+                              <img src="~/UserLayout/images/Partner/3.png" class="img-responsive" alt="Image">
+                           </div>
+                           <div class="item">
+                              <img src="~/UserLayout/images/Partner/4.png" class="img-responsive" alt="Image">
+                           </div>
+                           <div class="item">
+                              <img src="~/UserLayout/images/Partner/5.png" class="img-responsive" alt="Image">
+                           </div>
+                           <div class="item">
+                              <img src="~/UserLayout/images/Partner/2.png" class="img-responsive" alt="Image">
+                           </div>
+                        </div>
+                        <!-- End Navithumbnail Owl Sync -->	
+                     </div>
+                     <!-- End row partners -->
+                  </div>
+               </div>
+            </section>
+            <!-- End Section Owl Testimonials & Owl Partner -->
+            <section class="padding bg-grey">
+               <div class="container">
+                  <div class="row">
+                     <div class="title-block">
+                        <h2 class="title text-cap ">Meet our Team</h2>
+                        <div class="divider divider-1">
+                           <svg class="svg-triangle-icon-container">
+                              <polygon class="svg-triangle-icon" points="6 11,12 0,0 0"></polygon>
+                           </svg>
+                        </div>
+                     </div>
+                     <!-- End Title -->
+                     <div class="ourteamGrid-warp">
+                        <div class="team-grid-item">
+                           <img src="~/UserLayout/images/Ourteam/1.jpg" class="img-responsive" alt="Image">
+                           <div class="grid-team-overlay">
+                              <h5 class="text-cap">Ronald Long</h5>
+                              <p class="member-job">Creative Director</p>
+                              <p class="description-member">
+                                 Sed malesuada aliquam aliquet. Etiam rutrum semper neque vitae elementum. Nullam tempor pulvinar nunc ac pretium. Quisque scelerisque vestibulum pulvinar. Praesent eros urna, ullamcorper ac suscipit eget, pulvinar sit amet ligula. Maecenas finibus dictum quam fringilla hendrerit. Curabitur tempor mauris non elit ullamcorper maximus. Phasellus faucibus libero eu enim tincidunt laoreet.
+                              </p>
+                              <div class="social-member">
+                                 <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                                 <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                 <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="team-grid-item">
+                           <img src="~/UserLayout/images/Ourteam/2.jpg" class="img-responsive" alt="Image">
+                           <div class="grid-team-overlay">
+                              <h5 class="text-cap">Jennifer Aguila</h5>
+                              <p class="member-job">Lead Designer</p>
+                              <p class="description-member">
+                                 Sed malesuada aliquam aliquet. Etiam rutrum semper neque vitae elementum. Nullam tempor pulvinar nunc ac pretium. Quisque scelerisque vestibulum pulvinar. Praesent eros urna, ullamcorper ac suscipit eget, pulvinar sit amet ligula. Maecenas finibus dictum quam fringilla hendrerit. Curabitur tempor mauris non elit ullamcorper maximus. Phasellus faucibus libero eu enim tincidunt laoreet.
+                              </p>
+                              <div class="social-member">
+                                 <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                                 <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                 <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="team-grid-item">
+                           <img src="~/UserLayout/images/Ourteam/3.jpg" class="img-responsive" alt="Image">
+                           <div class="grid-team-overlay">
+                              <h5 class="text-cap">Henry Hernandez</h5>
+                              <p class="member-job">Photograper</p>
+                              <p class="description-member">
+                                 Sed malesuada aliquam aliquet. Etiam rutrum semper neque vitae elementum. Nullam tempor pulvinar nunc ac pretium. Quisque scelerisque vestibulum pulvinar. Praesent eros urna, ullamcorper ac suscipit eget, pulvinar sit amet ligula. Maecenas finibus dictum quam fringilla hendrerit. Curabitur tempor mauris non elit ullamcorper maximus. Phasellus faucibus libero eu enim tincidunt laoreet.
+                              </p>
+                              <div class="social-member">
+                                 <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                                 <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                 <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="team-grid-item">
+                           <img src="~/UserLayout/images/Ourteam/4.jpg" class="img-responsive" alt="Image">
+                           <div class="grid-team-overlay">
+                              <h5 class="text-cap">Melanie Martinez</h5>
+                              <p class="member-job">Designer</p>
+                              <p class="description-member">
+                                 Sed malesuada aliquam aliquet. Etiam rutrum semper neque vitae elementum. Nullam tempor pulvinar nunc ac pretium. Quisque scelerisque vestibulum pulvinar. Praesent eros urna, ullamcorper ac suscipit eget, pulvinar sit amet ligula. Maecenas finibus dictum quam fringilla hendrerit. Curabitur tempor mauris non elit ullamcorper maximus. Phasellus faucibus libero eu enim tincidunt laoreet.
+                              </p>
+                              <div class="social-member">
+                                 <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                                 <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                 <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="team-grid-item">
+                           <img src="~/UserLayout/images/Ourteam/6.jpg" class="img-responsive" alt="Image">
+                           <div class="grid-team-overlay">
+                              <h5 class="text-cap">Olivia Lang</h5>
+                              <p class="member-job">Photographer</p>
+                              <p class="description-member">
+                                 Sed malesuada aliquam aliquet. Etiam rutrum semper neque vitae elementum. Nullam tempor pulvinar nunc ac pretium. Quisque scelerisque vestibulum pulvinar. Praesent eros urna, ullamcorper ac suscipit eget, pulvinar sit amet ligula. Maecenas finibus dictum quam fringilla hendrerit. Curabitur tempor mauris non elit ullamcorper maximus. Phasellus faucibus libero eu enim tincidunt laoreet.
+                              </p>
+                              <div class="social-member">
+                                 <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                                 <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                 <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="team-grid-item">
+                           <img src="~/UserLayout/images/Ourteam/7.jpg" class="img-responsive" alt="Image">
+                           <div class="grid-team-overlay">
+                              <h5 class="text-cap">Janis Joblin</h5>
+                              <p class="member-job">Creative Director</p>
+                              <p class="description-member">
+                                 Sed malesuada aliquam aliquet. Etiam rutrum semper neque vitae elementum. Nullam tempor pulvinar nunc ac pretium. Quisque scelerisque vestibulum pulvinar. Praesent eros urna, ullamcorper ac suscipit eget, pulvinar sit amet ligula. Maecenas finibus dictum quam fringilla hendrerit. Curabitur tempor mauris non elit ullamcorper maximus. Phasellus faucibus libero eu enim tincidunt laoreet.
+                              </p>
+                              <div class="social-member">
+                                 <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                                 <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                 <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!-- End Our Team Grid -->
+            <section class="padding bg-parallax section-dark-ourStatistics ">
+               <div class="container">
+                  <div class="row">
+                     <div class="title-block">
+                        <h2 class="title text-cap white-text">Our Statistics</h2>
+                        <div class="divider divider-2">
+                           <svg class="svg-triangle-icon-container">
+                              <polygon class="svg-triangle-icon" points="6 11,12 0,0 0"></polygon>
+                           </svg>
+                        </div>
+                     </div>
+                     <!-- End Title -->
+                     <div class="ourStatis-warp">
+                        <div class="ourStatis-item">
+                           <div class="circle-statis">
+                              <img src="~/UserLayout/images/Ourstatis/1.jpg" class="img-responsive" alt="Image">
+                           </div>
+                           <h6 class="text-cap">Living room</h6>
+                           <span class="counter">6789</span>
+                        </div>
+                        <div class="ourStatis-item">
+                           <div class="circle-statis">
+                              <img src="~/UserLayout/images/Ourstatis/2.jpg" class="img-responsive" alt="Image">
+                           </div>
+                           <h6 class="text-cap">Bedroom</h6>
+                           <span class="counter">1821</span>
+                        </div>
+                        <div class="ourStatis-item">
+                           <div class="circle-statis">
+                              <img src="~/UserLayout/images/Ourstatis/3.jpg" class="img-responsive" alt="Image">
+                           </div>
+                           <h6 class="text-cap">Kitchen</h6>
+                           <span class="counter">921</span>
+                        </div>
+                        <div class="ourStatis-item">
+                           <div class="circle-statis">
+                              <img src="~/UserLayout/images/Ourstatis/4.jpg" class="img-responsive" alt="Image">
+                           </div>
+                           <h6 class="text-cap"> Bathroom</h6>
+                           <span class="counter">891</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!-- End Counter Up Our Statis -->
+            <section class="padding">
+               <div class="container">
+                  <div class="row">
+                     <div class="title-block">
+                        <h2 class="title text-cap">We're here to help</h2>
+                        <div class="divider divider-1">
+                           <svg class="svg-triangle-icon-container">
+                              <polygon class="svg-triangle-icon" points="6 11,12 0,0 0"></polygon>
+                           </svg>
+                        </div>
+                     </div>
+                     <!-- End Title -->
+                     <div class="clearfix mgb30 "></div>
+                     <p class="text-center">
+                        Have a question or want to know more? We’re looking forward to hearing from <br> you. Fill out the form bellow or call us today.
+                     </p>
+                     <div class="block-contact text-center">
+                        <div class="col-md-4">
+                           <div class="item-block-contact">
+                              <span class="lnr lnr-smartphone"></span>
+                              <p>(1) 800 345 6889</p>
+                           </div>
+                        </div>
+                        <div class="col-md-4">
+                           <div class="item-block-contact">
+                              <span class="lnr lnr-map-marker"></span>
+                              <p>379 5th Ave New York, NYC 10018</p>
+                           </div>
+                        </div>
+                        <div class="col-md-4">
+                           <div class="item-block-contact">
+                              <span class="lnr lnr-envelope"></span>
+                              <p>contact@site.com</p>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- End Block Contact -->
+                     <div class="form-contact">
+                        <h3 class="text-cap text-center">Send us a message</h3>
+                        <form class="form-inline form-contact-arc text-center" name="contact" method="post" action="https://templates.thememodern.com/architect/send_form_email.php">
+                           <div class="row">
+                              <div class="form-group col-sm-12  col-md-4">
+                                 <input class="form-control" name="yourName" id="yourName" placeholder="Your Name" type="text">
+                              </div>
+                              <div class="form-group col-sm-12 col-md-4">
+                                 <input class="form-control" name="yourEmail" id="yourEmail" placeholder="Your Email" type="email">
+                              </div>
+                              <div class="form-group col-sm-12 col-md-4">
+                                 <input class="form-control" name="yourPhone" id="phoneNumber" placeholder="Phone Number" type="text">
+                              </div>
+                           </div>
+                           <div class="input-content">
+                              <div class="form-group form-textarea">
+                                 <textarea id="textarea" class="form-control" name="comments" rows="3" placeholder="Your Messages"></textarea>
+                              </div>
+                           </div>
+                           <button class="ot-btn btn-main-color btn-long btn-submit text-cap">Send Mail</button>
+                        </form>
+                     </div>
+                     <!-- End Form Contact -->
+                  </div>
+               </div>
+            </section>
+            <!-- End Section We're Here to Help -->
+            <footer class="footer-v2 bg-dark">
+               <div class="container">
+                  <div class="row">
+                     <div class="footer-col-1">
+                        <a href="#">
+                        <img src="~/UserLayout/images/Header/logo-invest.png" class="img-responsive" alt="Image">
+                        </a>
+                        <p>
+                           ARC is a clean PSD theme suitable for Interior Design, Decor & Architecture corporate. Praesent id rhoncus est. Suspendisse mollis semper augue sed interdum. Integer dictum turpis nulla, et consectetur risus volutpat non. Curabitur vehicula eu ante et tempus. 
+                        </p>
+                     </div>
+                     <div class="footer-col-2">
+                        <h4 class="text-cap">
+                           Company
+                        </h4>
+                        <ul class="list-link-footer">
+                           <li><a class="text-cap" href="#">Home</a></li>
+                           <li><a class="text-cap" href="#">Projects</a></li>
+                           <li><a class="text-cap" href="#">Services</a></li>
+                           <li><a class="text-cap" href="#">About Us</a></li>
+                           <li><a class="text-cap" href="#">Contact</a></li>
+                           <li><a class="text-cap" href="#">Blogs</a></li>
+                           <li><a class="text-cap" href="#">404 Pages</a></li>
+                           <li><a class="text-cap" href="#">Shop</a></li>
+                           <li><a class="text-cap" href="#">Elements</a></li>
+                           <li><a class="text-cap" href="#">Typography</a></li>
+                        </ul>
+                     </div>
+                     <div class="footer-col-3">
+                        <h4 class="text-cap">Newsletter</h4>
+                        <form class="form-inline form-subcrible-footer">
+                           <div class="form-group">
+                              <div class="input-group">
+                                 <input type="text" class="form-control" id="exampleInputAmount" placeholder="email@arc.com">
+                              </div>
+                           </div>
+                           <button type="submit" class="btn-subcrible-footer text-cap">subscrible</button>
+                        </form>
+                        <ul class="social social-footer">
+                           <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                           <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                           <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                           <li class="youtube"><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+                           <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </footer>
+            <!-- End Footer -->
+            <section class="copyright">
+               <p>Copyright © 2016 Designed by <a href="#">AuThemes</a>. All rights reserved.</p>
+            </section>
+         </div>
+      </div>
+      <!-- End page -->
+      
+      <a id="to-the-top"><i class="fa fa-angle-up"></i></a> 
+      <!-- Back To Top -->
+      <!-- SCRIPT -->
+      <script src="~/UserLayout/js/vendor/jquery.min.js"></script>
+      <script src="~/UserLayout/js/vendor/bootstrap.min.js"></script>
+      <script src="~/UserLayout/js/plugins/jquery.waypoints.min.js"></script>
+      <script src="~/UserLayout/js/plugins/wow.min.js"></script>
+      <script src="~/UserLayout/js/plugins/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script type="text/javascript" src="~/UserLayout/js/plugins/skrollr.min.js"></script>
+      <!-- Switcher
+         ================================================== -->
+      <script src="~/UserLayout/switcher/demo.js"></script>
+      <!-- REVOLUTION JS FILES -->
+      <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
+      <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+      <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  
+         (Load Extensions only on Local File Systems !  
+         The following part can be removed on Server for On Demand Loading) -->	
+      <script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
+      <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+      <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+      <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+      <script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
+      <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+      <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+      <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+      <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>	
+      <!-- Intializing Slider-->
+      <script type="text/javascript" src="~/UserLayout/js/plugins/slider.js"></script>
+      <!-- Mobile Menu
+         ================================================== --> 
+      <script src="~/UserLayout/js/plugins/jquery.mobile-menu.js"></script>  
+      <!-- Initializing the isotope
+         ================================================== --> 
+      <script src="~/UserLayout/js/plugins/isotope.pkgd.min.js"></script>
+      <script src="~/UserLayout/js/plugins/custom-isotope.js"></script>
+      <!-- Initializing Owl Carousel
+         ================================================== -->
+      <script src="~/UserLayout/js/plugins/owl.carousel.js"></script>
+      <script src="~/UserLayout/js/plugins/custom-owl.js"></script>
+      <!-- Initializing Counter Up
+         ================================================== -->
+      <script src="~/UserLayout/js/plugins/jquery.counterup.min.js"></script>
+      <!-- PreLoad
+       ================================================== --> 
+      <script type="text/javascript" src="~/UserLayout/js/plugins/royal_preloader.min.js"></script>
+      <script type="text/javascript">
+      (function($) { "use strict";
+                  Royal_Preloader.config({
+                      mode:           'logo', // 'number', "text" or "logo"
+                      logo:           'images/Header/logo.png',
+                      timeout:       1,
+                      showInfo:       false,
+                      opacity:        1,
+                      background:     ['#FFFFFF']
+                  });
+      })(jQuery);
+      </script>
+
+      <!-- Global Js
+       ================================================== --> 
+      <script src="~/UserLayout/js/plugins/custom.js"></script>
+      <script src="~/UserLayout/js/plugins/custom-h4.js"></script>
+
+   </body>
+
+<!-- Mirrored from templates.thememodern.com/architect/home_5.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Aug 2025 13:58:23 GMT -->
+</html>
+

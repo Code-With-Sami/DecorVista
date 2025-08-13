@@ -17,17 +17,26 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Decor_Vista
 build_property.RootNamespace = Decor_Vista
+<<<<<<< HEAD
 build_property.ProjectDir = D:\GITHUB\DecorVista\Decor_Vista\Decor_Vista\
+=======
+build_property.ProjectDir = D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista\
+>>>>>>> origin/Sami
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+<<<<<<< HEAD
 build_property.MSBuildProjectDirectory = D:\GITHUB\DecorVista\Decor_Vista\Decor_Vista
+=======
+build_property.MSBuildProjectDirectory = D:\Github Repo\DecorVista\Decor_Vista\Decor_Vista
+>>>>>>> origin/Sami
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
+<<<<<<< HEAD
 [D:/GITHUB/DecorVista/Decor_Vista/Decor_Vista/Views/AdminUsers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Vc2Vyc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -133,5 +142,108 @@ build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/GITHUB/DecorVista/Decor_Vista/Decor_Vista/Views/Shared/_Layout.cshtml]
+=======
+[D:/Github Repo/DecorVista/Decor_Vista/Decor_Vista/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github Repo/DecorVista/Decor_Vista/Decor_Vista/Views/Auth/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github Repo/DecorVista/Decor_Vista/Decor_Vista/Views/Designer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzaWduZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github Repo/DecorVista/Decor_Vista/Decor_Vista/Views/Designer/LoginDesigner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzaWduZXJcTG9naW5EZXNpZ25lci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github Repo/DecorVista/Decor_Vista/Decor_Vista/Views/Designer/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzaWduZXJcUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github Repo/DecorVista/Decor_Vista/Decor_Vista/Views/Designer/RegisterDesigner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzaWduZXJcUmVnaXN0ZXJEZXNpZ25lci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github Repo/DecorVista/Decor_Vista/Decor_Vista/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github Repo/DecorVista/Decor_Vista/Decor_Vista/Views/Home/commingsoon.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjb21taW5nc29vbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github Repo/DecorVista/Decor_Vista/Decor_Vista/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github Repo/DecorVista/Decor_Vista/Decor_Vista/Views/Home/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github Repo/DecorVista/Decor_Vista/Decor_Vista/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github Repo/DecorVista/Decor_Vista/Decor_Vista/Views/Home/PortfolioDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQb3J0Zm9saW9EZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github Repo/DecorVista/Decor_Vista/Decor_Vista/Views/Home/PortfolioGrid.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQb3J0Zm9saW9HcmlkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github Repo/DecorVista/Decor_Vista/Decor_Vista/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github Repo/DecorVista/Decor_Vista/Decor_Vista/Views/Home/ServiceDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZXJ2aWNlRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github Repo/DecorVista/Decor_Vista/Decor_Vista/Views/Home/ServiceList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZXJ2aWNlTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github Repo/DecorVista/Decor_Vista/Decor_Vista/Views/Home/ShopCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG9wQ2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github Repo/DecorVista/Decor_Vista/Decor_Vista/Views/Home/ShopCatalog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG9wQ2F0YWxvZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github Repo/DecorVista/Decor_Vista/Decor_Vista/Views/Home/ShopSingle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG9wU2luZ2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github Repo/DecorVista/Decor_Vista/Decor_Vista/Views/Shared/Admin_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkbWluX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github Repo/DecorVista/Decor_Vista/Decor_Vista/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github Repo/DecorVista/Decor_Vista/Decor_Vista/Views/Shared/_DesignerLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EZXNpZ25lckxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github Repo/DecorVista/Decor_Vista/Decor_Vista/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github Repo/DecorVista/Decor_Vista/Decor_Vista/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github Repo/DecorVista/Decor_Vista/Decor_Vista/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github Repo/DecorVista/Decor_Vista/Decor_Vista/Views/Shared/_Layout.cshtml]
+>>>>>>> origin/Sami
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ekcvh9zx6d
