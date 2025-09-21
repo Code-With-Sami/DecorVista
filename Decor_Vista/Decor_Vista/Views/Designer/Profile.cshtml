@@ -1,186 +1,228 @@
-﻿@model DecorVista.Models.Designer
+﻿@model Decor_Vista.Models.Designer
 @{
-    Layout = "_DesignerLayout";
+    Layout = "../Shared/_DesignerLayout.cshtml";
 }
-
-<div class="container mt-4">
-    <h3>My Profile</h3>
-    @if (TempData["Message"] != null)
-    {
-        <div class="alert alert-success">@TempData["Message"]</div>
-    }
-    @if (TempData["Error"] != null)
-    {
-        <div class="alert alert-danger">@TempData["Error"]</div>
+<style>
+    :root {
+        --brand-yellow: #ebcd1e;
+        --brand-black: #333;
     }
 
-    <div class="mb-4">
-        <label class="fw-bold">Profile Completion: @ViewBag.ProfileCompletion%</label>
-        <div class="progress" style="height: 25px;">
-            <div class="progress-bar
-            @(ViewBag.ProfileCompletion < 50 ? "bg-danger" : ViewBag.ProfileCompletion < 80 ? "bg-warning" : "bg-success")"
-                 role="progressbar"
-                 style="width:@ViewBag.ProfileCompletion%"
-                 aria-valuenow="@ViewBag.ProfileCompletion"
-                 aria-valuemin="0"
-                 aria-valuemax="100">
-                @ViewBag.ProfileCompletion%
+    .card-header-custom {
+        background-color: var(--brand-black);
+        color: var(--brand-yellow);
+    }
+
+    .btn-custom-create {
+        background-color: var(--brand-yellow);
+        color: var(--brand-black);
+        font-weight: bold;
+    }
+</style>
+
+<div class="main-content" style="margin-top: 120px;">
+<div class="card rounded-4">
+    <div class="card-body p-4">
+        <!-- Profile Cover & Avatar -->
+        <div class="position-relative mb-5">
+            <img src="assets/images/gallery/profile-cover.html" class="img-fluid rounded-4 shadow" alt="">
+            <div class="profile-avatar position-absolute top-100 start-50 translate-middle">
+                @if (!string.IsNullOrEmpty(Model.ProfileImagePath))
+                {
+                    <img src="@Model.ProfileImagePath" class="img-fluid rounded-circle p-1 bg-grd-danger shadow" width="170" height="170" alt="">
+                }
+                else
+                {
+                    <img src="assets/images/avatars/default.png" class="img-fluid rounded-circle p-1 bg-grd-danger shadow" width="170" height="170" alt="">
+                }
             </div>
         </div>
-        @if (ViewBag.ProfileCompletion < 100)
-        {
-            <small class="text-muted">Complete your profile to attract more clients!</small>
-        }
+
+        <!-- Profile Info -->
+        <div class="profile-info pt-5 d-flex align-items-center justify-content-between">
+            <div>
+                <h3>@Model.FirstName @Model.LastName</h3>
+                <p class="mb-0">
+                    @Model.Specialization<br>
+                    @Model.City, @Model.Country
+                </p>
+            </div>
+        </div>
+
+        <!-- Profile Completion -->
+        <div class="mt-4">
+            @if (TempData["Message"] != null)
+            {
+                <div class="alert alert-success">@TempData["Message"]</div>
+            }
+            @if (TempData["Error"] != null)
+            {
+                <div class="alert alert-danger">@TempData["Error"]</div>
+            }
+
+            <label class="fw-bold">Profile Completion: @ViewBag.ProfileCompletion%</label>
+            <div class="progress" style="height: 25px;">
+                <div class="progress-bar @(ViewBag.ProfileCompletion < 50 ? "bg-danger" : ViewBag.ProfileCompletion < 80 ? "bg-warning" : "bg-success")"
+                     role="progressbar"
+                     style="width:@ViewBag.ProfileCompletion%"
+                     aria-valuenow="@ViewBag.ProfileCompletion"
+                     aria-valuemin="0"
+                     aria-valuemax="100">
+                    @ViewBag.ProfileCompletion%
+                </div>
+            </div>
+            @if (ViewBag.ProfileCompletion < 100)
+            {
+                <small class="text-muted">Complete your profile to attract more clients!</small>
+            }
+        </div>
+
+        <!-- Tabs -->
+        <ul class="nav nav-tabs mt-4" id="profileTabs" role="tablist">
+            <li class="nav-item">
+                <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#personal" type="button">Personal Info</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#professional" type="button">Professional Info</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#social" type="button">Social Links</button>
+            </li>
+        </ul>
+
+        <!-- Form -->
+        <form asp-action="Profile" method="post" enctype="multipart/form-data">
+            <div class="tab-content border p-3" id="profileTabsContent">
+                <!-- Personal Info -->
+                <div class="tab-pane fade show active" id="personal">
+                    <div class="mb-3">
+                        <label>Profile Image</label><br />
+                        <input type="file" name="ProfileImage" class="form-control" />
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>First Name</label>
+                            <input asp-for="FirstName" class="form-control" />
+                        </div>
+                        <div class="col-md-6">
+                            <label>Last Name</label>
+                            <input asp-for="LastName" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="mt-3">
+                        <label>Email</label>
+                        <input asp-for="Email" class="form-control" readonly />
+                    </div>
+                    <div class="mt-3">
+                        <label>Phone Number</label>
+                        <input asp-for="PhoneNumber" class="form-control" />
+                    </div>
+                    <div class="mt-3">
+                        <label>Address</label>
+                        <textarea asp-for="Address" class="form-control"></textarea>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <label>City</label>
+                            <input asp-for="City" class="form-control" />
+                        </div>
+                        <div class="col-md-6">
+                            <label>Country</label>
+                            <input asp-for="Country" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="mt-3">
+                        <label>Postal Code</label>
+                        <input asp-for="PostalCode" class="form-control" />
+                    </div>
+                </div>
+
+                <!-- Professional Info -->
+                <div class="tab-pane fade" id="professional">
+                    <div class="mt-3">
+                        <label>Specialization</label>
+                        <input asp-for="Specialization" class="form-control" />
+                    </div>
+                    <div class="mt-3">
+                        <label>Years of Experience</label>
+                        <input asp-for="YearsOfExperience" type="number" class="form-control" />
+                    </div>
+                    <div class="mt-3">
+                        <label>Skills</label>
+                        <input asp-for="Skills" class="form-control" />
+                    </div>
+                    <div class="mt-3">
+                        <label>Portfolio Link</label>
+                        <input asp-for="PortfolioLink" class="form-control" />
+                    </div>
+                    <div class="mt-3">
+                        <label>Work Categories</label>
+                        <input asp-for="WorkCategories" class="form-control" />
+                    </div>
+                    <div class="mt-3">
+                        <label>Consultation Fee</label>
+                        <input asp-for="ConsultationFee" type="number" class="form-control" />
+                    </div>
+                    <div class="mt-3">
+                        <label>Availability</label>
+                        <input asp-for="Availability" class="form-control" />
+                    </div>
+                    <div class="mt-3">
+                        <label>Short Bio</label>
+                        <textarea asp-for="Bio" class="form-control"></textarea>
+                    </div>
+                    <div class="mt-3">
+                        <label>Design Philosophy</label>
+                        <textarea asp-for="DesignPhilosophy" class="form-control"></textarea>
+                    </div>
+                    <div class="mt-3">
+                        <label>Languages Spoken</label>
+                        <input asp-for="LanguagesSpoken" class="form-control" />
+                    </div>
+                    <div class="mt-3">
+                        <label>Certifications</label>
+                        <input asp-for="Certifications" class="form-control" />
+                    </div>
+                    <div class="mt-3">
+                        <label>Preferred Project Types</label>
+                        <input asp-for="PreferredProjectTypes" class="form-control" />
+                    </div>
+                    <div class="mt-3">
+                        <label>Max Projects At Once</label>
+                        <input asp-for="MaxProjectsAtOnce" type="number" class="form-control" />
+                    </div>
+                </div>
+
+                <!-- Social Links -->
+                <div class="tab-pane fade" id="social">
+                    <div class="mt-3">
+                        <label>Facebook</label>
+                        <input asp-for="FacebookLink" class="form-control" />
+                    </div>
+                    <div class="mt-3">
+                        <label>Instagram</label>
+                        <input asp-for="InstagramLink" class="form-control" />
+                    </div>
+                    <div class="mt-3">
+                        <label>LinkedIn</label>
+                        <input asp-for="LinkedInLink" class="form-control" />
+                    </div>
+                    <div class="mt-3">
+                        <label>Pinterest</label>
+                        <input asp-for="PinterestLink" class="form-control" />
+                    </div>
+                </div>
+            </div>
+
+            <!-- Form Buttons -->
+            <div class="mt-3">
+                <button type="submit" class="btn btn-grd-primary px-4">Save Changes</button>
+                <button type="button" class="btn btn-warning px-4" data-bs-toggle="modal" data-bs-target="#changePasswordModal">
+                    Change Password
+                </button>
+            </div>
+        </form>
     </div>
-
-
-    <ul class="nav nav-tabs" id="profileTabs" role="tablist">
-        <li class="nav-item">
-            <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#personal" type="button">Personal Info</button>
-        </li>
-        <li class="nav-item">
-            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#professional" type="button">Professional Info</button>
-        </li>
-        <li class="nav-item">
-            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#social" type="button">Social Links</button>
-        </li>
-    </ul>
-
-    <form asp-action="Profile" method="post" enctype="multipart/form-data">
-        <div class="tab-content border p-3" id="profileTabsContent">
-
-            <!-- Personal Info -->
-            <div class="tab-pane fade show active" id="personal">
-                <div class="mb-3">
-                    <label>Profile Image</label><br />
-                    @if (!string.IsNullOrEmpty(Model.ProfileImagePath))
-                    {
-                        <img src="@Model.ProfileImagePath" class="img-thumbnail mb-2" width="120" />
-                    }
-                    <input type="file" name="ProfileImage" class="form-control" />
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <label>First Name</label>
-                        <input asp-for="FirstName" class="form-control" />
-                    </div>
-                    <div class="col-md-6">
-                        <label>Last Name</label>
-                        <input asp-for="LastName" class="form-control" />
-                    </div>
-                </div>
-                <div class="mt-3">
-                    <label>Email</label>
-                    <input asp-for="Email" class="form-control" readonly />
-                </div>
-                <div class="mt-3">
-                    <label>Phone Number</label>
-                    <input asp-for="PhoneNumber" class="form-control" />
-                </div>
-                <div class="mt-3">
-                    <label>Address</label>
-                    <textarea asp-for="Address" class="form-control"></textarea>
-                </div>
-                <div class="row mt-3">
-                    <div class="col-md-6">
-                        <label>City</label>
-                        <input asp-for="City" class="form-control" />
-                    </div>
-                    <div class="col-md-6">
-                        <label>Country</label>
-                        <input asp-for="Country" class="form-control" />
-                    </div>
-                </div>
-                <div class="mt-3">
-                    <label>Postal Code</label>
-                    <input asp-for="PostalCode" class="form-control" />
-                </div>
-            </div>
-
-            <!-- Professional Info -->
-            <div class="tab-pane fade" id="professional">
-                <div class="mt-3">
-                    <label>Specialization</label>
-                    <input asp-for="Specialization" class="form-control" />
-                </div>
-                <div class="mt-3">
-                    <label>Years of Experience</label>
-                    <input asp-for="YearsOfExperience" type="number" class="form-control" />
-                </div>
-                <div class="mt-3">
-                    <label>Skills</label>
-                    <input asp-for="Skills" class="form-control" />
-                </div>
-                <div class="mt-3">
-                    <label>Portfolio Link</label>
-                    <input asp-for="PortfolioLink" class="form-control" />
-                </div>
-                <div class="mt-3">
-                    <label>Work Categories</label>
-                    <input asp-for="WorkCategories" class="form-control" />
-                </div>
-                <div class="mt-3">
-                    <label>Consultation Fee</label>
-                    <input asp-for="ConsultationFee" type="number" class="form-control" />
-                </div>
-                <div class="mt-3">
-                    <label>Availability</label>
-                    <input asp-for="Availability" class="form-control" />
-                </div>
-                <div class="mt-3">
-                    <label>Short Bio</label>
-                    <textarea asp-for="Bio" class="form-control"></textarea>
-                </div>
-                <div class="mt-3">
-                    <label>Design Philosophy</label>
-                    <textarea asp-for="DesignPhilosophy" class="form-control"></textarea>
-                </div>
-                <div class="mt-3">
-                    <label>Languages Spoken</label>
-                    <input asp-for="LanguagesSpoken" class="form-control" />
-                </div>
-                <div class="mt-3">
-                    <label>Certifications</label>
-                    <input asp-for="Certifications" class="form-control" />
-                </div>
-                <div class="mt-3">
-                    <label>Preferred Project Types</label>
-                    <input asp-for="PreferredProjectTypes" class="form-control" />
-                </div>
-                <div class="mt-3">
-                    <label>Max Projects At Once</label>
-                    <input asp-for="MaxProjectsAtOnce" type="number" class="form-control" />
-                </div>
-            </div>
-
-            <!-- Social Links -->
-            <div class="tab-pane fade" id="social">
-                <div class="mt-3">
-                    <label>Facebook</label>
-                    <input asp-for="FacebookLink" class="form-control" />
-                </div>
-                <div class="mt-3">
-                    <label>Instagram</label>
-                    <input asp-for="InstagramLink" class="form-control" />
-                </div>
-                <div class="mt-3">
-                    <label>LinkedIn</label>
-                    <input asp-for="LinkedInLink" class="form-control" />
-                </div>
-                <div class="mt-3">
-                    <label>Pinterest</label>
-                    <input asp-for="PinterestLink" class="form-control" />
-                </div>
-            </div>
-        </div>
-
-        <div class="mt-3">
-            <button type="submit" class="btn btn-primary">Save Changes</button>
-            <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#changePasswordModal">
-                Change Password
-            </button>
-        </div>
-    </form>
 </div>
 
 <!-- Change Password Modal -->
@@ -206,4 +248,5 @@
             </div>
         </form>
     </div>
+</div>
 </div>

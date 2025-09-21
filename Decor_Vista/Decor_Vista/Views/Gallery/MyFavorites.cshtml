@@ -1,0 +1,266 @@
+@model IEnumerable<Decor_Vista.Models.UserFavorites>
+@{
+    ViewData["Title"] = "My Favorites";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    :root {
+        --brand-yellow: #ebcd1e;
+        --brand-black: #333;
+    }
+
+    .favorites-header {
+        background: linear-gradient(135deg, var(--brand-yellow) 0%, #d4b91a 100%);
+        color: var(--brand-black);
+        padding: 3rem 0;
+        margin-bottom: 2rem;
+    }
+
+    .favorites-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .favorite-item {
+        background: white;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        position: relative;
+    }
+
+    .favorite-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    }
+
+    .favorite-image {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        position: relative;
+    }
+
+    .favorite-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0,0,0,0.7);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    .favorite-item:hover .favorite-overlay {
+        opacity: 1;
+    }
+
+    .remove-favorite-btn {
+        background: #dc3545;
+        color: white;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 25px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .remove-favorite-btn:hover {
+        background: #c82333;
+        transform: scale(1.05);
+    }
+
+    .favorite-info {
+        padding: 1.5rem;
+    }
+
+    .favorite-title {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: var(--brand-black);
+        margin-bottom: 0.5rem;
+    }
+
+    .favorite-meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .meta-tag {
+        background: var(--brand-yellow);
+        color: var(--brand-black);
+        padding: 0.25rem 0.75rem;
+        border-radius: 15px;
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+
+    .favorite-description {
+        color: #666;
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+
+    .favorite-date {
+        color: #999;
+        font-size: 0.8rem;
+        margin-top: 1rem;
+    }
+
+    .no-favorites {
+        text-align: center;
+        padding: 3rem;
+        color: #666;
+    }
+
+    .browse-link {
+        background: var(--brand-yellow);
+        color: var(--brand-black);
+        text-decoration: none;
+        padding: 0.75rem 1.5rem;
+        border-radius: 25px;
+        font-weight: bold;
+        display: inline-block;
+        margin-top: 1rem;
+        transition: all 0.3s ease;
+    }
+
+    .browse-link:hover {
+        background: #d4b91a;
+        color: var(--brand-black);
+        text-decoration: none;
+        transform: translateY(-2px);
+    }
+</style>
+
+<div class="favorites-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+                <h1 class="display-4 mb-3">My Favorites</h1>
+                <p class="lead">Your saved inspiration designs</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    @if (Model.Any())
+    {
+        <div class="favorites-grid">
+            @foreach (var favorite in Model)
+            {
+                <div class="favorite-item" id="favorite-@favorite.FavoriteId">
+                    <div style="position: relative;">
+                        <img src="@favorite.Gallery.ImagePath" alt="@favorite.Gallery.Title" class="favorite-image">
+                        <div class="favorite-overlay">
+                            <button class="remove-favorite-btn" onclick="removeFavorite(@favorite.FavoriteId, @favorite.GalleryId)">
+                                <i class="fas fa-trash"></i> Remove
+                            </button>
+                        </div>
+                    </div>
+                    <div class="favorite-info">
+                        <h5 class="favorite-title">@favorite.Gallery.Title</h5>
+                        <div class="favorite-meta">
+                            <span class="meta-tag">@favorite.Gallery.Category</span>
+                            <span class="meta-tag">@favorite.Gallery.Theme</span>
+                            <span class="meta-tag">@favorite.Gallery.ColorScheme</span>
+                            @if (!string.IsNullOrEmpty(favorite.Gallery.SubCategory))
+                            {
+                                <span class="meta-tag">@favorite.Gallery.SubCategory</span>
+                            }
+                        </div>
+                        @if (!string.IsNullOrEmpty(favorite.Gallery.Description))
+                        {
+                            <p class="favorite-description">@favorite.Gallery.Description</p>
+                        }
+                        <div class="favorite-date">
+                            Added on @favorite.CreatedAt.ToString("MMM dd, yyyy")
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="no-favorites">
+            <h3>No favorites yet</h3>
+            <p>Start exploring our inspiration gallery and save your favorite designs!</p>
+            <a href="@Url.Action("Browse", "Gallery")" class="browse-link">
+                <i class="fas fa-search"></i> Browse Gallery
+            </a>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <script>
+        function removeFavorite(favoriteId, galleryId) {
+            if (confirm('Are you sure you want to remove this item from your favorites?')) {
+                $.post('@Url.Action("ToggleFavorite", "Gallery")', { galleryId: galleryId })
+                    .done(function(response) {
+                        if (response.success) {
+                            // Remove the item from the page
+                            $(`#favorite-${favoriteId}`).fadeOut(300, function() {
+                                $(this).remove();
+                                
+                                // Check if no more favorites
+                                if ($('.favorite-item').length === 0) {
+                                    location.reload(); // Reload to show "no favorites" message
+                                }
+                            });
+                            
+                            showToast('Removed from favorites', 'success');
+                        } else {
+                            showToast(response.message, 'error');
+                        }
+                    })
+                    .fail(function() {
+                        showToast('An error occurred. Please try again.', 'error');
+                    });
+            }
+        }
+
+        function showToast(message, type) {
+            // Create toast element
+            const toast = document.createElement('div');
+            toast.className = `toast align-items-center text-white bg-${type === 'success' ? 'success' : 'danger'} border-0`;
+            toast.setAttribute('role', 'alert');
+            toast.setAttribute('aria-live', 'assertive');
+            toast.setAttribute('aria-atomic', 'true');
+            
+            toast.innerHTML = `
+                <div class="d-flex">
+                    <div class="toast-body">
+                        ${message}
+                    </div>
+                    <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+            `;
+            
+            // Add to page
+            document.body.appendChild(toast);
+            
+            // Show toast
+            const bsToast = new bootstrap.Toast(toast);
+            bsToast.show();
+            
+            // Remove after hidden
+            toast.addEventListener('hidden.bs.toast', function() {
+                document.body.removeChild(toast);
+            });
+        }
+    </script>
+}

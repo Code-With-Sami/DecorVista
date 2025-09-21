@@ -1,0 +1,151 @@
+﻿@using DecorVista.Models
+@model DecorVista.Models.DesignerService
+@{
+    ViewData["Title"] = "Designer | Edit - Services";
+    Layout = "../Shared/_DesignerLayout.cshtml";
+}
+<style>
+    :root {
+        --brand-yellow: #ebcd1e;
+        --brand-black: #333;
+    }
+
+    .card-header-custom {
+        background-color: var(--brand-black);
+        color: var(--brand-yellow);
+    }
+
+    .form-control:focus {
+        border-color: var(--brand-yellow);
+        box-shadow: 0 0 0 0.2rem rgba(235, 205, 30, 0.25);
+    }
+
+    .btn-custom-save {
+        background-color: var(--brand-yellow);
+        color: var(--brand-black);
+        font-weight: bold;
+    }
+
+        .btn-custom-save:hover {
+            background-color: #d4b91a;
+        }
+
+    /* New styles for the profile header */
+    .profile-header {
+        background: #f8f9fa;
+        padding: 1.5rem;
+        border-radius: .5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .profile-header-img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 4px solid white;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .profile-header-name {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: var(--brand-black);
+    }
+
+    .profile-header-email {
+        color: #6c757d;
+    }
+</style>
+<div class="main-content">
+    <!--end sidebar-->
+    <div class="container-fluid">
+        <main role="main" class="pb-3">
+            <div class="page-content">
+                <div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
+                    <div class="breadcrumb-title pe-3">Service Management</div>
+                    <div class="ps-3">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb mb-0 p-0">
+                                <li class="breadcrumb-item"><a href="@Url.Action("Index", "DesignerServices")">My Services</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Edit User</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+
+                @if (TempData["error"] != null)
+                {
+                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                        @TempData["error"]
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                }
+
+                <!-- Service Header Section -->
+                <div class="d-flex align-items-center profile-header">
+                    <img src="@Model.CoverImagePath" alt="Current Image" class="profile-header-img">
+                    <div class="ms-4">
+                        <h4 class="profile-header-name mb-0">@Model.Title</h4>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!-- Left Column: Edit Service Details -->
+                    <div class="col-lg-12">
+                        <div class="card shadow-sm">
+                            <div class="card-header card-header-custom">
+                                <h5 class="mb-0 text-white">Edit Service Details</h5>
+                            </div>
+                            <div class="card-body p-4">
+                                <form asp-action="Edit" method="post" enctype="multipart/form-data">
+                                    @Html.AntiForgeryToken()
+                                    <input type="hidden" asp-for="Id" />
+                                    <div class="row">
+                                        <div class="col-md-6 mb-3"><label asp-for="Title"></label><input asp-for="Title" class="form-control" /><span asp-validation-for="Title" class="text-danger"></span></div>
+                                        <div class="col-md-6 mb-3"><label asp-for="Category"></label><input asp-for="Category" class="form-control" placeholder="e.g. Interior Design" /></div>
+                                        <div class="col-md-12 mb-3"><label asp-for="Description"></label> <textarea asp-for="Description" class="form-control" rows="5"></textarea> <span asp-validation-for="Description" class="text-danger"></span> </div>
+                                        <div class="col-md-6 mb-3"><label asp-for="PricingType"></label> <select asp-for="PricingType" class="form-select" asp-items="Html.GetEnumSelectList<PricingType>()"></select> </div>
+                                        <div class="col-md-6 mb-3">
+                                            <label asp-for="Price"></label><input asp-for="Price" class="form-control" type="number" /><span class="text-muted small">Required for Hourly/Fixed</span>
+                                            <span asp-validation-for="Price" class="text-danger"></span>
+                                        </div>
+                                        <div class="col-md-6 mb-3"><label asp-for="DurationText"></label><input asp-for="DurationText" class="form-control" placeholder="e.g. 2 weeks" /></div>
+                                        <div class="col-md-12 mb-3">
+                                            <label class="form-label">Update Cover Image</label>
+                                            <input type="file" class="form-control" id="imgFile" name="CoverImage" accept="image/*" />
+                                            <small class="text-muted">Upload a new image to replace the current one.</small>
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <label asp-for="IsActive"></label>
+                                            <div class="form-check form-switch">
+                                                <input asp-for="IsActive" class="form-check-input" />
+                                                <label class="form-check-label">Active</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <label asp-for="IsFeatured" class="form-label d-block"></label>
+                                            <div class="form-check form-switch">
+                                                <input asp-for="IsFeatured" class="form-check-input" />
+                                                <label class="form-check-label">Featured</label>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <hr class="my-3" />
+                                    <button type="submit" class="btn btn-custom-save">Save Details</button>
+                                    <a asp-action="Index" class="btn btn-outline-secondary">Cancel</a>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

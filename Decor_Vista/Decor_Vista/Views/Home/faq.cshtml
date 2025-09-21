@@ -1,0 +1,311 @@
+﻿@model IEnumerable<Decor_Vista.Models.FAQ>
+@using System.Linq
+@{
+    ViewData["Title"] = "Frequently Asked Questions";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    :root {
+        --brand-primary: #333;
+        --brand-secondary: #ebcd1e;
+        --light-grey-bg: #f8f9fa;
+        --text-color-dark: #343a40;
+        --text-color-light: #6c757d;
+        --white: #ffffff;
+        --border-color: #dee2e6;
+    }
+
+    /* --- Sub Header Styling --- */
+    .sub-header-contact {
+        background-color: var(--brand-primary);
+        color: var(--white);
+    }
+
+        .sub-header-contact .breadcrumb-arc > .active {
+            color: var(--brand-secondary);
+        }
+
+    /* --- Main Section Styling --- */
+    .faq-section {
+        padding: 80px 0;
+        background-color: var(--light-grey-bg);
+    }
+
+    .section-title {
+        text-align: center !important;
+    }
+
+    .section-title {
+        /* HTML mein 'text-center' class iska kaam kar rahi hai,
+           lekin isko yahan rakhne se yeh yaqeeni ho jayega ke text center mein hi rahega. */
+        text-align: center;
+    }
+
+        .section-title h2 {
+            color: var(--brand-primary);
+            font-weight: 700;
+            position: relative;
+            padding-bottom: 15px;
+            font-size: 2.5rem;
+            /* Redundant centering rules hata diye gaye hain */
+        }
+
+            .section-title h2::after {
+                content: '';
+                position: absolute;
+                left: 50%;
+                bottom: 0;
+                transform: translateX(-50%);
+                width: 80px;
+                height: 4px;
+                background-color: var(--brand-secondary);
+            }
+
+        .section-title p {
+            color: var(--text-color-light);
+            font-size: 1.1rem;
+            max-width: 600px; /* Optional: Text ko thora control karne ke liye */
+            margin-left: auto; /* Is se paragraph center mein rahega */
+            margin-right: auto; /* Is se paragraph center mein rahega */
+        }
+    /* --- PolicyPro360 Style Accordion --- */
+    .faq-one__single {
+        margin-bottom: 30px;
+    }
+
+    .accrodion {
+        background: var(--white);
+        border: 1px solid var(--border-color);
+        border-radius: 8px;
+        margin-bottom: 15px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        overflow: hidden;
+    }
+
+    .accrodion.active {
+        border-color: var(--brand-secondary);
+    }
+
+    .accrodion-title {
+        padding: 20px;
+        cursor: pointer;
+        background: var(--white);
+        transition: all 0.3s ease;
+    }
+
+    .accrodion-title:hover {
+        background: var(--light-grey-bg);
+    }
+
+    .accrodion-title h4 {
+        margin: 0;
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: var(--text-color-dark);
+        display: flex;
+        align-items: center;
+    }
+
+    .accrodion-title h4 span {
+        background: var(--brand-secondary);
+        color: var(--brand-primary);
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        margin-right: 15px;
+        font-size: 1.2rem;
+    }
+
+    .accrodion-content {
+        padding: 0 20px 20px;
+        display: none;
+    }
+
+    .accrodion.active .accrodion-content {
+        display: block;
+    }
+
+    .accrodion-content .inner p {
+        margin: 0;
+        line-height: 1.6;
+        color: var(--text-color-light);
+    }
+
+    .accrodion.last-chiled {
+        margin-bottom: 0;
+    }
+
+    /* --- No FAQs Message --- */
+    .no-faq-message {
+        background-color: var(--white);
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        text-align: center;
+    }
+
+        .no-faq-message p {
+            font-size: 1.1rem;
+            color: var(--text-color-dark);
+            margin-bottom: 20px;
+        }
+
+        .no-faq-message .btn-contact {
+            background-color: var(--brand-secondary);
+            color: var(--brand-primary);
+            font-weight: bold;
+            padding: 12px 30px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+            .no-faq-message .btn-contact:hover {
+                background-color: #d4b71a;
+                text-decoration: none;
+                color: var(--brand-primary);
+            }
+
+</style>
+
+<!-- Section Sub Header -->
+<section>
+    <div class="sub-header sub-header-1 sub-header-contact fake-position">
+        <div class="sub-header-content">
+            <h2 class="text-cap white-text">Frequently Asked Questions</h2>
+            <ol class="breadcrumb breadcrumb-arc text-cap">
+                <li><a href="@Url.Action("Index", "Home")">Home</a></li>
+                <li class="active">FAQ</li>
+            </ol>
+        </div>
+    </div>
+</section>
+<!-- End Section Sub Header -->
+<!-- FAQ Accordion Section -->
+<section class="faq-section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <div class="section-title text-center mb-5">
+                    <h2 class="text-cap">Got Questions? We've Got Answers!</h2>
+                    <p class="mt-3 mb-5">Find answers to the most common questions about our services and processes.</p>
+                </div>
+
+                @{
+                    var faqList = Model?.ToList() ?? new List<Decor_Vista.Models.FAQ>();
+                    var leftColumnFaqs = faqList.Take((faqList.Count + 1) / 2).ToList();
+                    var rightColumnFaqs = faqList.Skip((faqList.Count + 1) / 2).ToList();
+                }
+
+                @if (faqList.Any())
+                {
+                    <div class="row">
+                        <!-- Left Column of FAQs -->
+                        <div class="col-xl-6 col-lg-6 mt-5">
+                            <div class="faq-one__single">
+                                <div class="accrodion-grp faq-one-accrodion" data-grp-name="faq-one-accrodion-1">
+                                    @for (int i = 0; i < leftColumnFaqs.Count; i++)
+                                    {
+                                        var faq = leftColumnFaqs[i];
+                                        var isActive = i == 0 ? "active" : "";
+                                        var isLastChild = i == leftColumnFaqs.Count - 1 ? "last-chiled" : "";
+                                        
+                                        <div class="accrodion @isActive @isLastChild">
+                                            <div class="accrodion-title">
+                                                <h4><span>?</span> @faq.Question</h4>
+                                            </div>
+                                            <div class="accrodion-content">
+                                                <div class="inner">
+                                                    <p>@Html.Raw(faq.Answer)</p>
+                                                </div><!-- /.inner -->
+                                            </div>
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Right Column of FAQs -->
+                        <div class="col-xl-6 col-lg-6">
+                            <div class="faq-one__single">
+                                <div class="accrodion-grp faq-one-accrodion" data-grp-name="faq-one-accrodion-2">
+                                    @for (int i = 0; i < rightColumnFaqs.Count; i++)
+                                    {
+                                        var faq = rightColumnFaqs[i];
+                                        var isActive = i == 0 ? "active" : "";
+                                        var isLastChild = i == rightColumnFaqs.Count - 1 ? "last-chiled" : "";
+                                        
+                                        <div class="accrodion @isActive @isLastChild">
+                                            <div class="accrodion-title">
+                                                <h4><span>?</span> @faq.Question</h4>
+                                            </div>
+                                            <div class="accrodion-content">
+                                                <div class="inner">
+                                                    <p>@Html.Raw(faq.Answer)</p>
+                                                </div><!-- /.inner -->
+                                            </div>
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+                else
+                {
+                    <div class="text-center no-faq-message">
+                        <p>We are currently compiling our list of frequently asked questions. Please check back soon!</p>
+                        <a href="@Url.Action("Index", "Contact")" class="btn btn-contact mt-3">Contact Us Directly</a>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Make accordion functional
+        const accordionTitles = document.querySelectorAll('.accrodion-title');
+        
+        accordionTitles.forEach(title => {
+            title.addEventListener('click', function() {
+                const accordion = this.closest('.accrodion');
+                const content = accordion.querySelector('.accrodion-content');
+                
+                // Close all other accordions
+                document.querySelectorAll('.accrodion').forEach(acc => {
+                    if (acc !== accordion) {
+                        acc.classList.remove('active');
+                        acc.querySelector('.accrodion-content').style.display = 'none';
+                    }
+                });
+                
+                // Toggle current accordion
+                if (accordion.classList.contains('active')) {
+                    accordion.classList.remove('active');
+                    content.style.display = 'none';
+                } else {
+                    accordion.classList.add('active');
+                    content.style.display = 'block';
+                }
+            });
+        });
+        
+        // Open first accordion by default
+        const firstAccordion = document.querySelector('.accrodion');
+        if (firstAccordion) {
+            firstAccordion.classList.add('active');
+            const firstContent = firstAccordion.querySelector('.accrodion-content');
+            if (firstContent) {
+                firstContent.style.display = 'block';
+            }
+        }
+    });
+</script>

@@ -1,6 +1,5 @@
 ﻿using Decor_Vista.Controllers.Desginer;
 using Decor_Vista.Models;
-using DecorVista.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -39,7 +38,7 @@ namespace Decor_Vista.Controllers.Designer
         }
 
         [HttpPost]
-        public IActionResult RegisterDesigner(DecorVista.Models.Designer model, IFormFile ProfileImage, List<IFormFile> PortfolioSamples)
+        public IActionResult RegisterDesigner(Decor_Vista.Models.Designer model, IFormFile ProfileImage, List<IFormFile> PortfolioSamples)
         {
             if (ModelState.IsValid)
             {
@@ -83,7 +82,7 @@ namespace Decor_Vista.Controllers.Designer
                 _db.SaveChanges();
 
                 TempData["Message"] = "Registration submitted. Please wait for admin approval.";
-                return RedirectToAction("PendingApproval");
+                return RedirectToAction("LoginDesigner");
             }
 
             return View(model);
@@ -139,7 +138,7 @@ namespace Decor_Vista.Controllers.Designer
             return View();
         }
 
-        private int CalculateProfileCompletion(DecorVista.Models.Designer d)
+        private int CalculateProfileCompletion(Decor_Vista.Models.Designer d)
         {
             int totalFields = 25;
             int filledFields = 0;
@@ -200,7 +199,7 @@ namespace Decor_Vista.Controllers.Designer
 
 
         [HttpPost]
-        public IActionResult Profile(DecorVista.Models.Designer model, IFormFile? ProfileImage)
+        public IActionResult Profile(Decor_Vista.Models.Designer model, IFormFile? ProfileImage)
         {
             int? designerId = HttpContext.Session.GetInt32("DesignerId");
             if (designerId == null) return RedirectToAction("LoginDesigner");

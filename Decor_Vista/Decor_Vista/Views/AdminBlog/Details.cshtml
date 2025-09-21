@@ -1,0 +1,199 @@
+@model Decor_Vista.Models.Blog
+
+@{
+    ViewData["Title"] = "Blog Post Details";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<style>
+    /* Custom Color Theme Variables */
+    :root {
+        --brand-yellow: #ebcd1e;
+        --brand-black: #333;
+    }
+
+    /* Profile Card on the Left */
+    .details-profile-card {
+        background: linear-gradient(135deg, #434343 0%, #000000 100%);
+        color: white;
+        border: none;
+        text-align: center;
+        padding: 2rem;
+    }
+
+        .details-profile-card img {
+            width: 130px;
+            height: 130px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid var(--brand-yellow);
+        }
+
+        .details-profile-card .admin-name {
+            color: var(--brand-yellow);
+            font-weight: 600;
+            margin-top: 1rem;
+        }
+
+        .details-profile-card .admin-email {
+            font-size: 0.9rem;
+            color: #ddd;
+        }
+
+    /* Details Card on the Right */
+    .details-info-card .card-header {
+        background-color: var(--brand-black);
+        color: var(--brand-yellow);
+    }
+
+    .details-info-card dt {
+        font-weight: 600;
+        color: var(--brand-black);
+    }
+
+    .details-info-card dd {
+        color: #555;
+    }
+
+    /* Action Buttons */
+    .btn-custom-edit {
+        background-color: var(--brand-yellow);
+        color: var(--brand-black);
+        font-weight: bold;
+        border: none;
+    }
+
+        .btn-custom-edit:hover {
+            background-color: #d4b91a;
+            color: var(--brand-black);
+        }
+</style>
+<div class="page-content">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h4 class="card-title mb-0">Blog Post Details</h4>
+                    <div>
+                        <a href="@Url.Action("Edit", "AdminBlog", new { id = Model.Id })" class="btn btn-warning">
+                            <i class="material-icons-outlined">edit</i> Edit
+                        </a>
+                        <a href="@Url.Action("Index", "AdminBlog")" class="btn btn-secondary">
+                            <i class="material-icons-outlined">arrow_back</i> Back to List
+                        </a>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="mb-4">
+                                <h2 class="text-primary">@Model.Title</h2>
+                                @if (!string.IsNullOrEmpty(Model.ShortDescription))
+                                {
+                                    <p class="lead text-muted">@Model.ShortDescription</p>
+                                }
+                            </div>
+
+                            @if (!string.IsNullOrEmpty(Model.ImagePath))
+                            {
+                                <div class="mb-4">
+                                    <img src="@Model.ImagePath" alt="Blog Image" class="img-fluid rounded" style="max-height: 400px; width: 100%; object-fit: cover;" />
+                                </div>
+                            }
+
+                            <div class="mb-4">
+                                <h5>Content</h5>
+                                <div class="border rounded p-3 bg-light">
+                                    @Html.Raw(Model.Content.Replace("\n", "<br>"))
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h6 class="mb-0">Blog Information</h6>
+                                </div>
+                                <div class="card-body">
+                                    <div class="mb-3">
+                                        <strong>Status:</strong>
+                                        @if (Model.IsPublished)
+                                        {
+                                            <span class="badge bg-success ms-2">Published</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="badge bg-warning ms-2">Draft</span>
+                                        }
+                                    </div>
+
+                                    @if (!string.IsNullOrEmpty(Model.Author))
+                                    {
+                                        <div class="mb-3">
+                                            <strong>Author:</strong>
+                                            <span class="ms-2">@Model.Author</span>
+                                        </div>
+                                    }
+
+                                    @if (!string.IsNullOrEmpty(Model.Category))
+                                    {
+                                        <div class="mb-3">
+                                            <strong>Category:</strong>
+                                            <span class="ms-2">@Model.Category</span>
+                                        </div>
+                                    }
+
+                                    @if (!string.IsNullOrEmpty(Model.Tags))
+                                    {
+                                        <div class="mb-3">
+                                            <strong>Tags:</strong>
+                                            <div class="mt-1">
+                                                @foreach (var tag in Model.Tags.Split(','))
+                                                {
+                                                    <span class="badge bg-info me-1">@tag.Trim()</span>
+                                                }
+                                            </div>
+                                        </div>
+                                    }
+
+                                    <div class="mb-3">
+                                        <strong>Created:</strong>
+                                        <span class="ms-2">@Model.CreatedAt.ToString("MMM dd, yyyy HH:mm")</span>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <strong>Last Updated:</strong>
+                                        <span class="ms-2">@Model.UpdatedAt.ToString("MMM dd, yyyy HH:mm")</span>
+                                    </div>
+
+                                    @if (Model.PublishedDate.HasValue)
+                                    {
+                                        <div class="mb-3">
+                                            <strong>Published:</strong>
+                                            <span class="ms-2">@Model.PublishedDate.Value.ToString("MMM dd, yyyy HH:mm")</span>
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+
+                            <div class="card mt-3">
+                                <div class="card-header">
+                                    <h6 class="mb-0">Actions</h6>
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-grid gap-2">
+                                        <a href="@Url.Action("Edit", "AdminBlog", new { id = Model.Id })" class="btn btn-warning">
+                                            <i class="material-icons-outlined">edit</i> Edit Post
+                                        </a>
+                                        <a href="@Url.Action("Delete", "AdminBlog", new { id = Model.Id })" class="btn btn-danger">
+                                            <i class="material-icons-outlined">delete</i> Delete Post
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

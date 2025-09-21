@@ -136,6 +136,9 @@ namespace Decor_Vista.Controllers
                 return RedirectToAction(nameof(Login));
             }
             ViewBag.AdminCount = _context.Tbl_Admin.Count();
+            ViewBag.DesignerCount = _context.Designers.Count();
+            ViewBag.UserCount = _context.Users.Count();
+            ViewBag.OtherCount = 0; 
             return View();
         }
 
@@ -161,7 +164,7 @@ namespace Decor_Vista.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(Admin admin, IFormFile? imgFile)
+        public async Task<IActionResult> Create(Decor_Vista.Models.Admin admin, IFormFile? imgFile)
         {
             if (HttpContext.Session.GetInt32("AdminId") == null) return RedirectToAction(nameof(Login));
             ModelState.Remove("Img");
@@ -281,7 +284,7 @@ namespace Decor_Vista.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> EditProfile(Admin admin, IFormFile? imgFile)
+        public async Task<IActionResult> EditProfile(Decor_Vista.Models.Admin admin, IFormFile? imgFile)
         {
             var adminId = HttpContext.Session.GetInt32("AdminId");
             if (adminId == null || adminId.Value != admin.Id)

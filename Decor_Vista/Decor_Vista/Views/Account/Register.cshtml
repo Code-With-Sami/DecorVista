@@ -1,0 +1,229 @@
+@model Decor_Vista.Models.User
+
+@{
+    ViewData["Title"] = "User Registration - Decor Vista";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles {
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <style>
+        :root {
+            --brand-primary:  #ebcd1e; /* Elegant gold */
+            --brand-secondary: #1a1814; /* Rich black */
+            --brand-light-grey: #f8f9fa;
+            --brand-grey: #6c757d;
+            --brand-white: #ffffff;
+            --brand-danger: #dc3545;
+            --font-family-base: 'Poppins', sans-serif;
+        }
+
+        .register-page-container {
+            display: flex;
+            min-height: 100vh;
+            width: 100%;
+            align-items: center;
+            margin-top:80px;
+            justify-content: center;
+            padding: 2rem 0;
+            background-color: var(--brand-light-grey);
+            font-family: var(--font-family-base);
+        }
+
+        .register-wrapper {
+            display: flex;
+            width: 100%;
+            max-width: 1300px;
+            background-color: var(--brand-white);
+            border-radius: 20px;
+            box-shadow: 0 15px 50px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .register-image-section {
+            flex: 1.2; /* Give slightly more space to the image */
+            background-image: url('https://images.unsplash.com/photo-1567016526105-22da7c13161a?q=80&w=1974&auto=format&fit=crop'); /* Replace with a stylish interior image */
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+        
+        .register-image-section::before {
+             content: '';
+             position: absolute;
+             top: 0; left: 0; right: 0; bottom: 0;
+             background: linear-gradient(-45deg, rgba(26, 24, 20, 0.4), rgba(205, 164, 94, 0.3));
+        }
+
+
+        .register-form-section {
+            flex: 1;
+            padding: 2rem 3rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            overflow-y: auto;
+        }
+        
+        .register-title {
+            font-weight: 700;
+            color: var(--brand-secondary);
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .register-subtitle {
+            color: var(--brand-grey);
+            margin-bottom: 2rem;
+        }
+        
+        .form-group {
+            margin-bottom: 1.25rem;
+        }
+        
+        .form-control {
+            height: 50px;
+            padding: 0.75rem 1rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: var(--brand-light-grey);
+            transition: all 0.3s;
+            width: 100%;
+        }
+        
+        .form-control:focus {
+            background-color: var(--brand-white);
+            border-color: var(--brand-primary);
+            box-shadow: 0 0 0 0.2rem rgba(205, 164, 94, 0.2);
+        }
+        
+        label {
+            font-weight: 600;
+            color: #555;
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+        
+        .text-danger {
+            font-size: 0.8rem;
+            color: var(--brand-danger) !important;
+            font-weight: 500;
+        }
+
+        .btn-register {
+            width: 100%;
+            padding: 0.9rem;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 8px;
+            background-color: var(--brand-primary);
+            color: var(--brand-white);
+            border: none;
+            transition: all 0.3s ease;
+            margin-top: 1rem;
+        }
+        
+        .btn-register:hover {
+            background-color: var(--brand-secondary);
+            transform: translateY(-3px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .login-link {
+            text-align: center;
+            margin-top: 1.5rem;
+        }
+        
+        .login-link a {
+            color: var(--brand-primary);
+            font-weight: 600;
+            text-decoration: none;
+        }
+        .login-link a:hover {
+            text-decoration: underline;
+        }
+        
+        .form-row {
+            display: flex;
+            gap: 1.5rem;
+        }
+        .form-row .form-group {
+            width: 100%;
+        }
+        
+      
+
+    </style>
+}
+
+<div class="register-page-container mt-5">
+    <div class="register-wrapper">
+        <!-- Image Section -->
+        <div class="register-image-section">
+            <!-- Background image set in CSS -->
+        </div>
+
+        <!-- Form Section -->
+        <div class="register-form-section">
+            <h2 class="register-title">Create an Account</h2>
+            <p class="register-subtitle">Join us to discover amazing decor.</p>
+            
+            <form asp-action="Register" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                <div class="form-group">
+                    <label asp-for="username">Username</label>
+                    <input asp-for="username" class="form-control" placeholder="Choose a unique username" />
+                    <span asp-validation-for="username" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="email">Email</label>
+                    <input asp-for="email" class="form-control" placeholder="your.email@example.com"/>
+                    <span asp-validation-for="email" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="password">Password</label>
+                    <input asp-for="password" class="form-control" type="password" placeholder="Create a strong password"/>
+                    <span asp-validation-for="password" class="text-danger"></span>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label asp-for="firstname">First Name</label>
+                        <input asp-for="firstname" class="form-control" placeholder="John" />
+                        <span asp-validation-for="firstname" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="lastname">Last Name</label>
+                        <input asp-for="lastname" class="form-control" placeholder="Doe"/>
+                        <span asp-validation-for="lastname" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="contactnumber">Contact Number</label>
+                    <input asp-for="contactnumber" class="form-control" placeholder="Optional"/>
+                    <span asp-validation-for="contactnumber" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="address">Address</label>
+                    <input asp-for="address" class="form-control" placeholder="Optional"/>
+                    <span asp-validation-for="address" class="text-danger"></span>
+                </div>
+                
+                <button type="submit" class="btn btn-register">Create Account</button>
+            </form>
+
+            <div class="login-link">
+                <p>Already have an account? <a asp-action="Login">Sign In</a></p>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,207 @@
+@{
+    ViewData["Title"] = "User Login - Decor Vista";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles {
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <style>
+        :root {
+            --brand-primary:  #ebcd1e; /* Elegant gold */
+            --brand-secondary: #1a1814; /* Rich black */
+            --brand-light-grey: #f8f9fa;
+            --brand-grey: #6c757d;
+            --brand-white: #ffffff;
+            --font-family-base: 'Poppins', sans-serif;
+        }
+
+        .login-page-container {
+            display: flex;
+            min-height: 100vh;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--brand-light-grey);
+            font-family: var(--font-family-base);
+        }
+
+        .login-wrapper {
+            display: flex;
+            width: 100%;
+            max-width: 1200px;
+            min-height: 70vh;
+            background-color: var(--brand-white);
+            border-radius: 20px;
+            box-shadow: 0 15px 50px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .login-image-section {
+            flex: 1;
+            background-image: url('https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=2070&auto=format&fit=crop'); /* Replace with a stylish furniture/decor image */
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+        
+        .login-image-section::before {
+             content: '';
+             position: absolute;
+             top: 0; left: 0; right: 0; bottom: 0;
+             background: linear-gradient(-45deg, rgba(26, 24, 20, 0.4), rgba(205, 164, 94, 0.3));
+        }
+
+
+        .login-form-section {
+            flex: 1;
+            padding: 3rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .login-form-section .logo {
+             font-weight: 700;
+             font-size: 1.5rem;
+             color: var(--brand-secondary);
+             margin-bottom: 1rem;
+        }
+        
+        .login-form-section .logo span {
+            color: var(--brand-primary);
+        }
+
+        .login-title {
+            font-weight: 700;
+            color: var(--brand-secondary);
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .login-subtitle {
+            color: var(--brand-grey);
+            margin-bottom: 2rem;
+        }
+        
+        .form-group {
+            position: relative;
+            margin-bottom: 1.5rem;
+        }
+        
+        .form-control {
+            height: 55px;
+            padding-left: 45px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+            transition: all 0.3s;
+        }
+        
+        .form-control:focus {
+            background-color: var(--brand-white);
+            border-color: var(--brand-primary);
+            box-shadow: 0 0 0 0.2rem rgba(205, 164, 94, 0.2);
+        }
+        
+        .form-group .form-icon {
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #aaa;
+            transition: color 0.3s;
+        }
+        
+        .form-control:focus + .form-icon {
+            color: var(--brand-primary);
+        }
+
+        .btn-login {
+            width: 100%;
+            padding: 0.9rem;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 8px;
+            background-color: var(--brand-primary);
+            color: var(--brand-white);
+            border: none;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-login:hover {
+            background-color: var(--brand-secondary);
+            transform: translateY(-3px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .register-link {
+            text-align: center;
+            margin-top: 1.5rem;
+        }
+        
+        .register-link a {
+            color: var(--brand-primary);
+            font-weight: 600;
+            text-decoration: none;
+        }
+        .register-link a:hover {
+            text-decoration: underline;
+        }
+        
+        .alert {
+            border-radius: 8px;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            font-weight: 500;
+        }
+        
+
+
+    </style>
+}
+
+<div class="login-page-container">
+    <div class="login-wrapper">
+        <!-- Image Section -->
+        <div class="login-image-section">
+            <!-- Background image set in CSS -->
+        </div>
+
+        <!-- Form Section -->
+        <div class="login-form-section">
+            <div class="logo">Décor<span>Vista</span></div>
+            <h2 class="login-title">Welcome Back!</h2>
+            <p class="login-subtitle">Please enter your details to sign in.</p>
+
+            <!-- Display TempData Alerts Here -->
+            @if (TempData["error"] != null)
+            {
+                <div class="alert alert-danger">@TempData["error"]</div>
+            }
+            @if (TempData["success"] != null)
+            {
+                <div class="alert alert-success">@TempData["success"]</div>
+            }
+
+            <form asp-action="Login" method="post">
+                <div class="form-group">
+                    <input type="email" id="email" name="email" class="form-control" placeholder="Email Address" required />
+                    <i class="fas fa-envelope form-icon"></i>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="password" name="password" class="form-control" placeholder="Password" required />
+                    <i class="fas fa-lock form-icon"></i>
+                </div>
+                <button type="submit" class="btn btn-login">Sign In</button>
+            </form>
+
+            <div class="register-link">
+                <p>Don't have an account? <a asp-action="Register">Register Now</a></p>
+            </div>
+        </div>
+    </div>
+</div>

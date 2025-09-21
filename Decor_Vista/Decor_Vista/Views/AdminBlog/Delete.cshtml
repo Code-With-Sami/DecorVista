@@ -1,0 +1,182 @@
+@model Decor_Vista.Models.Blog
+
+@{
+    ViewData["Title"] = "Delete Blog Post";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<style>
+    :root {
+        --brand-yellow: #ebcd1e;
+        --brand-black: #333;
+    }
+
+    .card-header-custom {
+        background-color: #dc3545;
+        color: white;
+    }
+
+    .btn-custom-delete {
+        background-color: #dc3545;
+        color: white;
+        font-weight: bold;
+    }
+
+        .btn-custom-delete:hover {
+            background-color: #c82333;
+            color: white;
+        }
+
+    .product-preview {
+        max-width: 300px;
+        max-height: 200px;
+        border: 2px solid #ddd;
+        border-radius: 8px;
+        margin: 1rem 0;
+    }
+
+    .info-section {
+        background: #f8f9fa;
+        padding: 1.5rem;
+        border-radius: 10px;
+        margin-bottom: 1.5rem;
+        border-left: 4px solid #dc3545;
+    }
+
+        .info-section h5 {
+            color: var(--brand-black);
+            margin-bottom: 1rem;
+        }
+
+    .info-item {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem 0;
+        border-bottom: 1px solid #e9ecef;
+    }
+
+        .info-item:last-child {
+            border-bottom: none;
+        }
+
+    .info-label {
+        font-weight: bold;
+        color: var(--brand-black);
+    }
+
+    .info-value {
+        color: #666;
+    }
+
+    .warning-message {
+        background: #fff3cd;
+        border: 1px solid #ffeaa7;
+        color: #856404;
+        padding: 1rem;
+        border-radius: 8px;
+        margin-bottom: 1.5rem;
+    }
+</style>
+<div class="page-content">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title mb-0 text-danger">
+                        <i class="material-icons-outlined">warning</i> Delete Blog Post
+                    </h4>
+                </div>
+                <div class="card-body">
+                    <div class="alert alert-danger">
+                        <h5>Are you sure you want to delete this blog post?</h5>
+                        <p class="mb-0">This action cannot be undone.</p>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="mb-4">
+                                <h3 class="text-primary">@Model.Title</h3>
+                                @if (!string.IsNullOrEmpty(Model.ShortDescription))
+                                {
+                                    <p class="lead text-muted">@Model.ShortDescription</p>
+                                }
+                            </div>
+
+                            @if (!string.IsNullOrEmpty(Model.ImagePath))
+                            {
+                                <div class="mb-4">
+                                    <img src="@Model.ImagePath" alt="Blog Image" class="img-fluid rounded" style="max-height: 300px; width: 100%; object-fit: cover;" />
+                                </div>
+                            }
+
+                            <div class="mb-4">
+                                <h6>Content Preview:</h6>
+                                <div class="border rounded p-3 bg-light">
+                                    @Html.Raw(Model.Content.Length > 300 ? Model.Content.Substring(0, 300).Replace("\n", "<br>") + "..." : Model.Content.Replace("\n", "<br>"))
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h6 class="mb-0">Blog Information</h6>
+                                </div>
+                                <div class="card-body">
+                                    <div class="mb-3">
+                                        <strong>Status:</strong>
+                                        @if (Model.IsPublished)
+                                        {
+                                            <span class="badge bg-success ms-2">Published</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="badge bg-warning ms-2">Draft</span>
+                                        }
+                                    </div>
+
+                                    @if (!string.IsNullOrEmpty(Model.Author))
+                                    {
+                                        <div class="mb-3">
+                                            <strong>Author:</strong>
+                                            <span class="ms-2">@Model.Author</span>
+                                        </div>
+                                    }
+
+                                    @if (!string.IsNullOrEmpty(Model.Category))
+                                    {
+                                        <div class="mb-3">
+                                            <strong>Category:</strong>
+                                            <span class="ms-2">@Model.Category</span>
+                                        </div>
+                                    }
+
+                                    <div class="mb-3">
+                                        <strong>Created:</strong>
+                                        <span class="ms-2">@Model.CreatedAt.ToString("MMM dd, yyyy HH:mm")</span>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <strong>Last Updated:</strong>
+                                        <span class="ms-2">@Model.UpdatedAt.ToString("MMM dd, yyyy HH:mm")</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form asp-action="Delete" method="post">
+                        <input type="hidden" asp-for="Id" />
+                        <div class="d-flex gap-2">
+                            <button type="submit" class="btn btn-danger">
+                                <i class="material-icons-outlined">delete</i> Delete Blog Post
+                            </button>
+                            <a href="@Url.Action("Index", "AdminBlog")" class="btn btn-secondary">
+                                <i class="material-icons-outlined">arrow_back</i> Cancel
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

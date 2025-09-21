@@ -1,0 +1,220 @@
+@model IEnumerable<Decor_Vista.Models.Blog>
+
+@{
+    ViewData["Title"] = "Manage Blog Posts";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<style>
+    /* Custom Color Theme */
+    :root {
+        --brand-yellow: #ebcd1e;
+        --brand-black: #333;
+    }
+
+    /* Add Admin Button */
+    .btn-grd-primary {
+        background: var(--brand-yellow) !important;
+        color: var(--brand-black) !important;
+        border: none !important;
+        font-weight: bold;
+    }
+
+    /* Table Header */
+    #adminsTable thead.table-dark {
+        background-color: var(--brand-black) !important;
+        color: var(--brand-yellow) !important;
+        border-color: var(--brand-black);
+    }
+
+    /* Table Action Buttons */
+    .btn-group .btn-success {
+        background-color: var(--brand-black);
+        border-color: var(--brand-black);
+        color: white;
+    }
+
+        .btn-group .btn-success:hover {
+            background-color: #555;
+            border-color: #555;
+        }
+
+    /* DataTable Pagination */
+    .dataTables_paginate .paginate_button.active .page-link {
+        background: var(--brand-yellow) !important;
+        color: var(--brand-black) !important;
+        border-color: var(--brand-yellow) !important;
+        font-weight: bold;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .dataTables_paginate .paginate_button .page-link {
+        border-radius: 5px !important;
+        margin: 0 3px;
+        border: 1px solid #ddd;
+        color: var(--brand-black);
+        transition: all 0.2s ease-in-out;
+    }
+
+    .dataTables_paginate .page-link:focus {
+        box-shadow: none;
+    }
+
+    /* General styles */
+    .admin-img-cell img {
+        object-fit: cover;
+        border: 1px solid #eaeaea;
+    }
+
+    /* Styling for the export buttons */
+    .dt-buttons .btn {
+        margin: 0 5px;
+    }
+
+    .dt-button-info {
+        position: fixed !important;
+        top: 80% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%);
+        background-color: #171827 !important;
+        color: white !important;
+        border: none;
+        padding: 20px 30px;
+        border-radius: 8px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        text-align: center;
+        width: auto !important;
+        max-width: 90%;
+        z-index: 9999;
+        white-space: nowrap;
+    }
+
+        .dt-button-info h5 {
+            color: white !important;
+        }
+
+</style>
+<div class="page-content">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h4 class="card-title mb-0">Manage Blog Posts</h4>
+                    <a href="@Url.Action("Create", "AdminBlog")" class="btn btn-grd-primary">
+                        <i class="material-icons-outlined">add</i> Add New Blog Post
+                    </a>
+                </div>
+                <div class="card-body">
+                    @if (TempData["success"] != null)
+                    {
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            @TempData["success"]
+                            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                        </div>
+                    }
+
+                    <div class="table-responsive">
+                        <table id="blogTable" class="table table-striped table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Image</th>
+                                    <th>Title</th>
+                                    <th>Author</th>
+                                    <th>Category</th>
+                                    <th>Status</th>
+                                    <th>Published</th>
+                                    <th>Created</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@item.Id</td>
+                                        <td>
+                                            @if (!string.IsNullOrEmpty(item.ImagePath))
+                                            {
+                                                <img src="@item.ImagePath" alt="Blog Image" class="img-thumbnail" style="width: 60px; height: 60px; object-fit: cover;" />
+                                            }
+                                            else
+                                            {
+                                                <div class="bg-light d-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
+                                                    <i class="material-icons-outlined text-muted">image</i>
+                                                </div>
+                                            }
+                                        </td>
+                                        <td>
+                                            <strong>@item.Title</strong>
+                                            @if (!string.IsNullOrEmpty(item.ShortDescription))
+                                            {
+                                                <br><small class="text-muted">@(item.ShortDescription.Length > 80 ? item.ShortDescription.Substring(0, 80) + "..." : item.ShortDescription)</small>
+                                            }
+                                        </td>
+                                        <td>@(string.IsNullOrEmpty(item.Author) ? "-" : item.Author)</td>
+                                        <td>@(string.IsNullOrEmpty(item.Category) ? "-" : item.Category)</td>
+                                        <td>
+                                            @if (item.IsPublished)
+                                            {
+                                                <span class="badge bg-success">Published</span>
+                                            }
+                                            else
+                                            {
+                                                <span class="badge bg-warning">Draft</span>
+                                            }
+                                        </td>
+                                        <td>
+                                            @if (item.PublishedDate.HasValue)
+                                            {
+                                                @item.PublishedDate.Value.ToString("MMM dd, yyyy")
+                                            }
+                                            else
+                                            {
+                                                <span class="text-muted">-</span>
+                                            }
+                                        </td>
+                                        <td>@item.CreatedAt.ToString("MMM dd, yyyy")</td>
+                                        <td>
+                                            <div class="btn-group" role="group">
+                                                <a href="@Url.Action("Edit", "AdminBlog", new { id = item.Id })"
+                                                   class="btn btn-sm btn-success" title="Edit">
+                                                    Edit
+                                                </a>
+                                                <a href="@Url.Action("Details", "AdminBlog", new { id = item.Id })" 
+                                                   class="btn btn-sm btn-warning" title="View">
+                                                   View
+                                                </a>
+                                             
+                                                <a href="@Url.Action("Delete", "AdminBlog", new { id = item.Id })" 
+                                                   class="btn btn-sm btn-danger" title="Delete">
+                                                    Delete
+                                                </a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#blogTable').DataTable({
+                responsive: true,
+                order: [[0, 'desc']],
+                pageLength: 25,
+                language: {
+                    search: "Search blog posts:",
+                    lengthMenu: "Show _MENU_ posts per page",
+                    info: "Showing _START_ to _END_ of _TOTAL_ posts"
+                }
+            });
+        });
+    </script>
+}

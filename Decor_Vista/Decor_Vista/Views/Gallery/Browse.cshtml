@@ -1,0 +1,320 @@
+@model IEnumerable<Decor_Vista.Models.Gallery>
+@{
+    ViewData["Title"] = "Inspiration Gallery";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    :root {
+        --brand-yellow: #ebcd1e;
+        --brand-black: #333;
+        --light-grey-bg: #f8f9fa;
+        --card-bg: #ffffff;
+        --text-dark: #212529;
+        --text-light: #6c757d;
+        --shadow-sm: 0 4px 15px rgba(0,0,0,0.05);
+        --shadow-md: 0 8px 25px rgba(0,0,0,0.1);
+        --border-color: #e9ecef;
+    }
+
+    /* --- Sub Header --- */
+    .sub-header-contact {
+        background-color: var(--brand-black);
+    }
+
+        .sub-header-contact .breadcrumb-arc > .active {
+            color: var(--brand-yellow);
+        }
+
+    /* --- Filter Section --- */
+    .filter-section {
+        background: var(--card-bg);
+        padding: 2rem;
+        border-radius: 12px;
+        margin-bottom: 3rem;
+        box-shadow: var(--shadow-sm);
+        border: 1px solid var(--border-color);
+    }
+
+        .filter-section .form-label {
+            font-weight: 600;
+            color: var(--text-dark);
+            margin-bottom: 0.75rem;
+        }
+
+        .filter-section .form-select {
+            border-radius: 8px;
+        }
+
+            .filter-section .form-select:focus {
+                border-color: var(--brand-yellow);
+                box-shadow: 0 0 0 0.25rem rgba(235, 205, 30, 0.25);
+            }
+
+    .clear-filters {
+        background-color: var(--text-light);
+        color: white;
+        border-radius: 8px;
+        font-weight: 600;
+        width: 100%;
+        transition: background-color 0.3s ease;
+    }
+
+        .clear-filters:hover {
+            background-color: #5a6268;
+            color: white;
+        }
+
+    /* --- Gallery Grid --- */
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+        gap: 2rem;
+    }
+
+    .gallery-card {
+        background: var(--card-bg);
+        border-radius: 12px;
+        box-shadow: var(--shadow-sm);
+        overflow: hidden;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .gallery-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-md);
+        }
+
+    .gallery-image-wrapper {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .gallery-card img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        display: block;
+        transition: transform 0.4s ease;
+    }
+
+    .gallery-card:hover img {
+        transform: scale(1.05);
+    }
+
+    .favorite-btn {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        background: rgba(255, 255, 255, 0.9);
+        color: var(--brand-black);
+        border: none;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        font-size: 1.1rem;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+        opacity: 0;
+        transform: scale(0.8);
+    }
+
+    .gallery-card:hover .favorite-btn {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+
+    .favorite-btn .bi-heart-fill {
+        display: none; 
+    }
+
+    .favorite-btn .bi-heart {
+        display: inline-block; 
+    }
+
+    .favorite-btn.favorited .bi-heart-fill {
+        display: inline-block; 
+    }
+
+    .favorite-btn.favorited .bi-heart {
+        display: none; 
+    }
+
+    .gallery-info {
+        padding: 1.5rem;
+        border-top: 1px solid var(--border-color);
+    }
+
+    .gallery-title {
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: var(--text-dark);
+        margin-bottom: 0.75rem;
+    }
+
+    .gallery-meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .meta-tag {
+        background: var(--light-grey-bg);
+        color: var(--text-light);
+        padding: 0.3rem 0.8rem;
+        border-radius: 20px;
+        font-size: 0.8rem;
+        font-weight: 500;
+        border: 1px solid var(--border-color);
+    }
+
+    /* --- No Results --- */
+    .no-results {
+        text-align: center;
+        padding: 4rem;
+    }
+</style>
+
+<!-- Section Sub Header -->
+<section>
+    <div class="sub-header sub-header-1 sub-header-contact fake-position">
+        <div class="sub-header-content">
+            <h2 class="text-cap white-text">Inspiration Gallery</h2>
+            <ol class="breadcrumb breadcrumb-arc text-cap">
+                <li><a href="@Url.Action("Index", "Home")">Home</a></li>
+                <li class="active">Gallery</li>
+            </ol>
+        </div>
+    </div>
+</section>
+<!-- End Section Sub Header -->
+
+<div class="container my-5">
+    <!-- Filter Section -->
+    <div class="filter-section">
+        <form method="get" action="@Url.Action("Browse", "Gallery")" id="filterForm">
+            <div class="row align-items-end">
+                <div class="col-md-3 mb-3">
+                    <label class="form-label">Room Type</label>
+                    <select name="roomType" class="form-select" onchange="this.form.submit()">
+                        <option value="">All Types</option>
+                        @foreach (var roomType in ViewBag.RoomTypes)
+                        {
+                            <option value="@roomType.CategoryName" selected="@(Context.Request.Query["roomType"] == roomType.CategoryName)">@roomType.CategoryName</option>
+                        }
+                    </select>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label class="form-label">Theme/Style</label>
+                    <select name="theme" class="form-select" onchange="this.form.submit()">
+                        <option value="">All Themes</option>
+                        @foreach (var theme in ViewBag.Themes)
+                        {
+                            <option value="@theme.ThemeName" selected="@(Context.Request.Query["theme"] == theme.ThemeName)">@theme.ThemeName</option>
+                        }
+                    </select>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label class="form-label">Color Scheme</label>
+                    <select name="colorScheme" class="form-select" onchange="this.form.submit()">
+                        <option value="">All Colors</option>
+                        @foreach (var colorScheme in ViewBag.ColorSchemes)
+                        {
+                            <option value="@colorScheme.ColorSchemeName" selected="@(Context.Request.Query["colorScheme"] == colorScheme.ColorSchemeName)">@colorScheme.ColorSchemeName</option>
+                        }
+                    </select>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <a href="@Url.Action("Browse", "Gallery")" class="btn clear-filters">Clear Filters</a>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- Gallery Grid -->
+    @if (Model.Any())
+    {
+        <div class="gallery-grid">
+            @foreach (var item in Model)
+            {
+                <div class="gallery-card">
+                    <div class="gallery-image-wrapper">
+                        <img src="@item.ImagePath" alt="@item.Title">
+                        <button class="favorite-btn @(ViewBag.UserFavorites != null && ViewBag.UserFavorites.Contains(item.GalleryId) ? "favorited" : "")"
+                                onclick="toggleFavorite(@item.GalleryId, this)">
+                            <i class="bi bi-heart"></i>     
+                            <i class="bi bi-heart-fill"></i>
+                        </button>
+                    </div>
+                    <div class="gallery-info">
+                        <h5 class="gallery-title">@item.Title</h5>
+                        <div class="gallery-meta">
+                            <span class="meta-tag">@item.Category</span>
+                            <span class="meta-tag">@item.Theme</span>
+                            <span class="meta-tag">@item.ColorScheme</span>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="no-results">
+            <h3>No Designs Found</h3>
+            <p>Try adjusting your filters to discover more inspiration.</p>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <script>
+        // Aapka JavaScript pehle se aala hai, usse change karne ki zaroorat nahi.
+        function toggleFavorite(galleryId, button) {
+            event.stopPropagation(); // Stop click from bubbling up
+            $.post('@Url.Action("ToggleFavorite", "Gallery")', { galleryId: galleryId })
+                .done(function(response) {
+                    if (response.success) {
+                        button.classList.toggle('favorited', response.isFavorite);
+                        showToast(response.message, 'success');
+                    } else {
+                        showToast(response.message, 'error');
+                    }
+                })
+                .fail(function() {
+                    showToast('An error occurred. Please try again.', 'error');
+                });
+        }
+
+        function showToast(message, type) {
+            const toastContainer = document.querySelector('.toast-container') || document.createElement('div');
+            if (!document.querySelector('.toast-container')) {
+                toastContainer.className = 'toast-container position-fixed bottom-0 end-0 p-3';
+                document.body.appendChild(toastContainer);
+            }
+
+            const toast = document.createElement('div');
+            toast.className = `toast align-items-center text-white bg-${type === 'success' ? 'success' : 'danger'} border-0`;
+            toast.setAttribute('role', 'alert');
+            toast.setAttribute('aria-live', 'assertive');
+            toast.setAttribute('aria-atomic', 'true');
+
+            toast.innerHTML = `
+                <div class="d-flex">
+                    <div class="toast-body">
+                        ${message}
+                    </div>
+                    <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+            `;
+
+            toastContainer.appendChild(toast);
+            const bsToast = new bootstrap.Toast(toast);
+            bsToast.show();
+        }
+    </script>
+}

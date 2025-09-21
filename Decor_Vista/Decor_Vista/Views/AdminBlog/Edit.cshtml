@@ -1,0 +1,167 @@
+@model Decor_Vista.Models.Blog
+
+@{
+    ViewData["Title"] = "Edit Blog Post";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<style>
+    :root {
+        --brand-yellow: #ebcd1e;
+        --brand-black: #333;
+    }
+
+    .card-header-custom {
+        background-color: var(--brand-black);
+        color: var(--brand-yellow);
+    }
+
+    .btn-custom-edit {
+        background-color: var(--brand-yellow);
+        color: var(--brand-black);
+        font-weight: bold;
+    }
+
+    .form-section {
+        background: #f8f9fa;
+        padding: 1.5rem;
+        border-radius: 10px;
+        margin-bottom: 1.5rem;
+        border-left: 4px solid var(--brand-yellow);
+    }
+
+        .form-section h5 {
+            color: var(--brand-black);
+            margin-bottom: 1rem;
+        }
+
+    .image-preview {
+        max-width: 200px;
+        max-height: 150px;
+        border: 2px solid #ddd;
+        border-radius: 8px;
+        padding: 10px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+        .image-preview img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+
+    .current-image {
+        max-width: 150px;
+        max-height: 100px;
+        border: 2px solid #ddd;
+        border-radius: 8px;
+        margin-top: 10px;
+    }
+</style>
+<div class="page-content">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title mb-0">Edit Blog Post</h4>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Edit" method="post" enctype="multipart/form-data">
+                        <input type="hidden" asp-for="Id" />
+                        <input type="hidden" asp-for="CreatedAt" />
+                        
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="mb-3">
+                                    <label asp-for="Title" class="form-label">Title *</label>
+                                    <input asp-for="Title" class="form-control" placeholder="Enter blog post title" />
+                                    <span asp-validation-for="Title" class="text-danger"></span>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label asp-for="ShortDescription" class="form-label">Short Description</label>
+                                    <textarea asp-for="ShortDescription" class="form-control" rows="3" 
+                                              placeholder="Enter a brief description (optional)"></textarea>
+                                    <span asp-validation-for="ShortDescription" class="text-danger"></span>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label asp-for="Content" class="form-label">Content *</label>
+                                    <textarea asp-for="Content" class="form-control" rows="12" 
+                                              placeholder="Enter the full blog post content"></textarea>
+                                    <span asp-validation-for="Content" class="text-danger"></span>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="mb-3">
+                                    <label class="form-label">Current Image</label>
+                                    @if (!string.IsNullOrEmpty(Model.ImagePath))
+                                    {
+                                        <div class="mb-2">
+                                            <img src="@Model.ImagePath" alt="Current Blog Image" class="img-thumbnail" style="width: 100%; max-width: 200px;" />
+                                        </div>
+                                    }
+                                    <input type="file" name="imgFile" class="form-control" accept="image/*" />
+                                    <small class="text-muted">Leave empty to keep current image. Max size: 5MB</small>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label asp-for="Author" class="form-label">Author</label>
+                                    <input asp-for="Author" class="form-control" placeholder="Enter author name" />
+                                    <span asp-validation-for="Author" class="text-danger"></span>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label asp-for="Category" class="form-label">Category</label>
+                                    <input asp-for="Category" class="form-control" placeholder="Enter category" />
+                                    <span asp-validation-for="Category" class="text-danger"></span>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label asp-for="Tags" class="form-label">Tags</label>
+                                    <input asp-for="Tags" class="form-control" placeholder="Enter tags separated by commas" />
+                                    <small class="text-muted">Example: Interior Design, Modern, Furniture</small>
+                                    <span asp-validation-for="Tags" class="text-danger"></span>
+                                </div>
+
+                                <div class="mb-3">
+                                    <div class="form-check form-switch">
+                                        <input asp-for="IsPublished" class="form-check-input" type="checkbox" />
+                                        <label asp-for="IsPublished" class="form-check-label">Publish this post</label>
+                                    </div>
+                                    <small class="text-muted">Published posts will be visible to users</small>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label">Created Date</label>
+                                    <input type="text" class="form-control" value="@Model.CreatedAt.ToString("MMM dd, yyyy HH:mm")" readonly />
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label">Last Updated</label>
+                                    <input type="text" class="form-control" value="@Model.UpdatedAt.ToString("MMM dd, yyyy HH:mm")" readonly />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-4">
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-warning">
+                                    <i class="material-icons-outlined">save</i> Update Blog Post
+                                </button>
+                                <a href="@Url.Action("Index", "AdminBlog")" class="btn btn-secondary">
+                                    <i class="material-icons-outlined">arrow_back</i> Back to List
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

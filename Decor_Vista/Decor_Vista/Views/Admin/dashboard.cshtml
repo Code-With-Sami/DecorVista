@@ -24,12 +24,15 @@
         .stat-card.info {
             background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
         }
+        .stat-card .material-icons-outlined {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
     </style>
 }
 
 @section Scripts {
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    
     <script>
         $(document).ready(function() {
             // SweetAlert2 for success messages
@@ -54,6 +57,7 @@
             }
         });
     </script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
 }
 
 <div class="page-content">
@@ -62,22 +66,23 @@
         <div class="ps-3">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb mb-0 p-0">
-                    <li class="breadcrumb-item"><a href="javascript:;"><i class="bx bx-home-alt"></i></a></li>
+                    <li class="breadcrumb-item"><a href="@Url.Action("dashboard", "Admin")"><i class="bx bx-home-alt"></i></a></li>
                     <li class="breadcrumb-item active" aria-current="page">Admin Dashboard</li>
                 </ol>
             </nav>
         </div>
     </div>
 
-
     <div class="row">
         <div class="col-12 col-lg-8 col-xl-9">
             <div class="card dashboard-card shadow-sm border-0">
                 <div class="card-body">
                     <div class="d-flex align-items-center">
-                        <div class="">
+                        <div>
                             <h6 class="mb-1 text-primary">Welcome to Decor Vista Admin Panel</h6>
-                            <h4 class="mb-1">Hello, @Context.Session.GetString("AdminName")!</h4>
+                            <h4 class="mb-1">
+                                Hello, @(Context.Session.GetString("AdminName") ?? "Admin")!
+                            </h4>
                             <p class="mb-0">Let’s make the best interior design experience for our users today!</p>
                         </div>
                     </div>
@@ -95,10 +100,10 @@
                     </div>
                     <div class="mt-3">
                         <a href="@Url.Action("Create", "Admin")" class="btn btn-primary w-100 mb-2">
-                            <i class="material-icons-outlined me-2">person_add</i>Add New Admin
+                            <span class="material-icons-outlined me-2">person_add</span>Add New Admin
                         </a>
                         <a href="@Url.Action("Index", "Admin")" class="btn btn-outline-primary w-100">
-                            <i class="material-icons-outlined me-2">people</i>View All Admins
+                            <span class="material-icons-outlined me-2">people</span>View All Admins
                         </a>
                     </div>
                 </div>
@@ -110,7 +115,7 @@
         <div class="col-12 col-md-6 col-lg-3">
             <div class="card dashboard-card stat-card shadow-sm border-0">
                 <div class="card-body text-center">
-                    <i class="material-icons-outlined fs-1 mb-3">admin_panel_settings</i>
+                    <span class="material-icons-outlined">admin_panel_settings</span>
                     <h3 class="mb-1">@ViewBag.AdminCount</h3>
                     <p class="mb-0">Total Admins</p>
                 </div>
@@ -119,8 +124,8 @@
         <div class="col-12 col-md-6 col-lg-3">
             <div class="card dashboard-card stat-card success shadow-sm border-0">
                 <div class="card-body text-center">
-                    <i class="material-icons-outlined fs-1 mb-3">business</i>
-                    <h3 class="mb-1">0</h3>
+                    <span class="material-icons-outlined">business</span>
+                    <h3 class="mb-1">@ViewBag.DesignerCount</h3>
                     <p class="mb-0">Designers</p>
                 </div>
             </div>
@@ -128,8 +133,8 @@
         <div class="col-12 col-md-6 col-lg-3">
             <div class="card dashboard-card stat-card warning shadow-sm border-0">
                 <div class="card-body text-center">
-                    <i class="material-icons-outlined fs-1 mb-3">people</i>
-                    <h3 class="mb-1">0</h3>
+                    <span class="material-icons-outlined">people</span>
+                    <h3 class="mb-1">@ViewBag.UserCount</h3>
                     <p class="mb-0">Users</p>
                 </div>
             </div>
@@ -137,9 +142,9 @@
         <div class="col-12 col-md-6 col-lg-3">
             <div class="card dashboard-card stat-card info shadow-sm border-0">
                 <div class="card-body text-center">
-                    <i class="material-icons-outlined fs-1 mb-3"></i>
-                    <h3 class="mb-1">0</h3>
-                    <p class="mb-0"></p>
+                    <span class="material-icons-outlined">star</span>
+                    <h3 class="mb-1">@ViewBag.OtherCount</h3>
+                    <p class="mb-0">Other</p>
                 </div>
             </div>
         </div>

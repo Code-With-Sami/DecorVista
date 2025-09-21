@@ -9,7 +9,6 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddHttpContextAccessor();
 // Add session services
 builder.Services.AddDistributedMemoryCache();
-
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromMinutes(30); // Session timeout
@@ -32,6 +31,7 @@ app.UseRouting();
 
 app.UseAuthorization();
 app.UseSession();
+app.MapStaticAssets();
 
 app.MapControllerRoute(
     name: "default",

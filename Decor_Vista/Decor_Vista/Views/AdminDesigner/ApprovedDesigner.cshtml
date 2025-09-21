@@ -1,0 +1,32 @@
+@model IEnumerable<Decor_Vista.Models.Designer>
+@{
+    ViewData["Title"] = "Approved Designers - Decor Vista";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<partial name="_DesignerTable" model="Model" />
+
+@section Scripts {
+    <script src="~/Admin/assets/plugins/datatable/js/jquery.dataTables.min.js"></script>
+    <script src="~/Admin/assets/plugins/datatable/js/dataTables.bootstrap5.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('designersTable').DataTable({
+                  dom: '<"row align-items-center mb-3"<"col-sm-12 col-md-6"lB><"col-sm-12 col-md-6 d-flex justify-content-end"f>>' +
+                     '<"row mt-3"<"col-sm-12"tr>>' +
+                     '<"row mt-3"<"col-sm-12 col-md-5"i><"col-sm-12 col-md-7"p>>',
+
+                lengthChange: true,
+
+                buttons: [
+                    { extend: 'copy', text: '<i class="bi bi-clipboard"></i> Copy', className: 'btn btn-outline-primary btn-sm mt-3' },
+                    { extend: 'excel', text: '<i class="bi bi-file-earmark-excel"></i> Excel', className: 'btn btn-outline-success btn-sm mt-3' },
+                    { extend: 'pdf', text: '<i class="bi bi-file-earmark-pdf"></i> PDF', className: 'btn btn-outline-danger btn-sm mt-3' },
+                    { extend: 'print', text: '<i class="bi bi-printer"></i> Print', className: 'btn btn-outline-info btn-sm mt-3' }
+                ],
+
+
+                pagingType: "simple_numbers"
+            });
+        });
+    </script>
+}

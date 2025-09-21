@@ -3,28 +3,80 @@
   "WorkspaceRootPath": "D:\\Github Repo\\DecorVista\\Decor_Vista\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|d:\\github repo\\decorvista\\decor_vista\\decor_vista\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|solutionrelative:decor_vista\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|d:\\github repo\\decorvista\\decor_vista\\decor_vista\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|solutionrelative:decor_vista\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|d:\\github repo\\decorvista\\decor_vista\\decor_vista\\controllers\\admin\\adminuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|solutionrelative:decor_vista\\controllers\\admin\\adminuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|d:\\github repo\\decorvista\\decor_vista\\decor_vista\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|solutionrelative:decor_vista\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|d:\\github repo\\decorvista\\decor_vista\\decor_vista\\models\\portfolio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|solutionrelative:decor_vista\\models\\portfolio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|d:\\github repo\\decorvista\\decor_vista\\decor_vista\\models\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|solutionrelative:decor_vista\\models\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|d:\\github repo\\decorvista\\decor_vista\\decor_vista\\migrations\\applicationcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|solutionrelative:decor_vista\\migrations\\applicationcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|d:\\github repo\\decorvista\\decor_vista\\decor_vista\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|solutionrelative:decor_vista\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|d:\\github repo\\decorvista\\decor_vista\\decor_vista\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|solutionrelative:decor_vista\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|d:\\github repo\\decorvista\\decor_vista\\decor_vista\\views\\shared\\_designerlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|solutionrelative:decor_vista\\views\\shared\\_designerlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|d:\\github repo\\decorvista\\decor_vista\\decor_vista\\controllers\\desginer\\designerportfoliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|solutionrelative:decor_vista\\controllers\\desginer\\designerportfoliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|d:\\github repo\\decorvista\\decor_vista\\decor_vista\\controllers\\desginer\\designerservicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|solutionrelative:decor_vista\\controllers\\desginer\\designerservicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|d:\\github repo\\decorvista\\decor_vista\\decor_vista\\models\\portfolioimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|solutionrelative:decor_vista\\models\\portfolioimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|d:\\github repo\\decorvista\\decor_vista\\decor_vista\\models\\designerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|solutionrelative:decor_vista\\models\\designerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|d:\\github repo\\decorvista\\decor_vista\\decor_vista\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|solutionrelative:decor_vista\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|d:\\github repo\\decorvista\\decor_vista\\decor_vista\\views\\designer\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|solutionrelative:decor_vista\\views\\designer\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|d:\\github repo\\decorvista\\decor_vista\\decor_vista\\views\\designer\\registerdesigner.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|solutionrelative:decor_vista\\views\\designer\\registerdesigner.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|d:\\github repo\\decorvista\\decor_vista\\decor_vista\\views\\designerservices\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|solutionrelative:decor_vista\\views\\designerservices\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|d:\\github repo\\decorvista\\decor_vista\\decor_vista\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|solutionrelative:decor_vista\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|d:\\github repo\\decorvista\\decor_vista\\decor_vista\\views\\designerportfolio\\manageimages.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|solutionrelative:decor_vista\\views\\designerportfolio\\manageimages.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|d:\\github repo\\decorvista\\decor_vista\\decor_vista\\views\\designerportfolio\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|solutionrelative:decor_vista\\views\\designerportfolio\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|d:\\github repo\\decorvista\\decor_vista\\decor_vista\\views\\designerportfolio\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|solutionrelative:decor_vista\\views\\designerportfolio\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|d:\\github repo\\decorvista\\decor_vista\\decor_vista\\controllers\\desginer\\basedesignercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|solutionrelative:decor_vista\\controllers\\desginer\\basedesignercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|d:\\github repo\\decorvista\\decor_vista\\decor_vista\\migrations\\20250814123724_addportfoliofeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB5B8BC-17E2-4256-AB2F-C0B7E9C37F45}|Decor_Vista\\Decor_Vista.csproj|solutionrelative:decor_vista\\migrations\\20250814123724_addportfoliofeature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,79 +91,231 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Decor_Vista\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Decor_Vista\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAADwvz4AAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T09:48:47.157Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Decor_Vista\\Models\\User.cs",
-              "ToolTip": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Models\\User.cs",
-              "RelativeToolTip": "Decor_Vista\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T09:47:38.709Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdminUsersController.cs",
-              "DocumentMoniker": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Controllers\\Admin\\AdminUsersController.cs",
-              "RelativeDocumentMoniker": "Decor_Vista\\Controllers\\Admin\\AdminUsersController.cs",
-              "ToolTip": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Controllers\\Admin\\AdminUsersController.cs",
-              "RelativeToolTip": "Decor_Vista\\Controllers\\Admin\\AdminUsersController.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAgwEkAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T09:47:18.409Z",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Decor_Vista\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Decor_Vista\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACMBAAAAAAAAAAArwCwBAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-14T16:45:48.296Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "Decor_Vista\\Models\\Cart.cs",
+              "ToolTip": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Models\\Cart.cs",
+              "RelativeToolTip": "Decor_Vista\\Models\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T16:29:36.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Portfolio.cs",
+              "DocumentMoniker": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Models\\Portfolio.cs",
+              "RelativeDocumentMoniker": "Decor_Vista\\Models\\Portfolio.cs",
+              "ToolTip": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Models\\Portfolio.cs",
+              "RelativeToolTip": "Decor_Vista\\Models\\Portfolio.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T12:30:45.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PortfolioImage.cs",
+              "DocumentMoniker": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Models\\PortfolioImage.cs",
+              "RelativeDocumentMoniker": "Decor_Vista\\Models\\PortfolioImage.cs",
+              "ToolTip": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Models\\PortfolioImage.cs",
+              "RelativeToolTip": "Decor_Vista\\Models\\PortfolioImage.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T12:31:23.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DesignerServicesController.cs",
+              "DocumentMoniker": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Controllers\\Desginer\\DesignerServicesController.cs",
+              "RelativeDocumentMoniker": "Decor_Vista\\Controllers\\Desginer\\DesignerServicesController.cs",
+              "ToolTip": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Controllers\\Desginer\\DesignerServicesController.cs",
+              "RelativeToolTip": "Decor_Vista\\Controllers\\Desginer\\DesignerServicesController.cs",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAgwNsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T12:44:15.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DesignerPortfolioController.cs",
+              "DocumentMoniker": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Controllers\\Desginer\\DesignerPortfolioController.cs",
+              "RelativeDocumentMoniker": "Decor_Vista\\Controllers\\Desginer\\DesignerPortfolioController.cs",
+              "ToolTip": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Controllers\\Desginer\\DesignerPortfolioController.cs",
+              "RelativeToolTip": "Decor_Vista\\Controllers\\Desginer\\DesignerPortfolioController.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAgwJMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T12:41:45.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_DesignerLayout.cshtml",
+              "DocumentMoniker": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Views\\Shared\\_DesignerLayout.cshtml",
+              "RelativeDocumentMoniker": "Decor_Vista\\Views\\Shared\\_DesignerLayout.cshtml",
+              "ToolTip": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Views\\Shared\\_DesignerLayout.cshtml",
+              "RelativeToolTip": "Decor_Vista\\Views\\Shared\\_DesignerLayout.cshtml",
+              "ViewState": "AgIAAJoCAAAAAAAAAAAkwKsCAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-14T13:54:22.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ApplicationContext.cs",
               "DocumentMoniker": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Models\\ApplicationContext.cs",
               "RelativeDocumentMoniker": "Decor_Vista\\Models\\ApplicationContext.cs",
               "ToolTip": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Models\\ApplicationContext.cs",
               "RelativeToolTip": "Decor_Vista\\Models\\ApplicationContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAAwGsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T09:46:39.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-14T12:32:12.579Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ApplicationContextModelSnapshot.cs",
-              "DocumentMoniker": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Migrations\\ApplicationContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Decor_Vista\\Migrations\\ApplicationContextModelSnapshot.cs",
-              "ToolTip": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Migrations\\ApplicationContextModelSnapshot.cs",
-              "RelativeToolTip": "Decor_Vista\\Migrations\\ApplicationContextModelSnapshot.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAowCQAAAA4AAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "DesignerService.cs",
+              "DocumentMoniker": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Models\\DesignerService.cs",
+              "RelativeDocumentMoniker": "Decor_Vista\\Models\\DesignerService.cs",
+              "ToolTip": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Models\\DesignerService.cs",
+              "RelativeToolTip": "Decor_Vista\\Models\\DesignerService.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAwEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T09:42:19.068Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-14T16:17:10.347Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Program.cs",
-              "RelativeDocumentMoniker": "Decor_Vista\\Program.cs",
-              "ToolTip": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Program.cs",
-              "RelativeToolTip": "Decor_Vista\\Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAiwAcAAAArAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\appsettings.json",
+              "RelativeDocumentMoniker": "Decor_Vista\\appsettings.json",
+              "ToolTip": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\appsettings.json",
+              "RelativeToolTip": "Decor_Vista\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-14T16:04:37.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Views\\DesignerPortfolio\\Create.cshtml",
+              "RelativeDocumentMoniker": "Decor_Vista\\Views\\DesignerPortfolio\\Create.cshtml",
+              "ToolTip": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Views\\DesignerPortfolio\\Create.cshtml",
+              "RelativeToolTip": "Decor_Vista\\Views\\DesignerPortfolio\\Create.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-14T13:40:52.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Views\\DesignerServices\\Create.cshtml",
+              "RelativeDocumentMoniker": "Decor_Vista\\Views\\DesignerServices\\Create.cshtml",
+              "ToolTip": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Views\\DesignerServices\\Create.cshtml",
+              "RelativeToolTip": "Decor_Vista\\Views\\DesignerServices\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-14T13:41:10.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Views\\Admin\\Login.cshtml",
+              "RelativeDocumentMoniker": "Decor_Vista\\Views\\Admin\\Login.cshtml",
+              "ToolTip": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Views\\Admin\\Login.cshtml",
+              "RelativeToolTip": "Decor_Vista\\Views\\Admin\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-14T14:16:49.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Views\\Designer\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Decor_Vista\\Views\\Designer\\Profile.cshtml",
+              "ToolTip": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Views\\Designer\\Profile.cshtml",
+              "RelativeToolTip": "Decor_Vista\\Views\\Designer\\Profile.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAqwDAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-14T14:17:35.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RegisterDesigner.cshtml",
+              "DocumentMoniker": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Views\\Designer\\RegisterDesigner.cshtml",
+              "RelativeDocumentMoniker": "Decor_Vista\\Views\\Designer\\RegisterDesigner.cshtml",
+              "ToolTip": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Views\\Designer\\RegisterDesigner.cshtml",
+              "RelativeToolTip": "Decor_Vista\\Views\\Designer\\RegisterDesigner.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-14T14:18:01.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BaseDesignerController.cs",
+              "DocumentMoniker": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Controllers\\Desginer\\BaseDesignerController.cs",
+              "RelativeDocumentMoniker": "Decor_Vista\\Controllers\\Desginer\\BaseDesignerController.cs",
+              "ToolTip": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Controllers\\Desginer\\BaseDesignerController.cs",
+              "RelativeToolTip": "Decor_Vista\\Controllers\\Desginer\\BaseDesignerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T09:24:21.011Z"
+              "WhenOpened": "2025-08-14T12:42:38.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20250814123724_AddPortfolioFeature.cs",
+              "DocumentMoniker": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Migrations\\20250814123724_AddPortfolioFeature.cs",
+              "RelativeDocumentMoniker": "Decor_Vista\\Migrations\\20250814123724_AddPortfolioFeature.cs",
+              "ToolTip": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Migrations\\20250814123724_AddPortfolioFeature.cs",
+              "RelativeToolTip": "Decor_Vista\\Migrations\\20250814123724_AddPortfolioFeature.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T12:37:25.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ManageImages.cshtml",
+              "DocumentMoniker": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Views\\DesignerPortfolio\\ManageImages.cshtml",
+              "RelativeDocumentMoniker": "Decor_Vista\\Views\\DesignerPortfolio\\ManageImages.cshtml",
+              "ToolTip": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Views\\DesignerPortfolio\\ManageImages.cshtml",
+              "RelativeToolTip": "Decor_Vista\\Views\\DesignerPortfolio\\ManageImages.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAcwCAAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-14T13:48:22.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Views\\DesignerPortfolio\\Index.cshtml",
+              "RelativeDocumentMoniker": "Decor_Vista\\Views\\DesignerPortfolio\\Index.cshtml",
+              "ToolTip": "D:\\Github Repo\\DecorVista\\Decor_Vista\\Decor_Vista\\Views\\DesignerPortfolio\\Index.cshtml",
+              "RelativeToolTip": "Decor_Vista\\Views\\DesignerPortfolio\\Index.cshtml",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAiwIgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-14T13:36:38.1Z"
             }
           ]
         }

@@ -1,0 +1,174 @@
+@model IEnumerable<Decor_Vista.Models.Designer>
+
+<style>
+    :root {
+        --brand-yellow: #ebcd1e;
+        --brand-black: #333;
+    }
+
+    .btn-grd-primary {
+        background: var(--brand-yellow) !important;
+        color: var(--brand-black) !important;
+        border: none !important;
+        font-weight: bold;
+    }
+
+    #designersTable thead.table-dark {
+        background-color: var(--brand-black) !important;
+        color: var(--brand-yellow) !important;
+        border-color: var(--brand-black);
+    }
+
+    .btn-group .btn-success {
+        background-color: var(--brand-black);
+        border-color: var(--brand-black);
+        color: white;
+    }
+
+    .btn-group .btn-success:hover {
+        background-color: #555;
+        border-color: #555;
+    }
+
+    .btn-group .btn-danger {
+        background-color: #d9534f;
+        border-color: #d43f3a;
+        color: white;
+    }
+
+    .btn-group .btn-danger:hover {
+        background-color: #b52b27;
+        border-color: #ac2925;
+    }
+
+    .designer-img-cell img {
+        object-fit: cover;
+        border: 1px solid #eaeaea;
+    }
+
+    .dataTables_paginate .paginate_button.active .page-link {
+        background: var(--brand-yellow) !important;
+        color: var(--brand-black) !important;
+        border-color: var(--brand-yellow) !important;
+        font-weight: bold;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .dataTables_paginate .paginate_button .page-link {
+        border-radius: 5px !important;
+        margin: 0 3px;
+        border: 1px solid #ddd;
+        color: var(--brand-black);
+        transition: all 0.2s ease-in-out;
+    }
+
+    .dataTables_paginate .page-link:focus {
+        box-shadow: none;
+    }
+
+    .dt-buttons .btn {
+        margin: 0 5px;
+    }
+
+    .dt-button-info {
+        position: fixed !important;
+        top: 80% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%);
+        background-color: #171827 !important;
+        color: white !important;
+        border: none;
+        padding: 20px 30px;
+        border-radius: 8px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        text-align: center;
+        width: auto !important;
+        max-width: 90%;
+        z-index: 9999;
+        white-space: nowrap;
+    }
+
+    .dt-button-info h5 {
+        color: white !important; 
+    }
+</style>
+
+<link href="https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap5.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+<div class="table-responsive">
+    <table id="designersTable" class="table table-striped table-bordered" style="width:100%">
+        <thead class="table-dark">
+            <tr>
+                <th width="5%">#</th>
+                <th width="15%">Image</th>
+                <th width="25%">Name</th>
+                <th width="35%">Email</th>
+                <th width="10%">Status</th>
+                <th width="10%">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                var count = 1;
+                foreach (var designer in Model)
+                {
+                    <tr>
+                        <td class="text-center">@count</td>
+                        <td class="text-center designer-img-cell">
+                            @if (!string.IsNullOrEmpty(designer.ProfileImagePath))
+                            {
+                                <img src="@designer.ProfileImagePath" alt="Designer" class="rounded-circle" width="40" height="40" />
+                            }
+                            else
+                            {
+                                <span class="text-muted">No Image</span>
+                            }
+                        </td>
+                        <td>@designer.FirstName @designer.LastName</td>
+                        <td>@designer.Email</td>
+                        <td>@designer.Status</td>
+                        <td>
+                            @if (designer.Status == "Pending")
+                            {
+                                <div class="btn-group btn-group-sm" role="group">
+                                    <form asp-action="Approve" asp-controller="AdminDesigner" method="post" style="display:inline;">
+                                        <input type="hidden" name="id" value="@designer.Id" />
+                                        <button type="submit" class="btn btn-success">Approve</button>
+                                    </form>
+                                    <form asp-action="Reject" asp-controller="AdminDesigner" method="post" style="display:inline;">
+                                        <input type="hidden" name="id" value="@designer.Id" />
+                                        <button type="submit" class="btn btn-danger">Reject</button>
+                                    </form>
+                                </div>
+                            }
+                            else
+                            {
+                                <span class="text-muted">-</span>
+                            }
+                        </td>
+                    </tr>
+                    count++;
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="6" class="text-center">No designers found</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.4/js/dataTables.bootstrap5.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#designersTable').DataTable({
+            pagingType: "simple_numbers"
+        });
+    });
+</script>

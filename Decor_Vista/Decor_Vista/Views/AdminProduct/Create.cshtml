@@ -1,0 +1,304 @@
+@model Decor_Vista.Models.Product
+@{
+    ViewData["Title"] = "Add Product";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<style>
+    :root {
+        --brand-yellow: #ebcd1e;
+        --brand-black: #333;
+    }
+
+    .card-header-custom {
+        background-color: var(--brand-black);
+        color: var(--brand-yellow);
+    }
+
+    .btn-custom-create {
+        background-color: var(--brand-yellow);
+        color: var(--brand-black);
+        font-weight: bold;
+    }
+
+    .form-section {
+        background: #f8f9fa;
+        padding: 1.5rem;
+        border-radius: 10px;
+        margin-bottom: 1.5rem;
+        border-left: 4px solid var(--brand-yellow);
+    }
+
+    .form-section h5 {
+        color: var(--brand-black);
+        margin-bottom: 1rem;
+    }
+
+    .image-preview {
+        max-width: 200px;
+        max-height: 150px;
+        border: 2px dashed #ddd;
+        border-radius: 8px;
+        padding: 10px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .image-preview img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+    }
+</style>
+
+<div class="page-content">
+    <div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
+        <div class="breadcrumb-title pe-3">Product Catalog</div>
+        <div class="ps-3">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0 p-0">
+                    <li class="breadcrumb-item"><a asp-action="Index">Manage Products</a></li>
+                    <li class="breadcrumb-item active">Add Product</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <div class="card">
+                <div class="card-header card-header-custom">
+                    <h5 class="text-white mb-0">Add New Product</h5>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Create" method="post" enctype="multipart/form-data">
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                        <!-- Basic Information -->
+                        <div class="form-section">
+                            <h5><i class="fas fa-info-circle"></i> Basic Information</h5>
+                            <div class="row">
+                                <div class="col-md-8 mb-3">
+                                    <label asp-for="Name" class="form-label"></label>
+                                    <input asp-for="Name" class="form-control" />
+                                    <span asp-validation-for="Name" class="text-danger"></span>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <label asp-for="Category" class="form-label"></label>
+                                    <select asp-for="Category" class="form-select" asp-items="ViewBag.Categories">
+                                        <option value="">-- Select Category --</option>
+                                    </select>
+                                    <span asp-validation-for="Category" class="text-danger"></span>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label asp-for="Brand" class="form-label"></label>
+                                    <input asp-for="Brand" class="form-control" />
+                                    <span asp-validation-for="Brand" class="text-danger"></span>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label asp-for="SKU" class="form-label"></label>
+                                    <input asp-for="SKU" class="form-control" />
+                                    <span asp-validation-for="SKU" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Pricing -->
+                        <div class="form-section">
+                            <h5><i class="fas fa-dollar-sign"></i> Pricing & Stock</h5>
+                            <div class="row">
+                                <div class="col-md-4 mb-3">
+                                    <label asp-for="Price" class="form-label"></label>
+                                    <div class="input-group">
+                                        <span class="input-group-text">$</span>
+                                        <input asp-for="Price" class="form-control" type="number" step="0.01" min="0" />
+                                    </div>
+                                    <span asp-validation-for="Price" class="text-danger"></span>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <label asp-for="SalePrice" class="form-label"></label>
+                                    <div class="input-group">
+                                        <span class="input-group-text">$</span>
+                                        <input asp-for="SalePrice" class="form-control" type="number" step="0.01" min="0" />
+                                    </div>
+                                    <span asp-validation-for="SalePrice" class="text-danger"></span>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <label asp-for="StockQuantity" class="form-label"></label>
+                                    <input asp-for="StockQuantity" class="form-control" type="number" min="0" />
+                                    <span asp-validation-for="StockQuantity" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Product Details -->
+                        <div class="form-section">
+                            <h5><i class="fas fa-cogs"></i> Product Details</h5>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label asp-for="Dimensions" class="form-label"></label>
+                                    <input asp-for="Dimensions" class="form-control" placeholder="e.g., 24\" x 36\" x 18\"" />
+                                    <span asp-validation-for="Dimensions" class="text-danger"></span>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label asp-for="Weight" class="form-label"></label>
+                                    <div class="input-group">
+                                        <input asp-for="Weight" class="form-control" type="number" step="0.01" min="0" />
+                                        <span class="input-group-text">kg</span>
+                                    </div>
+                                    <span asp-validation-for="Weight" class="text-danger"></span>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label asp-for="Materials" class="form-label"></label>
+                                    <input asp-for="Materials" class="form-control" placeholder="e.g., Wood, Metal, Fabric" />
+                                    <span asp-validation-for="Materials" class="text-danger"></span>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label asp-for="Color" class="form-label"></label>
+                                    <input asp-for="Color" class="form-control" placeholder="e.g., Brown, White, Black" />
+                                    <span asp-validation-for="Color" class="text-danger"></span>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label asp-for="Style" class="form-label"></label>
+                                    <input asp-for="Style" class="form-control" placeholder="e.g., Modern, Traditional, Industrial" />
+                                    <span asp-validation-for="Style" class="text-danger"></span>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label asp-for="Tags" class="form-label"></label>
+                                    <input asp-for="Tags" class="form-control" placeholder="e.g., living room, comfortable, durable" />
+                                    <span asp-validation-for="Tags" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Descriptions -->
+                        <div class="form-section">
+                            <h5><i class="fas fa-align-left"></i> Descriptions</h5>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label asp-for="ShortDescription" class="form-label"></label>
+                                    <textarea asp-for="ShortDescription" class="form-control" rows="3" placeholder="Brief description for product listings"></textarea>
+                                    <span asp-validation-for="ShortDescription" class="text-danger"></span>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label asp-for="DetailedDescription" class="form-label"></label>
+                                    <textarea asp-for="DetailedDescription" class="form-control" rows="3" placeholder="Detailed product description"></textarea>
+                                    <span asp-validation-for="DetailedDescription" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Images -->
+                        <div class="form-section">
+                            <h5><i class="fas fa-images"></i> Product Images</h5>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">Main Image</label>
+                                    <input type="file" name="mainImage" class="form-control" accept="image/*" onchange="previewMainImage(this)" />
+                                    <div id="mainImagePreview" class="image-preview" style="display: none;">
+                                        <img id="mainImagePreviewImg" src="" alt="Main Image Preview" />
+                                    </div>
+                                    <span asp-validation-for="MainImagePath" class="text-danger"></span>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">Additional Images (Max 5)</label>
+                                    <input type="file" name="additionalImages" class="form-control" accept="image/*" multiple onchange="previewAdditionalImages(this)" />
+                                    <div id="additionalImagesPreview" class="mt-2"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Purchase Links -->
+                        <div class="form-section">
+                            <h5><i class="fas fa-link"></i> Purchase Links</h5>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label asp-for="PurchaseLink" class="form-label"></label>
+                                    <input asp-for="PurchaseLink" class="form-control" placeholder="https://example.com/product" />
+                                    <span asp-validation-for="PurchaseLink" class="text-danger"></span>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label asp-for="PartnerWebsite" class="form-label"></label>
+                                    <input asp-for="PartnerWebsite" class="form-control" placeholder="Partner website name" />
+                                    <span asp-validation-for="PartnerWebsite" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Settings -->
+                        <div class="form-section">
+                            <h5><i class="fas fa-cog"></i> Product Settings</h5>
+                            <div class="row">
+                                <div class="col-md-4 mb-3">
+                                    <div class="form-check">
+                                        <input asp-for="IsAvailable" class="form-check-input" />
+                                        <label asp-for="IsAvailable" class="form-check-label"></label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="form-check">
+                                        <input asp-for="IsFeatured" class="form-check-input" />
+                                        <label asp-for="IsFeatured" class="form-check-label"></label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <label asp-for="Rating" class="form-label"></label>
+                                    <input asp-for="Rating" class="form-control" type="number" step="0.1" min="0" max="5" />
+                                    <span asp-validation-for="Rating" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-custom-create px-5">Create Product</button>
+                            <a asp-action="Index" class="btn btn-outline-secondary px-5 ms-2">Cancel</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function previewMainImage(input) {
+            const preview = document.getElementById('mainImagePreview');
+            const previewImg = document.getElementById('mainImagePreviewImg');
+            
+            if (input.files && input.files[0]) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    previewImg.src = e.target.result;
+                    preview.style.display = 'block';
+                }
+                reader.readAsDataURL(input.files[0]);
+            } else {
+                preview.style.display = 'none';
+            }
+        }
+
+        function previewAdditionalImages(input) {
+            const preview = document.getElementById('additionalImagesPreview');
+            preview.innerHTML = '';
+            
+            if (input.files) {
+                const files = Array.from(input.files).slice(0, 5); // Limit to 5 images
+                
+                files.forEach((file, index) => {
+                    const reader = new FileReader();
+                    reader.onload = function(e) {
+                        const imgDiv = document.createElement('div');
+                        imgDiv.className = 'd-inline-block me-2 mb-2';
+                        imgDiv.innerHTML = `
+                            <img src="${e.target.result}" alt="Preview ${index + 1}" 
+                                 style="width: 80px; height: 60px; object-fit: cover; border-radius: 4px; border: 1px solid #ddd;">
+                        `;
+                        preview.appendChild(imgDiv);
+                    }
+                    reader.readAsDataURL(file);
+                });
+            }
+        }
+    </script>
+}

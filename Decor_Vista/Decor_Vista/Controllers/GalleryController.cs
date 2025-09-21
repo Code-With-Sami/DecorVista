@@ -1,5 +1,4 @@
-﻿
-using Decor_Vista.Models;
+﻿using Decor_Vista.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -8,177 +7,119 @@ using System.Threading.Tasks;
 
 namespace Decor_Vista.Controllers
 {
-    public class GalleryController : Controller
-    {
-        private readonly ApplicationContext _context;
-        private readonly IWebHostEnvironment _webHostEnvironment;
+	public class GalleryController : Controller
+	{
+		private readonly ApplicationContext _context;
+		private readonly IWebHostEnvironment _webHostEnvironment;
 
-        public GalleryController(ApplicationContext context, IWebHostEnvironment webHostEnvironment)
-        {
-            _context = context;
-            _webHostEnvironment = webHostEnvironment;
-        }
+		public GalleryController(ApplicationContext context, IWebHostEnvironment webHostEnvironment)
+		{
+			_context = context;
+			_webHostEnvironment = webHostEnvironment;
+		}
 
-        private async Task PopulateCategoriesDropdown()
-        {
-            ViewBag.Categories = new SelectList(await _context.GalleryCategories.OrderBy(c => c.CategoryName).ToListAsync(), "CategoryName", "CategoryName");
-        }
+		// GET: Gallery/Browse (User-facing)
+		public async Task<IActionResult> Browse(string? roomType, string? theme, string? colorScheme)
+		{
+			var query = _context.Gallery.AsQueryable();
 
-        // GET: Gallery
-        public async Task<IActionResult> Index()
-        {
-            return View(await _context.Gallery.OrderByDescending(g => g.CreatedAt).ToListAsync());
-        }
+			if (!string.IsNullOrEmpty(roomType))
+				query = query.Where(g => g.Category == roomType);
+			
+			if (!string.IsNullOrEmpty(theme))
+				query = query.Where(g => g.Theme == theme);
+			
+			if (!string.IsNullOrEmpty(colorScheme))
+				query = query.Where(g => g.ColorScheme == colorScheme);
 
-        // GET: Gallery/Create
-        public async Task<IActionResult> Create()
-        {
-            await PopulateCategoriesDropdown();
-            return View();
-        }
+			var galleries = await query.OrderByDescending(g => g.CreatedAt).ToListAsync();
 
-        // POST: Gallery/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(Gallery gallery, IFormFile? imgFile)
-        {
-            // Clear any automatic validation attached to ImagePath since we set it server-side
-            ModelState.Remove("ImagePath");
+			// Get filter options for the view
+			ViewBag.RoomTypes = await _context.GalleryCategories.OrderBy(c => c.CategoryName).ToListAsync();
+			ViewBag.Themes = await _context.GalleryThemes.OrderBy(t => t.ThemeName).ToListAsync();
+			ViewBag.ColorSchemes = await _context.GalleryColorSchemes.OrderBy(c => c.ColorSchemeName).ToListAsync();
 
-            if (imgFile == null)
-            {
-                ModelState.AddModelError("ImagePath", "Please select an image file to upload.");
-                await PopulateCategoriesDropdown();
-                return View(gallery);
-            }
+			// Get user favorites if user is logged in
+			var userId = HttpContext.Session.GetInt32("UserId");
+			if (userId.HasValue)
+			{
+				var userFavorites = await _context.UserFavorites
+					.Where(uf => uf.UserId == userId.Value)
+					.Select(uf => uf.GalleryId)
+					.ToListAsync();
+				ViewBag.UserFavorites = userFavorites;
+			}
 
-            if (ModelState.IsValid)
-            {
-                if (imgFile.Length > 5 * 1024 * 1024)
-                {
-                    ModelState.AddModelError("ImagePath", "File size cannot exceed 5MB.");
-                    await PopulateCategoriesDropdown();
-                    return View(gallery);
-                }
+			return View(galleries);
+		}
 
-                string uploadDir = Path.Combine(_webHostEnvironment.WebRootPath, "Admin", "Images", "Gallery");
-                if (!Directory.Exists(uploadDir)) { Directory.CreateDirectory(uploadDir); }
+		public async Task<IActionResult> Details(int? id)
+		{
+			if (id == null)
+			{
+				return NotFound();
+			}
 
-                string fileName = Guid.NewGuid().ToString() + "_" + imgFile.FileName;
-                string filePath = Path.Combine(uploadDir, fileName);
+			var galleryItem = await _context.Gallery
+				.FirstOrDefaultAsync(m => m.GalleryId == id);
 
-                using (var fs = new FileStream(filePath, FileMode.Create))
-                {
-                    await imgFile.CopyToAsync(fs);
-                }
-                gallery.ImagePath = "/Admin/Images/Gallery/" + fileName;
+			if (galleryItem == null)
+			{
+				return NotFound();
+			}
 
-                _context.Add(gallery);
-                await _context.SaveChangesAsync();
-                TempData["success"] = "Gallery item created successfully.";
-                return RedirectToAction(nameof(Index));
-            }
+			return View(galleryItem);
+		}
 
-            await PopulateCategoriesDropdown();
-            return View(gallery);
-        }
+		// POST: Gallery/ToggleFavorite
+		[HttpPost]
+		public async Task<IActionResult> ToggleFavorite(int galleryId)
+		{
+			var userId = HttpContext.Session.GetInt32("UserId");
+			if (!userId.HasValue)
+			{
+				return Json(new { success = false, message = "Please login to save favorites." });
+			}
 
-    
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null) return NotFound();
-            var galleryItem = await _context.Gallery.FindAsync(id);
-            if (galleryItem == null) return NotFound();
-            await PopulateCategoriesDropdown();
-            return View(galleryItem);
-        }
+			var existingFavorite = await _context.UserFavorites
+				.FirstOrDefaultAsync(uf => uf.UserId == userId.Value && uf.GalleryId == galleryId);
 
-        // POST: Gallery/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, Gallery gallery, IFormFile? imgFile)
-        {
-            if (id != gallery.GalleryId) return NotFound();
-            ModelState.Remove("ImagePath");
+			if (existingFavorite != null)
+			{
+				_context.UserFavorites.Remove(existingFavorite);
+				await _context.SaveChangesAsync();
+				return Json(new { success = true, isFavorite = false, message = "Removed from favorites." });
+			}
+			else
+			{
+				var newFavorite = new UserFavorites
+				{
+					UserId = userId.Value,
+					GalleryId = galleryId,
+					CreatedAt = DateTime.Now
+				};
+				_context.UserFavorites.Add(newFavorite);
+				await _context.SaveChangesAsync();
+				return Json(new { success = true, isFavorite = true, message = "Added to favorites." });
+			}
+		}
 
-            if (ModelState.IsValid)
-            {
-                var itemFromDb = await _context.Gallery.AsNoTracking().FirstOrDefaultAsync(g => g.GalleryId == id);
-                if (itemFromDb == null) return NotFound();
+		// GET: Gallery/MyFavorites
+		public async Task<IActionResult> MyFavorites()
+		{
+			var userId = HttpContext.Session.GetInt32("UserId");
+			if (!userId.HasValue)
+			{
+				return RedirectToAction("Login", "Auth");
+			}
 
-                if (imgFile != null)
-                {
-                    var oldImagePath = Path.Combine(_webHostEnvironment.WebRootPath, itemFromDb.ImagePath.TrimStart('/'));
-                    if (System.IO.File.Exists(oldImagePath)) { System.IO.File.Delete(oldImagePath); }
+			var favorites = await _context.UserFavorites
+				.Include(uf => uf.Gallery)
+				.Where(uf => uf.UserId == userId.Value)
+				.OrderByDescending(uf => uf.CreatedAt)
+				.ToListAsync();
 
-                    string uploadDir = Path.Combine(_webHostEnvironment.WebRootPath, "Admin", "Images", "Gallery");
-                    string fileName = Guid.NewGuid().ToString() + "_" + imgFile.FileName;
-                    string filePath = Path.Combine(uploadDir, fileName);
-
-                    // --- THIS IS THE FIX ---
-                    using (var fileStream = new FileStream(filePath, FileMode.Create))
-                    {
-                        await imgFile.CopyToAsync(fileStream); // Correctly copy the file's stream
-                    }
-                    gallery.ImagePath = "/Admin/Images/Gallery/" + fileName;
-                }
-                else
-                {
-                    gallery.ImagePath = itemFromDb.ImagePath;
-                }
-
-                gallery.UpdatedAt = DateTime.Now;
-                gallery.CreatedAt = itemFromDb.CreatedAt;
-                _context.Update(gallery);
-                await _context.SaveChangesAsync();
-                TempData["success"] = "Gallery item updated successfully.";
-                return RedirectToAction(nameof(Index));
-            }
-            await PopulateCategoriesDropdown();
-            return View(gallery);
-        }
-
-        // GET: Gallery/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null) return NotFound();
-            var galleryItem = await _context.Gallery.FirstOrDefaultAsync(m => m.GalleryId == id);
-            if (galleryItem == null) return NotFound();
-            return View(galleryItem);
-        }
-
-        // POST: Gallery/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var galleryItem = await _context.Gallery.FindAsync(id);
-            if (galleryItem != null)
-            {
-                var imagePath = Path.Combine(_webHostEnvironment.WebRootPath, galleryItem.ImagePath.TrimStart('/'));
-                if (System.IO.File.Exists(imagePath)) { System.IO.File.Delete(imagePath); }
-                _context.Gallery.Remove(galleryItem);
-                await _context.SaveChangesAsync();
-                TempData["success"] = "Gallery item deleted successfully.";
-            }
-            return RedirectToAction(nameof(Index));
-        }
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var galleryItem = await _context.Gallery
-                .FirstOrDefaultAsync(m => m.GalleryId == id);
-
-            if (galleryItem == null)
-            {
-                return NotFound();
-            }
-
-            return View(galleryItem);
-        }
-    }
+			return View(favorites);
+		}
+	}
 }

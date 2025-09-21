@@ -12,15 +12,25 @@ namespace Decor_Vista.Models
         [StringLength(150)]
         public string Title { get; set; }
 
-        [Required(ErrorMessage = "Please select a category.")]
+        [Required(ErrorMessage = "Please select a room type.")]
         [StringLength(50)]
+        [Display(Name = "Room Type")]
         public string Category { get; set; }
 
         [StringLength(50)]
         [Display(Name = "Sub-Category (Optional)")]
         public string? SubCategory { get; set; }
 
-       
+        [Required(ErrorMessage = "Please select a theme/style.")]
+        [StringLength(50)]
+        [Display(Name = "Theme/Style")]
+        public string Theme { get; set; }
+
+        [Required(ErrorMessage = "Please select a color scheme.")]
+        [StringLength(50)]
+        [Display(Name = "Color Scheme")]
+        public string ColorScheme { get; set; }
+
         [StringLength(255)]
         public string? ImagePath { get; set; }
 

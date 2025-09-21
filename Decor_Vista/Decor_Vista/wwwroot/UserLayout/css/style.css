@@ -10515,3 +10515,17 @@ ul.list-link-footer li:hover:before {
     display: none;
   }
 }
+@media (min-width: 1100px) { 
+    header#mainmenu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+        header#mainmenu .left-header,
+        header#mainmenu nav,
+        header#mainmenu .right-header {
+            display: flex;
+            align-items: center;
+        }
+}

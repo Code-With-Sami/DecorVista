@@ -1,0 +1,244 @@
+@model IEnumerable<Decor_Vista.Models.Cart>
+@{
+    ViewData["Title"] = "Shopping Cart - Decor Vista";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Html.AntiForgeryToken()
+
+<!-- Section BreadCrumb -->
+<section class="no-padding-tb">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ol class="breadcrumb breadcrumb-arc-2">
+                    <li><a href="@Url.Action("Index", "Home")"> <i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+                    <li><a href="@Url.Action("Catalog", "Product")"> Shop</a></li>
+                    <li class="active">Shopping Cart</li>
+                </ol>
+            </div><!--  End col -->
+        </div> <!-- End Row -->
+    </div><!-- End container -->
+</section><!--  End Section -->
+
+<Section class="no-padding-top">
+    <div class="container">
+        @if (Model != null && Model.Any())
+        {
+            <div class="shopping-cart-warp">
+                <div class="table-responsive">
+                    <table class="shop_table shop_table_responsive cart table">
+                        <thead>
+                            <tr>
+                                <th class="product-thumbnail">&nbsp;</th>
+                                <th class="product-name">Product</th>
+                                <th class="product-price">Price</th>
+                                <th class="product-quantity">Quantity</th>
+                                <th class="product-subtotal">Total</th>
+                                <th class="product-remove">&nbsp;</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var cartItem in Model)
+                            {
+                                <tr class="cart_item" data-product-id="@cartItem.ProductId">
+                                    <td class="product-thumbnail">
+                                        <a href="@Url.Action("Details", "Product", new { id = cartItem.ProductId })">
+                                            @if (!string.IsNullOrEmpty(cartItem.Product?.MainImagePath))
+                                            {
+                                                <img alt="@cartItem.Product.Name" src="@cartItem.Product.MainImagePath">
+                                            }
+                                            else
+                                            {
+                                                <img alt="@cartItem.Product?.Name" src="~/UserLayout/images/Shop/shopping-cart-1.jpg">
+                                            }
+                                        </a>
+                                    </td>
+                                    <td data-title="Product" class="product-name">
+                                        <a href="@Url.Action("Details", "Product", new { id = cartItem.ProductId })">@cartItem.Product?.Name</a>
+                                        @if (!string.IsNullOrEmpty(cartItem.Product?.Color))
+                                        {
+                                            <span>Color: @cartItem.Product.Color</span>
+                                        }
+                                    </td>
+                                    <td data-title="Price" class="product-price">
+                                        <span class="amount">$@(cartItem.Product?.SalePrice ?? cartItem.Product?.Price)?.ToString("F2")</span>
+                                    </td>
+                                    <td data-title="Quantity" class="product-quantity">
+                                        <div class="quantity">
+                                            <input type="number" size="4" class="input-text qty text" title="Qty" 
+                                                   value="@cartItem.Quantity" step="1" min="1" 
+                                                   max="@cartItem.Product?.StockQuantity"
+                                                   onchange="updateQuantity(@cartItem.ProductId, this.value)">
+                                        </div>
+                                    </td>
+                                    <td data-title="Total" class="product-subtotal">
+                                        <span class="amount">$@((cartItem.Product?.SalePrice ?? cartItem.Product?.Price) * cartItem.Quantity)?.ToString("F2")</span>
+                                    </td>
+                                    <td class="product-remove">
+                                        <a class="remove" href="#" onclick="removeFromCart(@cartItem.ProductId)">
+                                            <span class="lnr lnr-cross"></span>
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+                <div class="actions">
+                    <div class="coupon pull-left">
+                        <input type="text" placeholder="Coupon code" value="" id="coupon_code" class="input-text" name="coupon_code">
+                        <input type="submit" value="Apply Coupon" name="apply_coupon" class="ot-btn btn-coupon text-cap">
+                    </div>
+                    <input type="submit" value="Update Cart" name="update_cart" class="ot-btn btn-coupon pull-right text-cap" onclick="updateAllQuantities()">
+                </div>
+            </div>
+            <!-- End Shopping Cart Warp -->
+            <div class="cart-collaterals">
+                <div class="cart_totals ">
+                    <h4 class="text-cap">Cart Totals</h4>
+                    <div class="table-responsive">
+                        <table class="shop_table shop-proceed shop_table_responsive">
+                            <tbody>
+                                <tr class="cart-subtotal">
+                                    <th>Subtotal:</th>
+                                    <td data-title="Subtotal"><span class="amount"><strong>$@Model.Sum(c => (c.Product?.SalePrice ?? c.Product?.Price ?? 0) * c.Quantity).ToString("F2")</strong></span></td>
+                                </tr>
+                                <tr class="shipping">
+                                    <th>Shipping:</th>
+                                    <td data-title="Shipping">
+                                        <p>Free shipping for orders over $100</p>
+                                    </td>
+                                </tr>
+                                <tr class="order-total">
+                                    <th>Total:</th>
+                                    <td data-title="Total"><strong><span class="amount">$@Model.Sum(c => (c.Product?.SalePrice ?? c.Product?.Price ?? 0) * c.Quantity).ToString("F2")</span></strong> </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="wc-proceed-to-checkout">
+                        <a class="ot-btn btn-main-color btn-block checkout-button" href="#">
+                            Proceed to Checkout <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- End Cart Collaterals -->
+        }
+        else
+        {
+            <div class="text-center py-5">
+                <h3>Your cart is empty</h3>
+                <p>Looks like you haven't added any products to your cart yet.</p>
+                <a href="@Url.Action("Catalog", "Product")" class="ot-btn btn-main-color">Continue Shopping</a>
+            </div>
+        }
+    </div><!-- End container -->
+</Section> <!--End Shopping Cart -->
+
+<section class="bg-promotion-product">
+    <div class="container">
+        <div class="row">
+            <div class="promotion-product-warp">
+                <div class="promotion-product-item">
+                    <div class="promotion-product-item-inner">
+                        <h4 class="text-cap">
+                            Money back
+                        </h4>
+                        <p class="text-cap">
+                            If you are not satisfied with your purchase
+                        </p>
+                    </div>
+                </div>
+
+                <div class="promotion-product-item">
+                    <div class="promotion-product-item-inner">
+                        <h4 class="text-cap">
+                            Free Shipping
+                        </h4>
+                        <p class="text-cap">
+                            Free shipping for standard order over $100
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Section Promotion Product -->
+
+<script>
+function updateQuantity(productId, quantity) {
+    if (quantity <= 0) {
+        removeFromCart(productId);
+        return;
+    }
+    
+    fetch('/Product/UpdateCartQuantity', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+            'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]')?.value || ''
+        },
+        body: `productId=${productId}&quantity=${quantity}`
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            location.reload(); // Refresh to show updated totals
+        } else {
+            alert(data.message);
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert('An error occurred while updating cart.');
+    });
+}
+
+function removeFromCart(productId) {
+    if (confirm('Are you sure you want to remove this item from your cart?')) {
+        fetch('/Product/RemoveFromCart', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+                'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]')?.value || ''
+            },
+            body: `productId=${productId}`
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                location.reload(); // Refresh to show updated cart
+            } else {
+                alert(data.message);
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('An error occurred while removing item.');
+        });
+    }
+}
+
+function updateAllQuantities() {
+    const quantityInputs = document.querySelectorAll('.qty');
+    let hasChanges = false;
+    
+    quantityInputs.forEach(input => {
+        const productId = input.closest('tr').getAttribute('data-product-id');
+        const quantity = parseInt(input.value);
+        
+        if (quantity > 0) {
+            updateQuantity(productId, quantity);
+            hasChanges = true;
+        }
+    });
+    
+    if (!hasChanges) {
+        alert('No changes to update.');
+    }
+}
+</script>

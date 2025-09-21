@@ -1,0 +1,121 @@
+@model Decor_Vista.Models.FAQ
+
+@{
+    ViewData["Title"] = "Edit FAQ";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<style>
+    :root {
+        --brand-yellow: #ebcd1e;
+        --brand-black: #333;
+    }
+
+    .card-header-custom {
+        background-color: var(--brand-black);
+        color: var(--brand-yellow);
+    }
+
+    .btn-custom-edit {
+        background-color: var(--brand-yellow);
+        color: var(--brand-black);
+        font-weight: bold;
+    }
+
+    .form-section {
+        background: #f8f9fa;
+        padding: 1.5rem;
+        border-radius: 10px;
+        margin-bottom: 1.5rem;
+        border-left: 4px solid var(--brand-yellow);
+    }
+
+        .form-section h5 {
+            color: var(--brand-black);
+            margin-bottom: 1rem;
+        }
+
+    .image-preview {
+        max-width: 200px;
+        max-height: 150px;
+        border: 2px solid #ddd;
+        border-radius: 8px;
+        padding: 10px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+        .image-preview img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+
+    .current-image {
+        max-width: 150px;
+        max-height: 100px;
+        border: 2px solid #ddd;
+        border-radius: 8px;
+        margin-top: 10px;
+    }
+</style>
+<div class="page-content">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title mb-0">Edit FAQ</h4>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Edit" method="post">
+                        <input type="hidden" asp-for="Id" />
+                        <input type="hidden" asp-for="CreatedAt" />
+                        
+                        <div class="row">
+                            <div class="col-md-12 mb-3">
+                                <label asp-for="Question" class="form-label">Question *</label>
+                                <textarea asp-for="Question" class="form-control" rows="3" 
+                                          placeholder="Enter the frequently asked question"></textarea>
+                                <span asp-validation-for="Question" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-12 mb-3">
+                                <label asp-for="Answer" class="form-label">Answer *</label>
+                                <textarea asp-for="Answer" class="form-control" rows="6" 
+                                          placeholder="Enter the detailed answer"></textarea>
+                                <span asp-validation-for="Answer" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <div class="form-check form-switch">
+                                    <input asp-for="IsActive" class="form-check-input" type="checkbox" />
+                                    <label asp-for="IsActive" class="form-check-label">Active</label>
+                                </div>
+                                <small class="text-muted">Active FAQs will be visible to users</small>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">Created At</label>
+                                <input type="text" class="form-control" value="@Model.CreatedAt.ToString("MMM dd, yyyy HH:mm")" readonly />
+                            </div>
+                        </div>
+
+                        <div class="row mt-4">
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-warning">
+                                    <i class="material-icons-outlined">update</i> Update FAQ
+                                </button>
+                                <a href="@Url.Action("Index", "AdminFAQ")" class="btn btn-secondary">
+                                    <i class="material-icons-outlined">arrow_back</i> Back to List
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

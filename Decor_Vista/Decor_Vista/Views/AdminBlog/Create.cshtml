@@ -1,0 +1,150 @@
+@model Decor_Vista.Models.Blog
+
+@{
+    ViewData["Title"] = "Add New Blog Post";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<style>
+    /* Custom Color Theme Variables */
+    :root {
+        --brand-yellow: #ebcd1e;
+        --brand-black: #333;
+    }
+
+    /* Card Header */
+    .card-header.bg-custom-create {
+        background-color: var(--brand-black);
+        color: var(--brand-yellow);
+        border-bottom: 1px solid #444;
+    }
+
+    /* Form Inputs */
+    .form-control:focus {
+        border-color: var(--brand-yellow);
+        box-shadow: 0 0 0 0.2rem rgba(235, 205, 30, 0.25);
+    }
+
+    /* Password field's "eye" icon button */
+    #show_hide_password .btn {
+        border-color: #ced4da;
+    }
+
+    #show_hide_password input:focus + .btn {
+        border-color: var(--brand-yellow);
+        box-shadow: 0 0 0 0.2rem rgba(235, 205, 30, 0.25);
+    }
+
+    /* Primary "Create" Button */
+    .btn-custom-create {
+        background-color: var(--brand-yellow);
+        color: var(--brand-black);
+        font-weight: bold;
+        border: 1px solid var(--brand-yellow);
+    }
+
+        .btn-custom-create:hover {
+            background-color: #d4b91a; /* A slightly darker yellow for hover */
+            color: var(--brand-black);
+            border-color: #d4b91a;
+        }
+
+    /* Secondary "Back" Button */
+    .btn-outline-secondary {
+        color: #555;
+        border-color: #ccc;
+    }
+
+        .btn-outline-secondary:hover {
+            background-color: #f0f0f0;
+            color: #333;
+        }
+</style>
+
+<div class="page-content">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title mb-0">Add New Blog Post</h4>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Create" method="post" enctype="multipart/form-data">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="mb-3">
+                                    <label asp-for="Title" class="form-label">Title *</label>
+                                    <input asp-for="Title" class="form-control" placeholder="Enter blog post title" />
+                                    <span asp-validation-for="Title" class="text-danger"></span>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label asp-for="ShortDescription" class="form-label">Short Description</label>
+                                    <textarea asp-for="ShortDescription" class="form-control" rows="3" 
+                                              placeholder="Enter a brief description (optional)"></textarea>
+                                    <span asp-validation-for="ShortDescription" class="text-danger"></span>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label asp-for="Content" class="form-label">Content *</label>
+                                    <textarea asp-for="Content" class="form-control" rows="12" 
+                                              placeholder="Enter the full blog post content"></textarea>
+                                    <span asp-validation-for="Content" class="text-danger"></span>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="mb-3">
+                                    <label asp-for="ImagePath" class="form-label">Blog Image</label>
+                                    <input type="file" name="imgFile" class="form-control" accept="image/*" />
+                                    <small class="text-muted">Max size: 5MB. Supported formats: JPG, PNG, GIF</small>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label asp-for="Author" class="form-label">Author</label>
+                                    <input asp-for="Author" class="form-control" placeholder="Enter author name" />
+                                    <span asp-validation-for="Author" class="text-danger"></span>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label asp-for="Category" class="form-label">Category</label>
+                                    <input asp-for="Category" class="form-control" placeholder="Enter category" />
+                                    <span asp-validation-for="Category" class="text-danger"></span>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label asp-for="Tags" class="form-label">Tags</label>
+                                    <input asp-for="Tags" class="form-control" placeholder="Enter tags separated by commas" />
+                                    <small class="text-muted">Example: Interior Design, Modern, Furniture</small>
+                                    <span asp-validation-for="Tags" class="text-danger"></span>
+                                </div>
+
+                                <div class="mb-3">
+                                    <div class="form-check form-switch">
+                                        <input asp-for="IsPublished" class="form-check-input" type="checkbox" />
+                                        <label asp-for="IsPublished" class="form-check-label">Publish immediately</label>
+                                    </div>
+                                    <small class="text-muted">Published posts will be visible to users</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-4">
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary">
+                                    <i class="material-icons-outlined">save</i> Create Blog Post
+                                </button>
+                                <a href="@Url.Action("Index", "AdminBlog")" class="btn btn-secondary">
+                                    <i class="material-icons-outlined">arrow_back</i> Back to List
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,115 @@
+@model Decor_Vista.Models.FAQ
+
+@{
+    ViewData["Title"] = "Add New FAQ";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<style>
+    /* Custom Color Theme Variables */
+    :root {
+        --brand-yellow: #ebcd1e;
+        --brand-black: #333;
+    }
+
+    /* Card Header */
+    .card-header.bg-custom-create {
+        background-color: var(--brand-black);
+        color: var(--brand-yellow);
+        border-bottom: 1px solid #444;
+    }
+
+    /* Form Inputs */
+    .form-control:focus {
+        border-color: var(--brand-yellow);
+        box-shadow: 0 0 0 0.2rem rgba(235, 205, 30, 0.25);
+    }
+
+    /* Password field's "eye" icon button */
+    #show_hide_password .btn {
+        border-color: #ced4da;
+    }
+
+    #show_hide_password input:focus + .btn {
+        border-color: var(--brand-yellow);
+        box-shadow: 0 0 0 0.2rem rgba(235, 205, 30, 0.25);
+    }
+
+    /* Primary "Create" Button */
+    .btn-custom-create {
+        background-color: var(--brand-yellow);
+        color: var(--brand-black);
+        font-weight: bold;
+        border: 1px solid var(--brand-yellow);
+    }
+
+        .btn-custom-create:hover {
+            background-color: #d4b91a; /* A slightly darker yellow for hover */
+            color: var(--brand-black);
+            border-color: #d4b91a;
+        }
+
+    /* Secondary "Back" Button */
+    .btn-outline-secondary {
+        color: #555;
+        border-color: #ccc;
+    }
+
+        .btn-outline-secondary:hover {
+            background-color: #f0f0f0;
+            color: #333;
+        }
+</style>
+
+<div class="page-content">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title mb-0">Add New FAQ</h4>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Create" method="post">
+                        <div class="row">
+                            <div class="col-md-12 mb-3">
+                                <label asp-for="Question" class="form-label">Question *</label>
+                                <textarea asp-for="Question" class="form-control" rows="3" 
+                                          placeholder="Enter the frequently asked question"></textarea>
+                                <span asp-validation-for="Question" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-12 mb-3">
+                                <label asp-for="Answer" class="form-label">Answer *</label>
+                                <textarea asp-for="Answer" class="form-control" rows="6" 
+                                          placeholder="Enter the detailed answer"></textarea>
+                                <span asp-validation-for="Answer" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <div class="form-check form-switch">
+                                    <input asp-for="IsActive" class="form-check-input" type="checkbox" />
+                                    <label asp-for="IsActive" class="form-check-label">Active</label>
+                                </div>
+                                <small class="text-muted">Active FAQs will be visible to users</small>
+                            </div>
+                        </div>
+
+                        <div class="row mt-4">
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary">
+                                    <i class="material-icons-outlined">save</i> Create FAQ
+                                </button>
+                                <a href="@Url.Action("Index", "AdminFAQ")" class="btn btn-secondary">
+                                    <i class="material-icons-outlined">arrow_back</i> Back to List
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
